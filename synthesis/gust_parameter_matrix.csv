@@ -4,3 +4,4 @@ dot-hs-805-078,"straight_pulse;doublet;shaped",not_reported,"35 mph facility",no
 sae-980392,finite_crosswind_jet,not_reported,not_reported,"30 deg relative incidence",not_reported,not_reported,not_reported,not_reported,not_reported,"abstract only"
 sae-15-18-01-0005,"transient_yaw;gust;broadband_turbulence",not_reported,">15% of mean flow gust",2.1-8.0_deg_yaw_SD,not_reported,not_reported,"frequency sweep",not_reported,"few percent to >20%",model-scale tunnel system
 
+pimeche-2001-passmore,sinusoidal,not_reported,not_reported,not_reported,not_reported,not_reported,not_reported,not_reported,not_reported,"Reduced frequency 0.09-0.71 based on model length; exact definition not in abstract; do not substitute a formula"

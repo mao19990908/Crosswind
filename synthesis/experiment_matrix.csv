@@ -6,3 +6,4 @@ sae-980392,model,Durham,"secondary jet plus moving belt/aperture",surface_pressu
 sae-06-14-01-0001,full_scale,BMW_Aschheim,side_wind_facility,"11 five-hole probes;188 pressure locations",not_reported,full_scale_test,"operational Golf 7"
 sae-15-18-01-0005,model_scale,"3/4 open-jet closed-loop tunnel","three-subsystem unsteady flow generator",flow_field,open_loop,internal_consistency,"device characterization"
 
+pimeche-2001-passmore,not_reported,not_reported,oscillating_aerofoil,surface_pressure_integrated_loads,not_reported,internal_consistency,"Aerodynamic experiment; no vehicle-motion loop classification established by abstract"

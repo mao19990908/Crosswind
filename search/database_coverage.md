@@ -32,3 +32,37 @@
 | `facility_documentation` | 0 | 风洞／发生器设施资料待检索 |
 
 目前为已纳入记录的类型计数；0 表示本库当前无记录，不表示该类型确实不存在。其它规范类型也按索引中的实际记录统计。
+
+## 2026-09-24 增量覆盖与断点
+
+- TRID：卷 II 144116 的书目和目录摘要可访问；原报告未取得。政府报告新增 1 条 metadata_verified，不能把目录摘要当已核验全文。
+- SAE：1953 页面复核；1967 Beauvais DOI 670608 的原页/DOI抓取失败，本机 HTTP 25 秒超时。670100 为另文，当前摘要缺少瞬态关联，排除。
+- SAGE：2001 Passmore 原始出版者摘要和完整公开参考文献 1–10 核查；新建 1 条 journal_article、核验 2 条 references。正文未取得。
+- OpenAlex：仅 seed DOI 元数据（W1518832512；引用计数 30）；0 个 cited-by 分页。
+- Semantic Scholar：seed DOI 返回 30 条 cited-by 标题/DOI，已全部筛题并留候选；不宣称跨数据库完整覆盖。剩余三个核心 DOI 的 API cited-by 未执行。
+- Loughborough 作者书目：发现 Windsor 数据集 DOI 10.17028/rd.lboro.13161284，未检索数据本体/说明；不得当作阵风验证数据。
+- 2026 中英文检索：保留 4 条候选线索；中文原始页打开失败。范围非穷尽，未知结果总数留空。
+
+### 当前类型覆盖与本次新增
+
+| source_type | 当前 | 本次新增 | 缺口判断 |
+|---|---:|---:|---|
+| journal_article | 7 | 1 | 2001 频率响应节点已补；全文和 2026 原始资料待核验 |
+| sae_technical_paper | 11 | 0 | 1967 原始页访问受限；1953 references 未补齐 |
+| conference_paper | 0 | 0 | 2001 原始参考文献列出 Bearman/Mullarkey 1994 会议，尚未核验原始出版物；覆盖不足 |
+| standard | 1 | 0 | 仅现有 ISO 条目，历史版本与国家标准覆盖不足；本日未重新检索状态 |
+| government_report | 2 | 1 | 卷 II 书目已补，原报告可访问性待解决；两个记录属同项目 |
+| institutional_report | 0 | 0 | 机构报告专门检索未执行，覆盖不足 |
+| doctoral_thesis | 1 | 0 | 新线索 Mullarkey 1990，原机构记录未核验；覆盖不足 |
+| master_thesis | 0 | 0 | 学位库专门检索未执行，覆盖不足 |
+| dataset | 0 | 0 | 作者书目已提供 DOI 线索，阵风适用性与开放许可未检索完成 |
+| facility_documentation | 0 | 0 | 历史论文中的设施不自动改分类；独立设施资料检索不足 |
+
+本日无 source_type 枚举变化。A–M 主题与 source_type 保持独立。所有零项均无“不存在”的证据；不能把未执行解释成检索无结果。
+
+### 2026 候选（不进入规范来源索引）
+
+- https://pubs.cstam.org.cn/article/doi/10.7638/kqdlxxb-2025.0207 — 某三厢轿车的侧风敏感性仿真研究；发现于原出版网站搜索片段，打开失败，待核验瞬态输入、闭环状态、验证等级。
+- https://doi.org/10.3390/fluids11050119 — 重卡合流/编队侧风 CFD；仅聚合器搜索线索，原文未查。
+- https://doi.org/10.3389/ffutr.2026.1871420 — 厢式货车侧风稳定性；原站搜索片段，原文未查。
+- https://doi.org/10.1061/JSDCCC.SCENG-1766 — 桥梁耦合/行驶轨迹；原站搜索片段，原文未查。

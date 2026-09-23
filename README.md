@@ -19,7 +19,7 @@
 
 `journal_article`、`sae_technical_paper`、`conference_paper`、`standard`、`government_report`、`institutional_report`、`doctoral_thesis`、`master_thesis`、`dataset`、`facility_documentation`。
 
-当前索引共 20 条；分类型覆盖与尚未检索的类别判断见 [database_coverage.md](search/database_coverage.md)。
+当前索引共 22 条；分类型覆盖与尚未检索的类别判断见 [database_coverage.md](search/database_coverage.md)。
 
 ## 导航
 
@@ -31,6 +31,6 @@
 - [方法谱系](citations/method_lineages.md)
 - [研究现状](synthesis/state_of_the_art.md)
 - [研究空白](synthesis/research_gaps.md)
-- [当日日志](logs/2026-09-23.md)
+- [当日日志](logs/2026-09-24.md)
 
 当前处于 Phase I：先建立可追溯的历史与方法地图，不把初步线索包装成成熟综述结论。

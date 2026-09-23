@@ -5,3 +5,4 @@ sae-2017-01-1515,not_reported,indirect,yes,compared_with_full_scale,"vehicle res
 sae-06-14-01-0001,yes,yes,no,full_scale_test,"incoming flow plus pressure integration"
 sae-15-18-01-0005,yes,no,no,internal_consistency,"generator characterization only"
 
+pimeche-2001-passmore,not_reported,transient_vs_quasi_steady,not_established,internal_consistency,"Publisher abstract only; no full-scale motion validation inferred"
