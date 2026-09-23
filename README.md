@@ -11,6 +11,15 @@
 - `metadata_only`、`abstract_verified` 与 `full_text_verified` 不混用。
 - 未报告参数写“未报告”；分析者推断显式标为 `analyst_inference`。
 - 仓库不保存未获授权的受版权保护全文、内部数据或大型计算文件。
+- 每条资料同时记录研究主题类别 A–M 与规范发布类型 `source_type`；资料不只限于论文。
+
+## 资料类型覆盖
+
+来源总数和各 `source_type` 数量以 `sources/index.csv` 为准。v3 强制检查的类型包括：
+
+`journal_article`、`sae_technical_paper`、`conference_paper`、`standard`、`government_report`、`institutional_report`、`doctoral_thesis`、`master_thesis`、`dataset`、`facility_documentation`。
+
+当前索引共 20 条；分类型覆盖与尚未检索的类别判断见 [database_coverage.md](search/database_coverage.md)。
 
 ## 导航
 
@@ -25,4 +34,3 @@
 - [当日日志](logs/2026-09-23.md)
 
 当前处于 Phase I：先建立可追溯的历史与方法地图，不把初步线索包装成成熟综述结论。
-

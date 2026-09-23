@@ -14,3 +14,21 @@
 
 “尚未搜索完成”不得解释为“没有研究”。1953 年以前、1981–1995、2001–2013 仍是明显覆盖缺口。
 
+## source_type 覆盖统计（2026-09-23）
+
+统计来自 `sources/index.csv`，不是数据库总体数量：
+
+| source_type | 当前记录数 | 覆盖判断 |
+|---|---:|---|
+| `journal_article` | 6 | 已有代表性条目，未系统搜索 |
+| `sae_technical_paper` | 11 | 本轮重点覆盖，引用网络未完成 |
+| `conference_paper` | 0 | 需检索其他会议库；SAE 会议出版物归 SAE 技术论文类型 |
+| `standard` | 1 | 仅 ISO 12021 正式版本 |
+| `government_report` | 1 | 仅 DOT-HS-805-078，卷 II 待补 |
+| `institutional_report` | 0 | 机构页面尚未筛选报告类型 |
+| `doctoral_thesis` | 1 | 仅 Chalmers 博士论文 |
+| `master_thesis` | 0 | 未系统检索学位库 |
+| `dataset` | 0 | 未系统检索开放数据仓库 |
+| `facility_documentation` | 0 | 风洞／发生器设施资料待检索 |
+
+目前为已纳入记录的类型计数；0 表示本库当前无记录，不表示该类型确实不存在。其它规范类型也按索引中的实际记录统计。

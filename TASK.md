@@ -716,6 +716,78 @@ CFD 与 vehicle dynamics 双向实时交换：
 
 ## 12. 检索数据库与信息源
 
+### 12.1 强制资料类型分类
+
+知识库中的“资料”不得默认等同于论文。所有来源必须赋予明确的 `source_type`，并在 `sources/index.csv`、单篇记录和每日统计中保留。
+
+| source_type | 含义 | 主要价值 |
+|---|---|---|
+| `journal_article` | 同行评议期刊论文 | 理论、CFD、实验、方法演进与最新研究 |
+| `sae_technical_paper` | SAE Technical Paper / SAE 技术论文 | 汽车工程原始方法、整车试验、工程应用；侧风领域重点来源 |
+| `conference_paper` | 其他会议论文 | 新方法、阶段性结果、设备与工程案例 |
+| `standard` | ISO、GB/T、SAE 等正式标准 | 试验工况、测量量、评价方法、术语与规范 |
+| `standard_draft` | 标准草案、征求意见稿 | 理解标准形成过程，仅作辅助证据，不替代正式版本 |
+| `government_report` | 政府部门技术报告 | 早期整车试验、设施开发、测试流程、原始工程数据 |
+| `institutional_report` | 研究机构／实验室技术报告 | 设施、方法、项目成果和公开技术路线 |
+| `project_report` | 公开科研／产业项目报告 | 跨机构成果、工程验证与方法集成 |
+| `doctoral_thesis` | 博士论文 | 方法细节、实验装置、CFD 设置、参数研究、文献谱系 |
+| `master_thesis` | 硕士论文 | 特定问题的详细实现和补充数据 |
+| `book` | 专著 | 历史、理论框架、车辆空气动力学基础 |
+| `book_chapter` | 专著章节 | 专题综述或特定理论整理 |
+| `review_article` | 综述论文 | 发现文献、识别研究路线，不优先作为原始结论证据 |
+| `dataset` | 公开数据集 | CFD／实验验证、重复分析、基准数据 |
+| `code_repository` | 公开代码／模型仓库 | 方法复现、模型实现、数据处理 |
+| `facility_documentation` | 风洞、侧风发生器、移动模型等设施资料 | 理解设备能力、风场质量和实验约束 |
+| `manufacturer_technical_document` | OEM／供应商公开技术资料 | 工程开发流程、设备应用和产品化信息 |
+| `patent` | 专利 | 侧风发生装置、控制系统、工程方案线索 |
+| `regulatory_document` | 法规、测试程序、监管机构文件 | 法规背景、测试要求和道路安全评价 |
+| `web_primary_source` | 官方机构、作者或项目原始网页 | 补充状态、版本、项目说明和下载入口 |
+| `secondary_web_source` | 二手网页、聚合页面 | 仅作线索，不作为未经核验的最终证据 |
+
+允许新增类型，但必须在 `taxonomy_change_log.md` 中说明。
+
+### 12.2 资料来源优先原则
+
+对于同一研究问题，不机械规定“论文最高”，而应根据用途优先寻找最接近原始证据的资料：
+
+- **试验方法／工况定义**：正式标准 > 原始技术报告 > 原始论文 > 二手综述；
+- **历史设施与整车阵风试验**：政府／研究机构报告、SAE Technical Paper、学位论文优先；
+- **理论与模型发展**：原始期刊论文、SAE Technical Paper、博士论文优先；
+- **CFD 可复现细节**：原始论文 + 学位论文 + 补充材料优先；
+- **最新研究进展**：最新原始期刊／会议论文优先；
+- **验证数据**：公开数据集、原始实验报告、正式论文优先；
+- **标准状态**：ISO、国家标准平台等官方来源优先；
+- **工程应用**：OEM／研究机构公开技术资料用于描述其公开内容，不替代独立验证。
+
+综述、教材和二手网页主要用于发现关键词、作者、历史资料和引用关系；一旦找到原始来源，应回到原始来源核验。
+
+### 12.3 资料类型覆盖要求
+
+长期收集不能只累计 `journal_article`。`database_coverage.md` 和 README 应定期统计各类来源数量，至少包括：
+
+```text
+journal_article
+sae_technical_paper
+conference_paper
+standard
+government_report
+institutional_report
+doctoral_thesis
+master_thesis
+dataset
+facility_documentation
+```
+
+若某一类别长期为 0，必须判断是：
+1. 确实不存在；
+2. 数据库覆盖不足；
+3. 检索词不合适；
+4. 权限受限。
+
+不得在未检索前默认“该类资料没有”。
+
+### 12.4 推荐检索重点
+
 优先级：
 
 ### 第一优先级：原始来源
@@ -1031,9 +1103,17 @@ sources/records/<stable_id>.md
 
 ### Research classification
 
+- source_type
 - primary_category
 - secondary_categories
 - tags
+
+`source_type` 必须从第 12.1 节的规范类型中选择。若同一研究存在不同发布形态，应分别建记录并建立版本关系。例如：
+
+- SAE 正式 Technical Paper → `sae_technical_paper`
+- 博士论文后发表的期刊论文 → 分别建记录，并以 `version_of` / `derived_from` 关联
+- ISO 草案 → `standard_draft`
+- 正式 ISO → `standard`
 
 ### Physical problem
 
@@ -1183,6 +1263,8 @@ year
 doi
 url
 source_type
+publisher_or_institution
+report_or_standard_number
 primary_category
 secondary_categories
 tags
@@ -1548,6 +1630,19 @@ logs/YYYY-MM-DD.md
 - included
 - excluded
 
+同时按 `source_type` 统计当天新增资料，例如：
+
+```text
+journal_article = 4
+sae_technical_paper = 2
+standard = 1
+government_report = 1
+doctoral_thesis = 1
+dataset = 0
+```
+
+如果当天只新增普通论文，也应检查是否仍有未覆盖的标准、技术报告、学位论文、数据集或设施资料，而不是机械扩大论文数量。
+
 ### Historical progress
 
 今天向前追到哪里？
@@ -1717,6 +1812,12 @@ remote_SHA
 **真实道路阵风、标准风发生器、风洞模拟和 CFD 输入必须分别描述其物理含义。**
 
 ### 原则 10
+
+**“资料”不等于“论文”。**
+
+标准、SAE Technical Paper、政府／研究机构报告、博士论文、公开数据集和设施资料均属于核心知识来源。Codex 必须持续检查资料类型覆盖率，不能因期刊论文更容易检索而把知识库退化成论文收藏夹。
+
+### 原则 11
 
 最终知识库必须能够回答：
 

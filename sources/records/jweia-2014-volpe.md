@@ -12,6 +12,9 @@
 - verification_status: abstract_verified; access_level: abstract; evidence_type: dynamic_wind_tunnel
 
 ## Classification
+- source_type: journal_article
+- publisher_or_institution: Elsevier
+- report_or_standard_number: not_applicable
 - primary_category: F; secondary_categories: C,J; tags: `sudden_crosswind`, `PIV`, `rear_geometry`, `overshoot`
 
 ## Physical problem and method
@@ -27,4 +30,3 @@
 - Limitation: abstract/highlights verified, not full methods.
 - Relevance: flow-physics bridge from Durham-type gust tests to vortex-based ROM candidates.
 - Follow-up: lawful full text; establish direct facility/method citation to `sae-2000-01-0874`.
-

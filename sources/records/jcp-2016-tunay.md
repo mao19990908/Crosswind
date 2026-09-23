@@ -12,6 +12,9 @@
 - verification_status: abstract_verified; access_level: abstract; evidence_type: coupled_simulation
 
 ## Classification
+- source_type: journal_article
+- publisher_or_institution: Elsevier
+- report_or_standard_number: not_applicable
 - primary_category: I; secondary_categories: H,E,J; tags: `level_5`, `DES`, `overset`, `single_track`, `closed_loop_driver`
 
 ## Physical problem and method
@@ -27,4 +30,3 @@
 - Limitation: simplified bus and abstract-level evidence; threshold for “large” yaw not extracted.
 - Relevance: explicit Level 5 necessity study with driver-in-loop.
 - Follow-up: extract feedback variables, numerical coupling interval, validation and driver gains.
-

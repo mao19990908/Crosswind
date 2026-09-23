@@ -1,5 +1,37 @@
 # 分类体系
 
+分类代码 A–M 描述研究主题；`source_type` 描述资料的发布形态，两者是独立维度。一条来源必须同时有且仅有一个规范 `source_type`，可有多个研究类别标签。
+
+## 规范资料类型（source_type）
+
+| source_type | 含义 |
+|---|---|
+| `journal_article` | 同行评议期刊论文 |
+| `sae_technical_paper` | SAE Technical Paper / SAE 技术论文 |
+| `conference_paper` | 其他会议论文 |
+| `standard` | 正式标准 |
+| `standard_draft` | 标准草案 |
+| `government_report` | 政府技术报告 |
+| `institutional_report` | 研究机构／实验室技术报告 |
+| `project_report` | 公开科研／产业项目报告 |
+| `doctoral_thesis` | 博士论文 |
+| `master_thesis` | 硕士论文 |
+| `book` | 专著 |
+| `book_chapter` | 专著章节 |
+| `review_article` | 综述论文 |
+| `dataset` | 公开数据集 |
+| `code_repository` | 公开代码／模型仓库 |
+| `facility_documentation` | 设施资料 |
+| `manufacturer_technical_document` | OEM／供应商公开技术资料 |
+| `patent` | 专利 |
+| `regulatory_document` | 法规／监管文件 |
+| `web_primary_source` | 官方机构、作者或项目原始网页 |
+| `secondary_web_source` | 二手网页／聚合页，只作线索 |
+
+新增资料类型必须先记录在 `taxonomy_change_log.md`。检索覆盖率、README 和每日日志需按 `source_type` 统计；长期为 0 的类型要判断是确实不存在、数据库覆盖不足、检索词不合适还是权限受限。
+
+## 研究主题类别
+
 | 代码 | 类别 | 范围 |
 |---|---|---|
 | A | 历史与定义 | 概念源流、术语、引文链、阵风与稳态边界 |
@@ -21,4 +53,3 @@
 - 稳态偏航条件纳入时使用 `steady_baseline`。
 - 闭环类型使用 `open_loop`、`closed_loop_driver`、`closed_loop_controller` 或 `autonomous_control`。
 - 访问与验证状态使用任务书第 19 节枚举。
-

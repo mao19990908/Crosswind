@@ -13,6 +13,9 @@
 - evidence_type: multi-method thesis
 
 ## Classification
+- source_type: doctoral_thesis
+- publisher_or_institution: Chalmers University of Technology
+- report_or_standard_number: not_applicable
 - primary_category: J; secondary_categories: E,G,H; tags: `road_test`, `driving_simulator`, `subjective_assessment`, `crosswind`
 
 ## Physical problem and method
@@ -28,4 +31,3 @@
 - Limitation: thesis synthesizes multiple studies with different inputs; claims require chapter/source separation.
 - Relevance: recent interdisciplinary endpoint connecting aero, dynamics and subjective evaluation.
 - Follow-up: parse chapter evidence and create `version_of` relationships to constituent papers.
-
