@@ -1,0 +1,7 @@
+source_id,wind_field_level_A,aerodynamic_level_B,vehicle_motion_level_C,overall_validation_level,notes
+dot-hs-805-078,partial,not_reported,yes,full_scale_test,"facility input documented at abstract level"
+sae-960674,partial,yes,no,internal_consistency,"static/dynamic aerodynamic comparison"
+sae-2017-01-1515,not_reported,indirect,yes,compared_with_full_scale,"vehicle response within test variability"
+sae-06-14-01-0001,yes,yes,no,full_scale_test,"incoming flow plus pressure integration"
+sae-15-18-01-0005,yes,no,no,internal_consistency,"generator characterization only"
+

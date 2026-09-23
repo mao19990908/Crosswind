@@ -1,0 +1,7 @@
+source_id,method,turbulence_model,mesh_motion,time_step,gust_implementation,validation,notes
+sae-730232,analytical,not_applicable,not_applicable,not_reported,"crosswind gradient",full_scale_comparison,"slender-body adaptation"
+sae-970404,CFD,k_epsilon,"sliding mesh;ALE",not_reported,"vehicle enters crosswind / passing",wind_tunnel,"engineering workstation"
+jcp-2016-tunay,CFD_vehicle_dynamics,DES,overset_mesh,not_reported,transient_crosswind,not_reported,"single-track + driver; two-way"
+sae-2017-01-1515,CFD_to_MBD,not_reported,overset_mesh,not_reported,prescribed_crosswind_event,full_scale_test,"Level 2 one-way"
+sae-2017-01-1525,fully_coupled,not_reported,not_reported,not_reported,crosswind,full_scale_test,"6DoF + driver; Level 5"
+

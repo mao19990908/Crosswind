@@ -1,0 +1,27 @@
+# Local-only or restricted research material
+*.pdf
+*.zip
+*.7z
+*.cas
+*.dat
+*.rst
+*.sim
+*.encas
+*.case
+*.data
+*.msh
+*.msh.h5
+*.h5
+*.cgns
+local_fulltext/
+restricted/
+secrets/
+*.token
+*.cookie
+
+# OS/editor files
+Thumbs.db
+.DS_Store
+.idea/
+.vscode/
+

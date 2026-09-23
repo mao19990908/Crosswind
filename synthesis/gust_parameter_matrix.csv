@@ -1,0 +1,6 @@
+source_id,gust_type,U_v,U_g,beta,rise_time,duration,frequency,gust_zone_length,turbulence,notes
+sae-530255,natural_or_road_gust,not_reported,not_reported,not_reported,not_reported,not_reported,not_reported,not_reported,not_reported,"abstract only"
+dot-hs-805-078,"straight_pulse;doublet;shaped",not_reported,"35 mph facility",not_reported,not_reported,not_reported,not_reported,"120 ft nominal",not_reported,"TRID abstract"
+sae-980392,finite_crosswind_jet,not_reported,not_reported,"30 deg relative incidence",not_reported,not_reported,not_reported,not_reported,not_reported,"abstract only"
+sae-15-18-01-0005,"transient_yaw;gust;broadband_turbulence",not_reported,">15% of mean flow gust",2.1-8.0_deg_yaw_SD,not_reported,not_reported,"frequency sweep",not_reported,"few percent to >20%",model-scale tunnel system
+

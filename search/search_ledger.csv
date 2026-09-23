@@ -1,0 +1,7 @@
+date,database,query,year_from,year_to,result_count,screened,included,excluded,notes
+2026-09-23,SAE Mobilus,"known DOI chain: 530255;710287;730232;800848;960674;970135;970404;980392",1953,1998,8,8,8,0,"official record pages; abstracts verified"
+2026-09-23,TRID,"crosswind automobile stability 1960; DOT-HS-805-078; DOT-HS-805-079",1960,1979,4,3,2,1,"805-079 fetch blocked; no absence claim"
+2026-09-23,SAE Mobilus,"transient crosswind vehicle 2024 2025",2024,2025,4,2,1,1,"included 15-18-01-0005; 2025 active-turbulence paper retained as candidate"
+2026-09-23,Web discovery,"automobile crosswind stability gust 1950 1960",1900,1970,10,5,2,3,"found 1953 SAE and 1968 TRID nodes; earlier range remains open"
+2026-09-23,Web discovery,"passenger vehicle transient crosswind CFD coupling driver",2014,2023,8,5,4,1,"primary publisher/institution pages preferred"
+

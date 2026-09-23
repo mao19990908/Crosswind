@@ -1,0 +1,7 @@
+source_id,target_id,relation,verified,note
+sae-970135,sae-960674,method_extends,true,"Abstract explicitly identifies previous paper by same authors and extends it to shear/turbulence"
+sae-2000-01-0874,sae-980392,facility_inherits,true,"Same Durham finite-length crosswind facility and authors; facility continuity verified from abstracts"
+sae-2017-01-1515,iso-12021-2010,standardizes,true,"Method explicitly mimics ISO 12021:2010 open-loop physical test conditions"
+jcp-2016-tunay,sae-2017-01-1525,method_lineage_candidate,false,"Both two-way coupling with driver; direct citation/implementation inheritance not yet checked"
+sae-06-14-01-0001,iso-12021-2010,supports,false,"Both full-scale/standard gust evaluation; direct relation not yet verified"
+
