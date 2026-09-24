@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-24T21:07:04.4682667+08:00",
+  "updated_at": "2026-09-24T21:07:55.3337087+08:00",
   "timezone": "Asia/Shanghai",
   "current_phase": "learning",
   "phase_status": "blocked_missing_task_specification",
@@ -48,8 +48,8 @@
   "weekly_quota_used_at_last_read_percent": 68,
   "weekly_quota_used_at_day_start_percent": 63,
   "weekly_quota_day_cap_used_percent": 75,
-  "local_remote_sync": "pending_push",
-  "github_commit_sha": "c3f1d6b9fb4a335fe30add846d80cb8acf27277f",
+  "local_remote_sync": "true_for_verified_checkpoint",
+  "github_commit_sha": "6f012300eff679d369721107fb52dc5accb22c5e",
   "note": "No source marked learned without the specified learning task. Existing synthesis/records are not evidence of completion under unknown Pass rules.",
-  "github_commit_sha_role": "previous_verified_main_before_this_checkpoint_commit"
+  "github_commit_sha_role": "last_verified_remote_main_before_final_audit_commit"
 }
