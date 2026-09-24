@@ -1,4 +1,5 @@
 "id","name","formula_status","source_ids","notes"
 "EQ-RELWIND","relative wind angle","FORMULA_PENDING_FULLTEXT","TASK.md","Author axes and longitudinal wind need checking"
-"EQ-RED-FREQ","reduced frequency","FORMULA_PENDING_FULLTEXT","pimeche-2001-passmore","Do not assume 2pi convention"
-"EQ-ADMIT","aerodynamic admittance","FORMULA_PENDING_FULLTEXT","pimeche-2001-passmore","Keyword alone is not an implemented ROM"
+"EQ-RED-FREQ","reduced frequency","full_text_verified","pimeche-2001-passmore","k_m=pi*f*l/U; pp.779-780; f Hz, l model length, U tunnel speed; source-specific"
+"EQ-ADMIT","aerodynamic admittance","full_text_verified","pimeche-2001-passmore","Power admittance=chi_a^2 only for paper same-frequency sine comparison; p.785; not complex transfer function"
+"EQ-MAGNIFICATION","sine amplitude magnification","full_text_verified","pimeche-2001-passmore","chi_a=A_transient/A_QS for same component and matched baseline; p.785"

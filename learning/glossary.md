@@ -15,3 +15,9 @@
 | admittance | 气动导纳 | 风输入频率分量与载荷响应的关系；归一化及复数定义待核 | 单一峰值比 | `pimeche-2001-passmore`，E1；公式 NEEDS_FULLTEXT |
 | overshoot / undershoot | 超调／欠调 | 只在同一来源明确基线和分量后比较瞬态与稳态 | 所有载荷同向变化 | `sae-980392`、`sae-06-14-01-0001`，E1 |
 | open-loop / closed-loop | 开环／闭环 | 必须按转向约束、驾驶员或控制器参与区分 | 风洞回流闭环（风洞类型） | `iso-12021-2010`、`dot-hs-805-078`，E1 |
+
+## 2026-09-25 来源特定定义更新
+- reduced frequency / 约化频率：Passmore k_m=pi*f*l/U，普通频率Hz、模型全长、风洞自由流；E2 pp.779–780。
+- aerodynamic magnification / 气动倍率：该文同频正弦瞬态/QS幅值比；不含完整相位。
+- aerodynamic admittance / 气动导纳：该文采用功率比，同频正弦条件下为倍率平方；上表中该来源“公式待全文”状态由此更新。不能套用到所有文献的复数导纳定义。
+- pressure phase / 压力相位：该文Fig.9已扣除阵风传播；不能当作从发生器到车辆运动的总滞后。

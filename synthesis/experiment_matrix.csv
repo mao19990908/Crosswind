@@ -1,9 +1,8 @@
-source_id,scale,facility,gust_device,measurement,open_closed_loop,validation_level,notes
-sae-530255,full_scale,road,natural_gust,"body-to-chassis forces",not_reported,not_reported,"abstract verified"
-dot-hs-805-078,full_scale,"US crosswind disturbance facility",side_fan_array,"vehicle response",mixed,"full_scale_test","steering fixed/free/driver lane control"
-sae-960674,model,Cranfield_moving_model,"model traverses wind-tunnel gust",forces_and_moments,open_loop,internal_consistency,"static vs dynamic"
-sae-980392,model,Durham,"secondary jet plus moving belt/aperture",surface_pressure_integrated_loads,open_loop,internal_consistency,"30 deg relative incidence"
-sae-06-14-01-0001,full_scale,BMW_Aschheim,side_wind_facility,"11 five-hole probes;188 pressure locations",not_reported,full_scale_test,"operational Golf 7"
-sae-15-18-01-0005,model_scale,"3/4 open-jet closed-loop tunnel","three-subsystem unsteady flow generator",flow_field,open_loop,internal_consistency,"device characterization"
-
-pimeche-2001-passmore,not_reported,not_reported,oscillating_aerofoil,surface_pressure_integrated_loads,not_reported,internal_consistency,"Aerodynamic experiment; no vehicle-motion loop classification established by abstract"
+"source_id","scale","facility","gust_device","measurement","open_closed_loop","validation_level","notes"
+"sae-530255","full_scale","road","natural_gust","body-to-chassis forces","not_reported","not_reported","abstract verified"
+"dot-hs-805-078","full_scale","US crosswind disturbance facility","side_fan_array","vehicle response","mixed","full_scale_test","steering fixed/free/driver lane control"
+"sae-960674","model","Cranfield_moving_model","model traverses wind-tunnel gust","forces_and_moments","open_loop","internal_consistency","static vs dynamic"
+"sae-980392","model","Durham","secondary jet plus moving belt/aperture","surface_pressure_integrated_loads","open_loop","internal_consistency","30 deg relative incidence"
+"sae-06-14-01-0001","full_scale","BMW_Aschheim","side_wind_facility","11 five-hole probes;188 pressure locations","not_reported","full_scale_test","operational Golf 7"
+"sae-15-18-01-0005","model_scale","3/4 open-jet closed-loop tunnel","three-subsystem unsteady flow generator","flow_field","open_loop","internal_consistency","device characterization"
+"pimeche-2001-passmore","approximately_1_to_6","Loughborough_closed_section","oscillating_aerofoil","surface_pressure_integrated_loads","not_applicable_fixed_model_no_vehicle_motion","internal_consistency","E2 pp781-785: Davis 20deg slant; 144 taps; 4 repositioned transducers; triggered phase averaging; 100Hz filter; sampling rate unknown"

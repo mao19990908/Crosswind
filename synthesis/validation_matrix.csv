@@ -1,8 +1,7 @@
-source_id,wind_field_level_A,aerodynamic_level_B,vehicle_motion_level_C,overall_validation_level,notes
-dot-hs-805-078,partial,not_reported,yes,full_scale_test,"facility input documented at abstract level"
-sae-960674,partial,yes,no,internal_consistency,"static/dynamic aerodynamic comparison"
-sae-2017-01-1515,not_reported,indirect,yes,compared_with_full_scale,"vehicle response within test variability"
-sae-06-14-01-0001,yes,yes,no,full_scale_test,"incoming flow plus pressure integration"
-sae-15-18-01-0005,yes,no,no,internal_consistency,"generator characterization only"
-
-pimeche-2001-passmore,not_reported,transient_vs_quasi_steady,not_established,internal_consistency,"Publisher abstract only; no full-scale motion validation inferred"
+"source_id","wind_field_level_A","aerodynamic_level_B","vehicle_motion_level_C","overall_validation_level","notes"
+"dot-hs-805-078","partial","not_reported","yes","full_scale_test","facility input documented at abstract level"
+"sae-960674","partial","yes","no","internal_consistency","static/dynamic aerodynamic comparison"
+"sae-2017-01-1515","not_reported","indirect","yes","compared_with_full_scale","vehicle response within test variability"
+"sae-06-14-01-0001","yes","yes","no","full_scale_test","incoming flow plus pressure integration"
+"sae-15-18-01-0005","yes","no","no","internal_consistency","generator characterization only"
+"pimeche-2001-passmore","partial_local_CTA_calibration","steady_pressure_vs_balance_and_transient_vs_QS_internal","no","internal_consistency","E2 pp781-786; not independent transient force validation; no vehicle response"

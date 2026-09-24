@@ -1,10 +1,29 @@
-# pimeche-2001-passmore — Pass 2 (publisher abstract evidence)
+# pimeche-2001-passmore — Pass 3 completed with explicit reproduction gaps
 
-- Pass 1 / position: oscillating-gust frequency-response route, linking quasi-steady comparison to separate load components.
-- Input: sinusoidal crosswind created by an oscillating aerofoil; reduced frequency 0.09–0.71 based on model length, exact formula `NEEDS_FULLTEXT`.
-- Method: unsteady surface pressure integrated for side force and yaw moment; compared with quasi-steady prediction.
-- Output: component-specific aerodynamic magnification. No vehicle-motion model or Level 3 coupling established.
-- Claim/evidence: `E-2001-01`, SAGE publisher abstract, E1 / abstract_verified: yaw moment up to 30% above quasi-steady; side force generally below except lowest frequency.
-- Limit: model geometry, phase curves, sign and normalization not available from abstract. Do not infer a common gain or road-gust equivalence.
-- Relation: publisher references cite `sae-960674` and `sae-980392`; citation does not establish direct facility inheritance.
-- Pass 3: NEEDS_FULLTEXT for frequency/magnification definition, pressure phase and ROM identifiability.
+Reviewed 2026-09-25; original article pp.779–788 (repository PDF pp.2–11), E2 / full_text_verified. Source provenance and detailed parameters: [record](../../sources/records/pimeche-2001-passmore.md).
+
+## Pass 1：定位
+该资料把正弦阵风与侧力/横摆力矩的分量频率响应连接起来。它支持气动测量方法选择，没有建立整车 ROM 或自然道路外推。
+
+## Pass 2：理解
+输入是摆动翼生成的正弦横风；固定 Davis 模型单侧压力经相位对齐、对侧重建和积分得到侧力与中点横摆力矩。比较基线来自同一压力测量的稳态偏航关系。保留每个测点的幅相，才能区分来流沿车长的传播与局部压力响应。全文证据 E-2001-02…06；不能把幅值倍率称为复数传递函数。
+
+## Pass 3：如何重做
+1. 按 Fig.3 的 625 × 212 × 160 mm、20°后斜背模型与 pp.781–782 的风洞/地板/摆动翼位置搭建几何；保持 Re=1e6 与 2.3% blockage 的来源条件。先复测模型前端两分量来流与 Ag(f)，不得把设备最高 18 Hz 当论文测试点。
+2. 做 ±10°、2°间隔稳态偏航压力测量，与六分量天平交叉检查。横摆积分力臂关于模型中点；额外记录源文未给的轴向、正号、参考面积/长度、动压与单位后才能复现数值系数。
+3. 144 测点按四通道分组，用发生器脉冲同步，复测管路/100 Hz 滤波器频响与时延，记录采样率、周期数及重复试验不确定度。后面这些是分析者为可复现性补充的试验设计，不能写作原文已报告。
+4. 用周期稳态、左右对称假设将单侧信号相移180°重建对侧；检查谐波/非对称性后再拟合正弦。积分必须保留相位；仅平均各测点幅值无法重建合力和力矩。
+5. 分别构建沿车长同相 QS 与考虑传播相位 QS；逐分量比较幅值比，另记录相位。检查 Fig.8 两种基线与 Fig.9 已扣除传播相位的含义。
+
+## 关键假设与易错点
+- 定几何、单频和左右对称；一侧相移不能无条件用于非对称车型或非周期阵风。
+- k_m=pi*f*l/U；l是模型全长；普通频率 Hz 不等于角频率。原文 Ag 还包含翼角 A0，不能直接当车体偏航幅值。
+- 幅值比与功率比相差平方；两者均不含完整复数相位。压力与天平的横摆斜率不同，不混换分母。
+- Table 1 未注明导数单位而 Fig.4 用度；notation 用弧度。暂不导入表中斜率为控制参数。
+- p.784 的 2–8 Hz 与 Figs.9/11 的 1 Hz 不一致，必须保留为原文疑点；低频小幅输入的信噪比限制同样保留。
+
+## 可迁移 / 不可迁移
+可迁移的是同步压力积分、分量幅相建模、传播相位基线与三级验证设计。不可迁移的是该几何的倍率曲线、低频极限、自然道路谱代表性及整车横摆响应。Level A仅前端局部标定，Level B为内部/稳态对照，Level C缺失。
+
+## 改变了什么
+从“正弦阵风导致不同载荷倍率”的摘要认识，推进到“基线传播相位也改变横摆倍率”的研究级解释。原文允许重建测量/比较流程，但不提供完整归一化、原始时序和不确定度；这些明确缺项不伪装成已复现。Pass 3表示完成研究级阅读，不表示实验已复现或疑点已消除。

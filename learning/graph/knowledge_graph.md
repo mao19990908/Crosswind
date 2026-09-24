@@ -1,8 +1,8 @@
 # 初版知识图谱
 
-下图由 `graph/edges.csv` 生成，箭头均在该表保留 `source_id`、条件、核验状态和说明。E1 是公开摘要层级；箭头表示有条件的关系，不是跨车型普适定律。图中证据节点 `E-*` 再指向规范来源，构成知识→主张→来源路径。
+下图由 `graph/edges.csv` 生成，箭头均在该表保留 `source_id`、条件、核验状态和说明。E1 是公开摘要层级，E2 是已核读原文范围；箭头表示有条件的关系，不是跨车型普适定律。图中证据节点 `E-*` 再指向规范来源，构成知识→主张→来源路径。
 
-当前只展示已处理的六条来源，不把尚未整理的 16 条自动连入图谱。图谱尚未包含完整风→车→驾驶员因果链；断边记录于 `open_questions.md`。
+当前图谱覆盖已建立证据节点的来源；覆盖数量由 nodes/evidence.csv 与 sources/index.csv 核对，学习完成状态以 state.json 为准。图谱尚未包含完整风→车→驾驶员因果链；断边记录于 `open_questions.md`。
 
 ```mermaid
 flowchart LR
@@ -60,6 +60,19 @@ flowchart LR
     N_C_LOOP["C-LOOP"] -->|described_by| N_E_2023_04["E-2023-04"]
     N_E_2023_05["E-2023-05"] -->|evidence_from| N_brandt_2023_thesis["brandt-2023-thesis"]
     N_C_VALIDATION["C-VALIDATION"] -->|described_by| N_E_2023_05["E-2023-05"]
+    N_E_2001_02["E-2001-02"] -->|evidence_from| N_pimeche_2001_passmore["pimeche-2001-passmore"]
+    N_EQ_RED_FREQ["EQ-RED-FREQ"] -->|described_by| N_E_2001_02["E-2001-02"]
+    N_E_2001_03["E-2001-03"] -->|evidence_from| N_pimeche_2001_passmore["pimeche-2001-passmore"]
+    N_EQ_ADMIT["EQ-ADMIT"] -->|described_by| N_E_2001_03["E-2001-03"]
+    N_EQ_MAGNIFICATION["EQ-MAGNIFICATION"] -->|described_by| N_E_2001_03["E-2001-03"]
+    N_E_2001_04["E-2001-04"] -->|evidence_from| N_pimeche_2001_passmore["pimeche-2001-passmore"]
+    N_C_PHASE["C-PHASE"] -->|described_by| N_E_2001_04["E-2001-04"]
+    N_C_QS["C-QS"] -->|described_by| N_E_2001_04["E-2001-04"]
+    N_E_2001_05["E-2001-05"] -->|evidence_from| N_pimeche_2001_passmore["pimeche-2001-passmore"]
+    N_C_VALIDATION["C-VALIDATION"] -->|described_by| N_E_2001_05["E-2001-05"]
+    N_C_DYNLOAD["C-DYNLOAD"] -->|described_by| N_E_2001_05["E-2001-05"]
+    N_E_2001_06["E-2001-06"] -->|evidence_from| N_pimeche_2001_passmore["pimeche-2001-passmore"]
+    N_M_OSC["M-OSC"] -->|described_by| N_E_2001_06["E-2001-06"]
 ```
 
-`evidence_from` 表示原始来源支撑该 atomic claim；`described_by` 表示概念受到特定条件下主张说明；`generated_by` 表示该输入由文献中的方法实现；`depends_on` 表示当前准稳态比较以稳态基线为参照。这些关系不能自动推成 `causes` 或跨研究 `validated_by`。
+`evidence_from` 表示原始来源支撑该 atomic claim；`described_by` 表示概念受到特定条件下主张说明；`generated_by` 表示该输入由文献中的方法实现；`depends_on` 表示当前准稳态比较以稳态基线为参照。`supported_by` 表示方法受到特定原文证据支持，与 supports 的反向阅读对应；不表示独立跨方法验证。这些关系不能自动推成 `causes` 或跨研究 `validated_by`。

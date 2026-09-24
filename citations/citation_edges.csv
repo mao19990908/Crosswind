@@ -1,9 +1,8 @@
-source_id,target_id,relation,verified,note
-sae-970135,sae-960674,method_extends,true,"Abstract explicitly identifies previous paper by same authors and extends it to shear/turbulence"
-sae-2000-01-0874,sae-980392,facility_inherits,true,"Same Durham finite-length crosswind facility and authors; facility continuity verified from abstracts"
-sae-2017-01-1515,iso-12021-2010,standardizes,true,"Method explicitly mimics ISO 12021:2010 open-loop physical test conditions"
-jcp-2016-tunay,sae-2017-01-1525,method_lineage_candidate,false,"Both two-way coupling with driver; direct citation/implementation inheritance not yet checked"
-sae-06-14-01-0001,iso-12021-2010,supports,false,"Both full-scale/standard gust evaluation; direct relation not yet verified"
-
-pimeche-2001-passmore,sae-960674,references,true,"Publisher reference 4; https://journals.sagepub.com/doi/10.1243/0954407011528365; checked 2026-09-24; citation does not establish method inheritance"
-pimeche-2001-passmore,sae-980392,references,true,"Publisher reference 6; https://journals.sagepub.com/doi/10.1243/0954407011528365; checked 2026-09-24; citation does not establish method inheritance"
+"source_id","target_id","relation","verified","note"
+"sae-970135","sae-960674","method_extends","true","Abstract explicitly identifies previous paper by same authors and extends it to shear/turbulence"
+"sae-2000-01-0874","sae-980392","facility_inherits","true","Same Durham finite-length crosswind facility and authors; facility continuity verified from abstracts"
+"sae-2017-01-1515","iso-12021-2010","standardizes","true","Method explicitly mimics ISO 12021:2010 open-loop physical test conditions"
+"jcp-2016-tunay","sae-2017-01-1525","method_lineage_candidate","false","Both two-way coupling with driver; direct citation/implementation inheritance not yet checked"
+"sae-06-14-01-0001","iso-12021-2010","supports","false","Both full-scale/standard gust evaluation; direct relation not yet verified"
+"pimeche-2001-passmore","sae-960674","references","true","Publisher reference 4; https://journals.sagepub.com/doi/10.1243/0954407011528365; checked 2026-09-24; citation does not establish method inheritance; full text p788 rechecked 2026-09-25; no new edge"
+"pimeche-2001-passmore","sae-980392","references","true","Publisher reference 6; https://journals.sagepub.com/doi/10.1243/0954407011528365; checked 2026-09-24; citation does not establish method inheritance; full text p788 rechecked 2026-09-25; no new edge"
