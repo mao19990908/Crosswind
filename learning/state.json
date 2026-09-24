@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-24T21:31:50.072223+08:00",
+  "updated_at": "2026-09-24T21:32:53.047947+08:00",
   "timezone": "Asia/Shanghai",
   "current_phase": "learning",
   "phase_status": "in_progress",
@@ -158,11 +158,11 @@
   ],
   "quota_status": "available",
   "weekly_quota_used_at_run_start_percent": 68,
-  "weekly_quota_used_at_last_read_percent": 72,
+  "weekly_quota_used_at_last_read_percent": 73,
   "weekly_quota_used_at_day_start_percent": 63,
   "weekly_quota_day_cap_used_percent": 75,
-  "local_remote_sync": "pending",
-  "github_commit_sha": "f6a22a0c5395381098dc14e944b5b9464a6b6a46",
+  "local_remote_sync": "verified_at_learning_commit_audit_pending",
+  "github_commit_sha": "cdc7ebf33482a77e09144aa95b035e24a330f4c2",
   "note": "All 22 sources have Pass 1/2 notes; Brandt extended summary completed to Pass 3 with chapter-level E2, eight core sources remain pending lawful full text. No new collection while backlog > 0.",
-  "github_commit_sha_role": "last_verified_main_before_learning_commit"
+  "github_commit_sha_role": "last_verified_learning_commit_before_audit_commit"
 }
