@@ -1,0 +1,4 @@
+"id","name","formula_status","source_ids","notes"
+"EQ-RELWIND","relative wind angle","FORMULA_PENDING_FULLTEXT","TASK.md","Author axes and longitudinal wind need checking"
+"EQ-RED-FREQ","reduced frequency","FORMULA_PENDING_FULLTEXT","pimeche-2001-passmore","Do not assume 2pi convention"
+"EQ-ADMIT","aerodynamic admittance","FORMULA_PENDING_FULLTEXT","pimeche-2001-passmore","Keyword alone is not an implemented ROM"
