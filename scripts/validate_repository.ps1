@@ -4,7 +4,7 @@ $indexPath = Join-Path $repoRoot 'sources\index.csv'
 $recordsPath = Join-Path $repoRoot 'sources\records'
 $edgePath = Join-Path $repoRoot 'citations\citation_edges.csv'
 
-$expectedHeaders = @('id','title','authors','year','doi','url','source_type','publisher_or_institution','report_or_standard_number','primary_category','secondary_categories','tags','gust_type','method','vehicle_class','access_status','evidence_type','validation_level','verification_status','added_date','last_checked','doi_status','doi_verified_date','doi_source','pdf_status','pdf_source','pdf_path','pdf_sha256','pdf_bytes','pdf_license','pdf_checked_date','github_pdf')
+$expectedHeaders = @('id','title','authors','year','doi','url','source_type','publisher_or_institution','report_or_standard_number','primary_category','secondary_categories','tags','gust_type','method','vehicle_class','access_status','evidence_type','validation_level','verification_status','added_date','last_checked','doi_status','doi_verified_date','doi_source','pdf_status','pdf_source','pdf_path','pdf_sha256','pdf_bytes','pdf_license','pdf_checked_date','github_pdf','bib_key','abstract_status')
 $allowedSourceTypes = @('journal_article','sae_technical_paper','conference_paper','standard','standard_draft','government_report','institutional_report','project_report','doctoral_thesis','master_thesis','book','book_chapter','review_article','dataset','code_repository','facility_documentation','manufacturer_technical_document','patent','regulatory_document','web_primary_source','secondary_web_source')
 $rows = Import-Csv -LiteralPath $indexPath -Encoding utf8
 if (-not $rows) { throw 'sources/index.csv has no records' }

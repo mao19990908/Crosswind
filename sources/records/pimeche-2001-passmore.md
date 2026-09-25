@@ -57,3 +57,9 @@
 - DOI: `10.1243/0954407011528365`; doi_status: `verified`; doi_source: https://api.crossref.org/works/10.1243/0954407011528365; doi_verified_date: 2026-09-25.
 - pdf_status: `oa_downloaded`; pdf_source: https://ndownloader.figshare.com/files/16804613; pdf_path: `sources\pdfs\pimeche-2001-passmore__passmore__2001.pdf`; pdf_sha256: `2963f467fa893cd32a16cea40709a47b6824124c7bf0f5f406637280770c987c`; pdf_bytes: 378510; pdf_license: CC BY-NC-ND 2.5 on PDF cover; repository API 4.0 conflict; redistribution not asserted; github_pdf: false.
 - PDF 状态为本轮已检查入口的状态；未穷尽全部机构仓储或作者版本，不将当前未找到写成永久不存在。
+
+## Bibliography and abstract provenance (2026-09-25)
+
+- Canonical Bib key: `pimeche-2001-passmore` in `sources/bibliography/references.bib`.
+- abstract_status: `full_text_supersedes_abstract`; abstract_source: Publisher abstract; author manuscript full text checked; abstract_source_url: https://api.crossref.org/works/10.1243%2F0954407011528365.
+- Full-text check: Complete source PDF was previously read and remains `full_text_verified`.

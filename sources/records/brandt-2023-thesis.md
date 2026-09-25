@@ -41,3 +41,9 @@
 
 - 2026-09-25 DOI 复核：原机构/政府目录未列 DOI；Crossref 与 DataCite 精确题名检索无匹配，状态更新为 `no_doi_confirmed`（限已查目录；若原始标题页/新注册记录提供 DOI 可修订）。
 - 封面及版权页 pp.1–2 标 Chalmers 博士论文 New Series No. 5271、ISBN 978-91-7905-805-0，未印本论文 DOI；p.xi 列出 Paper A–C 的独立 DOI，不能归给学位论文主记录。92 页仓储 PDF 仅提供扩展摘要、Paper A–E 概述和参考文献，不含目录中承诺的附录原篇。
+
+## Bibliography and abstract provenance (2026-09-25)
+
+- Canonical Bib key: `brandt-2023-thesis` in `sources/bibliography/references.bib`.
+- abstract_status: `available_not_copied`; abstract_source: Official source or catalog abstract noted in source record; abstract_source_url: https://research.chalmers.se/en/publication/534820.
+- Full-text check: The 92-page PDF provides the extended thesis summary only; Paper A-E appendices are absent. Keep the source-wide status `abstract_verified`.

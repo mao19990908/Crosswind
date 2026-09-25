@@ -30,3 +30,9 @@
 - The 2014 Volpe et al. paper's Crossref reference list cites this 2013 article by title/author/year. This is a verified reference edge, not proof that every apparatus detail was reused.
 - The 2013 article's Crossref-deposited references B22 and B14 match `sae-960674` and `pimeche-2001-passmore`; the 28 deposited references do not include `sae-2000-01-0874`. This does not negate the independently corroborated conceptual facility lineage, but no direct 2013→2000 citation is asserted.
 - Obtain the official HAL PDF through ordinary authorized access, verify file identity and reuse license, then perform Pass 2/3 on calibration, PIV–URANS comparison, and its relationship to the 1998/2000 Ryan–Dominy studies.
+
+## Bibliography and abstract provenance (2026-09-25)
+
+- Canonical Bib key: `jfe-2013-volpe` in `sources/bibliography/references.bib`.
+- abstract_status: `available_not_copied`; abstract_source: Crossref deposited publisher abstract; abstract_source_url: https://api.crossref.org/works/10.1115%2F1.4023194.
+- Full-text check: No full text has been validated; do not promote claims beyond the current evidence level.

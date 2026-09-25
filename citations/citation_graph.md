@@ -18,6 +18,13 @@ jcp-2016-tunay
 
 图不等同于完整 cited-by 网络。下一轮优先用 OpenAlex／Semantic Scholar 建立 DOI cited-by 候选，再回原始论文核验方法关系。
 
+## v5 去重后的保留关系（2026-09-25）
+
+- `dot-hs-805-079` → `dot-hs-805-078`：`companion_report`，同一项目的技术卷与执行摘要卷，报告号不同，均保留。
+- `sae-970135` → `sae-960674`：现有 `method_extends`；剪切/湍流动态试验扩展1996比较方法，均保留。
+- `sae-2000-01-0874` → `sae-980392`：现有 `facility_inherits`；尾流调查与1998载荷论文不同，均保留。
+- `jweia-2014-volpe` → `jfe-2013-volpe`：现有 `references`；2013设施验证与2014车体流动/载荷研究不同，均保留，不把普通引用升级成硬件继承。
+
 
 ## 2026-09-24 增量
 

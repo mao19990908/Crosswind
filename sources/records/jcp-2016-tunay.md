@@ -40,3 +40,9 @@ KTH author publication record confirms the four authors above: https://kth.diva-
 - DOI: `10.1016/j.compfluid.2016.08.006`; doi_status: `verified`; doi_source: https://api.crossref.org/works/10.1016/j.compfluid.2016.08.006; doi_verified_date: 2026-09-25.
 - pdf_status: `paywalled`; pdf_source: https://doi.org/10.1016/j.compfluid.2016.08.006; pdf_path: `none`; pdf_sha256: `not applicable`; pdf_bytes: not applicable; pdf_license: publisher_or_standard_restricted; other OA locations not exhausted; github_pdf: false.
 - PDF 状态为本轮已检查入口的状态；未穷尽全部机构仓储或作者版本，不将当前未找到写成永久不存在。
+
+## Bibliography and abstract provenance (2026-09-25)
+
+- Canonical Bib key: `jcp-2016-tunay` in `sources/bibliography/references.bib`.
+- abstract_status: `available_not_copied`; abstract_source: Official source or catalog abstract noted in source record; abstract_source_url: https://doi.org/10.1016/j.compfluid.2016.08.006.
+- Full-text check: No full text has been validated; do not promote claims beyond the current evidence level.

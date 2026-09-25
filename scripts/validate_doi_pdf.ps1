@@ -15,7 +15,7 @@ foreach ($row in $index) {
     if (-not $byId.ContainsKey($row.id)) { throw "Missing registry ID $($row.id)" }
     $entry = $byId[$row.id]
     if ($validDoi -notcontains $row.doi_status -or $validPdf -notcontains $row.pdf_status) { throw "Invalid status for $($row.id)" }
-    if ($entry.doi_status -ne $row.doi_status -or $entry.pdf_status -ne $row.pdf_status -or $entry.doi -ne $row.doi) { throw "Index / registry mismatch for $($row.id)" }
+    if ($entry.doi_status -ne $row.doi_status -or $entry.pdf_status -ne $row.pdf_status -or $entry.doi -ne $row.doi -or $entry.pdf_path -ne $row.pdf_path -or $entry.pdf_sha256 -ne $row.pdf_sha256 -or $entry.pdf_bytes -ne $row.pdf_bytes -or $entry.bib_key -ne $row.bib_key -or $entry.verification_status -ne $row.verification_status) { throw "Index / registry mismatch for $($row.id)" }
     if ($row.doi_status -eq 'verified' -and [string]::IsNullOrWhiteSpace($row.doi)) { throw "Verified DOI missing for $($row.id)" }
     if (-not [string]::IsNullOrWhiteSpace($row.pdf_path)) {
         $path = Join-Path $root $row.pdf_path

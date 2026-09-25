@@ -421,7 +421,9 @@ hash + register
 
 ## 17. 文献去重与版本关系
 
-优先 DOI 去重，其次 title/authors/year/publisher。同一研究的 conference、report、journal、thesis、preprint 建立 `version_of` / `derived_from` 关系，避免重复计数。
+每次批量入库后检查 verified DOI、SAE paper number、标准号、政府报告号、规范化题名+年份、近似题名+作者+venue、跨数据库别名。本库首次全量迁移记录在 `sources/dedup_report.csv`。真正重复时选择信息最全且验证最高的 canonical record，合并信息并删除冗余记录；旧 ID 写入 `sources/aliases.csv`，同步修正 citation、learning、timeline 和 synthesis 等活跃引用。历史日志不重写。
+
+conference→journal、thesis→paper、preprint→final、ISO→国家采用版、报告 Volume I/II、draft→final 和同一项目不同方法论文，原则上保留为独立资料，用 `version_of`、`derived_from`、`extended_by`、`national_adoption_of`、`companion_report` 等关系连接。不能确定时标记 `needs_manual_review`，不得自动删除。
 
 ## 18. 单篇记录
 
@@ -452,7 +454,7 @@ verification_status: unverified | metadata_verified | abstract_verified | full_t
 id,title,authors,year,doi,doi_status,doi_verified_date,doi_source,url,pdf_status,pdf_source,pdf_path,pdf_sha256,pdf_license,source_type,publisher_or_institution,report_or_standard_number,primary_category,secondary_categories,tags,gust_type,method,vehicle_class,access_status,evidence_type,validation_level,verification_status,added_date,last_checked
 ```
 
-UTF-8，稳定 ID 不随整理改名。
+UTF-8，稳定 ID 不随整理改名。v5 增加 `bib_key`、`abstract_status`；`bib_key` 应与规范 Bib 条目和 `sources/bibliography/bib_sources.csv` 一一对应。`abstract_status` 与 `verification_status` 分开记录，避免把摘要可得误写成已核全文。
 
 ## 20. 综合输出
 
@@ -495,6 +497,12 @@ Crosswind/
 ├─ sources/
 │  ├─ index.csv
 │  ├─ doi_registry.csv
+│  ├─ bibliography/references.bib
+│  ├─ bibliography/bib_sources.csv
+│  ├─ dedup_report.csv
+│  ├─ aliases.csv
+│  ├─ manual_retrieval_queue.csv
+│  ├─ manual_retrieval_queue.md
 │  ├─ records/
 │  └─ pdfs/
 ├─ notes/
@@ -548,11 +556,14 @@ Crosswind/
 11 更新 doi_registry / index / records
 12 更新 citation_edges / search_ledger / method_lineages / timeline
 13 更新 synthesis
-14 去重并校验 DOI-author-year-PDF 对应关系
-15 写日报
-16 git commit / push
-17 校验本地／远端 SHA
-18 更新 DOI / PDF 覆盖统计
+14 去重并校验 DOI-author-year-PDF 对应关系；更新 aliases / version edges
+15 更新 canonical Bib 与逐条元数据/摘要来源
+16 把仍缺重要全文的资料加入人工补档清单
+17 更新 DOI / PDF / Bib / 人工补档覆盖统计
+18 校验 Bib-DOI-index、别名、引用 ID、PDF/verification 和 learning 状态
+19 写日报与持久化断点
+20 git commit / push
+21 校验本地／远端 SHA
 ```
 
 ## 26. 每日日报
@@ -583,6 +594,23 @@ PDF
 new_doi_verified_today
 new_pdf_downloaded_today
 pdf_download_failures
+
+Bibliography
+- total_bib_entries
+- entries_with_abstract
+- entries_abstract_available_not_copied
+- metadata_only_entries
+
+Manual retrieval
+- needs_user_search_total
+- new_needs_user_search_today
+- user_supplied_resolved_today
+
+Dedup
+- duplicate_candidates
+- merged_and_deleted
+- kept_as_version
+- needs_manual_review
 ```
 
 ## 27. 阶段目标
@@ -617,19 +645,22 @@ pdf_download_failures
 
 > 当前“车辆侧风模拟及实验验证”最值得继续解决的科学与工程问题是什么？
 
-## 29. 立即执行
+## 29. 当前长期执行规则
 
-读取本 `TASK.md` 后，先检查仓库现有状态，不要清空既有成果。优先完成：
+本文件已吸收 v4 DOI/PDF 与 v5 Bib/人工补档/去重规则，是资料收集的长期唯一主任务书；`Crosswind_TASK_v4_DOI_PDF.md` 和 `Crosswind_TASK_v5_BIB_MISSING_DEDUP.md` 仅作版本审计。开始先读取持久化 learning/state 与当日日志；若已有学习 backlog，按学习任务书从断点继续，清零后才在剩余额度内大规模收集。手动优先任务可覆盖日常顺序，但不得越权获取全文。遇到版权、权限、额度、网络、数据库限制如实记录。**不得编造来源、绕过访问控制、伪称已下载全文或已同步。**
 
-1. 建立/更新 `sources/doi_registry.csv`；
-2. 对现有 `sources/index.csv` 全量检查 DOI 状态；
-3. 统计 verified / no_doi / missing / conflict；
-4. 对 verified DOI 检索合法 OA 全文；
-5. 将允许保存的 PDF 放入本机 `sources/pdfs/`；
-6. 仅将明确允许再分发的 PDF 推送 GitHub；
-7. 建立 `scripts/skills_registry.md`，评估合法 OA PDF Skill；
-8. 更新 README、日报和覆盖统计；
-9. 然后按既定历史／引文／方法谱系继续长期任务；
-10. commit、push，并核对远端 SHA。
+## 30. 规范 Bib 文献库与摘要证据
 
-遇到版权、权限、额度、网络、数据库限制时如实记录。**不得编造来源、不得绕过访问控制、不得伪称已下载全文或已同步。**
+适合 BibTeX/BibLaTeX 的论文、SAE Technical Paper、学位论文、报告及标准一源一条，写入 `sources/bibliography/references.bib`，稳定 citation key 对应 `sources/index.csv` 的 `id`。尽可能保存 author、title、year、journal/booktitle/institution、volume、number、pages、publisher、DOI、URL、abstract、keywords、note。DOI 必须与 `sources/doi_registry.csv` 中 verified DOI 一致；URL 优先原始出处。策展标签写进 keywords 时必须标明并非作者关键词。
+
+`sources/bibliography/bib_sources.csv` 逐条记录 Bib 来源/URL/核验日期、摘要状态/来源/URL/核验日期、metadata_quality 和备注。摘要状态使用 `full_abstract_saved`、`available_not_copied`、`abstract_not_available`、`abstract_not_checked`、`full_text_supersedes_abstract`。仅在原始来源明确提供且有可保存依据时复制摘要；许可不明时只记录来源与结构化摘要笔记，不按题名编写伪摘要。必须分别区分 metadata only、abstract available、abstract saved、full text available 和 full text verified。Bib 是书目元数据，不替代 `sources/records/` 的研究分析。
+
+## 31. 人工补档清单与用户交接
+
+重要来源已查 DOI、出版社、合法 OA 服务及机构仓储后仍缺全文，或早期/核心方法论文只凭摘要不足以核对公式、实验/CFD 参数时，加入 `sources/manual_retrieval_queue.csv` 和可读的 `.md`。CSV 至少包含 id、题名、作者、年份、source_type、DOI、官方入口、PDF 状态、缺全文的具体原因、已尝试渠道、优先级、请求/检查日期、manual_status、用户提供路径和备注。状态使用 `needs_user_search`、`user_searching`、`user_supplied`、`resolved_elsewhere`、`not_needed`。不能把已查入口的付费/未找到状态写成永久不存在 OA。
+
+每日结束额外汇报“需要用户手动查找的资料”：本次新增与未解决总数，并按优先级列出题名、作者、年份、DOI、官方入口。用户把合法获得的 PDF 放回项目后，下一轮核对题名/DOI/PDF 格式、可读性和 SHA-256，更新 PDF 与 manual_status，阅读真实全文后才升级 `full_text_verified` 并重审以前仅依赖摘要的结论。授权不明的文件仅本机保存。
+
+## 32. v5 一次性迁移与后续校验
+
+首次运行对全部旧来源建立 Bib/摘要来源台账，检查 DOI/编号/题名/作者+venue 等重复候选，把真实重复合并并在 aliases 追溯；相关版本保留且明确关系。对既有 PDF 重新核对格式、题名、DOI（若原件印有）、页数、字节和 SHA-256，特别注意论文汇编摘要与其未附原篇的不同全文范围。更新 README、records、citations 和受影响矩阵，保留历史日志。运行仓库、DOI/PDF、Bib/dedup、learning 校验及 `git diff --check`，再 commit、push、核对本地 HEAD 与远端 SHA。日报必须给出 Bib/摘要、去重、人工补档和全文验证计数。
