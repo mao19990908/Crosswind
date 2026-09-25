@@ -1,15 +1,19 @@
-"source_id","target_id","relation","verified","note"
-"sae-970135","sae-960674","method_extends","true","Abstract explicitly identifies previous paper by same authors and extends it to shear/turbulence"
-"sae-2000-01-0874","sae-980392","facility_inherits","true","Same Durham finite-length crosswind facility and authors; facility continuity verified from abstracts"
-"sae-2017-01-1515","iso-12021-2010","standardizes","true","Method explicitly mimics ISO 12021:2010 open-loop physical test conditions"
-"jcp-2016-tunay","sae-2017-01-1525","method_lineage_candidate","false","Both two-way coupling with driver; direct citation/implementation inheritance not yet checked"
-"sae-06-14-01-0001","iso-12021-2010","supports","false","Both full-scale/standard gust evaluation; direct relation not yet verified"
-"pimeche-2001-passmore","sae-960674","references","true","Publisher reference 4; https://journals.sagepub.com/doi/10.1243/0954407011528365; checked 2026-09-24; citation does not establish method inheritance; full text p788 rechecked 2026-09-25; no new edge"
-"pimeche-2001-passmore","sae-980392","references","true","Publisher reference 6; https://journals.sagepub.com/doi/10.1243/0954407011528365; checked 2026-09-24; citation does not establish method inheritance; full text p788 rechecked 2026-09-25; no new edge"
-"jweia-2014-volpe","jfe-2013-volpe","references","true","Crossref 2014 reference bib40 matches 2013 title, first author, journal and year; checked 2026-09-25; apparatus inheritance not inferred"
-"jfe-2013-volpe","sae-2000-01-0874","method_inherits","true","Conceptual double-wind-tunnel lateral-gust method only: 2013 author abstract names Ryan-Dominy; 2018 Springer primary article identifies the 2000 paper DOI 10.4271/2000-01-0874 as predecessor; exact hardware/citation inside 2013 paper not verified; https://link.springer.com/article/10.1007/s00348-018-2586-0"
-"jfe-2013-volpe","sae-960674","references","true","Crossref 2013 reference B22 exactly matches SAE 960674 title and 1996 year; https://api.crossref.org/works/10.1115%2F1.4023194; citation alone does not establish identical facility"
-"jfe-2013-volpe","pimeche-2001-passmore","references","true","Crossref 2013 reference B14 matches title, year and DOI 10.1243/0954407011528365; https://api.crossref.org/works/10.1115%2F1.4023194; citation alone does not establish method inheritance"
-"dot-hs-805-079","dot-hs-805-078","companion_report","true","Same 1979 DOT project with separate Volume II technical report and Volume I executive summary; distinct report numbers; not duplicate records"
-"sae-730232","sae-670608","references","true","SAE 730232 printed p.899 reference 3 explicitly cites Beauvais SAE 670608 and discusses yaw-moment overshoot; direct method inheritance not established"
+source_id,target_id,relation,verified,note
+sae-970135,sae-960674,method_extends,true,Direct reference 1 on SAE 970135 article p.34; moving-model facility and method extension verified in full text
+sae-2000-01-0874,sae-980392,facility_lineage,true,"Same Durham research lineage/authors, but 2000 article cites improved 1999 shutter facility, 5m/22deg event versus 1998 moving-aperture 1.5m/30deg; exact hardware inheritance unverified; 1998 not directly cited"
+sae-2017-01-1515,iso-12021-2010,standardizes,true,Method explicitly mimics ISO 12021:2010 open-loop physical test conditions
+jcp-2016-tunay,sae-2017-01-1525,method_lineage_candidate,false,Both two-way coupling with driver; direct citation/implementation inheritance not yet checked
+sae-06-14-01-0001,iso-12021-2010,supports,false,Both full-scale/standard gust evaluation; direct relation not yet verified
+pimeche-2001-passmore,sae-960674,references,true,Publisher reference 4; https://journals.sagepub.com/doi/10.1243/0954407011528365; checked 2026-09-24; citation does not establish method inheritance; full text p788 rechecked 2026-09-25; no new edge
+pimeche-2001-passmore,sae-980392,references,true,Publisher reference 6; https://journals.sagepub.com/doi/10.1243/0954407011528365; checked 2026-09-24; citation does not establish method inheritance; full text p788 rechecked 2026-09-25; no new edge
+jweia-2014-volpe,jfe-2013-volpe,references,true,"Crossref 2014 reference bib40 matches 2013 title, first author, journal and year; checked 2026-09-25; apparatus inheritance not inferred"
+jfe-2013-volpe,sae-2000-01-0874,method_inherits,true,Conceptual double-wind-tunnel lateral-gust method only: 2013 author abstract names Ryan-Dominy; 2018 Springer primary article identifies the 2000 paper DOI 10.4271/2000-01-0874 as predecessor; exact hardware/citation inside 2013 paper not verified; https://link.springer.com/article/10.1007/s00348-018-2586-0
+jfe-2013-volpe,sae-960674,references,true,Crossref 2013 reference B22 exactly matches SAE 960674 title and 1996 year; https://api.crossref.org/works/10.1115%2F1.4023194; citation alone does not establish identical facility
+jfe-2013-volpe,pimeche-2001-passmore,references,true,"Crossref 2013 reference B14 matches title, year and DOI 10.1243/0954407011528365; https://api.crossref.org/works/10.1115%2F1.4023194; citation alone does not establish method inheritance"
+dot-hs-805-079,dot-hs-805-078,companion_report,true,Same 1979 DOT project with separate Volume II technical report and Volume I executive summary; distinct report numbers; not duplicate records
+sae-730232,sae-670608,references,true,SAE 730232 printed p.899 reference 3 explicitly cites Beauvais SAE 670608 and discusses yaw-moment overshoot; direct method inheritance not established
 bams-1958-benner,sae-530255,references,true,"Benner 1958 publisher PDF p.425 reference 5 explicitly cites Lay and Lett 1953; road instrumentation pp.424-425 describes their work, not independent replication."
+sae-980392,sae-670608,references,true,Ryan/Dominy 1998 full PDF p.11 reference 2 cites Beauvais SAE 670608; citation does not imply same apparatus.
+sae-980392,sae-960674,references,true,Ryan/Dominy 1998 full PDF p.11 reference 13 cites Macklin/Garry/Howell SAE 960674; p.10 discusses conditional 30deg yaw-moment discrepancy.
+sae-970135,sae-960674,references,true,Full text reference 1 p.34
+sae-2000-01-0874,sae-960674,references,true,Full text reference 1 article p.9

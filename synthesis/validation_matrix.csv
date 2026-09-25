@@ -1,9 +1,10 @@
-"source_id","wind_field_level_A","aerodynamic_level_B","vehicle_motion_level_C","overall_validation_level","notes"
-"dot-hs-805-078","partial","not_reported","yes","full_scale_test","facility input documented at abstract level"
-"sae-960674","partial","yes","no","internal_consistency","static/dynamic aerodynamic comparison"
-"sae-2017-01-1515","not_reported","indirect","yes","compared_with_full_scale","vehicle response within test variability"
-"sae-06-14-01-0001","yes","yes","no","full_scale_test","incoming flow plus pressure integration"
-"sae-15-18-01-0005","yes","no","no","internal_consistency","generator characterization only"
-"pimeche-2001-passmore","partial_local_CTA_calibration","steady_pressure_vs_balance_and_transient_vs_QS_internal","no","internal_consistency","E2 pp781-786; not independent transient force validation; no vehicle response"
-"sae-670608","partial_local_profile_calibration","balance_calibration_and_internal_steady_plateau_comparison","no","internal_consistency","E2 pp.2221-2225; no independent transient load reference; no free vehicle or driver"
-"sae-730232","prescribed_profile_only","steady_derivatives_compared; transient_not_measured","modeled_not_validated","compared_with_wind_tunnel_steady_only","E2 pp.897-899; transient force and vehicle displacement are model predictions"
+source_id,wind_field_level_A,aerodynamic_level_B,vehicle_motion_level_C,overall_validation_level,notes
+dot-hs-805-078,partial,not_reported,yes,full_scale_test,facility input documented at abstract level
+sae-960674,partial_local_tunnel_description,internal_static_dynamic_balance_comparison,no,internal_consistency,E2 pp.5-8; nine-repeat SD and zero-yaw track subtraction; no independent transient reference
+sae-2017-01-1515,not_reported,indirect,yes,compared_with_full_scale,vehicle response within test variability
+sae-06-14-01-0001,yes,yes,no,full_scale_test,incoming flow plus pressure integration
+sae-15-18-01-0005,yes,no,no,internal_consistency,generator characterization only
+pimeche-2001-passmore,partial_local_CTA_calibration,steady_pressure_vs_balance_and_transient_vs_QS_internal,no,internal_consistency,E2 pp781-786; not independent transient force validation; no vehicle response
+sae-670608,partial_local_profile_calibration,balance_calibration_and_internal_steady_plateau_comparison,no,internal_consistency,E2 pp.2221-2225; no independent transient load reference; no free vehicle or driver
+sae-730232,prescribed_profile_only,steady_derivatives_compared; transient_not_measured,modeled_not_validated,compared_with_wind_tunnel_steady_only,E2 pp.897-899; transient force and vehicle displacement are model predictions
+sae-980392,prior_five_hole_probe_survey_referenced,internal_pressure_vs_steady_comparison,no,internal_consistency,"E2 pp.4-10; steady error coefficient 0.8%, transient 7.5%; no free-vehicle or independent force validation"

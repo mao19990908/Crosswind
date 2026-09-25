@@ -55,6 +55,8 @@ Passmore 作者存档与 Brandt Chalmers 学位论文仅本机留存；前者已
 
 其中 Beauvais 1967、Hucho/Emmelmann 1973 和 Benner 1958 已进入 `full_text_verified` 并完成 Pass 1–2；其余 12 份新收件全文等待逐篇研究级复核。当前全库 `full_text_verified` 5 条，学习 backlog 17 条（含因新证据重开的条目）。
 
+2026-09-25 后续进度：又完成 Macklin 1996、Ryan 1998、Macklin 1997 与 Ryan/Dominy 2000 四份用户 PDF 的逐页核读。现 `full_text_verified` 为 9 条，尚有 9 份本机 PDF 待研究级核读；学习目标已完成 10 条、backlog 15 条（另有 Hucho 1973 Pass 3 部分公式核验）。1997 年垂向廓线实验的剪切与湍流混杂、2000 年 Durham 新挡板装置与 1998 年条件差异，均已在原始记录及图谱中标明。PDF 本机 18、GitHub 1、仅本机 17 的版权分流不变。
+
 ## DOI / 合法全文台账（2026-09-25）
 
 现有 25 条来源全部纳入 [DOI 总账](sources/doi_registry.csv)：20 条 DOI 经 Crossref 精确核验，5 条按当前官方目录及 Crossref/DataCite 题名检索暂列 `no_doi_confirmed`（ISO 原标准、1979 两卷 DOT 报告、Chalmers 学位论文、1968 Milner 期刊条目），`missing_to_search` 为 0。原始题名页或新登记可改变无 DOI 判断；BS ISO 采用版 DOI 不归给原 ISO 记录。**DOI 覆盖率 20/25 = 80.00%**。

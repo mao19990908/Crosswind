@@ -1,8 +1,8 @@
-﻿# 鍒濈増鐭ヨ瘑鍥捐氨
+# 初版知识图谱
 
-涓嬪浘鐢?`graph/edges.csv` 鐢熸垚锛岀澶村潎鍦ㄨ琛ㄤ繚鐣?`source_id`銆佹潯浠躲€佹牳楠岀姸鎬佸拰璇存槑銆侲1 鏄叕寮€鎽樿灞傜骇锛孍2 鏄凡鏍歌鍘熸枃鑼冨洿锛涚澶磋〃绀烘湁鏉′欢鐨勫叧绯伙紝涓嶆槸璺ㄨ溅鍨嬫櫘閫傚畾寰嬨€傚浘涓瘉鎹妭鐐?`E-*` 鍐嶆寚鍚戣鑼冩潵婧愶紝鏋勬垚鐭ヨ瘑鈫掍富寮犫啋鏉ユ簮璺緞銆?
+下图由 `graph/edges.csv` 生成，箭头均在该表保留 `source_id`、条件、核验状态和说明。E1 是公开摘要层级，E2 是已核读原文范围；箭头表示有条件的关系，不是跨车型普适定律。图中证据节点 `E-*` 再指向规范来源，构成知识→主张→来源路径。
 
-褰撳墠鍥捐氨瑕嗙洊宸插缓绔嬭瘉鎹妭鐐圭殑鏉ユ簮锛涜鐩栨暟閲忕敱 nodes/evidence.csv 涓?sources/index.csv 鏍稿锛屽涔犲畬鎴愮姸鎬佷互 state.json 涓哄噯銆傚浘璋卞皻鏈寘鍚畬鏁撮鈫掕溅鈫掗┚椹跺憳鍥犳灉閾撅紱鏂竟璁板綍浜?`open_questions.md`銆?
+当前图谱覆盖已建立证据节点的来源；覆盖数量由 nodes/evidence.csv 与 sources/index.csv 核对，学习完成状态以 state.json 为准。图谱尚未包含完整风→车→驾驶员因果链；断边记录于 `open_questions.md`。
 
 ```mermaid
 flowchart LR
@@ -93,6 +93,20 @@ flowchart LR
     N_M_ROAD["M-ROAD"] -->|described_by| N_E_1958_01["E-1958-01"]
     N_E_1958_02["E-1958-02"] -->|evidence_from| N_bams_1958_benner["bams-1958-benner"]
     N_C_LOOP["C-LOOP"] -->|described_by| N_E_1958_02["E-1958-02"]
+    N_E_1996_02["E-1996-02"] -->|evidence_from| N_sae_960674["sae-960674"]
+    N_C_VALIDATION["C-VALIDATION"] -->|described_by| N_E_1996_02["E-1996-02"]
+    N_E_1998_02["E-1998-02"] -->|evidence_from| N_sae_980392["sae-980392"]
+    N_C_QS["C-QS"] -->|described_by| N_E_1998_02["E-1998-02"]
+    N_E_1998_03["E-1998-03"] -->|evidence_from| N_sae_980392["sae-980392"]
+    N_C_VALIDATION["C-VALIDATION"] -->|described_by| N_E_1998_03["E-1998-03"]
+    N_E_1973_02["E-1973-02"] -->|evidence_from| N_sae_730232["sae-730232"]
+    N_EQ_REICHARDT_MIXING["EQ-REICHARDT-MIXING"] -->|described_by| N_E_1973_02["E-1973-02"]
+    N_E_1997_02["E-1997-02"] -->|evidence_from| N_sae_970135["sae-970135"]
+    N_C_QS["C-QS"] -->|described_by| N_E_1997_02["E-1997-02"]
+    N_E_2000_0874_02["E-2000-0874-02"] -->|evidence_from| N_sae_2000_01_0874["sae-2000-01-0874"]
+    N_C_VALIDATION["C-VALIDATION"] -->|described_by| N_E_2000_0874_02["E-2000-0874-02"]
+    N_E_2000_0874_03["E-2000-0874-03"] -->|evidence_from| N_sae_2000_01_0874["sae-2000-01-0874"]
+    N_C_VALIDATION["C-VALIDATION"] -->|described_by| N_E_2000_0874_03["E-2000-0874-03"]
 ```
 
-`evidence_from` 琛ㄧず鍘熷鏉ユ簮鏀拺璇?atomic claim锛沗described_by` 琛ㄧず姒傚康鍙楀埌鐗瑰畾鏉′欢涓嬩富寮犺鏄庯紱`generated_by` 琛ㄧず璇ヨ緭鍏ョ敱鏂囩尞涓殑鏂规硶瀹炵幇锛沗depends_on` 琛ㄧず褰撳墠鍑嗙ǔ鎬佹瘮杈冧互绋虫€佸熀绾夸负鍙傜収銆俙supported_by` 琛ㄧず鏂规硶鍙楀埌鐗瑰畾鍘熸枃璇佹嵁鏀寔锛屼笌 supports 鐨勫弽鍚戦槄璇诲搴旓紱涓嶈〃绀虹嫭绔嬭法鏂规硶楠岃瘉銆傝繖浜涘叧绯讳笉鑳借嚜鍔ㄦ帹鎴?`causes` 鎴栬法鐮旂┒ `validated_by`銆?
+`evidence_from` 表示原始来源支撑该 atomic claim；`described_by` 表示概念受到特定条件下主张说明；`generated_by` 表示该输入由文献中的方法实现；`depends_on` 表示当前准稳态比较以稳态基线为参照。`supported_by` 表示方法受到特定原文证据支持，与 supports 的反向阅读对应；不表示独立跨方法验证。这些关系不能自动推成 `causes` 或跨研究 `validated_by`。

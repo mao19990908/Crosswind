@@ -1,88 +1,102 @@
-"from_id","to_id","relation","condition","source_id","verification_status","note"
-"E-1953-01","sae-530255","evidence_from","publisher abstract","sae-530255","abstract_verified","early road gust distinction"
-"E-1979-01","dot-hs-805-078","evidence_from","catalog abstract","dot-hs-805-078","abstract_verified","steering modes separate"
-"E-1996-01","sae-960674","evidence_from","publisher abstract","sae-960674","abstract_verified","static dynamic comparison"
-"E-1998-01","sae-980392","evidence_from","publisher abstract","sae-980392","abstract_verified","30 degree finite jet"
-"E-2001-01","pimeche-2001-passmore","evidence_from","publisher abstract","pimeche-2001-passmore","abstract_verified","component-specific dynamic response"
-"E-2010-01","iso-12021-2010","evidence_from","official ISO page","iso-12021-2010","abstract_verified","standard scope"
-"C-GUST","E-1953-01","described_by","road event","sae-530255","abstract_verified","transient gust distinct from sidewind study"
-"C-LOOP","E-1979-01","described_by","fixed free driver lane control","dot-hs-805-078","abstract_verified","do not pool response modes"
-"C-QS","E-1996-01","described_by","three model configurations","sae-960674","abstract_verified","conditional static dynamic agreement"
-"C-OVERSHOOT","E-1998-01","described_by","30 degree relative incidence","sae-980392","abstract_verified","side and lift only"
-"C-DYNLOAD","E-2001-01","described_by","sinusoidal input; model length reduced frequency","pimeche-2001-passmore","abstract_verified","force and moment differ"
-"C-LOOP","E-2010-01","described_by","ISO wind-generator open loop","iso-12021-2010","abstract_verified","does not represent real driving"
-"G-FINITE","M-FULL","generated_by","DOT full-scale disturbance","dot-hs-805-078","abstract_verified","waveform details unavailable"
-"G-SINE","M-OSC","generated_by","oscillating aerofoil","pimeche-2001-passmore","abstract_verified","frequency formula unavailable"
-"C-QS","C-STEADY","depends_on","steady coefficients as reference","sae-960674","abstract_verified","conceptual dependence in static dynamic comparison"
-"E-1968-01","trid-116341","evidence_from","TRID abstract","trid-116341","abstract_verified","steady response author claim"
-"C-STEADY-VEH","E-1968-01","described_by","2DOF model; gust waveform unknown","trid-116341","abstract_verified","not a general validity proof"
-"E-1971-01","sae-710287","evidence_from","publisher abstract","sae-710287","abstract_verified","wind and road impulses grouped"
-"C-VEHMOTION","E-1971-01","described_by","nonlinear tire simulation","sae-710287","abstract_verified","aerodynamic forcing unspecified"
-"E-1973-01","sae-730232","evidence_from","spatial gust gradient; SAE full paper pp.894-899","sae-730232","full_text_verified","transient prediction, steady data comparison only"
-"C-DYNLOAD","E-1973-01","described_by","slender-body spatial-gradient theoretical estimate","sae-730232","full_text_verified","no completed transient measurement comparison"
-"E-1997-01","sae-970135","evidence_from","publisher abstract","sae-970135","abstract_verified","shear and turbulence comparison"
-"C-DYNLOAD","E-1997-01","described_by","generic squareback dynamic facility","sae-970135","abstract_verified","not natural wind generalization"
-"E-2000-0874-01","sae-2000-01-0874","evidence_from","publisher abstract","sae-2000-01-0874","abstract_verified","wake evolution"
-"C-DYNLOAD","E-2000-0874-01","described_by","Durham finite sharp-edge gust","sae-2000-01-0874","abstract_verified","wake mechanism evidence not load validation"
-"E-2000-0876-01","sae-2000-01-0876","evidence_from","publisher abstract","sae-2000-01-0876","abstract_verified","pressure localization"
-"C-DYNLOAD","E-2000-0876-01","described_by","Cranfield simple shapes","sae-2000-01-0876","abstract_verified","leeward face"
-"E-2016-01","jcp-2016-tunay","evidence_from","publisher abstract","jcp-2016-tunay","abstract_verified","two-way comparison"
-"C-VEHMOTION","E-2016-01","described_by","simplified bus; large yaw","jcp-2016-tunay","abstract_verified","not universal coupling threshold"
-"E-2017-1515-01","sae-2017-01-1515","evidence_from","publisher abstract","sae-2017-01-1515","abstract_verified","motion test comparison"
-"C-VEHMOTION","E-2017-1515-01","described_by","three cars; ISO-like open-loop event","sae-2017-01-1515","abstract_verified","Level C reported"
-"E-1980-01","sae-800848","evidence_from","five vehicles; nominal 35 mph crosswind facility","sae-800848","abstract_verified","Atomic claim from named public abstract"
-"E-1997-CFD-01","sae-970404","evidence_from","one-box vehicle; k-epsilon; comparison detail unavailable","sae-970404","abstract_verified","Atomic claim from named public abstract"
-"E-2014-01","jweia-2014-volpe","evidence_from","Windsor-type squareback/fastback; sudden yaw","jweia-2014-volpe","abstract_verified","Atomic claim from named public abstract"
-"E-2017-1525-01","sae-2017-01-1525","evidence_from","passenger vehicle; test and baseline details unavailable","sae-2017-01-1525","abstract_verified","Atomic claim from named public abstract"
-"E-2021-01","sae-06-14-01-0001","evidence_from","Golf 7; relative yaw 22 to 45 degrees; pressure locations 188","sae-06-14-01-0001","abstract_verified","Atomic claim from named public abstract"
-"E-2023-01","brandt-2023-thesis","evidence_from","multiple studies; chapter conditions unseparated","brandt-2023-thesis","abstract_verified","Atomic claim from named public abstract"
-"E-2025-01","sae-15-18-01-0005","evidence_from","model-scale three-subsystem wind tunnel","sae-15-18-01-0005","abstract_verified","Atomic claim from named public abstract"
-"C-STEADY-VEH","E-1980-01","described_by","steady analytical relation only","sae-800848","abstract_verified","Scoped abstract claim"
-"C-DYNLOAD","E-1997-CFD-01","described_by","transient CFD method","sae-970404","abstract_verified","Scoped abstract claim"
-"C-OVERSHOOT","E-2014-01","described_by","tested rear geometries","jweia-2014-volpe","abstract_verified","Scoped abstract claim"
-"C-VEHMOTION","E-2017-1525-01","described_by","corrective steering with driver model","sae-2017-01-1525","abstract_verified","Scoped abstract claim"
-"C-PHASE","E-2021-01","described_by","full-scale pressure-integrated lag","sae-06-14-01-0001","abstract_verified","Scoped abstract claim"
-"C-VEHMOTION","E-2023-01","described_by","multiple thesis studies","brandt-2023-thesis","abstract_verified","Scoped abstract claim"
-"C-GUST","E-2025-01","described_by","generator Level A only","sae-15-18-01-0005","abstract_verified","Scoped abstract claim"
-"E-2023-02","brandt-2023-thesis","evidence_from","thesis PDF pp39-43","brandt-2023-thesis","chapter_verified","selected gust profiles only"
-"C-QS","E-2023-02","described_by","one SUV 160 km/h 5 m/s 1.6 s","brandt-2023-thesis","chapter_verified","QSD yaw moment benefit is conditional"
-"M-QSD","E-2023-02","supported_by","three selected gust profiles","brandt-2023-thesis","chapter_verified","axle travel delay"
-"E-2023-03","brandt-2023-thesis","evidence_from","thesis PDF pp43-45","brandt-2023-thesis","chapter_verified","enhanced model comparison"
-"M-3DOF","E-2023-03","supported_by","one SUV and selected gusts","brandt-2023-thesis","chapter_verified","model hierarchy"
-"E-2023-04","brandt-2023-thesis","evidence_from","thesis PDF pp44-46 and 59-60","brandt-2023-thesis","chapter_verified","numerical vs human loop"
-"C-LOOP","E-2023-04","described_by","locked steering vs human driver","brandt-2023-thesis","chapter_verified","do not merge loop modes"
-"E-2023-05","brandt-2023-thesis","evidence_from","thesis PDF pp59-62","brandt-2023-thesis","chapter_verified","expert vs common drivers"
-"C-VALIDATION","E-2023-05","described_by","driver simulator subjective triggers","brandt-2023-thesis","chapter_verified","speed dependence conditional"
-"E-2001-02","pimeche-2001-passmore","evidence_from","source-specific frequency convention","pimeche-2001-passmore","full_text_verified","pp.779–780"
-"EQ-RED-FREQ","E-2001-02","described_by","source-specific frequency convention","pimeche-2001-passmore","full_text_verified","pp.779–780"
-"E-2001-03","pimeche-2001-passmore","evidence_from","single-frequency sine simplification; matched transient and QS outputs","pimeche-2001-passmore","full_text_verified","p.785"
-"EQ-ADMIT","E-2001-03","described_by","single-frequency sine simplification; matched transient and QS outputs","pimeche-2001-passmore","full_text_verified","p.785"
-"EQ-MAGNIFICATION","E-2001-03","described_by","single-frequency sine simplification; matched transient and QS outputs","pimeche-2001-passmore","full_text_verified","p.785"
-"E-2001-04","pimeche-2001-passmore","evidence_from","20 degree Davis model; separate uniform and phase-aware QS series","pimeche-2001-passmore","full_text_verified","pp.785–786 Fig.8"
-"C-PHASE","E-2001-04","described_by","20 degree Davis model; separate uniform and phase-aware QS series","pimeche-2001-passmore","full_text_verified","pp.785–786 Fig.8"
-"C-QS","E-2001-04","described_by","20 degree Davis model; separate uniform and phase-aware QS series","pimeche-2001-passmore","full_text_verified","pp.785–786 Fig.8"
-"E-2001-05","pimeche-2001-passmore","evidence_from","low-frequency point; not a verified zero-frequency limit","pimeche-2001-passmore","full_text_verified","p.785; Figs.2 and 8"
-"C-VALIDATION","E-2001-05","described_by","low-frequency point; not a verified zero-frequency limit","pimeche-2001-passmore","full_text_verified","p.785; Figs.2 and 8"
-"C-DYNLOAD","E-2001-05","described_by","low-frequency point; not a verified zero-frequency limit","pimeche-2001-passmore","full_text_verified","p.785; Figs.2 and 8"
-"E-2001-06","pimeche-2001-passmore","evidence_from","symmetric fixed model; periodic gust; four sequential transducers","pimeche-2001-passmore","full_text_verified","pp.782–785 Figs.3 and 7"
-"M-OSC","E-2001-06","described_by","symmetric fixed model; periodic gust; four sequential transducers","pimeche-2001-passmore","full_text_verified","pp.782–785 Figs.3 and 7"
-"E-2025-02","sae-15-18-01-0005","evidence_from","publisher PDF pp61 and 65-70","sae-15-18-01-0005","chapter_verified","streamwise gust separate from yaw"
-"C-GUST","E-2025-02","described_by","facility input distinction","sae-15-18-01-0005","chapter_verified","streamwise percentage is not lateral gust magnitude"
-"E-2025-03","sae-15-18-01-0005","evidence_from","publisher PDF pp62-63","sae-15-18-01-0005","chapter_verified","Level A calibration only"
-"C-VALIDATION","E-2025-03","described_by","facility calibration","sae-15-18-01-0005","chapter_verified","not vehicle Level B or C"
-"E-2013-01","jfe-2013-volpe","evidence_from","ASME/Crossref and HAL abstract","jfe-2013-volpe","abstract_verified","PIV and URANS for facility wind field"
-"C-VALIDATION","E-2013-01","described_by","Level A gust field","jfe-2013-volpe","abstract_verified","no vehicle load or motion validation asserted"
-"E-2025-04","sae-15-18-01-0005","evidence_from","publisher PDF pp69-70 Figs.12-13","sae-15-18-01-0005","full_text_verified","road comparison limited to selected flow statistics"
-"C-VALIDATION","E-2025-04","described_by","road flow comparison","sae-15-18-01-0005","full_text_verified","not Level B or C vehicle validation"
-"E-1967-01","sae-670608","evidence_from","1:10 moving model; finite crosswind edge","sae-670608","full_text_verified","pp.2223-2225 Figs.7-10"
-"C-OVERSHOOT","E-1967-01","described_by","yaw moment only in tested larger yaw conditions","sae-670608","full_text_verified","front/rear force lag; no vehicle motion"
-"C-QS","E-1967-01","described_by","steady-yaw comparison condition-specific","sae-670608","full_text_verified","author 15 deg conclusion not universal"
-"E-1967-02","sae-670608","evidence_from","track traverse and calibrated balance","sae-670608","full_text_verified","pp.2220-2224 Figs.1-8"
-"M-MOVING","E-1967-02","described_by","model traverses fixed tunnel crossflow","sae-670608","full_text_verified","not the 1996 Cranfield facility"
-"C-VALIDATION","E-1967-02","described_by","local facility/load checks only","sae-670608","full_text_verified","no independent dynamic load or Level C validation"
-"M-SLENDER","E-1973-01","described_by","flat-plate slender-body and spatial gust profile","sae-730232","full_text_verified","engineering estimate only"
-"C-VALIDATION","E-1973-01","described_by","steady tunnel derivatives checked; transient predicted","sae-730232","full_text_verified","no independent transient Level B or road Level C"
+from_id,to_id,relation,condition,source_id,verification_status,note
+E-1953-01,sae-530255,evidence_from,publisher abstract,sae-530255,abstract_verified,early road gust distinction
+E-1979-01,dot-hs-805-078,evidence_from,catalog abstract,dot-hs-805-078,abstract_verified,steering modes separate
+E-1996-01,sae-960674,evidence_from,publisher abstract,sae-960674,full_text_verified,SAE pp.7-8 Figs.7-8; component and peak/mean specific
+E-1998-01,sae-980392,evidence_from,publisher abstract,sae-980392,full_text_verified,"SAE p.7 Fig.9: net side +18%, upper-surface-only lift +12%"
+E-2001-01,pimeche-2001-passmore,evidence_from,publisher abstract,pimeche-2001-passmore,abstract_verified,component-specific dynamic response
+E-2010-01,iso-12021-2010,evidence_from,official ISO page,iso-12021-2010,abstract_verified,standard scope
+C-GUST,E-1953-01,described_by,road event,sae-530255,abstract_verified,transient gust distinct from sidewind study
+C-LOOP,E-1979-01,described_by,fixed free driver lane control,dot-hs-805-078,abstract_verified,do not pool response modes
+C-QS,E-1996-01,described_by,three model configurations,sae-960674,full_text_verified,Three simple shapes; 15deg yaw-moment peak and ~30deg side-force distinctions
+C-OVERSHOOT,E-1998-01,described_by,30 degree relative incidence,sae-980392,full_text_verified,30deg/three model-length pulse; net side and upper-surface lift only
+C-DYNLOAD,E-2001-01,described_by,sinusoidal input; model length reduced frequency,pimeche-2001-passmore,abstract_verified,force and moment differ
+C-LOOP,E-2010-01,described_by,ISO wind-generator open loop,iso-12021-2010,abstract_verified,does not represent real driving
+G-FINITE,M-FULL,generated_by,DOT full-scale disturbance,dot-hs-805-078,abstract_verified,waveform details unavailable
+G-SINE,M-OSC,generated_by,oscillating aerofoil,pimeche-2001-passmore,abstract_verified,frequency formula unavailable
+C-QS,C-STEADY,depends_on,steady coefficients as reference,sae-960674,full_text_verified,Static comparator physically measured on same models; no universal QS validity
+E-1968-01,trid-116341,evidence_from,TRID abstract,trid-116341,abstract_verified,steady response author claim
+C-STEADY-VEH,E-1968-01,described_by,2DOF model; gust waveform unknown,trid-116341,abstract_verified,not a general validity proof
+E-1971-01,sae-710287,evidence_from,publisher abstract,sae-710287,abstract_verified,wind and road impulses grouped
+C-VEHMOTION,E-1971-01,described_by,nonlinear tire simulation,sae-710287,abstract_verified,aerodynamic forcing unspecified
+E-1973-01,sae-730232,evidence_from,spatial gust gradient; SAE full paper pp.894-899,sae-730232,full_text_verified,"transient prediction, steady data comparison only"
+C-DYNLOAD,E-1973-01,described_by,slender-body spatial-gradient theoretical estimate,sae-730232,full_text_verified,no completed transient measurement comparison
+E-1997-01,sae-970135,evidence_from,publisher abstract,sae-970135,full_text_verified,Full-text page map in learning/nodes/evidence.csv; scope and confounders supersede abstract wording
+C-DYNLOAD,E-1997-01,described_by,generic squareback dynamic facility,sae-970135,full_text_verified,Full-text page map in learning/nodes/evidence.csv; scope and confounders supersede abstract wording
+E-2000-0874-01,sae-2000-01-0874,evidence_from,publisher abstract,sae-2000-01-0874,full_text_verified,Full-text page map in learning/nodes/evidence.csv; scope and confounders supersede abstract wording
+C-DYNLOAD,E-2000-0874-01,described_by,Durham finite sharp-edge gust,sae-2000-01-0874,full_text_verified,Full-text page map in learning/nodes/evidence.csv; scope and confounders supersede abstract wording
+E-2000-0876-01,sae-2000-01-0876,evidence_from,publisher abstract,sae-2000-01-0876,abstract_verified,pressure localization
+C-DYNLOAD,E-2000-0876-01,described_by,Cranfield simple shapes,sae-2000-01-0876,abstract_verified,leeward face
+E-2016-01,jcp-2016-tunay,evidence_from,publisher abstract,jcp-2016-tunay,abstract_verified,two-way comparison
+C-VEHMOTION,E-2016-01,described_by,simplified bus; large yaw,jcp-2016-tunay,abstract_verified,not universal coupling threshold
+E-2017-1515-01,sae-2017-01-1515,evidence_from,publisher abstract,sae-2017-01-1515,abstract_verified,motion test comparison
+C-VEHMOTION,E-2017-1515-01,described_by,three cars; ISO-like open-loop event,sae-2017-01-1515,abstract_verified,Level C reported
+E-1980-01,sae-800848,evidence_from,five vehicles; nominal 35 mph crosswind facility,sae-800848,abstract_verified,Atomic claim from named public abstract
+E-1997-CFD-01,sae-970404,evidence_from,one-box vehicle; k-epsilon; comparison detail unavailable,sae-970404,abstract_verified,Atomic claim from named public abstract
+E-2014-01,jweia-2014-volpe,evidence_from,Windsor-type squareback/fastback; sudden yaw,jweia-2014-volpe,abstract_verified,Atomic claim from named public abstract
+E-2017-1525-01,sae-2017-01-1525,evidence_from,passenger vehicle; test and baseline details unavailable,sae-2017-01-1525,abstract_verified,Atomic claim from named public abstract
+E-2021-01,sae-06-14-01-0001,evidence_from,Golf 7; relative yaw 22 to 45 degrees; pressure locations 188,sae-06-14-01-0001,abstract_verified,Atomic claim from named public abstract
+E-2023-01,brandt-2023-thesis,evidence_from,multiple studies; chapter conditions unseparated,brandt-2023-thesis,abstract_verified,Atomic claim from named public abstract
+E-2025-01,sae-15-18-01-0005,evidence_from,model-scale three-subsystem wind tunnel,sae-15-18-01-0005,abstract_verified,Atomic claim from named public abstract
+C-STEADY-VEH,E-1980-01,described_by,steady analytical relation only,sae-800848,abstract_verified,Scoped abstract claim
+C-DYNLOAD,E-1997-CFD-01,described_by,transient CFD method,sae-970404,abstract_verified,Scoped abstract claim
+C-OVERSHOOT,E-2014-01,described_by,tested rear geometries,jweia-2014-volpe,abstract_verified,Scoped abstract claim
+C-VEHMOTION,E-2017-1525-01,described_by,corrective steering with driver model,sae-2017-01-1525,abstract_verified,Scoped abstract claim
+C-PHASE,E-2021-01,described_by,full-scale pressure-integrated lag,sae-06-14-01-0001,abstract_verified,Scoped abstract claim
+C-VEHMOTION,E-2023-01,described_by,multiple thesis studies,brandt-2023-thesis,abstract_verified,Scoped abstract claim
+C-GUST,E-2025-01,described_by,generator Level A only,sae-15-18-01-0005,abstract_verified,Scoped abstract claim
+E-2023-02,brandt-2023-thesis,evidence_from,thesis PDF pp39-43,brandt-2023-thesis,chapter_verified,selected gust profiles only
+C-QS,E-2023-02,described_by,one SUV 160 km/h 5 m/s 1.6 s,brandt-2023-thesis,chapter_verified,QSD yaw moment benefit is conditional
+M-QSD,E-2023-02,supported_by,three selected gust profiles,brandt-2023-thesis,chapter_verified,axle travel delay
+E-2023-03,brandt-2023-thesis,evidence_from,thesis PDF pp43-45,brandt-2023-thesis,chapter_verified,enhanced model comparison
+M-3DOF,E-2023-03,supported_by,one SUV and selected gusts,brandt-2023-thesis,chapter_verified,model hierarchy
+E-2023-04,brandt-2023-thesis,evidence_from,thesis PDF pp44-46 and 59-60,brandt-2023-thesis,chapter_verified,numerical vs human loop
+C-LOOP,E-2023-04,described_by,locked steering vs human driver,brandt-2023-thesis,chapter_verified,do not merge loop modes
+E-2023-05,brandt-2023-thesis,evidence_from,thesis PDF pp59-62,brandt-2023-thesis,chapter_verified,expert vs common drivers
+C-VALIDATION,E-2023-05,described_by,driver simulator subjective triggers,brandt-2023-thesis,chapter_verified,speed dependence conditional
+E-2001-02,pimeche-2001-passmore,evidence_from,source-specific frequency convention,pimeche-2001-passmore,full_text_verified,pp.779–780
+EQ-RED-FREQ,E-2001-02,described_by,source-specific frequency convention,pimeche-2001-passmore,full_text_verified,pp.779–780
+E-2001-03,pimeche-2001-passmore,evidence_from,single-frequency sine simplification; matched transient and QS outputs,pimeche-2001-passmore,full_text_verified,p.785
+EQ-ADMIT,E-2001-03,described_by,single-frequency sine simplification; matched transient and QS outputs,pimeche-2001-passmore,full_text_verified,p.785
+EQ-MAGNIFICATION,E-2001-03,described_by,single-frequency sine simplification; matched transient and QS outputs,pimeche-2001-passmore,full_text_verified,p.785
+E-2001-04,pimeche-2001-passmore,evidence_from,20 degree Davis model; separate uniform and phase-aware QS series,pimeche-2001-passmore,full_text_verified,pp.785–786 Fig.8
+C-PHASE,E-2001-04,described_by,20 degree Davis model; separate uniform and phase-aware QS series,pimeche-2001-passmore,full_text_verified,pp.785–786 Fig.8
+C-QS,E-2001-04,described_by,20 degree Davis model; separate uniform and phase-aware QS series,pimeche-2001-passmore,full_text_verified,pp.785–786 Fig.8
+E-2001-05,pimeche-2001-passmore,evidence_from,low-frequency point; not a verified zero-frequency limit,pimeche-2001-passmore,full_text_verified,p.785; Figs.2 and 8
+C-VALIDATION,E-2001-05,described_by,low-frequency point; not a verified zero-frequency limit,pimeche-2001-passmore,full_text_verified,p.785; Figs.2 and 8
+C-DYNLOAD,E-2001-05,described_by,low-frequency point; not a verified zero-frequency limit,pimeche-2001-passmore,full_text_verified,p.785; Figs.2 and 8
+E-2001-06,pimeche-2001-passmore,evidence_from,symmetric fixed model; periodic gust; four sequential transducers,pimeche-2001-passmore,full_text_verified,pp.782–785 Figs.3 and 7
+M-OSC,E-2001-06,described_by,symmetric fixed model; periodic gust; four sequential transducers,pimeche-2001-passmore,full_text_verified,pp.782–785 Figs.3 and 7
+E-2025-02,sae-15-18-01-0005,evidence_from,publisher PDF pp61 and 65-70,sae-15-18-01-0005,chapter_verified,streamwise gust separate from yaw
+C-GUST,E-2025-02,described_by,facility input distinction,sae-15-18-01-0005,chapter_verified,streamwise percentage is not lateral gust magnitude
+E-2025-03,sae-15-18-01-0005,evidence_from,publisher PDF pp62-63,sae-15-18-01-0005,chapter_verified,Level A calibration only
+C-VALIDATION,E-2025-03,described_by,facility calibration,sae-15-18-01-0005,chapter_verified,not vehicle Level B or C
+E-2013-01,jfe-2013-volpe,evidence_from,ASME/Crossref and HAL abstract,jfe-2013-volpe,abstract_verified,PIV and URANS for facility wind field
+C-VALIDATION,E-2013-01,described_by,Level A gust field,jfe-2013-volpe,abstract_verified,no vehicle load or motion validation asserted
+E-2025-04,sae-15-18-01-0005,evidence_from,publisher PDF pp69-70 Figs.12-13,sae-15-18-01-0005,full_text_verified,road comparison limited to selected flow statistics
+C-VALIDATION,E-2025-04,described_by,road flow comparison,sae-15-18-01-0005,full_text_verified,not Level B or C vehicle validation
+E-1967-01,sae-670608,evidence_from,1:10 moving model; finite crosswind edge,sae-670608,full_text_verified,pp.2223-2225 Figs.7-10
+C-OVERSHOOT,E-1967-01,described_by,yaw moment only in tested larger yaw conditions,sae-670608,full_text_verified,front/rear force lag; no vehicle motion
+C-QS,E-1967-01,described_by,steady-yaw comparison condition-specific,sae-670608,full_text_verified,author 15 deg conclusion not universal
+E-1967-02,sae-670608,evidence_from,track traverse and calibrated balance,sae-670608,full_text_verified,pp.2220-2224 Figs.1-8
+M-MOVING,E-1967-02,described_by,model traverses fixed tunnel crossflow,sae-670608,full_text_verified,not the 1996 Cranfield facility
+C-VALIDATION,E-1967-02,described_by,local facility/load checks only,sae-670608,full_text_verified,no independent dynamic load or Level C validation
+M-SLENDER,E-1973-01,described_by,flat-plate slender-body and spatial gust profile,sae-730232,full_text_verified,engineering estimate only
+C-VALIDATION,E-1973-01,described_by,steady tunnel derivatives checked; transient predicted,sae-730232,full_text_verified,no independent transient Level B or road Level C
 E-1958-01,bams-1958-benner,evidence_from,Lay/Lett instrument description,bams-1958-benner,full_text_verified,Benner pp.424-425 Sec.5 Figs.3-4; secondary historical evidence
 M-ROAD,E-1958-01,described_by,natural road wind sensing and body-frame loads,bams-1958-benner,full_text_verified,Does not independently validate the 1953 measurements
 E-1958-02,bams-1958-benner,evidence_from,oblique natural gust and driver correction,bams-1958-benner,full_text_verified,Benner p.425 Sec.6 point 2; narrative evidence
 C-LOOP,E-1958-02,described_by,qualitative driver correction after gust,bams-1958-benner,full_text_verified,No controller law or quantitative closed-loop response reported
+E-1996-02,sae-960674,evidence_from,p.6 table/track subtraction,sae-960674,full_text_verified,"local repeatability, not independent transient validation"
+C-VALIDATION,E-1996-02,described_by,nine repeated moving-model runs,sae-960674,full_text_verified,track subtraction and repeatability only
+E-1998-02,sae-980392,evidence_from,p.8 Fig.10 total/component yaw,sae-980392,full_text_verified,total net yaw has no overshoot versus steady
+C-QS,E-1998-02,described_by,30deg finite gust; total yaw,sae-980392,full_text_verified,steady yaw moment near transient peak in this one setup
+E-1998-03,sae-980392,evidence_from,pp.7-9 Figs.9-12,sae-980392,full_text_verified,error and pressure-flow lag
+C-VALIDATION,E-1998-03,described_by,internal pressure/steady comparison,sae-980392,full_text_verified,no independent Level B dynamic-force or Level C motion validation
+E-1973-02,sae-730232,evidence_from,p.898 Eq.23 Fig.10,sae-730232,full_text_verified,analytical input profile; no experimental gust-load validation
+EQ-REICHARDT-MIXING,E-1973-02,described_by,spatial mixing zone input,sae-730232,full_text_verified,not Fig.11/12 output reproduction
+E-1997-02,sae-970135,evidence_from,article pp.33-34 Figs.8-9,sae-970135,full_text_verified,reference velocity sensitivity
+C-QS,E-1997-02,described_by,dynamic versus static normalization,sae-970135,full_text_verified,no universal collapse
+E-2000-0874-02,sae-2000-01-0874,evidence_from,"article pp.2-4 Figs.2,5-6",sae-2000-01-0874,full_text_verified,input waveform anomaly
+C-VALIDATION,E-2000-0874-02,described_by,Level A empty-section survey,sae-2000-01-0874,full_text_verified,unexplained high-total-pressure pocket
+E-2000-0874-03,sae-2000-01-0874,evidence_from,"article pp.2-3,5",sae-2000-01-0874,full_text_verified,probe and ensemble design
+C-VALIDATION,E-2000-0874-03,described_by,wake-only field evidence,sae-2000-01-0874,full_text_verified,no body load or motion validation

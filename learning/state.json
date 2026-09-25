@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-25T17:17:18.146621+08:00",
+  "updated_at": "2026-09-25T19:45:36.484697+08:00",
   "timezone": "Asia/Shanghai",
   "current_phase": "learning",
   "phase_status": "in_progress",
@@ -17,11 +17,9 @@
     "sae-670608",
     "sae-2000-01-0876",
     "sae-800848",
-    "sae-970135",
     "sae-710287",
     "sae-2017-01-1525",
     "sae-970404",
-    "sae-2000-01-0874",
     "jweia-2014-volpe"
   ],
   "learning_completed": [
@@ -32,13 +30,15 @@
     "sae-15-18-01-0005",
     "brandt-2023-thesis",
     "pimeche-2001-passmore",
-    "bams-1958-benner"
+    "bams-1958-benner",
+    "sae-970135",
+    "sae-2000-01-0874"
   ],
   "sources_total": 25,
-  "sources_pending_learning": 17,
+  "sources_pending_learning": 15,
   "current_source_id": "sae-730232",
   "current_pass": 3,
-  "current_pass_status": "pass3_pending_formula_audit",
+  "current_pass_status": "pass3_partial_eq23_verified_reproduction_pending",
   "today_added_knowledge_nodes": [
     "E-2001-02",
     "E-2001-03",
@@ -54,7 +54,15 @@
     "E-1967-02",
     "M-SLENDER",
     "E-1958-01",
-    "E-1958-02"
+    "E-1958-02",
+    "EQ-REICHARDT-MIXING",
+    "E-1973-02",
+    "E-1996-02",
+    "E-1998-02",
+    "E-1998-03",
+    "E-1997-02",
+    "E-2000-0874-02",
+    "E-2000-0874-03"
   ],
   "today_added_or_modified_graph_edges": [
     "E-2001-02|evidence_from|pimeche-2001-passmore",
@@ -91,18 +99,32 @@
     "E-1958-01|evidence_from|bams-1958-benner",
     "M-ROAD|described_by|E-1958-01",
     "E-1958-02|evidence_from|bams-1958-benner",
-    "C-LOOP|described_by|E-1958-02"
+    "C-LOOP|described_by|E-1958-02",
+    "E-1996-02|evidence_from|sae-960674",
+    "C-VALIDATION|described_by|E-1996-02",
+    "E-1998-02|evidence_from|sae-980392",
+    "C-QS|described_by|E-1998-02",
+    "E-1998-03|evidence_from|sae-980392",
+    "C-VALIDATION|described_by|E-1998-03",
+    "E-1973-02|evidence_from|sae-730232",
+    "EQ-REICHARDT-MIXING|described_by|E-1973-02",
+    "E-1997-02|evidence_from|sae-970135",
+    "C-QS|described_by|E-1997-02",
+    "E-2000-0874-02|evidence_from|sae-2000-01-0874",
+    "C-VALIDATION|described_by|E-2000-0874-02",
+    "E-2000-0874-03|evidence_from|sae-2000-01-0874",
+    "C-VALIDATION|described_by|E-2000-0874-03"
   ],
   "today_remaining_work": [
     "Finish Pass 3 formula/sign/reproduction audit for sae-730232 and sae-670608",
-    "Substantive full-text Pass review of 12 other user-supplied PDFs, prioritizing P0 before P1",
+    "Substantive full-text Pass review of 10 other user-supplied PDFs, prioritizing P0 before P1",
     "Continue lawful retrieval for seven unresolved manual-queue sources without bypass or public redistribution",
-    "Keep collecting on hold while learning backlog of 17 remains",
+    "Keep collecting on hold while learning backlog of 15 remains",
     "Compare Benner 1958 secondary description with Lay/Lett 1953 original when legally acquired; keep 17-source learning backlog before broad collection"
   ],
-  "quota_status": "daily_cap_exceeded_before_pdf_evidence_initialization_shared_rounded",
+  "quota_status": "available_user_authorized_continue_until_weekly_exhaustion",
   "weekly_quota_used_at_run_start_percent": 11,
-  "weekly_quota_used_at_last_read_percent": 19,
+  "weekly_quota_used_at_last_read_percent": 24,
   "weekly_quota_used_at_day_start_percent": 2,
   "weekly_quota_day_cap_used_percent": 14,
   "local_remote_sync": "benner_research_commit_verified_local_origin_live_remote_equal_audit_pending",
@@ -114,7 +136,12 @@
     "EQ-RED-FREQ",
     "EQ-ADMIT",
     "M-OSC",
-    "sae-15-18-01-0005"
+    "sae-15-18-01-0005",
+    "E-1973-01",
+    "E-1996-01",
+    "E-1998-01",
+    "E-1997-01",
+    "E-2000-0874-01"
   ],
   "fulltext_access_checkpoints": [
     {
@@ -183,7 +210,7 @@
     }
   ],
   "quota_measurement_note": "2026-09-25 post-reset daily baseline 2%, cap 14%; prior run ended 15%, this run started 16%, final post-push read 18% (+16 points from day baseline). Shared-account rounded metric cannot attribute this run precisely; no further full-text research or collection this date.",
-  "quota_last_read_at": "2026-09-25T17:16:34.276208+08:00",
+  "quota_last_read_at": "2026-09-25T19:47:14.6249270+08:00",
   "doi_pdf_checkpoint": {
     "date": "2026-09-25",
     "status": "in_progress",
@@ -328,5 +355,23 @@
     "weekly_used_end_percent": 19,
     "quota_status": "daily_cap_already_exceeded_before_ingestion; user_reported_reset_not_observed_by_platform",
     "research_commit_sha": "279ed25da8d605ae9583d43d340b519d4679c1b7"
+  },
+  "fulltext_batch_2026_09_25": {
+    "source_ids": [
+      "sae-960674",
+      "sae-980392",
+      "sae-970135",
+      "sae-2000-01-0874"
+    ],
+    "pdfs_fulltext_read": 4,
+    "records_upgraded_to_full_text": 4,
+    "atomic_claims_added": 7,
+    "atomic_claims_revised": 5,
+    "knowledge_nodes_added": 8,
+    "knowledge_nodes_revised": 5,
+    "graph_edges_added": 14,
+    "citation_edges_added": 4,
+    "changed_understanding": "Macklin threshold differs by load component/peak-vs-mean; Ryan net yaw has no steady-relative overshoot despite side/lift peaks, resolving abstract overgeneralization; 1996 and 1998 yaw outcomes differ under different apparatus/metric definitions. Macklin 1997 shear comparison is turbulence-confounded and no reference speed universally collapses coefficients. Ryan 2000 uses updated 5m/22deg shutter gust; an unexplained high-pressure pocket and wake advection prevent treating a wake snapshot as instantaneous body force.",
+    "next": "Continue existing Pass 3 backlog and remaining 10 local PDFs; Hucho Eq.23 input checked but output reproduction pending."
   }
 }
