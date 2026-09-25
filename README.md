@@ -59,6 +59,8 @@ Passmore 作者存档与 Brandt Chalmers 学位论文仅本机留存；前者已
 
 后续又核读 Mahig 1971、Klein/Hogue 1980、Chadwick 2000、Nakasato 2017、Volpe 2014：全库 `full_text_verified` 14 条，本机 PDF 研究级待核 4 份；learning 已完成 14 条、backlog 11 条。新增的原始引文显示 1980 SAE 文部分取自 DOT 技术报告 Volume II；2014 Volpe 双风洞适配自 Ryan/Dominy 2000，但 30° 风洞夹角对应模型处约 21° 实际偏航。Nakasato 的定量车辆响应验证是固定转向，驾驶员闭环应用的验证证据另计。
 
+再核读 Lewington 2017 与 Okumura 1997 后，全库 `full_text_verified` 16 条，待研究级核读的本机 PDF 2 份，learning 已完成 15 条、backlog 10 条。Lewington 的单向 CFD 优势依赖响应指标；两方法的横向偏移都落在测试一标准差内。Okumura 文中速度与报告的合成偏航角算术不一致，作为待核矛盾保存。
+
 ## DOI / 合法全文台账（2026-09-25）
 
 现有 25 条来源全部纳入 [DOI 总账](sources/doi_registry.csv)：20 条 DOI 经 Crossref 精确核验，5 条按当前官方目录及 Crossref/DataCite 题名检索暂列 `no_doi_confirmed`（ISO 原标准、1979 两卷 DOT 报告、Chalmers 学位论文、1968 Milner 期刊条目），`missing_to_search` 为 0。原始题名页或新登记可改变无 DOI 判断；BS ISO 采用版 DOI 不归给原 ISO 记录。**DOI 覆盖率 20/25 = 80.00%**。

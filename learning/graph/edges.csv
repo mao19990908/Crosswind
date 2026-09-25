@@ -28,17 +28,17 @@ E-2000-0876-01,sae-2000-01-0876,evidence_from,publisher abstract,sae-2000-01-087
 C-DYNLOAD,E-2000-0876-01,described_by,Cranfield simple shapes,sae-2000-01-0876,full_text_verified,"SAE pp.3-7 Figs.8-17; leeward pressure, shape-specific peak/mean"
 E-2016-01,jcp-2016-tunay,evidence_from,publisher abstract,jcp-2016-tunay,abstract_verified,two-way comparison
 C-VEHMOTION,E-2016-01,described_by,simplified bus; large yaw,jcp-2016-tunay,abstract_verified,not universal coupling threshold
-E-2017-1515-01,sae-2017-01-1515,evidence_from,publisher abstract,sae-2017-01-1515,abstract_verified,motion test comparison
-C-VEHMOTION,E-2017-1515-01,described_by,three cars; ISO-like open-loop event,sae-2017-01-1515,abstract_verified,Level C reported
+E-2017-1515-01,sae-2017-01-1515,evidence_from,publisher abstract,sae-2017-01-1515,full_text_verified,Full text pp.3-13; response metric-specific comparison and tuned k
+C-VEHMOTION,E-2017-1515-01,described_by,three cars; ISO-like open-loop event,sae-2017-01-1515,full_text_verified,Full text pp.3-13; response metric-specific comparison and tuned k
 E-1980-01,sae-800848,evidence_from,five vehicles; nominal 35 mph crosswind facility,sae-800848,full_text_verified,Full-text pp.1-8 separate loop modes and steady predictions from measured peaks
-E-1997-CFD-01,sae-970404,evidence_from,one-box vehicle; k-epsilon; comparison detail unavailable,sae-970404,abstract_verified,Atomic claim from named public abstract
+E-1997-CFD-01,sae-970404,evidence_from,one-box vehicle; k-epsilon; comparison detail unavailable,sae-970404,full_text_verified,"SAE 970404 pp.142-147; moving-boundary RANS, modeled gust and conditional peaks"
 E-2014-01,jweia-2014-volpe,evidence_from,Windsor-type squareback/fastback; sudden yaw,jweia-2014-volpe,full_text_verified,JWEIA pp.119-121 Fig.9; measured yaw 21deg and geometry-specific peaks
 E-2017-1525-01,sae-2017-01-1525,evidence_from,passenger vehicle; test and baseline details unavailable,sae-2017-01-1525,full_text_verified,"pp.665-669; fixed-steer Level C comparison, driver application three runs only"
 E-2021-01,sae-06-14-01-0001,evidence_from,Golf 7; relative yaw 22 to 45 degrees; pressure locations 188,sae-06-14-01-0001,abstract_verified,Atomic claim from named public abstract
 E-2023-01,brandt-2023-thesis,evidence_from,multiple studies; chapter conditions unseparated,brandt-2023-thesis,abstract_verified,Atomic claim from named public abstract
 E-2025-01,sae-15-18-01-0005,evidence_from,model-scale three-subsystem wind tunnel,sae-15-18-01-0005,abstract_verified,Atomic claim from named public abstract
 C-STEADY-VEH,E-1980-01,described_by,steady analytical relation only,sae-800848,full_text_verified,Full-text pp.1-8 separate loop modes and steady predictions from measured peaks
-C-DYNLOAD,E-1997-CFD-01,described_by,transient CFD method,sae-970404,abstract_verified,Scoped abstract claim
+C-DYNLOAD,E-1997-CFD-01,described_by,transient CFD method,sae-970404,full_text_verified,"SAE 970404 pp.142-147; moving-boundary RANS, modeled gust and conditional peaks"
 C-OVERSHOOT,E-2014-01,described_by,tested rear geometries,jweia-2014-volpe,full_text_verified,JWEIA pp.119-121 Fig.9; measured yaw 21deg and geometry-specific peaks
 C-VEHMOTION,E-2017-1525-01,described_by,corrective steering with driver model,sae-2017-01-1525,full_text_verified,"pp.665-669; fixed-steer Level C comparison, driver application three runs only"
 C-PHASE,E-2021-01,described_by,full-scale pressure-integrated lag,sae-06-14-01-0001,abstract_verified,Scoped abstract claim
@@ -118,3 +118,11 @@ E-2014-02,jweia-2014-volpe,evidence_from,"pp.117-120 Figs.2,6-8",jweia-2014-volp
 C-GUST,E-2014-02,described_by,30deg axes; 21deg local,jweia-2014-volpe,full_text_verified,do not confuse hardware angle with gust angle
 E-2014-03,jweia-2014-volpe,evidence_from,pp.123-124 Table1,jweia-2014-volpe,full_text_verified,vortex circulation correlations
 C-DYNLOAD,E-2014-03,described_by,two Windsor geometries,jweia-2014-volpe,full_text_verified,"association, not isolated causality"
+E-2017-1515-02,sae-2017-01-1515,evidence_from,p.4 Figs.4-5,sae-2017-01-1515,full_text_verified,partial Level A flow mapping
+C-VALIDATION,E-2017-1515-02,described_by,2002 measured fan survey,sae-2017-01-1515,full_text_verified,edge and vertical profile mismatches
+E-2017-1515-03,sae-2017-01-1515,evidence_from,p.13 Table2,sae-2017-01-1515,full_text_verified,lateral deviation metrics
+C-QS,E-2017-1515-03,described_by,tuned quasi-steady comparator,sae-2017-01-1515,full_text_verified,both methods within one measured SD
+E-1997-CFD-02,sae-970404,evidence_from,pp.147-149 Figs.14-17,sae-970404,full_text_verified,spoiler CFD and physical response
+C-VALIDATION,E-1997-CFD-02,described_by,different observables,sae-970404,full_text_verified,no matched transient moment validation
+E-1997-CFD-03,sae-970404,evidence_from,pp.149-150 Figs.19-21,sae-970404,full_text_verified,passing CFD and mismatched external comparison
+C-VALIDATION,E-1997-CFD-03,described_by,bus experiment versus one-box CFD,sae-970404,full_text_verified,peak position qualitative only
