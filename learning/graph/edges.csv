@@ -16,31 +16,31 @@ G-SINE,M-OSC,generated_by,oscillating aerofoil,pimeche-2001-passmore,abstract_ve
 C-QS,C-STEADY,depends_on,steady coefficients as reference,sae-960674,full_text_verified,Static comparator physically measured on same models; no universal QS validity
 E-1968-01,trid-116341,evidence_from,TRID abstract,trid-116341,abstract_verified,steady response author claim
 C-STEADY-VEH,E-1968-01,described_by,2DOF model; gust waveform unknown,trid-116341,abstract_verified,not a general validity proof
-E-1971-01,sae-710287,evidence_from,publisher abstract,sae-710287,abstract_verified,wind and road impulses grouped
-C-VEHMOTION,E-1971-01,described_by,nonlinear tire simulation,sae-710287,abstract_verified,aerodynamic forcing unspecified
+E-1971-01,sae-710287,evidence_from,publisher abstract,sae-710287,full_text_verified,SAE pp.2-9: prescribed lateral impulse and steering; no aerodynamic gust generation or empirical validation
+C-VEHMOTION,E-1971-01,described_by,nonlinear tire simulation,sae-710287,full_text_verified,SAE pp.2-9: prescribed lateral impulse and steering; no aerodynamic gust generation or empirical validation
 E-1973-01,sae-730232,evidence_from,spatial gust gradient; SAE full paper pp.894-899,sae-730232,full_text_verified,"transient prediction, steady data comparison only"
 C-DYNLOAD,E-1973-01,described_by,slender-body spatial-gradient theoretical estimate,sae-730232,full_text_verified,no completed transient measurement comparison
 E-1997-01,sae-970135,evidence_from,publisher abstract,sae-970135,full_text_verified,Full-text page map in learning/nodes/evidence.csv; scope and confounders supersede abstract wording
 C-DYNLOAD,E-1997-01,described_by,generic squareback dynamic facility,sae-970135,full_text_verified,Full-text page map in learning/nodes/evidence.csv; scope and confounders supersede abstract wording
 E-2000-0874-01,sae-2000-01-0874,evidence_from,publisher abstract,sae-2000-01-0874,full_text_verified,Full-text page map in learning/nodes/evidence.csv; scope and confounders supersede abstract wording
 C-DYNLOAD,E-2000-0874-01,described_by,Durham finite sharp-edge gust,sae-2000-01-0874,full_text_verified,Full-text page map in learning/nodes/evidence.csv; scope and confounders supersede abstract wording
-E-2000-0876-01,sae-2000-01-0876,evidence_from,publisher abstract,sae-2000-01-0876,abstract_verified,pressure localization
-C-DYNLOAD,E-2000-0876-01,described_by,Cranfield simple shapes,sae-2000-01-0876,abstract_verified,leeward face
+E-2000-0876-01,sae-2000-01-0876,evidence_from,publisher abstract,sae-2000-01-0876,full_text_verified,"SAE pp.3-7 Figs.8-17; leeward pressure, shape-specific peak/mean"
+C-DYNLOAD,E-2000-0876-01,described_by,Cranfield simple shapes,sae-2000-01-0876,full_text_verified,"SAE pp.3-7 Figs.8-17; leeward pressure, shape-specific peak/mean"
 E-2016-01,jcp-2016-tunay,evidence_from,publisher abstract,jcp-2016-tunay,abstract_verified,two-way comparison
 C-VEHMOTION,E-2016-01,described_by,simplified bus; large yaw,jcp-2016-tunay,abstract_verified,not universal coupling threshold
 E-2017-1515-01,sae-2017-01-1515,evidence_from,publisher abstract,sae-2017-01-1515,abstract_verified,motion test comparison
 C-VEHMOTION,E-2017-1515-01,described_by,three cars; ISO-like open-loop event,sae-2017-01-1515,abstract_verified,Level C reported
-E-1980-01,sae-800848,evidence_from,five vehicles; nominal 35 mph crosswind facility,sae-800848,abstract_verified,Atomic claim from named public abstract
+E-1980-01,sae-800848,evidence_from,five vehicles; nominal 35 mph crosswind facility,sae-800848,full_text_verified,Full-text pp.1-8 separate loop modes and steady predictions from measured peaks
 E-1997-CFD-01,sae-970404,evidence_from,one-box vehicle; k-epsilon; comparison detail unavailable,sae-970404,abstract_verified,Atomic claim from named public abstract
-E-2014-01,jweia-2014-volpe,evidence_from,Windsor-type squareback/fastback; sudden yaw,jweia-2014-volpe,abstract_verified,Atomic claim from named public abstract
-E-2017-1525-01,sae-2017-01-1525,evidence_from,passenger vehicle; test and baseline details unavailable,sae-2017-01-1525,abstract_verified,Atomic claim from named public abstract
+E-2014-01,jweia-2014-volpe,evidence_from,Windsor-type squareback/fastback; sudden yaw,jweia-2014-volpe,full_text_verified,JWEIA pp.119-121 Fig.9; measured yaw 21deg and geometry-specific peaks
+E-2017-1525-01,sae-2017-01-1525,evidence_from,passenger vehicle; test and baseline details unavailable,sae-2017-01-1525,full_text_verified,"pp.665-669; fixed-steer Level C comparison, driver application three runs only"
 E-2021-01,sae-06-14-01-0001,evidence_from,Golf 7; relative yaw 22 to 45 degrees; pressure locations 188,sae-06-14-01-0001,abstract_verified,Atomic claim from named public abstract
 E-2023-01,brandt-2023-thesis,evidence_from,multiple studies; chapter conditions unseparated,brandt-2023-thesis,abstract_verified,Atomic claim from named public abstract
 E-2025-01,sae-15-18-01-0005,evidence_from,model-scale three-subsystem wind tunnel,sae-15-18-01-0005,abstract_verified,Atomic claim from named public abstract
-C-STEADY-VEH,E-1980-01,described_by,steady analytical relation only,sae-800848,abstract_verified,Scoped abstract claim
+C-STEADY-VEH,E-1980-01,described_by,steady analytical relation only,sae-800848,full_text_verified,Full-text pp.1-8 separate loop modes and steady predictions from measured peaks
 C-DYNLOAD,E-1997-CFD-01,described_by,transient CFD method,sae-970404,abstract_verified,Scoped abstract claim
-C-OVERSHOOT,E-2014-01,described_by,tested rear geometries,jweia-2014-volpe,abstract_verified,Scoped abstract claim
-C-VEHMOTION,E-2017-1525-01,described_by,corrective steering with driver model,sae-2017-01-1525,abstract_verified,Scoped abstract claim
+C-OVERSHOOT,E-2014-01,described_by,tested rear geometries,jweia-2014-volpe,full_text_verified,JWEIA pp.119-121 Fig.9; measured yaw 21deg and geometry-specific peaks
+C-VEHMOTION,E-2017-1525-01,described_by,corrective steering with driver model,sae-2017-01-1525,full_text_verified,"pp.665-669; fixed-steer Level C comparison, driver application three runs only"
 C-PHASE,E-2021-01,described_by,full-scale pressure-integrated lag,sae-06-14-01-0001,abstract_verified,Scoped abstract claim
 C-VEHMOTION,E-2023-01,described_by,multiple thesis studies,brandt-2023-thesis,abstract_verified,Scoped abstract claim
 C-GUST,E-2025-01,described_by,generator Level A only,sae-15-18-01-0005,abstract_verified,Scoped abstract claim
@@ -100,3 +100,21 @@ E-2000-0874-02,sae-2000-01-0874,evidence_from,"article pp.2-4 Figs.2,5-6",sae-20
 C-VALIDATION,E-2000-0874-02,described_by,Level A empty-section survey,sae-2000-01-0874,full_text_verified,unexplained high-total-pressure pocket
 E-2000-0874-03,sae-2000-01-0874,evidence_from,"article pp.2-3,5",sae-2000-01-0874,full_text_verified,probe and ensemble design
 C-VALIDATION,E-2000-0874-03,described_by,wake-only field evidence,sae-2000-01-0874,full_text_verified,no body load or motion validation
+E-1971-02,sae-710287,evidence_from,p.4 Eq.8 Fig.5,sae-710287,full_text_verified,independent 6 degree substitution of tyre cubic
+C-VEHMOTION,E-1971-02,described_by,tyre nonlinearity only,sae-710287,full_text_verified,"local law check, not root-locus validation"
+E-1980-02,sae-800848,evidence_from,Tables 1 and 3; Fig.6,sae-800848,full_text_verified,predicted steady versus measured peak
+C-VALIDATION,E-1980-02,described_by,full-scale model comparison,sae-800848,full_text_verified,different output statistics and model mismatch
+E-1980-03,sae-800848,evidence_from,"pp.6,12 Fig.4",sae-800848,full_text_verified,long-pulse yaw response
+C-QS,E-1980-03,described_by,50mph straight pulse,sae-800848,full_text_verified,conditional near-steady yaw rate only
+E-2000-0876-02,sae-2000-01-0876,evidence_from,"pp.2,4 Figs.8-9",sae-2000-01-0876,full_text_verified,pressure-balance and filter limitation
+C-VALIDATION,E-2000-0876-02,described_by,selected yaw cases,sae-2000-01-0876,full_text_verified,internal measurement agreement only
+E-2000-0876-03,sae-2000-01-0876,evidence_from,"pp.3-5 Figs.4-7,10-12",sae-2000-01-0876,full_text_verified,incomplete 5L development
+C-QS,E-2000-0876-03,described_by,simple shapes and finite gust,sae-2000-01-0876,full_text_verified,no universal steady-development length
+E-2017-1525-02,sae-2017-01-1525,evidence_from,pp.663-665 Figs.5-6,sae-2017-01-1525,full_text_verified,two-way CFD-CarSIM scheme
+C-VALIDATION,E-2017-1525-02,described_by,smoothed input,sae-2017-01-1525,full_text_verified,measured wind not exactly replayed
+E-2017-1525-03,sae-2017-01-1525,evidence_from,"pp.667-669 Figs.13,16-27",sae-2017-01-1525,full_text_verified,aero-parts and driver loop
+C-LOOP,E-2017-1525-03,described_by,active-driver three road runs/spec,sae-2017-01-1525,full_text_verified,"trend only, no calibrated error bound"
+E-2014-02,jweia-2014-volpe,evidence_from,"pp.117-120 Figs.2,6-8",jweia-2014-volpe,full_text_verified,apparatus versus actual yaw
+C-GUST,E-2014-02,described_by,30deg axes; 21deg local,jweia-2014-volpe,full_text_verified,do not confuse hardware angle with gust angle
+E-2014-03,jweia-2014-volpe,evidence_from,pp.123-124 Table1,jweia-2014-volpe,full_text_verified,vortex circulation correlations
+C-DYNLOAD,E-2014-03,described_by,two Windsor geometries,jweia-2014-volpe,full_text_verified,"association, not isolated causality"

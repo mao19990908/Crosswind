@@ -17,3 +17,11 @@ sae-980392,sae-670608,references,true,Ryan/Dominy 1998 full PDF p.11 reference 2
 sae-980392,sae-960674,references,true,Ryan/Dominy 1998 full PDF p.11 reference 13 cites Macklin/Garry/Howell SAE 960674; p.10 discusses conditional 30deg yaw-moment discrepancy.
 sae-970135,sae-960674,references,true,Full text reference 1 p.34
 sae-2000-01-0874,sae-960674,references,true,Full text reference 1 article p.9
+sae-800848,dot-hs-805-079,references,true,"SAE 800848 article p.12 reference 1 explicitly cites DOT-HS-805-079; pp.1,12 describe this article as partial presentation of same NHTSA program"
+sae-800848,dot-hs-805-079,data_reuses,true,"SAE 800848 article p.12 reference 1 explicitly cites DOT-HS-805-079; pp.1,12 describe this article as partial presentation of same NHTSA program"
+sae-2000-01-0876,sae-960674,references,true,SAE 2000-01-0876 explicit bibliography reference 3 article p.8; body citation Macklin [4] is inconsistent and not used
+sae-2000-01-0876,sae-980392,references,true,SAE 2000-01-0876 explicit bibliography reference 7 article p.8; body citation Macklin [4] is inconsistent and not used
+sae-2017-01-1525,sae-980392,references,true,Nakasato et al 2017 p.670 bibliography reference 5 exactly cites SAE 980392 DOI 10.4271/980392
+jweia-2014-volpe,sae-2000-01-0874,references,true,JWEIA 2014 p.125 bibliography and abstract directly cite Ryan/Dominy 2000 SAE 2000-01-0874
+jweia-2014-volpe,sae-2000-01-0874,method_adapts,true,Abstract and pp.116-117 say paired-shutter facility adapted from Ryan/Dominy 2000; not same hardware
+jweia-2014-volpe,jfe-2013-volpe,method_extends,true,JWEIA 2014 p.125 cites Volpe et al 2013 facility validation and extends to Windsor forces/PIV
