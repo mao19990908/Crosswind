@@ -15,6 +15,7 @@
 - verification_status: full_text_verified; access_level: full_text; evidence_type: dynamic_wind_tunnel; last_checked: 2026-09-25
 - Repository: https://repository.lboro.ac.uk/articles/journal_contribution/An_experimental_study_of_unsteady_vehicle_aerodynamics/9225113
 - Download: https://ndownloader.figshare.com/files/16804613 ; MD5 3715b0721600202700efa05420b11e6c (repository metadata).
+- 本机研究副本（不入 Git）：`D:\GEELY\Crosswind\local_fulltext\pimeche-2001-passmore.pdf`；2026-09-25 已核对上述 MD5 与 PDF 文件头。
 - copyright_status: repository API labels CC BY-NC-ND 4.0, PDF cover labels CC BY-NC-ND 2.5; preserve this discrepancy. PDF used locally for research only, not committed. No claim of commercial reuse permission.
 - All 10 article pages (779–788; PDF pages 2–11) read; equations/figures inspected visually. PDF page 1 is the repository licence sheet.
 

@@ -34,3 +34,9 @@
 - [当日日志](logs/2026-09-25.md)
 
 当前处于 Phase I：先建立可追溯的历史与方法地图，不把初步线索包装成成熟综述结论。
+
+## 本地全文 PDF
+
+合法取得、供本机研究的 PDF 放在 `D:\GEELY\Crosswind\local_fulltext\`。该目录被 `.gitignore` 排除，不会随 GitHub 仓库同步；其他电脑克隆仓库时需按来源记录的仓储链接自行获取。
+
+2026-09-25 已在本机保存 `pimeche-2001-passmore.pdf`（Loughborough 作者存档）和 `brandt-2023-thesis.pdf`（Chalmers 博士论文）。前者已完成全文核读；后者仅完成下载与文件格式检查，不能据此把记录升级为全文核验。受限 SAE 论文和 ISO 标准仍只有元数据／摘要记录。

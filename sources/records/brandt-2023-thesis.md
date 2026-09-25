@@ -9,6 +9,7 @@
 
 ## Access / verification
 - access_status: open repository; full_text_source: Chalmers repository; copyright_status: repository terms
+- 本机研究副本（不入 Git）：`D:\GEELY\Crosswind\local_fulltext\brandt-2023-thesis.pdf`；2026-09-25 已核对大小 16,142,603 字节与 PDF 文件头，尚未全文核读。
 - verification_status: abstract_verified; access_level: abstract (full PDF not yet systematically extracted)
 - evidence_type: multi-method thesis
 
