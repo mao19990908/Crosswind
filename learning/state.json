@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-25T10:51:18.673504+08:00",
+  "updated_at": "2026-09-25T11:32:22+08:00",
   "timezone": "Asia/Shanghai",
   "current_phase": "learning",
   "phase_status": "in_progress",
@@ -12,7 +12,8 @@
     "sae-980392",
     "iso-12021-2010",
     "jcp-2016-tunay",
-    "sae-2017-01-1515"
+    "sae-2017-01-1515",
+    "jfe-2013-volpe"
   ],
   "learning_completed": [
     "trid-116341",
@@ -31,8 +32,8 @@
     "brandt-2023-thesis",
     "pimeche-2001-passmore"
   ],
-  "sources_total": 22,
-  "sources_pending_learning": 7,
+  "sources_total": 23,
+  "sources_pending_learning": 8,
   "current_source_id": "sae-530255",
   "current_pass": 3,
   "current_pass_status": "awaiting_lawful_fulltext",
@@ -42,7 +43,11 @@
     "E-2001-04",
     "E-2001-05",
     "E-2001-06",
-    "EQ-MAGNIFICATION"
+    "EQ-MAGNIFICATION",
+    "E-2025-02",
+    "E-2025-03",
+    "E-2013-01",
+    "E-2025-04"
   ],
   "today_added_or_modified_graph_edges": [
     "E-2001-02|evidence_from|pimeche-2001-passmore",
@@ -57,27 +62,36 @@
     "C-VALIDATION|described_by|E-2001-05",
     "C-DYNLOAD|described_by|E-2001-05",
     "E-2001-06|evidence_from|pimeche-2001-passmore",
-    "M-OSC|described_by|E-2001-06"
+    "M-OSC|described_by|E-2001-06",
+    "E-2025-02|evidence_from|sae-15-18-01-0005",
+    "C-GUST|described_by|E-2025-02",
+    "E-2025-03|evidence_from|sae-15-18-01-0005",
+    "C-VALIDATION|described_by|E-2025-03",
+    "E-2013-01|evidence_from|jfe-2013-volpe",
+    "C-VALIDATION|described_by|E-2013-01",
+    "E-2025-04|evidence_from|sae-15-18-01-0005",
+    "C-VALIDATION|described_by|E-2025-04"
   ],
   "today_remaining_work": [
-    "Obtain lawful full text for remaining seven core sources; continue sae-530255 Pass 3",
-    "Passmore raw-data/frequency/normalization clarification is an open question, not a new pending read",
-    "Keep learning phase; no collection until backlog=0"
+    "Complete v4 DOI/PDF audit, including Milner original issue and two OA landing access points",
+    "Resume eight-source learning backlog at sae-530255 Pass 3; jfe-2013-volpe has abstract checkpoint only",
+    "Continue Ryan-Dominy -> Volpe facility method-lineage verification from lawful full texts"
   ],
   "quota_status": "available",
   "weekly_quota_used_at_run_start_percent": 73,
-  "weekly_quota_used_at_last_read_percent": 84,
+  "weekly_quota_used_at_last_read_percent": 90,
   "weekly_quota_used_at_day_start_percent": 73,
   "weekly_quota_day_cap_used_percent": 85,
   "local_remote_sync": "verified_at_v4_research_commit_audit_pending",
   "github_commit_sha": "87f40141697bb5a4c39dc10d513582f696606b39",
-  "note": "15 completed at evidence-specific target; 7 core Pass 3 pending. Passmore full-text study completed with explicit reproduction gaps; no new source collected.",
+  "note": "SAE 2025 publisher PDF all 16 pages visually inspected; scoped full_text_verified. 15 completed learning targets, 8 Pass 3 backlog including new jfe-2013-volpe. DOI/PDF checkpoint and legal access search continue.",
   "github_commit_sha_role": "last_verified_v4_research_commit_before_audit",
   "quota_date": "2026-09-25",
   "today_updated_knowledge_nodes": [
     "EQ-RED-FREQ",
     "EQ-ADMIT",
-    "M-OSC"
+    "M-OSC",
+    "sae-15-18-01-0005"
   ],
   "fulltext_access_checkpoints": [
     {
@@ -137,21 +151,21 @@
       "next_action": "Check authorized local/library or exact-title institutional author copy; do not repeat abstract learning"
     }
   ],
-  "quota_measurement_note": "Shared-account integer percentages: 73% day/run baseline -> 80% after research push, approximately +7 points; daily cap 85%. One transient read failure resolved by retry; no reset used.",
-  "quota_last_read_at": "2026-09-25T06:12:06+08:00",
+  "quota_measurement_note": "User authorized continued substantive work past prior +12-point daily cap and one reset credit only when eligible; latest successful shared-account weekly read 87% used. One transient read failure resolved on retry.",
+  "quota_last_read_at": "2026-09-25T11:32:22+08:00",
   "doi_pdf_checkpoint": {
     "date": "2026-09-25",
     "status": "in_progress",
-    "total_sources": 22,
-    "verified_doi": 17,
-    "no_doi_confirmed": 1,
-    "missing_to_search": 4,
-    "oa_fulltext_found": 2,
-    "local_pdf_count": 2,
-    "github_pdf_count": 0,
-    "next": "verify remaining 4 DOI at primary sources; retrieve direct PDF for two OA landing candidates; then broaden lawful OA search for 15 restricted entries",
+    "total_sources": 23,
+    "verified_doi": 18,
+    "no_doi_confirmed": 4,
+    "missing_to_search": 1,
+    "oa_fulltext_found": 3,
+    "local_pdf_count": 3,
+    "github_pdf_count": 1,
+    "next": "Check Milner 1968 original issue for DOI; obtain direct legal PDFs for Durham 2000 and HAL 2013 without bypassing 403/challenge; resume eight-source learning backlog",
     "oa_landing_candidates": 2,
-    "weekly_quota_used_at_last_read_percent": 84,
+    "weekly_quota_used_at_last_read_percent": 90,
     "research_commit_sha": "87f40141697bb5a4c39dc10d513582f696606b39"
   }
 }

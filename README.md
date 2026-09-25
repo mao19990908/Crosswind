@@ -19,7 +19,7 @@
 
 `journal_article`、`sae_technical_paper`、`conference_paper`、`standard`、`government_report`、`institutional_report`、`doctoral_thesis`、`master_thesis`、`dataset`、`facility_documentation`。
 
-当前索引共 22 条；分类型覆盖与尚未检索的类别判断见 [database_coverage.md](search/database_coverage.md)。
+当前索引共 23 条；分类型覆盖与尚未检索的类别判断见 [database_coverage.md](search/database_coverage.md)。
 
 ## 导航
 
@@ -37,14 +37,16 @@
 
 ## 本地全文 PDF
 
-合法取得、供本机研究的 PDF 统一登记在 `D:\GEELY\Crosswind\sources\pdfs\`。原有 `local_fulltext\` 副本保留；两目录均被 `.gitignore` 排除，不会随 GitHub 仓库同步。其他电脑克隆仓库时需按来源记录的仓储链接自行获取。
+合法取得的 PDF 登记在 `D:\GEELY\Crosswind\sources\pdfs\`。旧 `local_fulltext\` 副本保留。两目录默认被 `.gitignore` 排除；只有明确允许再分发的 PDF 才逐个 `git add -f` 纳入 GitHub。
 
-2026-09-25 已在本机保存 `pimeche-2001-passmore.pdf`（Loughborough 作者存档）和 `brandt-2023-thesis.pdf`（Chalmers 博士论文）。前者已完成全文核读；后者仅完成下载与文件格式检查，不能据此把记录升级为全文核验。受限 SAE 论文和 ISO 标准仍只有元数据／摘要记录。
+Passmore 作者存档与 Brandt Chalmers 学位论文仅本机留存；前者已核读全文，后者已核读仓储 PDF 的扩展摘要页段（其 Paper A–E 附录原篇不在该 92 页文件内）。SAE 2025 出版者 PDF 首页明确 CC BY 4.0，已核验并纳入 GitHub。当前 **本机 PDF 3 份、GitHub PDF 1 份、仅本机 2 份**。
 
 ## DOI / 合法全文台账（2026-09-25）
 
-现有 22 条来源已逐条纳入 [DOI 总账](sources/doi_registry.csv)。Crossref DOI 精确查询核验 17 条；ISO 官方目录未列 DOI，暂列 `no_doi_confirmed`（仅对当前官方目录而言）；TRID 的 1968 期刊条目、1979 两卷政府报告及 Chalmers 学位论文仍列 `missing_to_search`，不猜测 DOI。DOI 覆盖率按 verified / total = **17/22 = 77.27%**；状态或 DOI 与题名/年份冲突应在总账保留，不因字段为空推断无资料。
+现有 23 条来源全部纳入 [DOI 总账](sources/doi_registry.csv)：18 条 DOI 经 Crossref 精确核验，4 条按当前官方目录与 Crossref/DataCite 题名检索暂列 `no_doi_confirmed`（ISO 原标准、1979 两卷 DOT 报告、Chalmers 学位论文），1968 Milner 期刊条目仍为 `missing_to_search`。原始题名页或新登记可改变无 DOI 判断；BS ISO 采用版 DOI 不归给原 ISO 记录。**DOI 覆盖率 18/23 = 78.26%**。
 
-合法全文筛查已对 17 条 verified DOI 做 Crossref/OpenAlex 精确查询，并查核出版者/官方入口。现有已确认可打开的公开全文 PDF 2 条：Passmore 作者存档、Brandt 官方学位仓储。另有 Durham 作者存档和 SAE 2025 开放出版入口 2 条 OA landing page 线索，尚未核实直接 PDF。其中前两份已复制到本机 `sources/pdfs/`，核验 PDF 文件头、可打开页数、题名、来源和 SHA-256；另外两条仅有 OA landing page，不能计为已下载。其余仍按当前入口记录付费或未找到状态；未穷尽所有大学/作者仓储、Unpaywall（需联系方式）与 Semantic Scholar，不把当前状态当永久定论。
+公开全文已验证 3 份：Passmore 作者版、Brandt 学位论文、SAE 2025 出版者版。Durham 2000 与 HAL 2013 有开放仓储页面，但直接文档请求分别返回 403 和 bot challenge，本机未取得 PDF，也未绕过访问控制。其余条目的付费或未找到状态只描述已查入口，不能解释为永久无 OA。Passmore 封面与仓储许可版本不一致、Brandt 仅明确可公开访问，两份仅本机保留；SAE 2025 许可 CC BY 4.0，允许署名再分发。来源、大小、SHA-256 和许可边界以 DOI 总账为准。
 
-`D:\GEELY\Crosswind\sources\pdfs\` 与旧 `local_fulltext\` 均被 `.gitignore` 排除。两份本地 PDF 的再分发许可未充分确认（Passmore 仓储 API 与封面 CC 版本不一致；Brandt 仅明确公开访问），因此本轮 **GitHub PDF 数为 0**。来源记录与总账可帮助其他电脑合法重新获取，下载文件本体不随 Git 同步。具体 SHA、字节和许可边界以总账为准。
+### 2026-09-25 追加：出版者 CC BY 全文
+
+[SAE 2025 风洞阵风发生系统论文](https://doi.org/10.4271/15-18-01-0005)的出版者 PDF 首页明确标示 CC BY 4.0，已核对题名、DOI、16 页和 SHA-256，并按署名许可纳入 GitHub。其余本机 PDF 仍不推送；实时数量以 DOI 总账为准。

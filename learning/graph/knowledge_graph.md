@@ -73,6 +73,14 @@ flowchart LR
     N_C_DYNLOAD["C-DYNLOAD"] -->|described_by| N_E_2001_05["E-2001-05"]
     N_E_2001_06["E-2001-06"] -->|evidence_from| N_pimeche_2001_passmore["pimeche-2001-passmore"]
     N_M_OSC["M-OSC"] -->|described_by| N_E_2001_06["E-2001-06"]
+    N_E_2025_02["E-2025-02"] -->|evidence_from| N_sae_15_18_01_0005["sae-15-18-01-0005"]
+    N_C_GUST["C-GUST"] -->|described_by| N_E_2025_02["E-2025-02"]
+    N_E_2025_03["E-2025-03"] -->|evidence_from| N_sae_15_18_01_0005["sae-15-18-01-0005"]
+    N_C_VALIDATION["C-VALIDATION"] -->|described_by| N_E_2025_03["E-2025-03"]
+    N_E_2013_01["E-2013-01"] -->|evidence_from| N_jfe_2013_volpe["jfe-2013-volpe"]
+    N_C_VALIDATION["C-VALIDATION"] -->|described_by| N_E_2013_01["E-2013-01"]
+    N_E_2025_04["E-2025-04"] -->|evidence_from| N_sae_15_18_01_0005["sae-15-18-01-0005"]
+    N_C_VALIDATION["C-VALIDATION"] -->|described_by| N_E_2025_04["E-2025-04"]
 ```
 
 `evidence_from` 表示原始来源支撑该 atomic claim；`described_by` 表示概念受到特定条件下主张说明；`generated_by` 表示该输入由文献中的方法实现；`depends_on` 表示当前准稳态比较以稳态基线为参照。`supported_by` 表示方法受到特定原文证据支持，与 supports 的反向阅读对应；不表示独立跨方法验证。这些关系不能自动推成 `causes` 或跨研究 `validated_by`。

@@ -73,3 +73,9 @@
 ## 2026-09-25 DOI/PDF 全量核对
 
 22 条来源中 SAE Technical Paper 11、journal_article 7、government_report 2、standard 1、doctoral_thesis 1；其他重点类型仍 0，本次未新增 source_type 或研究来源。17 DOI 经 Crossref 精确解析并匹配标题/出版年份；ISO 官方目录未列 DOI，另 4 条暂待跨库 DOI 搜索。合法 OA 入口 4 条，已在本机留存 2 份；0 份有足够再分发许可证据可提交 GitHub。OpenAlex 无 PDF URL 的 OA 标记只是线索，不能算下载。历史/引文/方法谱系仍沿用本日早间断点；本轮优先 v4 任务，不制造新边。
+
+## 2026-09-25 后续增量覆盖判断
+
+总数 **23**：journal_article **8**（今日后续新增 `jfe-2013-volpe` 1）、sae_technical_paper **11**、government_report **2**、standard **1**、doctoral_thesis **1**。其余强制检查类型 conference_paper、institutional_report、master_thesis、dataset、facility_documentation 均仍为 **0**；对应缺口分别是会议原始出版物核验不足、机构报告专项检索不足、硕士学位库专项检索不足、开放阵风数据适用性和许可未查清、独立设施文档尚未核验。零不等于不存在。2013 年设施论文仍归 `journal_article`，不能因内容涉及设施就重复计入 `facility_documentation`；A–M 主题标签与发布类型独立。
+
+DOI 状态：18 verified、4 暂时 no_doi_confirmed、1 missing_to_search，覆盖率 18/23 = 78.26%。本机有效 PDF 3，SAE 2025 出版者 CC BY PDF 可上传 GitHub 1；Durham 和 HAL 2013 是 OA 页面线索，不计 PDF。此次历史/方法检索新增 2014 → 2013、2013 → 1996、2013 → 2001 三条 verified references 边，以及 2013 → 2000 Durham 的**概念方法继承**边；后者由 2013 作者摘要与 2018 Springer 原始研究交叉支持，不冒充 2013 原文的直接 references 边或硬件复用证明。

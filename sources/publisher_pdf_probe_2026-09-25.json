@@ -1,0 +1,89 @@
+{
+  "sae-530255": {
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "pdf_header": false,
+    "url": "https://saemobilus.sae.org/downloads/papers/530255/Full%20Text%20PDF",
+    "final_url": "https://saemobilus.sae.org/papers/wind-effects-car-stability-530255"
+  },
+  "sae-710287": {
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "pdf_header": false,
+    "url": "https://saemobilus.sae.org/downloads/papers/710287/Full%20Text%20PDF",
+    "final_url": "https://saemobilus.sae.org/papers/evaluation-lateral-stability-automobile-nonlinear-component-increasing-magnitude-gust-tire-load-710287"
+  },
+  "sae-730232": {
+    "error": "TimeoutError",
+    "url": "https://saemobilus.sae.org/downloads/papers/730232/Full%20Text%20PDF"
+  },
+  "sae-800848": {
+    "error": "TimeoutError",
+    "url": "https://saemobilus.sae.org/downloads/papers/800848/Full%20Text%20PDF"
+  },
+  "sae-960674": {
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "pdf_header": false,
+    "url": "https://saemobilus.sae.org/downloads/papers/960674/Full%20Text%20PDF",
+    "final_url": "https://saemobilus.sae.org/papers/comparing-static-dynamic-testing-techniques-crosswind-sensitivity-road-vehicles-960674"
+  },
+  "sae-970135": {
+    "error": "TimeoutError",
+    "url": "https://saemobilus.sae.org/downloads/papers/970135/Full%20Text%20PDF"
+  },
+  "sae-970404": {
+    "error": "TimeoutError",
+    "url": "https://saemobilus.sae.org/downloads/papers/970404/Full%20Text%20PDF"
+  },
+  "sae-980392": {
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "pdf_header": false,
+    "url": "https://saemobilus.sae.org/downloads/papers/980392/Full%20Text%20PDF",
+    "final_url": "https://saemobilus.sae.org/papers/aerodynamic-forces-induced-a-passenger-vehicle-response-a-transient-cross-wind-gust-a-relative-incidence-30-980392"
+  },
+  "sae-2000-01-0874": {
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "pdf_header": false,
+    "url": "https://saemobilus.sae.org/downloads/papers/2000-01-0874/Full%20Text%20PDF",
+    "final_url": "https://saemobilus.sae.org/papers/wake-surveys-behind-a-passenger-car-subjected-a-transient-cross-wind-gust-2000-01-0874"
+  },
+  "sae-2000-01-0876": {
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "pdf_header": false,
+    "url": "https://saemobilus.sae.org/downloads/papers/2000-01-0876/Full%20Text%20PDF",
+    "final_url": "https://saemobilus.sae.org/papers/transient-aerodynamic-characteristics-simple-vehicle-shapes-measurement-surface-pressures-2000-01-0876"
+  },
+  "jweia-2014-volpe": {
+    "status": 200,
+    "content_type": "text/xml;charset=UTF-8",
+    "pdf_header": false,
+    "url": "https://api.elsevier.com/content/article/PII:S0167610514000506?httpAccept=text/xml",
+    "final_url": "https://api.elsevier.com/content/article/PII:S0167610514000506?httpAccept=text/xml"
+  },
+  "jcp-2016-tunay": {
+    "status": 400,
+    "url": "https://api.elsevier.com/content/article/PII:S004579301630250X?httpAccept=text/plain"
+  },
+  "sae-2017-01-1515": {
+    "error": "TimeoutError",
+    "url": "https://saemobilus.sae.org/downloads/papers/2017-01-1515/Full%20Text%20PDF"
+  },
+  "sae-2017-01-1525": {
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "pdf_header": false,
+    "url": "https://saemobilus.sae.org/downloads/articles/2017-01-1525/Full%20Text%20PDF",
+    "final_url": "https://saemobilus.sae.org/articles/coupled-6dof-motion-aerodynamic-crosswind-simulation-incorporating-driver-model-2017-01-1525"
+  },
+  "sae-06-14-01-0001": {
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "pdf_header": false,
+    "url": "https://saemobilus.sae.org/downloads/articles/06-14-01-0001/Full%20Text%20PDF",
+    "final_url": "https://saemobilus.sae.org/articles/aerodynamic-characterization-a-full-scale-compact-car-exposed-transient-crosswind-06-14-01-0001"
+  }
+}

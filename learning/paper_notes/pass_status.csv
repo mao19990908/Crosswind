@@ -20,4 +20,5 @@
 "sae-2017-01-1525","journal_article","I","2","completed_for_current_E1_evidence","2","conditional","new_fulltext_or_new_contradictory_evidence","abstract_verified","2026-09-24"
 "sae-06-14-01-0001","journal_article","G","2","completed_for_current_E1_evidence","2","conditional","new_fulltext_or_new_contradictory_evidence","abstract_verified","2026-09-24"
 "brandt-2023-thesis","doctoral_thesis","J","3","completed_for_extended_summary_E2","3","complete_summary_only","individual_constituent_paper_fulltext_or_new_evidence","abstract_verified","2026-09-24"
-"sae-15-18-01-0005","journal_article","F","2","completed_for_current_E1_evidence","2","conditional","new_fulltext_or_new_contradictory_evidence","abstract_verified","2026-09-24"
+"sae-15-18-01-0005","journal_article","F","2","completed_for_full_text_E2","2","conditional","new_primary_evidence_or_method_conflict","full_text_verified","2026-09-25"
+"jfe-2013-volpe","journal_article","F","2","pass3_pending_fulltext","3","high_when_fulltext_available","obtain_lawful_HAL_or_publisher_fulltext_without_bypass","abstract_verified","2026-09-25"
