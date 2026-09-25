@@ -201,7 +201,7 @@
     "new_learning_graph_edges_in_this_migration": 0,
     "new_citation_edges_in_this_migration": 1,
     "next_breakpoint": "Obtain lawful full text for sae-530255 Pass 3; resolve 20 manual-retrieval requests by priority; Durham/HAL OA leads remain open. Milner no-DOI finding is reversible if the original publisher record surfaces. No broad collection before learning backlog is cleared.",
-    "local_remote_sync": "pending_commit_and_push",
-    "github_commit_sha": "pending"
+    "local_remote_sync": "research_commit_verified_local_origin_live_remote_equal",
+    "github_commit_sha": "c74bac028a6d42f980ec76b63326577d3a1bb583"
   }
 }
