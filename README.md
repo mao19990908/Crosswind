@@ -10,7 +10,7 @@
 - open-loop、closed-loop driver、closed-loop controller 与 autonomous control 分开比较。
 - `metadata_only`、`abstract_verified` 与 `full_text_verified` 不混用。
 - 未报告参数写“未报告”；分析者推断显式标为 `analyst_inference`。
-- 仓库不保存未获授权的受版权保护全文、内部数据或大型计算文件。
+- GitHub 不保存无再分发授权的受版权保护全文、内部数据或大型计算文件；用户提供的合法研究副本可在本机 `sources/pdfs/` 登记并由 `.gitignore` 排除。
 - 每条资料同时记录研究主题类别 A–M 与规范发布类型 `source_type`；资料不只限于论文。
 
 ## 资料类型覆盖
@@ -44,13 +44,15 @@ v5 迁移时的 23 条资料及随后新增的 1967 Beauvais SAE 来源，目前
 
 首次全量检查 DOI、SAE/标准/报告号、规范化题名和近似题名后，没有确认的真重复项，因此没有删除旧记录，[aliases.csv](sources/aliases.csv)目前只有表头。3 对相关版本/设施延续来源保留为不同资料，判定理由见[去重报告](sources/dedup_report.csv)；报告 Volume I/II 新增 `companion_report` 边。现有 3 份本机 PDF 重新核对文件头、可读页数、题名和 SHA-256；Passmore、SAE 2025 两条为 `full_text_verified`，Brandt 92 页学位论文 PDF 只有扩展摘要与文献目录、不含 Paper A–E 原篇，保持保守的 `abstract_verified`。
 
-[人工补档清单](sources/manual_retrieval_queue.md)现列 21 条仍无已校验本机全文的资料，按 P0/P1 标明原始入口、为何需要全文和已查渠道。付费/未找到只代表当前已核验入口；Unpaywall、受限机构仓储与其他合法 OA 搜索仍可继续。拿到 PDF 后请放入 `sources/pdfs/`，后续运行会核验并更新 DOI/PDF、学习与综合结论。
+[人工补档清单](sources/manual_retrieval_queue.md)原有 21 条待补全文，其中 14 条已于 2026-09-25 从用户提供目录收件并校验 PDF，仍有 7 条待人工查找。CSV 保留全部 21 条的处理轨迹，Markdown 只列当前未解决项。PDF 收件不等于研究级通读；新文件进入 learning backlog，原有摘要级结论需按全文重新检查。
 
 ## 本地全文 PDF
 
 合法取得的 PDF 登记在 `D:\GEELY\Crosswind\sources\pdfs\`。旧 `local_fulltext\` 副本保留。两目录默认被 `.gitignore` 排除；只有明确允许再分发的 PDF 才逐个 `git add -f` 纳入 GitHub。
 
-Passmore 作者存档与 Brandt Chalmers 学位论文仅本机留存；前者已核读全文，后者已核读仓储 PDF 的扩展摘要页段（其 Paper A–E 附录原篇不在该 92 页文件内）。SAE 2025 出版者 PDF 首页明确 CC BY 4.0，已核验并纳入 GitHub。当前 **本机 PDF 3 份、GitHub PDF 1 份、仅本机 2 份**。
+Passmore 作者存档与 Brandt Chalmers 学位论文仅本机留存；前者已核读全文，后者已核读仓储 PDF 的扩展摘要页段（其 Paper A–E 附录原篇不在该 92 页文件内）。SAE 2025 出版者 PDF 首页明确 CC BY 4.0，已核验并纳入 GitHub。用户提供的 14 份 PDF 已核对题名/编号、可读页数、大小和 SHA-256，保存为本机研究副本；其 SAE 版权标记或 Elsevier 许可情况没有提供公开再分发依据，故不推送文件本体。当前 **本机 PDF 17 份、GitHub PDF 1 份、仅本机 16 份**。
+
+其中 Beauvais 1967 和 Hucho/Emmelmann 1973 已进入 `full_text_verified` 并完成 Pass 1–2；其余 12 份新收件全文等待逐篇研究级复核。当前全库 `full_text_verified` 4 条，学习 backlog 17 条（含因新证据重开的条目）。
 
 ## DOI / 合法全文台账（2026-09-25）
 

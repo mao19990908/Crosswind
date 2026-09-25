@@ -29,4 +29,4 @@ foreach ($row in $index) {
         if ($hash -ne $row.pdf_sha256 -or $bytes.Length -ne [int64]$row.pdf_bytes) { throw "PDF hash or size mismatch for $($row.id)" }
     }
 }
-Write-Output "DOI/PDF validation OK: $($index.Count) sources, $(@($index | Where-Object doi_status -eq 'verified').Count) verified DOI, $(@($index | Where-Object pdf_status -eq 'oa_downloaded').Count) local PDFs."
+Write-Output "DOI/PDF validation OK: $($index.Count) sources, $(@($index | Where-Object doi_status -eq 'verified').Count) verified DOI, $(@($index | Where-Object { -not [string]::IsNullOrWhiteSpace($_.pdf_path) }).Count) local PDFs, $(@($index | Where-Object github_pdf -eq 'true').Count) GitHub PDFs."

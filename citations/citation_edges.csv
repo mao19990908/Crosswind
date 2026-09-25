@@ -11,3 +11,4 @@
 "jfe-2013-volpe","sae-960674","references","true","Crossref 2013 reference B22 exactly matches SAE 960674 title and 1996 year; https://api.crossref.org/works/10.1115%2F1.4023194; citation alone does not establish identical facility"
 "jfe-2013-volpe","pimeche-2001-passmore","references","true","Crossref 2013 reference B14 matches title, year and DOI 10.1243/0954407011528365; https://api.crossref.org/works/10.1115%2F1.4023194; citation alone does not establish method inheritance"
 "dot-hs-805-079","dot-hs-805-078","companion_report","true","Same 1979 DOT project with separate Volume II technical report and Volume I executive summary; distinct report numbers; not duplicate records"
+"sae-730232","sae-670608","references","true","SAE 730232 printed p.899 reference 3 explicitly cites Beauvais SAE 670608 and discusses yaw-moment overshoot; direct method inheritance not established"

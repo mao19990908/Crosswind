@@ -46,3 +46,11 @@ KTH author publication record confirms the four authors above: https://kth.diva-
 - Canonical Bib key: `jcp-2016-tunay` in `sources/bibliography/references.bib`.
 - abstract_status: `available_not_copied`; abstract_source: Official source or catalog abstract noted in source record; abstract_source_url: https://doi.org/10.1016/j.compfluid.2016.08.006.
 - Full-text check: No full text has been validated; do not promote claims beyond the current evidence level.
+
+## User-provided PDF receipt (2026-09-25)
+
+- The earlier PDF/access note above is superseded for file availability. `winkler2016.pdf` matches this source by title and/or SAE number/DOI; 38 pages opened and text-extracted without errors.
+- pdf_status: `user_provided`; pdf_path: `sources\pdfs\jcp-2016-tunay__winkler__2016.pdf`; pdf_source: `user_provided_local:Downloads/PDF/winkler2016.pdf`.
+- pdf_sha256: `045e005eeaa5984d1192ece1e99bfbbcb118d40aceb23398d14c7325311fe9b6`; pdf_bytes: 4821113; pdf_checked_date: 2026-09-25.
+- pdf_license: Elsevier accepted manuscript; redistribution permission not verified; github_pdf: false. The file stays local; only metadata is committed.
+- Verification status remains `abstract_verified` pending substantive full-text reading and revision of abstract-based claims.

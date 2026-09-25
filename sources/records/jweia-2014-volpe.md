@@ -42,3 +42,11 @@
 - Canonical Bib key: `jweia-2014-volpe` in `sources/bibliography/references.bib`.
 - abstract_status: `available_not_copied`; abstract_source: Official source or catalog abstract noted in source record; abstract_source_url: https://doi.org/10.1016/j.jweia.2014.03.006.
 - Full-text check: No full text has been validated; do not promote claims beyond the current evidence level.
+
+## User-provided PDF receipt (2026-09-25)
+
+- The earlier PDF/access note above is superseded for file availability. `volpe2014.pdf` matches this source by title and/or SAE number/DOI; 12 pages opened and text-extracted without errors.
+- pdf_status: `user_provided`; pdf_path: `sources\pdfs\jweia-2014-volpe__volpe__2014.pdf`; pdf_source: `user_provided_local:Downloads/PDF/volpe2014.pdf`.
+- pdf_sha256: `36644f7834c969b6a1816f0d4d8a9fb303d577b9fe85e75c2653ec4dd7cd04be`; pdf_bytes: 5203302; pdf_checked_date: 2026-09-25.
+- pdf_license: Elsevier publisher PDF; redistribution permission not verified; github_pdf: false. The file stays local; only metadata is committed.
+- Verification status remains `abstract_verified` pending substantive full-text reading and revision of abstract-based claims.
