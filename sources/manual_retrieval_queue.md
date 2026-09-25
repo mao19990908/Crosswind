@@ -1,12 +1,13 @@
 # 需要用户手动查找的资料
 
-截至 2026-09-25：新增 20 条，当前未解决 20 条。优先使用官方入口或机构图书馆的合法权限获取；取得后放入 `sources/pdfs/`，下轮将校验题名/DOI、PDF 格式和 SHA-256。
+截至 2026-09-25：v5 迁移新增 20 条，随后新增 1 条；当前未解决 21 条。合法获得的 PDF 请放入 `sources/pdfs/`，下一轮核题名/DOI、格式与 SHA-256。
 
-这些条目已检查所列渠道，但 Unpaywall 需要可用联系邮箱、Semantic Scholar 曾返回 429，部分机构仓储限制自动访问。仍可能存在其他合法 OA 版本；清单不是永久付费判断。
+当前已查入口并非穷尽全部合法 OA/机构馆藏；Unpaywall 联系邮箱未配置，Semantic Scholar 前轮返回 429。
 
 | 优先级 | 题名；作者；年份 | DOI | 官方入口 | 需要全文的原因 | 已尝试渠道 |
 | --- | --- | --- | --- | --- | --- |
 | P0 | Wind Effects on Car Stability；W. E. Lay; P. W. Lett；1953 | 10.4271/530255 | [官方/权威入口](https://doi.org/10.4271/530255) | 核对1953道路阵风原试验的风场、传感器和参考文献；解决自动引文日期冲突。 | Crossref DOI metadata; publisher/DOI landing; OpenAlex exact DOI |
+| P0 | Transient Nature of Wind Gust Effects on an Automobile；F. N. Beauvais；1967 | 10.4271/670608 | [官方/权威入口](https://saemobilus.sae.org/papers/transient-nature-wind-gust-effects-automobile-670608) | 核对1967年准稳态与瞬态阵风风洞载荷比较的原始风场、标定、波形、峰值与适用范围。 | Crossref exact DOI; SAE publisher abstract; publisher PDF route redirected to HTML; OpenAlex exact DOI (closed, no OA location) |
 | P0 | Theoretical Prediction of the Aerodynamic Derivatives of a Vehicle in Cross Wind Gusts；W.-H. Hucho; H. J. Emmelmann；1973 | 10.4271/730232 | [官方/权威入口](https://doi.org/10.4271/730232) | 核对气动导数理论的公式、坐标和风梯度假设。 | Crossref DOI metadata; publisher/DOI landing; OpenAlex exact DOI |
 | P0 | Development of Aerodynamic Disturbance Test Procedures. Volume I: Executive Summary；R. H. Klein; J. R. Hogue；1979 | 未确认 | [官方/权威入口](https://trid.trb.org/View/143777) | 核对早期全尺寸有限侧风区试验、评价指标及 Volume II 对应关系。 | official/TRID catalog; Crossref/DataCite title check |
 | P0 | Development of Aerodynamic Disturbance Test Procedures. Volume II: Technical Report；R. H. Klein; J. R. Hogue；1979 | 未确认 | [官方/权威入口](https://trid.trb.org/View/144116) | 核对188页技术报告中的风场、车辆/驾驶员工况与原始结果。 | official/TRID catalog; Crossref/DataCite title check |
@@ -27,4 +28,4 @@
 | P1 | Coupled 6DoF Motion and Aerodynamic Crosswind Simulation Incorporating Driver Model；Kosuke Nakasato; Makoto Tsubokura; Jun Ikeda; et al.；2017 | 10.4271/2017-01-1525 | [官方/权威入口](https://doi.org/10.4271/2017-01-1525) | 核对6DoF+驾驶员耦合方法与其他2017工作的独立性。 | Crossref DOI metadata; publisher/DOI landing; OpenAlex exact DOI |
 | P1 | Aerodynamic Characterization of a Full-Scale Compact Car Exposed to Transient Crosswind；James R. Bell; Henning Wilhelmi; Daniela Heine; et al.；2021 | 10.4271/06-14-01-0001 | [官方/权威入口](https://doi.org/10.4271/06-14-01-0001) | 核对全尺寸车辆非定常风洞工况和载荷统计。 | Crossref DOI metadata; publisher/DOI landing; OpenAlex exact DOI |
 
-收到文件后不默认拥有再分发权。只有明确允许再分发的 PDF 才会纳入 GitHub；其余仅本机保存。
+收到文件后不默认拥有再分发权；仅明确允许再分发的 PDF 可纳入 GitHub。

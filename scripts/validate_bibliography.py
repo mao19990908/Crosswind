@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import csv
 import re
+from collections import Counter
 from pathlib import Path
 
 
@@ -37,6 +38,15 @@ def main() -> None:
         raise AssertionError("Index / DOI registry / Bib / Bib source ID sets differ")
     if set(queue) - ids:
         raise AssertionError("Manual queue has unknown source IDs")
+    normalized = lambda value: re.sub(r"[^a-z0-9]+", "", value.casefold())
+    for label, keys in [
+        ("DOI", [row["doi"].casefold() for row in index.values() if row["doi_status"] == "verified"]),
+        ("report/standard number", [(row["source_type"], normalized(row["report_or_standard_number"])) for row in index.values() if row["report_or_standard_number"] != "not_applicable"]),
+        ("title/year", [(normalized(row["title"]), row["year"]) for row in index.values()]),
+    ]:
+        duplicates = [key for key, count in Counter(keys).items() if count > 1]
+        if duplicates:
+            raise AssertionError(f"Duplicate {label}: {duplicates}")
     for source_id, row in index.items():
         if row["bib_key"] != source_id or provenance[source_id]["citation_key"] != source_id:
             raise AssertionError(f"Bib key mismatch for {source_id}")

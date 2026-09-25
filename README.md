@@ -19,7 +19,7 @@
 
 `journal_article`、`sae_technical_paper`、`conference_paper`、`standard`、`government_report`、`institutional_report`、`doctoral_thesis`、`master_thesis`、`dataset`、`facility_documentation`。
 
-当前索引共 23 条；分类型覆盖与尚未检索的类别判断见 [database_coverage.md](search/database_coverage.md)。
+当前索引共 24 条；分类型覆盖与尚未检索的类别判断见 [database_coverage.md](search/database_coverage.md)。
 
 ## 导航
 
@@ -40,11 +40,11 @@
 
 ## v5 书目、去重和补档（2026-09-25）
 
-现有 23 条资料均有稳定 ID 对应的 Bib 条目；[Bib 来源台账](sources/bibliography/bib_sources.csv)逐条给出元数据和摘要来源。仅有明确 CC BY 4.0 再利用依据的 SAE 2025 摘要复制进 Bib；其他官方/仓储摘要仅标明可得来源，未整段复制。`abstract_status` 与 `verification_status` 分开：有摘要不代表已核读全文。
+v5 迁移时的 23 条资料及随后新增的 1967 Beauvais SAE 来源，目前共 24 条，均有稳定 ID 对应的 Bib 条目；[Bib 来源台账](sources/bibliography/bib_sources.csv)逐条给出元数据和摘要来源。仅有明确 CC BY 4.0 再利用依据的 SAE 2025 摘要复制进 Bib；其他官方/仓储摘要仅标明可得来源，未整段复制。`abstract_status` 与 `verification_status` 分开：有摘要不代表已核读全文。
 
 首次全量检查 DOI、SAE/标准/报告号、规范化题名和近似题名后，没有确认的真重复项，因此没有删除旧记录，[aliases.csv](sources/aliases.csv)目前只有表头。3 对相关版本/设施延续来源保留为不同资料，判定理由见[去重报告](sources/dedup_report.csv)；报告 Volume I/II 新增 `companion_report` 边。现有 3 份本机 PDF 重新核对文件头、可读页数、题名和 SHA-256；Passmore、SAE 2025 两条为 `full_text_verified`，Brandt 92 页学位论文 PDF 只有扩展摘要与文献目录、不含 Paper A–E 原篇，保持保守的 `abstract_verified`。
 
-[人工补档清单](sources/manual_retrieval_queue.md)现列 20 条仍无已校验本机全文的资料，按 P0/P1 标明原始入口、为何需要全文和已查渠道。付费/未找到只代表当前已核验入口；Unpaywall、受限机构仓储与其他合法 OA 搜索仍可继续。拿到 PDF 后请放入 `sources/pdfs/`，后续运行会核验并更新 DOI/PDF、学习与综合结论。
+[人工补档清单](sources/manual_retrieval_queue.md)现列 21 条仍无已校验本机全文的资料，按 P0/P1 标明原始入口、为何需要全文和已查渠道。付费/未找到只代表当前已核验入口；Unpaywall、受限机构仓储与其他合法 OA 搜索仍可继续。拿到 PDF 后请放入 `sources/pdfs/`，后续运行会核验并更新 DOI/PDF、学习与综合结论。
 
 ## 本地全文 PDF
 
@@ -54,7 +54,7 @@ Passmore 作者存档与 Brandt Chalmers 学位论文仅本机留存；前者已
 
 ## DOI / 合法全文台账（2026-09-25）
 
-现有 23 条来源全部纳入 [DOI 总账](sources/doi_registry.csv)：18 条 DOI 经 Crossref 精确核验，5 条按当前官方目录及 Crossref/DataCite 题名检索暂列 `no_doi_confirmed`（ISO 原标准、1979 两卷 DOT 报告、Chalmers 学位论文、1968 Milner 期刊条目），`missing_to_search` 为 0。原始题名页或新登记可改变无 DOI 判断；BS ISO 采用版 DOI 不归给原 ISO 记录。**DOI 覆盖率 18/23 = 78.26%**。
+现有 24 条来源全部纳入 [DOI 总账](sources/doi_registry.csv)：19 条 DOI 经 Crossref 精确核验，5 条按当前官方目录及 Crossref/DataCite 题名检索暂列 `no_doi_confirmed`（ISO 原标准、1979 两卷 DOT 报告、Chalmers 学位论文、1968 Milner 期刊条目），`missing_to_search` 为 0。原始题名页或新登记可改变无 DOI 判断；BS ISO 采用版 DOI 不归给原 ISO 记录。**DOI 覆盖率 19/24 = 79.17%**。
 
 公开全文已验证 3 份：Passmore 作者版、Brandt 学位论文、SAE 2025 出版者版。Durham 2000 与 HAL 2013 有开放仓储页面，但直接文档请求分别返回 403 和 bot challenge，本机未取得 PDF，也未绕过访问控制。其余条目的付费或未找到状态只描述已查入口，不能解释为永久无 OA。Passmore 封面与仓储许可版本不一致、Brandt 仅明确可公开访问，两份仅本机保留；SAE 2025 许可 CC BY 4.0，允许署名再分发。来源、大小、SHA-256 和许可边界以 DOI 总账为准。
 

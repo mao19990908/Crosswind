@@ -13,7 +13,8 @@
     "iso-12021-2010",
     "jcp-2016-tunay",
     "sae-2017-01-1515",
-    "jfe-2013-volpe"
+    "jfe-2013-volpe",
+    "sae-670608"
   ],
   "learning_completed": [
     "trid-116341",
@@ -32,8 +33,8 @@
     "brandt-2023-thesis",
     "pimeche-2001-passmore"
   ],
-  "sources_total": 23,
-  "sources_pending_learning": 8,
+  "sources_total": 24,
+  "sources_pending_learning": 9,
   "current_source_id": "sae-530255",
   "current_pass": 3,
   "current_pass_status": "awaiting_lawful_fulltext",
@@ -164,14 +165,14 @@
   "doi_pdf_checkpoint": {
     "date": "2026-09-25",
     "status": "in_progress",
-    "total_sources": 23,
-    "verified_doi": 18,
+    "total_sources": 24,
+    "verified_doi": 19,
     "no_doi_confirmed": 5,
     "missing_to_search": 0,
     "oa_fulltext_found": 3,
     "local_pdf_count": 3,
     "github_pdf_count": 1,
-    "next": "Milner 1968 DOI remains reversible pending original publisher title page; two OA landing PDFs and eight-source learning backlog remain; pre-1953 candidates await primary catalog/fulltext verification",
+    "next": "Milner 1968 DOI remains reversible pending original publisher title page; two OA landing PDFs and nine-source learning backlog remain; new sae-670608 awaits Pass 1-3 after the earlier backlog",
     "oa_landing_candidates": 2,
     "weekly_quota_used_at_last_read_percent": 1,
     "research_commit_sha": "5a90fd9b8ceeb2bc6ce0095c6c38dbe7036ce5bb"
@@ -203,5 +204,30 @@
     "next_breakpoint": "Obtain lawful full text for sae-530255 Pass 3; resolve 20 manual-retrieval requests by priority; Durham/HAL OA leads remain open. Milner no-DOI finding is reversible if the original publisher record surfaces. No broad collection before learning backlog is cleared.",
     "local_remote_sync": "research_commit_verified_local_origin_live_remote_equal",
     "github_commit_sha": "c74bac028a6d42f980ec76b63326577d3a1bb583"
+  },
+  "post_v5_collection": {
+    "date": "2026-09-25",
+    "new_source_ids": [
+      "sae-670608"
+    ],
+    "sources_total": 24,
+    "manual_retrieval_unresolved": 21,
+    "verified_doi": 19,
+    "bib_entries": 24,
+    "bib_abstracts_saved": 1,
+    "abstract_available_not_copied": 22,
+    "metadata_only_sources": 1,
+    "full_text_verified_sources": 2,
+    "sources_pending_learning": 9,
+    "learning_completed": 15,
+    "quota_weekly_used_start_percent": 2,
+    "quota_weekly_used_latest_percent": 10,
+    "quota_status": "available_rounded_shared_account",
+    "current_phase": "learning",
+    "current_source_id": "sae-530255",
+    "current_pass": 3,
+    "next": "Finish existing Pass 3 backlog before new large-scale collection; newly collected sae-670608 awaits Pass 1-3.",
+    "local_remote_sync": "pending_commit_and_push",
+    "github_commit_sha": "pending"
   }
 }
