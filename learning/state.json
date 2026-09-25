@@ -94,10 +94,10 @@
   ],
   "quota_status": "daily_cap_exceeded_before_pdf_evidence_initialization_shared_rounded",
   "weekly_quota_used_at_run_start_percent": 11,
-  "weekly_quota_used_at_last_read_percent": 17,
+  "weekly_quota_used_at_last_read_percent": 18,
   "weekly_quota_used_at_day_start_percent": 2,
   "weekly_quota_day_cap_used_percent": 14,
-  "local_remote_sync": "research_commit_verified_local_origin_live_remote_equal_audit_pending",
+  "local_remote_sync": "pdf_evidence_research_commit_verified_audit_pending",
   "github_commit_sha": "0c184a9f182410d1a1952814be894debe67f0a36",
   "note": "SAE 2025 publisher PDF all 16 pages visually inspected; scoped full_text_verified. 15 completed learning targets, 8 Pass 3 backlog including new jfe-2013-volpe. DOI/PDF checkpoint and legal access search continue.",
   "github_commit_sha_role": "user_pdf_receipt_research_commit_verified_before_audit_commit",
@@ -174,7 +174,7 @@
       "next_action": "Check ordinary authorized access or another official author deposit; keep abstract evidence only"
     }
   ],
-  "quota_measurement_note": "2026-09-25 post-reset daily baseline 2%, cap 14%; prior run ended 15%, current first read 16%, latest 17%. Shared-account rounded metric; no further full-text research or collection this date.",
+  "quota_measurement_note": "2026-09-25 post-reset daily baseline 2%, cap 14%; prior run ended 15%, this run started 16%, final post-push read 18% (+16 points from day baseline). Shared-account rounded metric cannot attribute this run precisely; no further full-text research or collection this date.",
   "quota_last_read_at": "2026-09-25T16:47:09.4487083+08:00",
   "doi_pdf_checkpoint": {
     "date": "2026-09-25",
