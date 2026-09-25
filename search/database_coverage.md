@@ -79,3 +79,5 @@
 总数 **23**：journal_article **8**（今日后续新增 `jfe-2013-volpe` 1）、sae_technical_paper **11**、government_report **2**、standard **1**、doctoral_thesis **1**。其余强制检查类型 conference_paper、institutional_report、master_thesis、dataset、facility_documentation 均仍为 **0**；对应缺口分别是会议原始出版物核验不足、机构报告专项检索不足、硕士学位库专项检索不足、开放阵风数据适用性和许可未查清、独立设施文档尚未核验。零不等于不存在。2013 年设施论文仍归 `journal_article`，不能因内容涉及设施就重复计入 `facility_documentation`；A–M 主题标签与发布类型独立。
 
 DOI 状态：18 verified、4 暂时 no_doi_confirmed、1 missing_to_search，覆盖率 18/23 = 78.26%。本机有效 PDF 3，SAE 2025 出版者 CC BY PDF 可上传 GitHub 1；Durham 和 HAL 2013 是 OA 页面线索，不计 PDF。此次历史/方法检索新增 2014 → 2013、2013 → 1996、2013 → 2001 三条 verified references 边，以及 2013 → 2000 Durham 的**概念方法继承**边；后者由 2013 作者摘要与 2018 Springer 原始研究交叉支持，不冒充 2013 原文的直接 references 边或硬件复用证明。
+
+1953 SAE Crossref 现有 5 条参考元数据，含 1951 Lett 学位论文、Stuttgart Huber No.44 与 Sawatzki No.50；Stuttgart 官方档案另列 1941 No.50 和 1942 突发侧风 film report。它们是 pre-1953 来源/类型候选，**尚未入规范索引**：Lett 缺大学原馆藏，Huber No.44 标题/年代版本冲突，Sawatzki 报告与 1953 引文标题不同，1942 film report 未取得内容。`institutional_report`、`doctoral_thesis` 当前总量不据线索虚增；后者仍仅 Brandt 2023 一条。后续优先核实原始档案单项和报告全文。

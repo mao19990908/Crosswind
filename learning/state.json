@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-25T11:32:22+08:00",
+  "updated_at": "2026-09-25T11:38:27+08:00",
   "timezone": "Asia/Shanghai",
   "current_phase": "learning",
   "phase_status": "in_progress",
@@ -73,19 +73,19 @@
     "C-VALIDATION|described_by|E-2025-04"
   ],
   "today_remaining_work": [
-    "Complete v4 DOI/PDF audit, including Milner original issue and two OA landing access points",
-    "Resume eight-source learning backlog at sae-530255 Pass 3; jfe-2013-volpe has abstract checkpoint only",
-    "Continue Ryan-Dominy -> Volpe facility method-lineage verification from lawful full texts"
+    "Seek primary Michigan catalog for Lett 1951 thesis and FKFS report 44/50 and 01-1942 film report; do not merge title variants",
+    "Finish v4 DOI/PDF checkpoint: Milner 1968 DOI, Durham 2000 and HAL 2013 lawful PDFs without bypass",
+    "Resume eight-source learning backlog at sae-530255 Pass 3; move forward only when lawful original evidence is available"
   ],
-  "quota_status": "available",
+  "quota_status": "available_after_one_authorized_reset",
   "weekly_quota_used_at_run_start_percent": 73,
-  "weekly_quota_used_at_last_read_percent": 90,
+  "weekly_quota_used_at_last_read_percent": 1,
   "weekly_quota_used_at_day_start_percent": 73,
   "weekly_quota_day_cap_used_percent": 85,
-  "local_remote_sync": "verified_at_v4_research_commit_audit_pending",
-  "github_commit_sha": "87f40141697bb5a4c39dc10d513582f696606b39",
+  "local_remote_sync": "verified_at_research_commit_audit_pending",
+  "github_commit_sha": "5a90fd9b8ceeb2bc6ce0095c6c38dbe7036ce5bb",
   "note": "SAE 2025 publisher PDF all 16 pages visually inspected; scoped full_text_verified. 15 completed learning targets, 8 Pass 3 backlog including new jfe-2013-volpe. DOI/PDF checkpoint and legal access search continue.",
-  "github_commit_sha_role": "last_verified_v4_research_commit_before_audit",
+  "github_commit_sha_role": "last_verified_research_commit_before_historical_audit",
   "quota_date": "2026-09-25",
   "today_updated_knowledge_nodes": [
     "EQ-RED-FREQ",
@@ -149,10 +149,18 @@
       "status": "awaiting_lawful_fulltext",
       "reason": "SAE public abstract only; no lawful full text acquired in targeted search",
       "next_action": "Check authorized local/library or exact-title institutional author copy; do not repeat abstract learning"
+    },
+    {
+      "source_id": "jfe-2013-volpe",
+      "checked_on": "2026-09-25",
+      "pass": 3,
+      "status": "awaiting_lawful_fulltext",
+      "reason": "HAL API marks open access but document URL returned HTML bot challenge; no bypass or PDF retained",
+      "next_action": "Check ordinary authorized access or another official author deposit; keep abstract evidence only"
     }
   ],
-  "quota_measurement_note": "User authorized continued substantive work past prior +12-point daily cap and one reset credit only when eligible; latest successful shared-account weekly read 87% used. One transient read failure resolved on retry.",
-  "quota_last_read_at": "2026-09-25T11:32:22+08:00",
+  "quota_measurement_note": "User-authorized manual continuation beyond original +12 daily cap; weekly used reached 91% (remaining 9%), one reset credit redeemed successfully at platform eligibility <=10% remaining; weekly used 1% on fresh post-reset read. Shared-account rounded readings.",
+  "quota_last_read_at": "2026-09-25T11:38:27+08:00",
   "doi_pdf_checkpoint": {
     "date": "2026-09-25",
     "status": "in_progress",
@@ -163,9 +171,13 @@
     "oa_fulltext_found": 3,
     "local_pdf_count": 3,
     "github_pdf_count": 1,
-    "next": "Check Milner 1968 original issue for DOI; obtain direct legal PDFs for Durham 2000 and HAL 2013 without bypassing 403/challenge; resume eight-source learning backlog",
+    "next": "Milner 1968 original DOI; two OA landing PDFs; then eight-source learning backlog; pre-1953 candidates await primary catalog/fulltext verification",
     "oa_landing_candidates": 2,
-    "weekly_quota_used_at_last_read_percent": 90,
-    "research_commit_sha": "87f40141697bb5a4c39dc10d513582f696606b39"
-  }
+    "weekly_quota_used_at_last_read_percent": 1,
+    "research_commit_sha": "5a90fd9b8ceeb2bc6ce0095c6c38dbe7036ce5bb"
+  },
+  "weekly_quota_pre_reset_used_percent": 91,
+  "weekly_quota_after_reset_used_percent": 1,
+  "reset_credits_used_this_run": 1,
+  "reset_credits_remaining": 2
 }

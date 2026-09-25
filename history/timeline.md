@@ -1,6 +1,12 @@
 # 道路车辆瞬态侧风研究时间线
 
-> 本页是可核验节点清单，不宣称已经找到绝对最早工作。1953 年以前仍待系统搜索。
+> 本页区分已入库来源与仅有书目证据的候选，不宣称已经找到绝对最早工作。
+
+## 1940—1951：1953 原文参考元数据回溯（候选，尚未入规范索引）
+
+- `sae-530255` 的 [Crossref 出版者所存参考文献](https://api.crossref.org/works/10.4271%2F530255) ref4 列出 P. W. Lett 1951 年密歇根大学博士论文，题名为 *A Quantitative Analysis of the Effects of Sidewinds and Gusts on the Stability of an Automobile Operating at Medium and High Speeds as Determined from Road Tests*。尚未找到大学原馆藏记录/全文，不能把其试验结果与 1953 论文算作独立两组数据。
+- 同一参考元数据 ref1/ref2 列 Ludwig Huber 的 Stuttgart Report No. 44 与 Ewald Sawatzki 的 Report No. 50。[Stuttgart 档案在 LEO-BW 的馆藏目录](https://www.leo-bw.de/en-GB/detail/-/Detail/details/DOKUMENT/ua_stuttgart/DE-2214_69510205-eea1-4584-95c5-850f10651270/Zeitschriftensammlung%2B%C2%B4%C2%B4Deutsche%2BKraftfahrtforschung%C2%B4%C2%B4)确认 Sawatzki 的 50/1941 报告另题 *Die Luftkräfte und ihre Momente am Kraftwagen ...*，并列一份**独立**的 01/1942 film report *Fahrtrichtungshaltung des Kraftfahrzeugs bei plötzlichem Seitenwind*（Huber/Maier/Harling，7 页）。[NACA 历史资料中的书目注](https://ntrs.nasa.gov/api/citations/19930093865/downloads/19930093865.pdf)还将 Huber Heft 44 记为 1940 年 *Die Fahrtrichtungsstabilität des schnellfahrenden Kraftwagens*。题名与 1953 引文不同，暂不合并 Huber 44 与 1942 film report，也不从题名推断动态试验方法。
+- 这批候选只建立可追索的前史线索。需要原始报告/馆藏单项页核对作者、题名版本、页数、权限及是否真正讨论瞬态侧风，才能赋 source_type 并入库；1953 仍是目前本库最早的已核验研究记录。
 
 ## 1953：已核验的早期道路试验节点
 
