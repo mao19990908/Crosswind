@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-25T16:47:09.4427898+08:00",
+  "updated_at": "2026-09-25T17:13:16.897197+08:00",
   "timezone": "Asia/Shanghai",
   "current_phase": "learning",
   "phase_status": "in_progress",
@@ -31,9 +31,10 @@
     "sae-06-14-01-0001",
     "sae-15-18-01-0005",
     "brandt-2023-thesis",
-    "pimeche-2001-passmore"
+    "pimeche-2001-passmore",
+    "bams-1958-benner"
   ],
-  "sources_total": 24,
+  "sources_total": 25,
   "sources_pending_learning": 17,
   "current_source_id": "sae-730232",
   "current_pass": 3,
@@ -51,7 +52,9 @@
     "E-2025-04",
     "E-1967-01",
     "E-1967-02",
-    "M-SLENDER"
+    "M-SLENDER",
+    "E-1958-01",
+    "E-1958-02"
   ],
   "today_added_or_modified_graph_edges": [
     "E-2001-02|evidence_from|pimeche-2001-passmore",
@@ -84,23 +87,28 @@
     "E-1973-01|evidence_from|sae-730232",
     "C-DYNLOAD|described_by|E-1973-01",
     "M-SLENDER|described_by|E-1973-01",
-    "C-VALIDATION|described_by|E-1973-01"
+    "C-VALIDATION|described_by|E-1973-01",
+    "E-1958-01|evidence_from|bams-1958-benner",
+    "M-ROAD|described_by|E-1958-01",
+    "E-1958-02|evidence_from|bams-1958-benner",
+    "C-LOOP|described_by|E-1958-02"
   ],
   "today_remaining_work": [
     "Finish Pass 3 formula/sign/reproduction audit for sae-730232 and sae-670608",
     "Substantive full-text Pass review of 12 other user-supplied PDFs, prioritizing P0 before P1",
     "Continue lawful retrieval for seven unresolved manual-queue sources without bypass or public redistribution",
-    "Keep collecting on hold while learning backlog of 17 remains"
+    "Keep collecting on hold while learning backlog of 17 remains",
+    "Compare Benner 1958 secondary description with Lay/Lett 1953 original when legally acquired; keep 17-source learning backlog before broad collection"
   ],
   "quota_status": "daily_cap_exceeded_before_pdf_evidence_initialization_shared_rounded",
   "weekly_quota_used_at_run_start_percent": 11,
-  "weekly_quota_used_at_last_read_percent": 18,
+  "weekly_quota_used_at_last_read_percent": 19,
   "weekly_quota_used_at_day_start_percent": 2,
   "weekly_quota_day_cap_used_percent": 14,
-  "local_remote_sync": "pdf_evidence_research_commit_verified_audit_pending",
+  "local_remote_sync": "benner_1958_research_commit_pending",
   "github_commit_sha": "0c184a9f182410d1a1952814be894debe67f0a36",
   "note": "SAE 2025 publisher PDF all 16 pages visually inspected; scoped full_text_verified. 15 completed learning targets, 8 Pass 3 backlog including new jfe-2013-volpe. DOI/PDF checkpoint and legal access search continue.",
-  "github_commit_sha_role": "user_pdf_receipt_research_commit_verified_before_audit_commit",
+  "github_commit_sha_role": "previous_verified_commit_before_benner",
   "quota_date": "2026-09-25",
   "today_updated_knowledge_nodes": [
     "EQ-RED-FREQ",
@@ -175,7 +183,7 @@
     }
   ],
   "quota_measurement_note": "2026-09-25 post-reset daily baseline 2%, cap 14%; prior run ended 15%, this run started 16%, final post-push read 18% (+16 points from day baseline). Shared-account rounded metric cannot attribute this run precisely; no further full-text research or collection this date.",
-  "quota_last_read_at": "2026-09-25T16:47:09.4487083+08:00",
+  "quota_last_read_at": "2026-09-25T17:16:34.276208+08:00",
   "doi_pdf_checkpoint": {
     "date": "2026-09-25",
     "status": "in_progress",
@@ -302,5 +310,22 @@
     "manual_retrieval_items_added_this_run": 0,
     "manual_retrieval_unresolved": 7,
     "next": "Resume sae-730232 Pass 3 formula audit, then sae-670608; read remaining 13 pending PDFs using page-level evidence map, observing next-day quota"
+  },
+  "benner_1958_ingestion": {
+    "date": "2026-09-25",
+    "status": "full_text_verified_pass2_complete",
+    "source_id": "bams-1958-benner",
+    "local_pdf": "sources\\pdfs\\bams-1958-benner__benner__1958.pdf",
+    "pdf_sha256": "069ffaad12dd0f0c64242c08881e399e8cea0d434bcb5cf3485435ec748893aa",
+    "new_citation_edges": 1,
+    "new_evidence_nodes": 2,
+    "new_graph_edges": 4,
+    "github_pdf": false,
+    "copyright_reason": "AMS journal OCR copy; public redistribution permission not verified",
+    "weekly_used_start_percent": 18,
+    "reset_observation": "User reported using a reset card; fresh platform reading remained 18% weekly used and 2 credits available, so reset was not independently observed.",
+    "next_breakpoint": "Resume sae-730232 Pass 3 and 17-source learning backlog; verify Lay/Lett original against Benner secondary account.",
+    "weekly_used_end_percent": 19,
+    "quota_status": "daily_cap_already_exceeded_before_ingestion; user_reported_reset_not_observed_by_platform"
   }
 }

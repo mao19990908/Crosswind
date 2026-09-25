@@ -33,6 +33,10 @@
 
 目前为已纳入记录的类型计数；0 表示本库当前无记录，不表示该类型确实不存在。其它规范类型也按索引中的实际记录统计。
 
+## 2026-09-25 Benner 1958 全文增量
+
+用户提供一份已出版 AMS 期刊全文；Crossref 精确 DOI 核验 1 条，筛选 1、纳入 1，无题名/DOI 真重复。此次 `journal_article` +1。索引当前 25 条：`journal_article` 9、`sae_technical_paper` 12、`government_report` 2、`standard` 1、`doctoral_thesis` 1。`conference_paper`、`institutional_report`、`master_thesis`、`dataset`、`facility_documentation` 仍为 0；这反映本库检索覆盖不足，不是该领域不存在这些资料。未额外搜索上述空缺类型，不能把本次 PDF 阅读记为其检索完成。
+
 ## 2026-09-24 增量覆盖与断点
 
 - TRID：卷 II 144116 的书目和目录摘要可访问；原报告未取得。政府报告新增 1 条 metadata_verified，不能把目录摘要当已核验全文。

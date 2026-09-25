@@ -19,7 +19,7 @@
 
 `journal_article`、`sae_technical_paper`、`conference_paper`、`standard`、`government_report`、`institutional_report`、`doctoral_thesis`、`master_thesis`、`dataset`、`facility_documentation`。
 
-当前索引共 24 条；分类型覆盖与尚未检索的类别判断见 [database_coverage.md](search/database_coverage.md)。
+当前索引共 25 条；分类型覆盖与尚未检索的类别判断见 [database_coverage.md](search/database_coverage.md)。
 
 ## 导航
 
@@ -41,7 +41,7 @@
 
 ## v5 书目、去重和补档（2026-09-25）
 
-v5 迁移时的 23 条资料及随后新增的 1967 Beauvais SAE 来源，目前共 24 条，均有稳定 ID 对应的 Bib 条目；[Bib 来源台账](sources/bibliography/bib_sources.csv)逐条给出元数据和摘要来源。仅有明确 CC BY 4.0 再利用依据的 SAE 2025 摘要复制进 Bib；其他官方/仓储摘要仅标明可得来源，未整段复制。`abstract_status` 与 `verification_status` 分开：有摘要不代表已核读全文。
+v5 迁移时的 23 条资料及随后新增的 1967 Beauvais SAE、1958 Benner 期刊来源，目前共 25 条，均有稳定 ID 对应的 Bib 条目；[Bib 来源台账](sources/bibliography/bib_sources.csv)逐条给出元数据和摘要来源。仅有明确 CC BY 4.0 再利用依据的 SAE 2025 摘要复制进 Bib；其他官方/仓储摘要仅标明可得来源，未整段复制。`abstract_status` 与 `verification_status` 分开：有摘要不代表已核读全文。
 
 首次全量检查 DOI、SAE/标准/报告号、规范化题名和近似题名后，没有确认的真重复项，因此没有删除旧记录，[aliases.csv](sources/aliases.csv)目前只有表头。3 对相关版本/设施延续来源保留为不同资料，判定理由见[去重报告](sources/dedup_report.csv)；报告 Volume I/II 新增 `companion_report` 边。现有 3 份本机 PDF 重新核对文件头、可读页数、题名和 SHA-256；Passmore、SAE 2025 两条为 `full_text_verified`，Brandt 92 页学位论文 PDF 只有扩展摘要与文献目录、不含 Paper A–E 原篇，保持保守的 `abstract_verified`。
 
@@ -51,16 +51,20 @@ v5 迁移时的 23 条资料及随后新增的 1967 Beauvais SAE 来源，目前
 
 合法取得的 PDF 登记在 `D:\GEELY\Crosswind\sources\pdfs\`。旧 `local_fulltext\` 副本保留。两目录默认被 `.gitignore` 排除；只有明确允许再分发的 PDF 才逐个 `git add -f` 纳入 GitHub。
 
-Passmore 作者存档与 Brandt Chalmers 学位论文仅本机留存；前者已核读全文，后者已核读仓储 PDF 的扩展摘要页段（其 Paper A–E 附录原篇不在该 92 页文件内）。SAE 2025 出版者 PDF 首页明确 CC BY 4.0，已核验并纳入 GitHub。用户提供的 14 份 PDF 已核对题名/编号、可读页数、大小和 SHA-256，保存为本机研究副本；其 SAE 版权标记或 Elsevier 许可情况没有提供公开再分发依据，故不推送文件本体。当前 **本机 PDF 17 份、GitHub PDF 1 份、仅本机 16 份**。
+Passmore 作者存档与 Brandt Chalmers 学位论文仅本机留存；前者已核读全文，后者已核读仓储 PDF 的扩展摘要页段（其 Paper A–E 附录原篇不在该 92 页文件内）。SAE 2025 出版者 PDF 首页明确 CC BY 4.0，已核验并纳入 GitHub。用户提供的 14 份 PDF 已核对题名/编号、可读页数、大小和 SHA-256，保存为本机研究副本；其 SAE 版权标记或 Elsevier 许可情况没有提供公开再分发依据，故不推送文件本体。当前 **本机 PDF 18 份、GitHub PDF 1 份、仅本机 17 份**。
 
-其中 Beauvais 1967 和 Hucho/Emmelmann 1973 已进入 `full_text_verified` 并完成 Pass 1–2；其余 12 份新收件全文等待逐篇研究级复核。当前全库 `full_text_verified` 4 条，学习 backlog 17 条（含因新证据重开的条目）。
+其中 Beauvais 1967、Hucho/Emmelmann 1973 和 Benner 1958 已进入 `full_text_verified` 并完成 Pass 1–2；其余 12 份新收件全文等待逐篇研究级复核。当前全库 `full_text_verified` 5 条，学习 backlog 17 条（含因新证据重开的条目）。
 
 ## DOI / 合法全文台账（2026-09-25）
 
-现有 24 条来源全部纳入 [DOI 总账](sources/doi_registry.csv)：19 条 DOI 经 Crossref 精确核验，5 条按当前官方目录及 Crossref/DataCite 题名检索暂列 `no_doi_confirmed`（ISO 原标准、1979 两卷 DOT 报告、Chalmers 学位论文、1968 Milner 期刊条目），`missing_to_search` 为 0。原始题名页或新登记可改变无 DOI 判断；BS ISO 采用版 DOI 不归给原 ISO 记录。**DOI 覆盖率 19/24 = 79.17%**。
+现有 25 条来源全部纳入 [DOI 总账](sources/doi_registry.csv)：20 条 DOI 经 Crossref 精确核验，5 条按当前官方目录及 Crossref/DataCite 题名检索暂列 `no_doi_confirmed`（ISO 原标准、1979 两卷 DOT 报告、Chalmers 学位论文、1968 Milner 期刊条目），`missing_to_search` 为 0。原始题名页或新登记可改变无 DOI 判断；BS ISO 采用版 DOI 不归给原 ISO 记录。**DOI 覆盖率 20/25 = 80.00%**。
 
 公开全文已验证 3 份：Passmore 作者版、Brandt 学位论文、SAE 2025 出版者版。Durham 2000 与 HAL 2013 有开放仓储页面，但直接文档请求分别返回 403 和 bot challenge，本机未取得 PDF，也未绕过访问控制。其余条目的付费或未找到状态只描述已查入口，不能解释为永久无 OA。Passmore 封面与仓储许可版本不一致、Brandt 仅明确可公开访问，两份仅本机保留；SAE 2025 许可 CC BY 4.0，允许署名再分发。来源、大小、SHA-256 和许可边界以 DOI 总账为准。
 
 ### 2026-09-25 追加：出版者 CC BY 全文
 
 [SAE 2025 风洞阵风发生系统论文](https://doi.org/10.4271/15-18-01-0005)的出版者 PDF 首页明确标示 CC BY 4.0，已核对题名、DOI、16 页和 SHA-256，并按署名许可纳入 GitHub。其余本机 PDF 仍不推送；实时数量以 DOI 总账为准。
+
+### 2026-09-25 追加：Benner 1958 历史全文
+
+用户提供的 [Benner 1958](https://doi.org/10.1175/1520-0477-39.8.421) 六页期刊论文已存入本机 `sources/pdfs/bams-1958-benner__benner__1958.pdf`，全文 Pass 2 已完成。论文 p.425 reference 5 明确引用 Lay/Lett 1953；其道路仪器说明属于被引研究的历史转述，1955 Ford 的固定风洞例子不计作瞬态阵风试验。该 PDF 再分发许可未核实，所以只同步全文结构化记录、书目、证据节点和引文关系，不推送 PDF 文件。

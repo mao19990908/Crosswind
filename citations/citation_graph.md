@@ -42,3 +42,7 @@ pimeche-2001-passmore --references (verified, publisher ref.6)--> sae-980392
 `jfe-2013-volpe` → `sae-2000-01-0874`：`method_inherits=true`，限双风洞横向阵风**方法概念**。2013 作者摘要 + [2018 Springer 原始研究](https://link.springer.com/article/10.1007/s00348-018-2586-0)明确指向 2000 SAE DOI；原文引用与硬件细节仍未知。
 
 2013 ASME 文的 [Crossref 参考文献元数据](https://api.crossref.org/works/10.1115%2F1.4023194) B22、B14 还分别指向 `sae-960674`（题名/年份匹配）和 `pimeche-2001-passmore`（题名/年份/DOI 匹配），新增 2 条 verified `references`。这份 28 条元数据中未见 `sae-2000-01-0874` 的直接条目；不把方法概念继承误记为直接引用。元数据可能不完备，原刊全文仍待核对。
+
+## 2026-09-25：Benner 1958 原文引文
+
+`bams-1958-benner` → `sae-530255`：`references=true`，Benner 1958 publisher PDF p.425 reference 5 明确列 Lay/Lett 1953；pp.424–425 描述其道路车装置。这是 1953 核心论文的一条已核 cited-by，不证明新的独立试验或后续方法继承。

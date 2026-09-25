@@ -82,3 +82,7 @@
 "C-VALIDATION","E-1967-02","described_by","local facility/load checks only","sae-670608","full_text_verified","no independent dynamic load or Level C validation"
 "M-SLENDER","E-1973-01","described_by","flat-plate slender-body and spatial gust profile","sae-730232","full_text_verified","engineering estimate only"
 "C-VALIDATION","E-1973-01","described_by","steady tunnel derivatives checked; transient predicted","sae-730232","full_text_verified","no independent transient Level B or road Level C"
+E-1958-01,bams-1958-benner,evidence_from,Lay/Lett instrument description,bams-1958-benner,full_text_verified,Benner pp.424-425 Sec.5 Figs.3-4; secondary historical evidence
+M-ROAD,E-1958-01,described_by,natural road wind sensing and body-frame loads,bams-1958-benner,full_text_verified,Does not independently validate the 1953 measurements
+E-1958-02,bams-1958-benner,evidence_from,oblique natural gust and driver correction,bams-1958-benner,full_text_verified,Benner p.425 Sec.6 point 2; narrative evidence
+C-LOOP,E-1958-02,described_by,qualitative driver correction after gust,bams-1958-benner,full_text_verified,No controller law or quantitative closed-loop response reported
