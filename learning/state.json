@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-25T17:13:16.897197+08:00",
+  "updated_at": "2026-09-25T17:17:18.146621+08:00",
   "timezone": "Asia/Shanghai",
   "current_phase": "learning",
   "phase_status": "in_progress",
@@ -105,10 +105,10 @@
   "weekly_quota_used_at_last_read_percent": 19,
   "weekly_quota_used_at_day_start_percent": 2,
   "weekly_quota_day_cap_used_percent": 14,
-  "local_remote_sync": "benner_1958_research_commit_pending",
-  "github_commit_sha": "0c184a9f182410d1a1952814be894debe67f0a36",
+  "local_remote_sync": "benner_research_commit_verified_local_origin_live_remote_equal_audit_pending",
+  "github_commit_sha": "279ed25da8d605ae9583d43d340b519d4679c1b7",
   "note": "SAE 2025 publisher PDF all 16 pages visually inspected; scoped full_text_verified. 15 completed learning targets, 8 Pass 3 backlog including new jfe-2013-volpe. DOI/PDF checkpoint and legal access search continue.",
-  "github_commit_sha_role": "previous_verified_commit_before_benner",
+  "github_commit_sha_role": "benner_research_commit_verified_before_audit_commit",
   "quota_date": "2026-09-25",
   "today_updated_knowledge_nodes": [
     "EQ-RED-FREQ",
@@ -326,6 +326,7 @@
     "reset_observation": "User reported using a reset card; fresh platform reading remained 18% weekly used and 2 credits available, so reset was not independently observed.",
     "next_breakpoint": "Resume sae-730232 Pass 3 and 17-source learning backlog; verify Lay/Lett original against Benner secondary account.",
     "weekly_used_end_percent": 19,
-    "quota_status": "daily_cap_already_exceeded_before_ingestion; user_reported_reset_not_observed_by_platform"
+    "quota_status": "daily_cap_already_exceeded_before_ingestion; user_reported_reset_not_observed_by_platform",
+    "research_commit_sha": "279ed25da8d605ae9583d43d340b519d4679c1b7"
   }
 }
