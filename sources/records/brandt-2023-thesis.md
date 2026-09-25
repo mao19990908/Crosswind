@@ -32,3 +32,9 @@
 - Limitation: thesis synthesizes multiple studies with different inputs; claims require chapter/source separation.
 - Relevance: recent interdisciplinary endpoint connecting aero, dynamics and subjective evaluation.
 - Follow-up: parse chapter evidence and create `version_of` relationships to constituent papers.
+
+## DOI / PDF registry (2026-09-25)
+
+- DOI: `unreported`; doi_status: `missing_to_search`; doi_source: https://research.chalmers.se/en/publication/534820; doi_verified_date: pending.
+- pdf_status: `oa_downloaded`; pdf_source: https://research.chalmers.se/publication/534820/file/534820_Fulltext.pdf; pdf_path: `sources\pdfs\brandt-2023-thesis__brandt__2023.pdf`; pdf_sha256: `556f9a24a9da555211303680c0f67bc36ed1b72d3b7c68bdb7b5770ff89d8b9f`; pdf_bytes: 16142603; pdf_license: repository access public; redistribution license unclear; github_pdf: false.
+- PDF 状态为本轮已检查入口的状态；未穷尽全部机构仓储或作者版本，不将当前未找到写成永久不存在。

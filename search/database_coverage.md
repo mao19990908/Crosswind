@@ -69,3 +69,7 @@
 
 ## 2026-09-25 学习访问审计
 本日未收集新来源，各source_type新增均0。Passmore全文通过Loughborough/Figshare精确标题API定位9225113，已核读10页原文；源索引升级full_text_verified。1953/1973/1996/1998/2017 SAE均仅有公开摘要，ISO仅公开目录范围；KTH确认2016作者但单篇入口受anti-bot阻断。不是全部机构仓储穷尽搜索，未取得不等于不存在。既有14条达标学习未重做。
+
+## 2026-09-25 DOI/PDF 全量核对
+
+22 条来源中 SAE Technical Paper 11、journal_article 7、government_report 2、standard 1、doctoral_thesis 1；其他重点类型仍 0，本次未新增 source_type 或研究来源。17 DOI 经 Crossref 精确解析并匹配标题/出版年份；ISO 官方目录未列 DOI，另 4 条暂待跨库 DOI 搜索。合法 OA 入口 4 条，已在本机留存 2 份；0 份有足够再分发许可证据可提交 GitHub。OpenAlex 无 PDF URL 的 OA 标记只是线索，不能算下载。历史/引文/方法谱系仍沿用本日早间断点；本轮优先 v4 任务，不制造新边。

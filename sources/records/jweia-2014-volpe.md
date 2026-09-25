@@ -30,3 +30,9 @@
 - Limitation: abstract/highlights verified, not full methods.
 - Relevance: flow-physics bridge from Durham-type gust tests to vortex-based ROM candidates.
 - Follow-up: lawful full text; establish direct facility/method citation to `sae-2000-01-0874`.
+
+## DOI / PDF registry (2026-09-25)
+
+- DOI: `10.1016/j.jweia.2014.03.006`; doi_status: `verified`; doi_source: https://api.crossref.org/works/10.1016/j.jweia.2014.03.006; doi_verified_date: 2026-09-25.
+- pdf_status: `paywalled`; pdf_source: https://doi.org/10.1016/j.jweia.2014.03.006; pdf_path: `none`; pdf_sha256: `not applicable`; pdf_bytes: not applicable; pdf_license: publisher_or_standard_restricted; other OA locations not exhausted; github_pdf: false.
+- PDF 状态为本轮已检查入口的状态；未穷尽全部机构仓储或作者版本，不将当前未找到写成永久不存在。

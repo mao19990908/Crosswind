@@ -34,3 +34,9 @@
 ## 2026-09-25 bibliographic correction
 
 KTH author publication record confirms the four authors above: https://kth.diva-portal.org/smash/person.jsf?pid=authority-person%3A31208 . Earlier author attribution was erroneous; stable ID `jcp-2016-tunay` is retained per TASK.md §17. Journal is Computers & Fluids, not Journal of Computational Physics. Linked record diva2:1047242 returned an anti-bot page; no full text inspected or evidence upgrade. Pass 3 remains pending.
+
+## DOI / PDF registry (2026-09-25)
+
+- DOI: `10.1016/j.compfluid.2016.08.006`; doi_status: `verified`; doi_source: https://api.crossref.org/works/10.1016/j.compfluid.2016.08.006; doi_verified_date: 2026-09-25.
+- pdf_status: `paywalled`; pdf_source: https://doi.org/10.1016/j.compfluid.2016.08.006; pdf_path: `none`; pdf_sha256: `not applicable`; pdf_bytes: not applicable; pdf_license: publisher_or_standard_restricted; other OA locations not exhausted; github_pdf: false.
+- PDF 状态为本轮已检查入口的状态；未穷尽全部机构仓储或作者版本，不将当前未找到写成永久不存在。

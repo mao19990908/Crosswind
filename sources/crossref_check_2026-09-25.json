@@ -1,0 +1,326 @@
+{
+  "sae-530255": {
+    "doi": "10.4271/530255",
+    "title": "WIND EFFECTS ON CAR STABILITY",
+    "year": 1953,
+    "publisher": "SAE International",
+    "link": [
+      {
+        "URL": "https://saemobilus.sae.org/downloads/papers/530255/Full%20Text%20PDF",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "license": []
+  },
+  "sae-710287": {
+    "doi": "10.4271/710287",
+    "title": "Evaluation of the Lateral Stability of an Automobile with Nonlinear Component to Increasing Magnitude Gust and Tire Load",
+    "year": 1971,
+    "publisher": "SAE International",
+    "link": [
+      {
+        "URL": "https://saemobilus.sae.org/downloads/papers/710287/Full%20Text%20PDF",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "license": []
+  },
+  "sae-730232": {
+    "doi": "10.4271/730232",
+    "title": "Theoretical Prediction of the Aerodynamic Derivatives of a Vehicle in Cross Wind Gusts",
+    "year": 1973,
+    "publisher": "SAE International",
+    "link": [
+      {
+        "URL": "https://saemobilus.sae.org/downloads/papers/730232/Full%20Text%20PDF",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "license": []
+  },
+  "sae-800848": {
+    "doi": "10.4271/800848",
+    "title": "Effects of Crosswinds on Vehicle Response – Full-Scale Tests and Analytical Predictions",
+    "year": 1980,
+    "publisher": "SAE International",
+    "link": [
+      {
+        "URL": "https://saemobilus.sae.org/downloads/papers/800848/Full%20Text%20PDF",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "license": []
+  },
+  "sae-960674": {
+    "doi": "10.4271/960674",
+    "title": "Comparing Static and Dynamic Testing Techniques for the Crosswind Sensitivity of Road Vehicles",
+    "year": 1996,
+    "publisher": "SAE International",
+    "link": [
+      {
+        "URL": "https://saemobilus.sae.org/downloads/papers/960674/Full%20Text%20PDF",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "license": []
+  },
+  "sae-970135": {
+    "doi": "10.4271/970135",
+    "title": "Assessing the Effects of Shear and Turbulence During the Dynamic Testing of the Crosswind Sensitivity of Road Vehicles",
+    "year": 1997,
+    "publisher": "SAE International",
+    "link": [
+      {
+        "URL": "https://saemobilus.sae.org/downloads/papers/970135/Full%20Text%20PDF",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "license": []
+  },
+  "sae-970404": {
+    "doi": "10.4271/970404",
+    "title": "Transient Aerodynamic Simulation in Crosswind and Passing an Automobile",
+    "year": 1997,
+    "publisher": "SAE International",
+    "link": [
+      {
+        "URL": "https://saemobilus.sae.org/downloads/papers/970404/Full%20Text%20PDF",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "license": []
+  },
+  "sae-980392": {
+    "doi": "10.4271/980392",
+    "title": "The Aerodynamic Forces Induced on a Passenger Vehicle in Response to a Transient Cross-Wind Gust at a Relative Incidence of 30°",
+    "year": 1998,
+    "publisher": "SAE International",
+    "link": [
+      {
+        "URL": "https://saemobilus.sae.org/downloads/papers/980392/Full%20Text%20PDF",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "license": []
+  },
+  "sae-2000-01-0874": {
+    "doi": "10.4271/2000-01-0874",
+    "title": "Wake Surveys Behind a Passenger Car Subjected to a Transient Cross-Wind Gust",
+    "year": 2000,
+    "publisher": "SAE International",
+    "link": [
+      {
+        "URL": "https://saemobilus.sae.org/downloads/papers/2000-01-0874/Full%20Text%20PDF",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "license": []
+  },
+  "sae-2000-01-0876": {
+    "doi": "10.4271/2000-01-0876",
+    "title": "Transient Aerodynamic Characteristics of Simple Vehicle Shapes by the Measurement of Surface Pressures",
+    "year": 2000,
+    "publisher": "SAE International",
+    "link": [
+      {
+        "URL": "https://saemobilus.sae.org/downloads/papers/2000-01-0876/Full%20Text%20PDF",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "license": []
+  },
+  "jweia-2014-volpe": {
+    "doi": "10.1016/j.jweia.2014.03.006",
+    "title": "Forces and flow structures evolution on a car body in a sudden crosswind",
+    "year": 2014,
+    "publisher": "Elsevier BV",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0167610514000506?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0167610514000506?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "license": []
+  },
+  "jcp-2016-tunay": {
+    "doi": "10.1016/j.compfluid.2016.08.006",
+    "title": "Coupling aerodynamics to vehicle dynamics in transient crosswinds including a driver model",
+    "year": 2016,
+    "publisher": "Elsevier BV",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S004579301630250X?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S004579301630250X?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2016,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2016-10-01T00:00:00Z",
+          "timestamp": 1475280000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      }
+    ]
+  },
+  "sae-2017-01-1515": {
+    "doi": "10.4271/2017-01-1515",
+    "title": "The Application of a One-Way Coupled Aerodynamic and Multi-Body Dynamics Simulation Process to Predict Vehicle Response during a Severe Crosswind Event",
+    "year": 2017,
+    "publisher": "SAE International",
+    "link": [
+      {
+        "URL": "https://saemobilus.sae.org/downloads/papers/2017-01-1515/Full%20Text%20PDF",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "license": []
+  },
+  "sae-2017-01-1525": {
+    "doi": "10.4271/2017-01-1525",
+    "title": "Coupled 6DoF Motion and Aerodynamic Crosswind Simulation Incorporating Driver Model",
+    "year": 2017,
+    "publisher": "SAE International",
+    "link": [
+      {
+        "URL": "https://saemobilus.sae.org/downloads/articles/2017-01-1525/Full%20Text%20PDF",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "license": []
+  },
+  "sae-06-14-01-0001": {
+    "doi": "10.4271/06-14-01-0001",
+    "title": "Aerodynamic Characterization of a Full-Scale Compact Car Exposed to Transient Crosswind",
+    "year": 2021,
+    "publisher": "SAE International",
+    "link": [
+      {
+        "URL": "https://saemobilus.sae.org/downloads/articles/06-14-01-0001/Full%20Text%20PDF",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "license": []
+  },
+  "sae-15-18-01-0005": {
+    "doi": "10.4271/15-18-01-0005",
+    "title": "Evaluation of an Unsteady Yaw, Gust, and Broadband Turbulence\n                    Generation System for Closed-Loop Automotive Wind Tunnels",
+    "year": 2024,
+    "publisher": "SAE International",
+    "link": [
+      {
+        "URL": "https://saemobilus.sae.org/downloads/articles/15-18-01-0005/Full%20Text%20PDF",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              10,
+              25
+            ]
+          ],
+          "date-time": "2024-10-25T00:00:00Z",
+          "timestamp": 1729814400000
+        },
+        "content-version": "unspecified",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ]
+  },
+  "pimeche-2001-passmore": {
+    "doi": "10.1243/0954407011528365",
+    "title": "An experimental study of unsteady vehicle aerodynamics",
+    "year": 2001,
+    "publisher": "SAGE Publications",
+    "link": [
+      {
+        "URL": "https://journals.sagepub.com/doi/pdf/10.1243/0954407011528365",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://journals.sagepub.com/doi/pdf/10.1243/0954407011528365",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2001,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2001-07-01T00:00:00Z",
+          "timestamp": 993945600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://journals.sagepub.com/page/policies/text-and-data-mining-license"
+      }
+    ]
+  }
+}

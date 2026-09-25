@@ -1,0 +1,177 @@
+{
+  "sae-530255": {
+    "is_oa": false,
+    "best": null,
+    "locations": []
+  },
+  "sae-710287": {
+    "is_oa": false,
+    "best": null,
+    "locations": []
+  },
+  "sae-730232": {
+    "is_oa": false,
+    "best": null,
+    "locations": []
+  },
+  "sae-800848": {
+    "is_oa": false,
+    "best": null,
+    "locations": []
+  },
+  "sae-960674": {
+    "is_oa": false,
+    "best": null,
+    "locations": []
+  },
+  "sae-970135": {
+    "is_oa": false,
+    "best": null,
+    "locations": []
+  },
+  "sae-970404": {
+    "is_oa": false,
+    "best": null,
+    "locations": []
+  },
+  "sae-980392": {
+    "is_oa": false,
+    "best": null,
+    "locations": []
+  },
+  "sae-2000-01-0874": {
+    "is_oa": true,
+    "best": {
+      "id": "pmh:oai:durham-repository.worktribe.com:1562709",
+      "is_oa": true,
+      "landing_page_url": "https://durham-repository.worktribe.com/output/1562709",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306400188",
+        "display_name": "Durham Research Online (Durham University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I190082696",
+        "host_organization_name": "Durham University",
+        "host_organization_lineage": [
+          "https://openalex.org/I190082696"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "Journal Article"
+    },
+    "locations": []
+  },
+  "sae-2000-01-0876": {
+    "is_oa": false,
+    "best": null,
+    "locations": []
+  },
+  "jweia-2014-volpe": {
+    "is_oa": false,
+    "best": null,
+    "locations": []
+  },
+  "jcp-2016-tunay": {
+    "is_oa": false,
+    "best": null,
+    "locations": []
+  },
+  "sae-2017-01-1515": {
+    "is_oa": false,
+    "best": null,
+    "locations": []
+  },
+  "sae-2017-01-1525": {
+    "is_oa": false,
+    "best": null,
+    "locations": []
+  },
+  "sae-06-14-01-0001": {
+    "is_oa": false,
+    "best": null,
+    "locations": []
+  },
+  "sae-15-18-01-0005": {
+    "is_oa": true,
+    "best": {
+      "id": "doi:10.4271/15-18-01-0005",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.4271/15-18-01-0005",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210180931",
+        "display_name": "SAE International Journal of Passenger Vehicle Systems",
+        "issn_l": "2770-3460",
+        "issn": [
+          "2770-3460",
+          "2770-3479"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core"
+        ],
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "SAE International Journal of Passenger Vehicle Systems",
+      "raw_type": "journal-article"
+    },
+    "locations": []
+  },
+  "pimeche-2001-passmore": {
+    "is_oa": true,
+    "best": {
+      "id": "pmh:oai:dspace.lboro.ac.uk:2134/4614",
+      "is_oa": true,
+      "landing_page_url": "https://dspace.lboro.ac.uk/2134/4614",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306401023",
+        "display_name": "Loughborough University Institutional Repository (Loughborough University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I143804889",
+        "host_organization_name": "Loughborough University",
+        "host_organization_lineage": [
+          "https://openalex.org/I143804889"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": "Article"
+    },
+    "locations": []
+  }
+}

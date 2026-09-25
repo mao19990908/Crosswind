@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-25T06:12:37.1888286+08:00",
+  "updated_at": "2026-09-25T10:50:34.723499+08:00",
   "timezone": "Asia/Shanghai",
   "current_phase": "learning",
   "phase_status": "in_progress",
@@ -66,7 +66,7 @@
   ],
   "quota_status": "available",
   "weekly_quota_used_at_run_start_percent": 73,
-  "weekly_quota_used_at_last_read_percent": 80,
+  "weekly_quota_used_at_last_read_percent": 84,
   "weekly_quota_used_at_day_start_percent": 73,
   "weekly_quota_day_cap_used_percent": 85,
   "local_remote_sync": "verified_at_research_commit_audit_pending",
@@ -138,5 +138,19 @@
     }
   ],
   "quota_measurement_note": "Shared-account integer percentages: 73% day/run baseline -> 80% after research push, approximately +7 points; daily cap 85%. One transient read failure resolved by retry; no reset used.",
-  "quota_last_read_at": "2026-09-25T06:12:06+08:00"
+  "quota_last_read_at": "2026-09-25T06:12:06+08:00",
+  "doi_pdf_checkpoint": {
+    "date": "2026-09-25",
+    "status": "in_progress",
+    "total_sources": 22,
+    "verified_doi": 17,
+    "no_doi_confirmed": 1,
+    "missing_to_search": 4,
+    "oa_fulltext_found": 2,
+    "local_pdf_count": 2,
+    "github_pdf_count": 0,
+    "next": "verify remaining 4 DOI at primary sources; retrieve direct PDF for two OA landing candidates; then broaden lawful OA search for 15 restricted entries",
+    "oa_landing_candidates": 2,
+    "weekly_quota_used_at_last_read_percent": 84
+  }
 }

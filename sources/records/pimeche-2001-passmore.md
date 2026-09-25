@@ -51,3 +51,9 @@
 - Author limitations: low-frequency signal-to-noise; pressure tap resolution/placement and skin-friction contribution in balance comparison. Missing full normalization and raw data prevent exact numerical reconstruction.
 - Analyst inference: transferable method is component-wise amplitude/phase and matched pressure baseline, not direct reuse of gains in a passenger-car controller. See Pass 3 note for reproduction design and failure checks.
 - References 4 and 6 verified again at p.788, no duplicate citation edges. Smith 1973, Garry/Cooper 1986, Mullarkey 1990 and Bearman/Mullarkey 1994 remain uncollected leads while backlog > 0; discussion of those works here is secondary evidence only.
+
+## DOI / PDF registry (2026-09-25)
+
+- DOI: `10.1243/0954407011528365`; doi_status: `verified`; doi_source: https://api.crossref.org/works/10.1243/0954407011528365; doi_verified_date: 2026-09-25.
+- pdf_status: `oa_downloaded`; pdf_source: https://ndownloader.figshare.com/files/16804613; pdf_path: `sources\pdfs\pimeche-2001-passmore__passmore__2001.pdf`; pdf_sha256: `2963f467fa893cd32a16cea40709a47b6824124c7bf0f5f406637280770c987c`; pdf_bytes: 378510; pdf_license: CC BY-NC-ND 2.5 on PDF cover; repository API 4.0 conflict; redistribution not asserted; github_pdf: false.
+- PDF 状态为本轮已检查入口的状态；未穷尽全部机构仓储或作者版本，不将当前未找到写成永久不存在。
