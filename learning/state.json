@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-25T14:44:22+08:00",
+  "updated_at": "2026-09-25T14:46:05+08:00",
   "timezone": "Asia/Shanghai",
   "current_phase": "learning",
   "phase_status": "in_progress",
@@ -92,15 +92,15 @@
     "Continue lawful retrieval for seven unresolved manual-queue sources without bypass or public redistribution",
     "Keep collecting on hold while learning backlog of 17 remains"
   ],
-  "quota_status": "available_current_post_reset_window_rounded_shared_account",
+  "quota_status": "final_rounded_shared_reading_one_point_above_daily_cap_after_required_push",
   "weekly_quota_used_at_run_start_percent": 11,
-  "weekly_quota_used_at_last_read_percent": 14,
+  "weekly_quota_used_at_last_read_percent": 15,
   "weekly_quota_used_at_day_start_percent": 2,
   "weekly_quota_day_cap_used_percent": 14,
-  "local_remote_sync": "pending_commit_and_push",
-  "github_commit_sha": "67b2da1a398990ba42583481658375ef374e8975",
+  "local_remote_sync": "research_commit_verified_local_origin_live_remote_equal_audit_pending",
+  "github_commit_sha": "0c184a9f182410d1a1952814be894debe67f0a36",
   "note": "SAE 2025 publisher PDF all 16 pages visually inspected; scoped full_text_verified. 15 completed learning targets, 8 Pass 3 backlog including new jfe-2013-volpe. DOI/PDF checkpoint and legal access search continue.",
-  "github_commit_sha_role": "verified_baseline_before_user_pdf_receipt_commit",
+  "github_commit_sha_role": "user_pdf_receipt_research_commit_verified_before_audit_commit",
   "quota_date": "2026-09-25",
   "today_updated_knowledge_nodes": [
     "EQ-RED-FREQ",
@@ -174,8 +174,8 @@
       "next_action": "Check ordinary authorized access or another official author deposit; keep abstract evidence only"
     }
   ],
-  "quota_measurement_note": "After the earlier authorized reset on 2026-09-25, this daily window began at 2% weekly used. The user-PDF continuation began at 11% and the last fresh reading was 14%; combined post-reset daily increment is about 12 percentage points, reaching the daily cap. Account-wide rounded values are not exact task-only consumption.",
-  "quota_last_read_at": "2026-09-25T14:44:22+08:00",
+  "quota_measurement_note": "Post-reset daily baseline was 2% used and planned cap 14%. Research stopped when the read reached 14%; after required validation/commit/push, account-wide rounded reading became 15% (+13 points). Shared usage and integer rounding prevent task-only attribution; do not claim exact cap compliance. No further research or reset credit used.",
+  "quota_last_read_at": "2026-09-25T14:46:05+08:00",
   "doi_pdf_checkpoint": {
     "date": "2026-09-25",
     "status": "in_progress",
@@ -269,17 +269,17 @@
     "local_pdf_files_added": 14,
     "review_status": "14 PDFs identity/integrity verified; Beauvais and Hucho full text read at Pass 1-2; remaining 12 await substantive review",
     "next_breakpoint": "Beauvais and Hucho Pass 3 reproduction/formula audits; then supplied Macklin 1996, Ryan 1998, Winkler 2016 and Lewington 2017. Seven sources still missing full text.",
-    "local_remote_sync": "pending_commit_and_push",
+    "local_remote_sync": "research_commit_verified_local_origin_live_remote_equal_audit_pending",
     "full_text_newly_verified": 2,
     "new_knowledge_nodes": 3,
     "new_graph_edges": 8,
     "modified_graph_edges": 2,
     "new_citation_edges": 1,
     "quota_weekly_used_start_percent": 11,
-    "quota_weekly_used_latest_percent": 14,
+    "quota_weekly_used_latest_percent": 15,
     "quota_day_cap_percent": 14,
-    "github_commit_sha": "pending_new_commit; previous_verified_baseline=67b2da1a398990ba42583481658375ef374e8975",
+    "github_commit_sha": "0c184a9f182410d1a1952814be894debe67f0a36",
     "quota_daily_post_reset_start_percent": 2,
-    "quota_daily_increment_percent_approx": 12
+    "quota_daily_increment_percent_approx": 13
   }
 }
