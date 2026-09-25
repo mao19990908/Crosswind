@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-25T10:50:34.723499+08:00",
+  "updated_at": "2026-09-25T10:51:18.673504+08:00",
   "timezone": "Asia/Shanghai",
   "current_phase": "learning",
   "phase_status": "in_progress",
@@ -69,10 +69,10 @@
   "weekly_quota_used_at_last_read_percent": 84,
   "weekly_quota_used_at_day_start_percent": 73,
   "weekly_quota_day_cap_used_percent": 85,
-  "local_remote_sync": "verified_at_research_commit_audit_pending",
-  "github_commit_sha": "527a29a5e393f6da77a280dadcebd1853ea8a4db",
+  "local_remote_sync": "verified_at_v4_research_commit_audit_pending",
+  "github_commit_sha": "87f40141697bb5a4c39dc10d513582f696606b39",
   "note": "15 completed at evidence-specific target; 7 core Pass 3 pending. Passmore full-text study completed with explicit reproduction gaps; no new source collected.",
-  "github_commit_sha_role": "last_verified_research_commit_before_audit_commit",
+  "github_commit_sha_role": "last_verified_v4_research_commit_before_audit",
   "quota_date": "2026-09-25",
   "today_updated_knowledge_nodes": [
     "EQ-RED-FREQ",
@@ -151,6 +151,7 @@
     "github_pdf_count": 0,
     "next": "verify remaining 4 DOI at primary sources; retrieve direct PDF for two OA landing candidates; then broaden lawful OA search for 15 restricted entries",
     "oa_landing_candidates": 2,
-    "weekly_quota_used_at_last_read_percent": 84
+    "weekly_quota_used_at_last_read_percent": 84,
+    "research_commit_sha": "87f40141697bb5a4c39dc10d513582f696606b39"
   }
 }
