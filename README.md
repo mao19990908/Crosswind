@@ -24,6 +24,7 @@
 ## 导航
 
 - [任务书](TASK.md)
+- [全文证据层规则](Crosswind_Learning_Knowledge_Graph_PDF_Evidence.md)
 - [历史时间线](history/timeline.md)
 - [分类体系](taxonomy.md)
 - [检索覆盖率](search/database_coverage.md)
