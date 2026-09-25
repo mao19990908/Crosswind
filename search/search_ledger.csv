@@ -39,3 +39,10 @@
 "2026-09-25","SAE Mobilus + Crossref REST + OpenAlex exact DOI","10.4271/670608 Transient Nature of Wind Gust Effects on an Automobile F N Beauvais","1967","1967","1","1","1","0","SAE publisher page and exact DOI confirm title/author/1967 and abstract; OpenAlex W2276769015 closed with no OA full-text location. Added sae-670608 abstract_verified, no PDF; no unlicensed abstract copied."
 "2026-09-25","ScienceDirect publisher reference list","Garry Cooper 1986 quasi-static dynamic wind tunnel references Beauvais 670608","1967","1986","1","1","0","0","Publisher reference list names Beauvais SAE 670608; 1986 source remains candidate, so no in-index citation edge added."
 2026-09-25,Crossref exact DOI + user-provided publisher PDF,10.1175/1520-0477-39.8.421,1958,1958,1,1,1,0,Exact DOI metadata checked against all six PDF pages; no duplicate DOI/title in canonical index; citation ref.5 visually matched Lay/Lett 1953.
+2026-09-26,Crossref REST,Exact DOI 530255;06-14-01-0001;1.4023194;670608;1520-0477-39.8.421,,,5,5,0,0,Five existing DOI matched; other15 retain primary evidence. No abstract copied.
+2026-09-26,Publisher; OpenAlex; Semantic Scholar,Lay1953 Bell2021 Volpe2013 exact DOI OA,,,3,3,0,0,SAE timeouts; ASME403. OATAO Volpe lead from both APIs. Unpaywall skipped: no configured contact email.
+2026-09-26,DLR author repository,10.4271/06-14-01-0001 elib.dlr.de/142566,,,1,1,0,0,Author repository explicitly has no full text.
+2026-09-26,UPenn discovery; HathiTrust; Google Books,Development of Aerodynamic Disturbance Test Procedures Volume I II Klein Hogue1979,,,not_reported,4,0,0,Two HathiTrust Full view catalogs; two free Google Play books. Reader403; Books API429. No PDF.
+2026-09-26,OATAO,Ferrand_8416.pdf Volpe2013,,,1,1,0,0,HTTPS handshake and original HTTP timed out. No PDF.
+2026-09-26,TRID; exact-title discovery,Vehicle Performance in Crosswinds Milner1968 PDF,,,not_reported,1,0,0,Primary catalog reconfirmed; no verified original PDF found; no-DOI status remains scoped.
+2026-09-26,ISO official catalog,ISO12021:2010 53602,,,1,1,0,0,Confirmed2023; preview/paid standard only. No full text acquired.

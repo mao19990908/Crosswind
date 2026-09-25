@@ -1,0 +1,26 @@
+id,audit_date,doi_status,doi,doi_evidence,doi_evidence_date,pdf_status,local_pdf,github_pdf,result
+sae-530255,2026-09-26,verified,10.4271/530255,sources/access_check_2026-09-26.json,2026-09-26,paywalled,False,false,registry_index_match; fulltext_unresolved
+trid-116341,2026-09-26,no_doi_confirmed,,sources/records/trid-116341.md,2026-09-25,not_found,False,false,registry_index_match; fulltext_unresolved
+sae-710287,2026-09-26,verified,10.4271/710287,sources/crossref_check_2026-09-25.json,2026-09-25,user_provided,True,false,registry_index_match; existing_identity_receipt_and_hash_verified
+sae-730232,2026-09-26,verified,10.4271/730232,sources/crossref_check_2026-09-25.json,2026-09-25,user_provided,True,false,registry_index_match; existing_identity_receipt_and_hash_verified
+dot-hs-805-078,2026-09-26,no_doi_confirmed,,sources/records/dot-hs-805-078.md,2026-09-25,open_repository_available,False,false,registry_index_match; fulltext_unresolved
+sae-800848,2026-09-26,verified,10.4271/800848,sources/crossref_check_2026-09-25.json,2026-09-25,user_provided,True,false,registry_index_match; existing_identity_receipt_and_hash_verified
+sae-960674,2026-09-26,verified,10.4271/960674,sources/crossref_check_2026-09-25.json,2026-09-25,user_provided,True,false,registry_index_match; existing_identity_receipt_and_hash_verified
+sae-970135,2026-09-26,verified,10.4271/970135,sources/crossref_check_2026-09-25.json,2026-09-25,user_provided,True,false,registry_index_match; existing_identity_receipt_and_hash_verified
+sae-970404,2026-09-26,verified,10.4271/970404,sources/crossref_check_2026-09-25.json,2026-09-25,user_provided,True,false,registry_index_match; existing_identity_receipt_and_hash_verified
+sae-980392,2026-09-26,verified,10.4271/980392,sources/crossref_check_2026-09-25.json,2026-09-25,user_provided,True,false,registry_index_match; existing_identity_receipt_and_hash_verified
+sae-2000-01-0874,2026-09-26,verified,10.4271/2000-01-0874,sources/crossref_check_2026-09-25.json,2026-09-25,user_provided,True,false,registry_index_match; existing_identity_receipt_and_hash_verified
+sae-2000-01-0876,2026-09-26,verified,10.4271/2000-01-0876,sources/crossref_check_2026-09-25.json,2026-09-25,user_provided,True,false,registry_index_match; existing_identity_receipt_and_hash_verified
+iso-12021-2010,2026-09-26,no_doi_confirmed,,sources/records/iso-12021-2010.md,2026-09-25,paywalled,False,false,registry_index_match; fulltext_unresolved
+jweia-2014-volpe,2026-09-26,verified,10.1016/j.jweia.2014.03.006,sources/crossref_check_2026-09-25.json,2026-09-25,user_provided,True,false,registry_index_match; existing_identity_receipt_and_hash_verified
+jcp-2016-tunay,2026-09-26,verified,10.1016/j.compfluid.2016.08.006,sources/crossref_check_2026-09-25.json,2026-09-25,user_provided,True,false,registry_index_match; existing_identity_receipt_and_hash_verified
+sae-2017-01-1515,2026-09-26,verified,10.4271/2017-01-1515,sources/crossref_check_2026-09-25.json,2026-09-25,user_provided,True,false,registry_index_match; existing_identity_receipt_and_hash_verified
+sae-2017-01-1525,2026-09-26,verified,10.4271/2017-01-1525,sources/crossref_check_2026-09-25.json,2026-09-25,user_provided,True,false,registry_index_match; existing_identity_receipt_and_hash_verified
+sae-06-14-01-0001,2026-09-26,verified,10.4271/06-14-01-0001,sources/access_check_2026-09-26.json,2026-09-26,paywalled,False,false,registry_index_match; fulltext_unresolved
+brandt-2023-thesis,2026-09-26,no_doi_confirmed,,sources/records/brandt-2023-thesis.md,2026-09-25,oa_downloaded,True,false,registry_index_match; existing_identity_receipt_and_hash_verified
+sae-15-18-01-0005,2026-09-26,verified,10.4271/15-18-01-0005,sources/crossref_check_2026-09-25.json,2026-09-25,oa_downloaded,True,true,registry_index_match; existing_identity_receipt_and_hash_verified
+dot-hs-805-079,2026-09-26,no_doi_confirmed,,sources/records/dot-hs-805-079.md,2026-09-25,open_repository_available,False,false,registry_index_match; fulltext_unresolved
+pimeche-2001-passmore,2026-09-26,verified,10.1243/0954407011528365,sources/crossref_check_2026-09-25.json,2026-09-25,oa_downloaded,True,false,registry_index_match; existing_identity_receipt_and_hash_verified
+jfe-2013-volpe,2026-09-26,verified,10.1115/1.4023194,sources/access_check_2026-09-26.json,2026-09-26,open_repository_available,False,false,registry_index_match; fulltext_unresolved
+sae-670608,2026-09-26,verified,10.4271/670608,sources/access_check_2026-09-26.json,2026-09-26,user_provided,True,false,registry_index_match; existing_identity_receipt_and_hash_verified
+bams-1958-benner,2026-09-26,verified,10.1175/1520-0477-39.8.421,sources/access_check_2026-09-26.json,2026-09-26,user_provided,True,false,registry_index_match; existing_identity_receipt_and_hash_verified

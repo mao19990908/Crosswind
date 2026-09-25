@@ -1,0 +1,101 @@
+[
+  {
+    "id": "sae-530255",
+    "provider": "publisher",
+    "url": "https://saemobilus.sae.org/downloads/papers/530255/Full%20Text%20PDF",
+    "error": "The read operation timed out"
+  },
+  {
+    "id": "sae-06-14-01-0001",
+    "provider": "publisher",
+    "url": "https://saemobilus.sae.org/downloads/articles/06-14-01-0001/Full%20Text%20PDF",
+    "error": "The read operation timed out"
+  },
+  {
+    "id": "jfe-2013-volpe",
+    "provider": "publisher",
+    "url": "https://asmedigitalcollection.asme.org/fluidsengineering/article-pdf/doi/10.1115/1.4023194/6187024/fe_135_1_011106.pdf",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "jfe-2013-volpe",
+    "provider": "semantic_scholar",
+    "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1115/1.4023194?fields=title,openAccessPdf",
+    "http_status": 200,
+    "final_url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1115/1.4023194?fields=title,openAccessPdf",
+    "mime": "application/json",
+    "bytes": 255,
+    "pdf_header": false,
+    "metadata": {
+      "paperId": "cacc097758ac5c2d2c6c2a982a7ee192494db7a3",
+      "title": "Experimental and Numerical Validation of a Wind Gust Facility",
+      "openAccessPdf": {
+        "url": "http://oatao.univ-toulouse.fr/8416/1/Ferrand_8416.pdf",
+        "status": "GREEN",
+        "license": "other-oa"
+      }
+    }
+  },
+  {
+    "id": "jfe-2013-volpe",
+    "provider": "institutional",
+    "url": "https://oatao.univ-toulouse.fr/8416/1/Ferrand_8416.pdf",
+    "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+  },
+  {
+    "id": "dot-hs-805-078",
+    "provider": "google_books_api",
+    "url": "https://www.googleapis.com/books/v1/volumes/Dfg5AQAAMAAJ",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "id": "dot-hs-805-079",
+    "provider": "google_books_api",
+    "url": "https://www.googleapis.com/books/v1/volumes/avg5AQAAMAAJ",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "id": "jfe-2013-volpe",
+    "provider": "institutional_original_url",
+    "url": "http://oatao.univ-toulouse.fr/8416/1/Ferrand_8416.pdf",
+    "error": "timed out"
+  },
+  {
+    "id": "sae-530255",
+    "provider": "semantic_scholar",
+    "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.4271/530255?fields=title,openAccessPdf",
+    "http_status": 200,
+    "final_url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.4271/530255?fields=title,openAccessPdf",
+    "mime": "application/json",
+    "bytes": 165,
+    "pdf_header": false,
+    "metadata": {
+      "paperId": "7886d3365caab30b25804405d7f156a36e6deb61",
+      "title": "WIND EFFECTS ON CAR STABILITY",
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null
+      }
+    }
+  },
+  {
+    "id": "sae-06-14-01-0001",
+    "provider": "semantic_scholar",
+    "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.4271/06-14-01-0001?fields=title,openAccessPdf",
+    "http_status": 200,
+    "final_url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.4271/06-14-01-0001?fields=title,openAccessPdf",
+    "mime": "application/json",
+    "bytes": 219,
+    "pdf_header": false,
+    "metadata": {
+      "paperId": "c3f5a7875ffa2c43eda807c29043038fa07c24de",
+      "title": "Aerodynamic Characterization of a Full-Scale Compact Car Exposed to Transient Crosswind",
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null
+      }
+    }
+  }
+]

@@ -36,3 +36,9 @@
 - Canonical Bib key: `jfe-2013-volpe` in `sources/bibliography/references.bib`.
 - abstract_status: `available_not_copied`; abstract_source: Crossref deposited publisher abstract; abstract_source_url: https://api.crossref.org/works/10.1115%2F1.4023194.
 - Full-text check: No full text has been validated; do not promote claims beyond the current evidence level.
+
+## 2026-09-26 DOI/PDF access checkpoint
+
+Crossref exact DOI reconfirmed. ASME PDF HTTP 403; OpenAlex and Semantic Scholar both identify http://oatao.univ-toulouse.fr/8416/1/Ferrand_8416.pdf (other-oa). HTTPS handshake and original HTTP URL timed out. HAL prior bot challenge retained; no bypass. No PDF acquired; other-oa is not a redistribution grant.
+
+- Current pdf_status: `open_repository_available`; local file not acquired; `github_pdf=false`. No full-text verification upgrade or new technical claim. Unpaywall not called: no configured research contact email available; no invented email or credentials supplied.

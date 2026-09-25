@@ -4,6 +4,12 @@
 
 > 阵风输入 → 非定常气动载荷 → 横向／横摆／侧倾响应 → 驾驶员或控制器修正
 
+## 当前断点（2026-09-26）
+
+全量审核 25 条：DOI verified 20、no_doi_confirmed 5，其余状态 0；本机 PDF 18、GitHub 1、仅本机 17。全文已核 16 条，学习已完成 15、backlog 10，当前 `sae-730232` Pass 3。下文带日期的进度段为历史快照。
+
+本轮没有新资料或 PDF。DOT 两卷新找到 HathiTrust Full view 馆藏及 Google Books 免费入口，但读者端 403/API 429；Volpe 2013 新找到 OATAO 作者仓储，连接超时。开放入口候选共 3 项，仍缺全文 7 项；[补档队列](sources/manual_retrieval_queue.md)保留可操作链接。Durham 2000 已有用户 PDF，不再属于缺档。DOI/PDF 断点继续，暂不扩大来源库。详见[全量审核](sources/doi_pdf_audit_2026-09-26.csv)。
+
 ## 证据边界
 
 - 瞬态阵风与固定偏航角稳态侧风分开记录；稳态结果仅作为基线或准稳态输入。
@@ -35,7 +41,7 @@
 - [方法谱系](citations/method_lineages.md)
 - [研究现状](synthesis/state_of_the_art.md)
 - [研究空白](synthesis/research_gaps.md)
-- [当日日志](logs/2026-09-25.md)
+- [当日日志](logs/2026-09-26.md)
 
 当前处于 Phase I：先建立可追溯的历史与方法地图，不把初步线索包装成成熟综述结论。
 
@@ -65,7 +71,7 @@ Passmore 作者存档与 Brandt Chalmers 学位论文仅本机留存；前者已
 
 现有 25 条来源全部纳入 [DOI 总账](sources/doi_registry.csv)：20 条 DOI 经 Crossref 精确核验，5 条按当前官方目录及 Crossref/DataCite 题名检索暂列 `no_doi_confirmed`（ISO 原标准、1979 两卷 DOT 报告、Chalmers 学位论文、1968 Milner 期刊条目），`missing_to_search` 为 0。原始题名页或新登记可改变无 DOI 判断；BS ISO 采用版 DOI 不归给原 ISO 记录。**DOI 覆盖率 20/25 = 80.00%**。
 
-公开全文已验证 3 份：Passmore 作者版、Brandt 学位论文、SAE 2025 出版者版。Durham 2000 与 HAL 2013 有开放仓储页面，但直接文档请求分别返回 403 和 bot challenge，本机未取得 PDF，也未绕过访问控制。其余条目的付费或未找到状态只描述已查入口，不能解释为永久无 OA。Passmore 封面与仓储许可版本不一致、Brandt 仅明确可公开访问，两份仅本机保留；SAE 2025 许可 CC BY 4.0，允许署名再分发。来源、大小、SHA-256 和许可边界以 DOI 总账为准。
+公开全文已验证 3 份：Passmore 作者版、Brandt 学位论文、SAE 2025 出版者版。早期 Durham 2000 与 HAL 2013 仓储请求分别返回 403 和 bot challenge；Durham 后已收到用户 PDF，HAL 对应 Volpe 2013 仍缺全文。其余条目的付费或未找到状态只描述已查入口，不能解释为永久无 OA。Passmore 封面与仓储许可版本不一致、Brandt 仅明确可公开访问，两份仅本机保留；SAE 2025 许可 CC BY 4.0，允许署名再分发。来源、大小、SHA-256 和许可边界以 DOI 总账为准。
 
 ### 2026-09-25 追加：出版者 CC BY 全文
 

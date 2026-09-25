@@ -89,3 +89,7 @@
 DOI 状态：18 verified、4 暂时 no_doi_confirmed、1 missing_to_search，覆盖率 18/23 = 78.26%。本机有效 PDF 3，SAE 2025 出版者 CC BY PDF 可上传 GitHub 1；Durham 和 HAL 2013 是 OA 页面线索，不计 PDF。此次历史/方法检索新增 2014 → 2013、2013 → 1996、2013 → 2001 三条 verified references 边，以及 2013 → 2000 Durham 的**概念方法继承**边；后者由 2013 作者摘要与 2018 Springer 原始研究交叉支持，不冒充 2013 原文的直接 references 边或硬件复用证明。
 
 1953 SAE Crossref 现有 5 条参考元数据，含 1951 Lett 学位论文、Stuttgart Huber No.44 与 Sawatzki No.50；Stuttgart 官方档案另列 1941 No.50 和 1942 突发侧风 film report。它们是 pre-1953 来源/类型候选，**尚未入规范索引**：Lett 缺大学原馆藏，Huber No.44 标题/年代版本冲突，Sawatzki 报告与 1953 引文标题不同，1942 film report 未取得内容。`institutional_report`、`doctoral_thesis` 当前总量不据线索虚增；后者仍仅 Brandt 2023 一条。后续优先核实原始档案单项和报告全文。
+
+## 2026-09-26 DOI/PDF access audit
+
+Existing25 sources audited; new sources0. Five Crossref exact DOI refreshed; remaining primary proofs retained. Seven missing full texts searched; DOT I/II HathiTrust/Google Books and Volpe OATAO leads added. No new PDF; local18/GitHub1/local-only17. Unpaywall deferred without configured contact email. Learning backlog10; source-type coverage unchanged.
