@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-26T06:11:26.087865+08:00",
+  "updated_at": "2026-09-26T06:12:02.286370+08:00",
   "timezone": "Asia/Shanghai",
   "current_phase": "learning",
   "phase_status": "in_progress",
@@ -48,13 +48,13 @@
   ],
   "quota_status": "available_rounded_shared_account",
   "weekly_quota_used_at_run_start_percent": 31,
-  "weekly_quota_used_at_last_read_percent": 38,
+  "weekly_quota_used_at_last_read_percent": 39,
   "weekly_quota_used_at_day_start_percent": 31,
   "weekly_quota_day_cap_used_percent": 43,
-  "local_remote_sync": "pending_current_run_commit",
-  "github_commit_sha": "3200b66752282bae37fae971c593ea357d0c1366",
+  "local_remote_sync": "research_commit_verified_local_origin_live_remote_equal; final_audit_SHA_in_automation_memory",
+  "github_commit_sha": "dd2ed1a58c16221843b7c582b7e57c44e1c3ab7a",
   "note": "25 sources; 15 evidence-scoped learning targets complete, 10 pending. DOI/PDF priority remains in progress; no deep reading or new collection this run.",
-  "github_commit_sha_role": "fetched_run_base_before_current_audit",
+  "github_commit_sha_role": "research_commit_verified_before_final_audit",
   "quota_date": "2026-09-26",
   "today_updated_knowledge_nodes": [],
   "fulltext_access_checkpoints": [
@@ -124,7 +124,7 @@
     }
   ],
   "quota_measurement_note": "Daily baseline 31%, cap 43%; shared-account integer metric. No reset redeemed. Historical September 25 exception does not carry into this automation run.",
-  "quota_last_read_at": "2026-09-26T06:11:26.087865+08:00",
+  "quota_last_read_at": "2026-09-26T06:12:02.286370+08:00",
   "doi_pdf_checkpoint": {
     "date": "2026-09-26",
     "status": "in_progress",
@@ -152,7 +152,8 @@
     "new_sources_this_run": 0,
     "audit_file": "sources/doi_pdf_audit_2026-09-26.csv",
     "next": "DOT I/II Google Books/HathiTrust authorized download; OATAO Volpe author deposit after endpoint recovery. Other four via authorized library/local supply. Do not retry 403/challenges in this run; retain learning sae-730232 Pass3.",
-    "weekly_quota_used_at_last_read_percent": 38
+    "weekly_quota_used_at_last_read_percent": 39,
+    "research_commit_sha": "dd2ed1a58c16221843b7c582b7e57c44e1c3ab7a"
   },
   "weekly_quota_pre_reset_used_percent": 91,
   "weekly_quota_after_reset_used_percent": 1,
@@ -309,7 +310,7 @@
     "changed_understanding": "Macklin threshold differs by load component/peak-vs-mean; Ryan net yaw has no steady-relative overshoot despite side/lift peaks, resolving abstract overgeneralization; 1996 and 1998 yaw outcomes differ under different apparatus/metric definitions. Macklin 1997 shear comparison is turbulence-confounded and no reference speed universally collapses coefficients. Ryan 2000 uses updated 5m/22deg shutter gust; an unexplained high-pressure pocket and wake advection prevent treating a wake snapshot as instantaneous body force. Mahig 1971 is an assumed lateral-impulse vehicle response model, not an aerodynamic gust waveform study; tyre cubic locally cross-checked. Klein/Hogue 1980 directly cites and partially reuses DOT technical Volume II; loop modes and steady-model outputs must remain separated. Chadwick 2000 shows geometry-specific leeward pressure peaks and filter limitations; five model lengths not sufficient for steady development in all cases. Nakasato 2017 fixed-steer road validation is separate from the active-driver application; three-run driver trends have quantitative mismatch. Volpe 2014 measured ~21deg local yaw despite 30deg tunnel axes; geometry-specific yaw peaks 16/10%, vortex-load correlations not causal proof. Lewington 2017 one-way advantage depends on metric: both approaches predict lane deviation within one measured SD; comparator uses tuned wind scale and input validation is partial. Okumura 1997 CFD peak and spoiler evidence are conditional; passing comparison uses mismatched bus geometry, and reported resultant wind angle needs arithmetic audit.",
     "next": "Two local PDFs remain to read; 10-source learning backlog. Five-hour 97% and weekly 31% used at last platform read."
   },
-  "five_hour_quota_used_at_last_read_percent": 44,
+  "five_hour_quota_used_at_last_read_percent": 47,
   "automation_completed_on": "2026-09-26",
   "automation_run_status": "completed_checkpoint_saved_not_v4_complete"
 }
