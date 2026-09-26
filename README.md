@@ -4,7 +4,11 @@
 
 > 阵风输入 → 非定常气动载荷 → 横向／横摆／侧倾响应 → 驾驶员或控制器修正
 
-## 当前断点（2026-09-26）
+## 当前学习断点（2026-09-27）
+
+续接Hucho1973 Pass3，核对参考面积/点/角定义，并由原积分推导两类车底修正，数值积分检查通过。Fig11/12因原始输入缺失仍未复现，已登记两条collection请求。新增2条claim、2个公式节点和8条边；图谱现135边。学习仍15完成/10待办，下一来源为sae-670608 Pass3。详情见[方程审计](learning/audits/hucho_1973_equations.md)和[学习断点](learning/state.md)。最新heartbeat以学习backlog优先；没有新资料或PDF。
+
+## DOI/PDF审核快照（2026-09-26）
 
 全量审核 25 条：DOI verified 20、no_doi_confirmed 5，其余状态 0；本机 PDF 18、GitHub 1、仅本机 17。全文已核 16 条，学习已完成 15、backlog 10，当前 `sae-730232` Pass 3。下文带日期的进度段为历史快照。
 
@@ -41,7 +45,7 @@
 - [方法谱系](citations/method_lineages.md)
 - [研究现状](synthesis/state_of_the_art.md)
 - [研究空白](synthesis/research_gaps.md)
-- [当日日志](logs/2026-09-26.md)
+- [当日日志](logs/2026-09-27.md)
 
 当前处于 Phase I：先建立可追溯的历史与方法地图，不把初步线索包装成成熟综述结论。
 

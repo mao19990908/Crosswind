@@ -1,9 +1,9 @@
-"id","name","input","output","source_ids","boundary"
-"M-ROAD","Instrumented road test","natural wind","body or vehicle response","sae-530255","wind history and steering condition unavailable"
-"M-FULL","Controlled full-scale disturbance","finite wind zone and shaped pulses","vehicle response by steering condition","dot-hs-805-078","catalog or abstract only"
-"M-MOVING","Moving-model comparison","track traverse in wind tunnel","dynamic forces and moments vs steady yaw","sae-670608;sae-960674","1967 Ford Galaxie 1:10 model and 1996 three-model Cranfield study are distinct facilities; do not equate gust edges"
-"M-JET","Finite crosswind jet","secondary jet and moving aperture","surface-pressure-derived loads","sae-980392","30 degree relative incidence"
-"M-OSC","Oscillating aerofoil gust","sinusoidal lateral flow","side force and yaw moment magnification","pimeche-2001-passmore","E2: symmetric fixed Davis model; source-specific pi*f*l/U; frequency discrepancy and low-frequency SNR retained"
-"M-QSD","Axle-delay quasi-steady aerodynamics","steady-yaw load table and gust history","axle-offset time-varying force and yaw moment","brandt-2023-thesis","verified for selected SUV gust profiles only"
-"M-3DOF","Enhanced three-DoF vehicle model","aerodynamic loads;tyre and suspension properties","lateral acceleration and yaw velocity","brandt-2023-thesis","compared with multi-body reference and 13 road events for this SUV"
-"M-SLENDER","Slender-body spatial-gust estimate","vehicle side contour and spatial crosswind profile","transient side-force/yaw-moment estimates and modeled lateral deviation","sae-730232","flat-plate and ground approximations; cannot distinguish some rear shapes; transient predictions not independently measured"
+id,name,input,output,source_ids,boundary
+M-ROAD,Instrumented road test,natural wind,body or vehicle response,sae-530255,wind history and steering condition unavailable
+M-FULL,Controlled full-scale disturbance,finite wind zone and shaped pulses,vehicle response by steering condition,dot-hs-805-078,catalog or abstract only
+M-MOVING,Moving-model comparison,track traverse in wind tunnel,dynamic forces and moments vs steady yaw,sae-670608;sae-960674,1967 Ford Galaxie 1:10 model and 1996 three-model Cranfield study are distinct facilities; do not equate gust edges
+M-JET,Finite crosswind jet,secondary jet and moving aperture,surface-pressure-derived loads,sae-980392,30 degree relative incidence
+M-OSC,Oscillating aerofoil gust,sinusoidal lateral flow,side force and yaw moment magnification,pimeche-2001-passmore,E2: symmetric fixed Davis model; source-specific pi*f*l/U; frequency discrepancy and low-frequency SNR retained
+M-QSD,Axle-delay quasi-steady aerodynamics,steady-yaw load table and gust history,axle-offset time-varying force and yaw moment,brandt-2023-thesis,verified for selected SUV gust profiles only
+M-3DOF,Enhanced three-DoF vehicle model,aerodynamic loads;tyre and suspension properties,lateral acceleration and yaw velocity,brandt-2023-thesis,compared with multi-body reference and 13 road events for this SUV
+M-SLENDER,Slender-body spatial-gust estimate,vehicle side contour and spatial crosswind profile,transient side-force/yaw-moment estimates and modeled lateral deviation,sae-730232,flat-plate pressure-weighted phi_s/phi_i computable from zB/z1; original geometry missing; rear-shape limitation; no own transient experimental validation

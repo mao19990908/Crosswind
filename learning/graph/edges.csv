@@ -126,3 +126,11 @@ E-1997-CFD-02,sae-970404,evidence_from,pp.147-149 Figs.14-17,sae-970404,full_tex
 C-VALIDATION,E-1997-CFD-02,described_by,different observables,sae-970404,full_text_verified,no matched transient moment validation
 E-1997-CFD-03,sae-970404,evidence_from,pp.149-150 Figs.19-21,sae-970404,full_text_verified,passing CFD and mismatched external comparison
 C-VALIDATION,E-1997-CFD-03,described_by,bus experiment versus one-box CFD,sae-970404,full_text_verified,peak position qualitative only
+E-1973-03,sae-730232,evidence_from,Hucho1973 source-specific flat plate; pp896-899,sae-730232,full_text_verified,Original Eq19 integrands verified; closed forms analyst-derived
+EQ-HUCHO-CLEARANCE,E-1973-03,described_by,Hucho1973 source-specific flat plate; pp896-899,sae-730232,full_text_verified,Original Eq19 integrands verified; closed forms analyst-derived
+M-SLENDER,E-1973-03,described_by,Hucho1973 source-specific flat plate; pp896-899,sae-730232,full_text_verified,Original Eq19 integrands verified; closed forms analyst-derived
+E-1973-04,sae-730232,evidence_from,Hucho1973 source-specific flat plate; pp896-899,sae-730232,full_text_verified,Original normalization/nomenclature; do not unify other source signs
+EQ-YAW,E-1973-04,described_by,Hucho1973 source-specific flat plate; pp896-899,sae-730232,full_text_verified,Original normalization/nomenclature; do not unify other source signs
+V-YAWMOMENT,E-1973-04,described_by,Hucho1973 source-specific flat plate; pp896-899,sae-730232,full_text_verified,Original normalization/nomenclature; do not unify other source signs
+V-HEADING,E-1973-04,described_by,Hucho1973 source-specific flat plate; pp896-899,sae-730232,full_text_verified,Original normalization/nomenclature; do not unify other source signs
+V-BETA-AERO,E-1973-04,described_by,Hucho1973 source-specific flat plate; pp896-899,sae-730232,full_text_verified,Original normalization/nomenclature; do not unify other source signs

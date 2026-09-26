@@ -133,6 +133,14 @@ flowchart LR
     N_C_VALIDATION["C-VALIDATION"] -->|described_by| N_E_1997_CFD_02["E-1997-CFD-02"]
     N_E_1997_CFD_03["E-1997-CFD-03"] -->|evidence_from| N_sae_970404["sae-970404"]
     N_C_VALIDATION["C-VALIDATION"] -->|described_by| N_E_1997_CFD_03["E-1997-CFD-03"]
+    N_E_1973_03["E-1973-03"] -->|evidence_from| N_sae_730232["sae-730232"]
+    N_EQ_HUCHO_CLEARANCE["EQ-HUCHO-CLEARANCE"] -->|described_by| N_E_1973_03["E-1973-03"]
+    N_M_SLENDER["M-SLENDER"] -->|described_by| N_E_1973_03["E-1973-03"]
+    N_E_1973_04["E-1973-04"] -->|evidence_from| N_sae_730232["sae-730232"]
+    N_EQ_YAW["EQ-YAW"] -->|described_by| N_E_1973_04["E-1973-04"]
+    N_V_YAWMOMENT["V-YAWMOMENT"] -->|described_by| N_E_1973_04["E-1973-04"]
+    N_V_HEADING["V-HEADING"] -->|described_by| N_E_1973_04["E-1973-04"]
+    N_V_BETA_AERO["V-BETA-AERO"] -->|described_by| N_E_1973_04["E-1973-04"]
 ```
 
 `evidence_from` 表示原始来源支撑该 atomic claim；`described_by` 表示概念受到特定条件下主张说明；`generated_by` 表示该输入由文献中的方法实现；`depends_on` 表示当前准稳态比较以稳态基线为参照。`supported_by` 表示方法受到特定原文证据支持，与 supports 的反向阅读对应；不表示独立跨方法验证。这些关系不能自动推成 `causes` 或跨研究 `validated_by`。

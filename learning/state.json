@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-26T06:12:02.286370+08:00",
+  "updated_at": "2026-09-27T06:10:37.368941+08:00",
   "timezone": "Asia/Shanghai",
   "current_phase": "learning",
   "phase_status": "in_progress",
@@ -36,27 +36,48 @@
   ],
   "sources_total": 25,
   "sources_pending_learning": 10,
-  "current_source_id": "sae-730232",
+  "current_source_id": "sae-670608",
   "current_pass": 3,
-  "current_pass_status": "pass3_partial_eq23_verified_reproduction_pending",
-  "today_added_knowledge_nodes": [],
-  "today_added_or_modified_graph_edges": [],
+  "current_pass_status": "pass3_pending_reproduction_audit",
+  "today_added_knowledge_nodes": [
+    "E-1973-03",
+    "E-1973-04",
+    "EQ-HUCHO-CLEARANCE",
+    "EQ-YAW"
+  ],
+  "today_added_or_modified_graph_edges": [
+    "E-1973-03|evidence_from|sae-730232",
+    "EQ-HUCHO-CLEARANCE|described_by|E-1973-03",
+    "M-SLENDER|described_by|E-1973-03",
+    "E-1973-04|evidence_from|sae-730232",
+    "EQ-YAW|described_by|E-1973-04",
+    "V-YAWMOMENT|described_by|E-1973-04",
+    "V-HEADING|described_by|E-1973-04",
+    "V-BETA-AERO|described_by|E-1973-04"
+  ],
   "today_remaining_work": [
-    "Obtain seven missing lawful full texts using recorded official/catalog leads; Unpaywall deferred without contact email",
-    "After DOI/PDF checkpoint, resume sae-730232 Pass 3 formula/reproduction audit; keep 10-source backlog",
-    "Winkler 2016 and Brandt extended summary remain the two local PDFs pending current full-text evidence review"
+    "Beauvais1967 Pass3 using existing local PDF",
+    "Hucho1973 remains pending original output inputs; requests NC-1973-GEOMETRY/VEHICLE",
+    "Then remaining available-PDF backlog including Winkler2016; no broad collection"
   ],
   "quota_status": "available_rounded_shared_account",
-  "weekly_quota_used_at_run_start_percent": 31,
-  "weekly_quota_used_at_last_read_percent": 39,
-  "weekly_quota_used_at_day_start_percent": 31,
-  "weekly_quota_day_cap_used_percent": 43,
-  "local_remote_sync": "research_commit_verified_local_origin_live_remote_equal; final_audit_SHA_in_automation_memory",
-  "github_commit_sha": "dd2ed1a58c16221843b7c582b7e57c44e1c3ab7a",
-  "note": "25 sources; 15 evidence-scoped learning targets complete, 10 pending. DOI/PDF priority remains in progress; no deep reading or new collection this run.",
-  "github_commit_sha_role": "research_commit_verified_before_final_audit",
-  "quota_date": "2026-09-26",
-  "today_updated_knowledge_nodes": [],
+  "weekly_quota_used_at_run_start_percent": 0,
+  "weekly_quota_used_at_last_read_percent": 7,
+  "weekly_quota_used_at_day_start_percent": 0,
+  "weekly_quota_day_cap_used_percent": 12,
+  "local_remote_sync": "pending_current_run_push",
+  "github_commit_sha": "7167009349e002a399fbee730cc8c00ed1dd8bd2",
+  "note": "Latest heartbeat prioritizes Learn backlog; DOI/PDF unresolved checkpoint retained, not treated as a gate blocking existing local-PDF learning.",
+  "github_commit_sha_role": "run_base_before_research_commit",
+  "quota_date": "2026-09-27",
+  "today_updated_knowledge_nodes": [
+    "E-1973-01",
+    "E-1973-02",
+    "M-SLENDER",
+    "V-BETA-AERO",
+    "V-HEADING",
+    "V-YAWMOMENT"
+  ],
   "fulltext_access_checkpoints": [
     {
       "source_id": "sae-530255",
@@ -68,11 +89,11 @@
     },
     {
       "source_id": "sae-730232",
-      "checked_on": "2026-09-26",
+      "checked_on": "2026-09-27",
       "pass": 3,
-      "status": "local_pdf_available_learning_pending",
-      "reason": "Prior missing-file checkpoint superseded by validated user PDF; substantive learning status: pass3_partial_eq23_verified_reproduction_pending",
-      "next_action": "recover_geometry_and_vehicle_parameters_for_Fig11_12_reproduction"
+      "status": "local_pdf_available_output_reproduction_needs_inputs",
+      "reason": "Eq19 pressure-component correction derived; original geometry/vehicle parameters missing",
+      "next_action": "Resolve NC-1973-GEOMETRY/VEHICLE; no repetitive equation reread"
     },
     {
       "source_id": "sae-960674",
@@ -123,8 +144,8 @@
       "next_action": "Check ordinary authorized access or another official author deposit; keep abstract evidence only"
     }
   ],
-  "quota_measurement_note": "Daily baseline 31%, cap 43%; shared-account integer metric. No reset redeemed. Historical September 25 exception does not carry into this automation run.",
-  "quota_last_read_at": "2026-09-26T06:12:02.286370+08:00",
+  "quota_measurement_note": "Fresh weekly0% baseline; 12-point cap. Lower reading than prior day observed; reset cause not inferred and no reset card redeemed.",
+  "quota_last_read_at": "2026-09-27T06:10:37.368941+08:00",
   "doi_pdf_checkpoint": {
     "date": "2026-09-26",
     "status": "in_progress",
@@ -310,7 +331,23 @@
     "changed_understanding": "Macklin threshold differs by load component/peak-vs-mean; Ryan net yaw has no steady-relative overshoot despite side/lift peaks, resolving abstract overgeneralization; 1996 and 1998 yaw outcomes differ under different apparatus/metric definitions. Macklin 1997 shear comparison is turbulence-confounded and no reference speed universally collapses coefficients. Ryan 2000 uses updated 5m/22deg shutter gust; an unexplained high-pressure pocket and wake advection prevent treating a wake snapshot as instantaneous body force. Mahig 1971 is an assumed lateral-impulse vehicle response model, not an aerodynamic gust waveform study; tyre cubic locally cross-checked. Klein/Hogue 1980 directly cites and partially reuses DOT technical Volume II; loop modes and steady-model outputs must remain separated. Chadwick 2000 shows geometry-specific leeward pressure peaks and filter limitations; five model lengths not sufficient for steady development in all cases. Nakasato 2017 fixed-steer road validation is separate from the active-driver application; three-run driver trends have quantitative mismatch. Volpe 2014 measured ~21deg local yaw despite 30deg tunnel axes; geometry-specific yaw peaks 16/10%, vortex-load correlations not causal proof. Lewington 2017 one-way advantage depends on metric: both approaches predict lane deviation within one measured SD; comparator uses tuned wind scale and input validation is partial. Okumura 1997 CFD peak and spoiler evidence are conditional; passing comparison uses mismatched bus geometry, and reported resultant wind angle needs arithmetic audit.",
     "next": "Two local PDFs remain to read; 10-source learning backlog. Five-hour 97% and weekly 31% used at last platform read."
   },
-  "five_hour_quota_used_at_last_read_percent": 47,
-  "automation_completed_on": "2026-09-26",
-  "automation_run_status": "completed_checkpoint_saved_not_v4_complete"
+  "five_hour_quota_used_at_last_read_percent": 43,
+  "automation_completed_on": "2026-09-27",
+  "automation_run_status": "completed_learning_checkpoint_validated",
+  "learning_run_2026_09_27": {
+    "processed_sources": [
+      "sae-730232"
+    ],
+    "new_fulltext_reads": 0,
+    "targeted_fulltext_reaudits": 1,
+    "new_claims": 2,
+    "revised_claims": 2,
+    "new_equation_nodes": 2,
+    "new_edges": 8,
+    "needs_collection_added": 2,
+    "sources_new": 0,
+    "pdfs_new": 0,
+    "pass3_completed": 0,
+    "next": "sae-670608 Pass3"
+  }
 }

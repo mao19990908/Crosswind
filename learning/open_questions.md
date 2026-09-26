@@ -11,3 +11,7 @@
 ## 2026-09-25：已读原文后的明确缺项
 - question：Passmore正文2–8 Hz为何与Figs.9/11的1 Hz不一致？why_it_matters：频率映射与低频极限判断。known_evidence：pp.784、786–787；missing_evidence：勘误或原始测试日志；possible_method：核查原始数据/勘误后再标准化。related_sources：`pimeche-2001-passmore`；related_nodes：`EQ-RED-FREQ`、`C-VALIDATION`。
 - question：有限带宽的气动幅值比怎样成为可验证整车ROM？known_evidence：已核平方关系和传播相位基线，不能再称这两项缺全文；missing_evidence：完整归一化、原始幅相和独立运动证据；possible_method：固定同车坐标及参考点，辨识分量复数频响并用非拟合事件测试；related_nodes：`EQ-ADMIT`、`C-PHASE`、`C-VEHMOTION`。
+
+## 2026-09-27：Hucho输出复现断点
+
+Eq19修正已可推导，不再笼统称其缺失。尚需Fig11原车轮廓/参考点/坐标映射和Fig12车辆模型参数；请求NC-1973-GEOMETRY、NC-1973-VEHICLE见needs_collection.csv。原始数据到达前避免重复输入公式检查。

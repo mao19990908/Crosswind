@@ -1,5 +1,5 @@
 source_id,method,turbulence_model,mesh_motion,time_step,gust_implementation,validation,notes
-sae-730232,slender_body_flat_plate_potential_flow,not_applicable,not_applicable,not_reported,spatial_mixing_zone_profile; length/vehicle_length=1-5,steady_zero_yaw_derivatives_vs_full_scale_tunnel_only,"E2 pp.894-899; 27.8 m/s vehicle, 16 m/s crosswind, 30 deg final yaw; own transient measurements unfinished; equations pending Pass 3 audit"
+sae-730232,slender_body_flat_plate_potential_flow,not_applicable,not_applicable,not_reported,spatial_mixing_zone_profile; length/vehicle_length=1-5,steady_zero_yaw_derivatives_vs_full_scale_tunnel_only,E2 pp894-899; Eq19 component correction analytically derived and quadrature checked (ANALYST_INFERENCE); source geometry/vehicle parameters absent so Figs11/12 not reproduced; no own transient experimental validation
 sae-970404,CFD,k_epsilon,sliding mesh;ALE,not_reported,vehicle enters crosswind / passing,wind_tunnel,engineering workstation
 jcp-2016-tunay,CFD_vehicle_dynamics,DES,overset_mesh,not_reported,transient_crosswind,not_reported,single-track + driver; two-way
 sae-2017-01-1515,CFD_to_MBD,not_reported,overset_mesh,not_reported,prescribed_crosswind_event,full_scale_test,Level 2 one-way

@@ -17,6 +17,26 @@ foreach ($id in $completed) {
     $entry = @($pass | Where-Object source_id -eq $id)
     if ($entry.Count -ne 1 -or $entry[0].current_status -notlike 'completed_*') { throw "Completed source lacks matching Pass status: $id" }
 }
+$backlogPath = Join-Path $root 'learning\backlog.csv'
+if (Test-Path -LiteralPath $backlogPath) {
+    $backlog = @(Import-Csv $backlogPath -Encoding utf8)
+    if ($backlog.Count -ne $index.Count -or @($backlog.source_id | Select-Object -Unique).Count -ne $index.Count) { throw 'Backlog CSV must contain each source exactly once' }
+    foreach ($item in $backlog) {
+        if (-not $known.ContainsKey($item.source_id)) { throw "Unknown backlog source: $($item.source_id)" }
+        if (($item.learning_status -eq 'done') -ne ($completed -contains $item.source_id)) { throw "Backlog/state completion mismatch: $($item.source_id)" }
+        if (@('pending','in_progress','done','needs_more_evidence') -notcontains $item.learning_status) { throw "Invalid backlog status: $($item.source_id)" }
+    }
+}
+$requestsPath = Join-Path $root 'learning\needs_collection.csv'
+if (Test-Path -LiteralPath $requestsPath) {
+    $requests = @(Import-Csv $requestsPath -Encoding utf8)
+    if (@($requests.request_id | Select-Object -Unique).Count -ne $requests.Count) { throw 'Duplicate collection request ID' }
+    foreach ($request in $requests) {
+        foreach ($id in ($request.known_source_ids -split ';')) {
+            if ($id -and -not $known.ContainsKey($id)) { throw "Unknown source in collection request: $id" }
+        }
+    }
+}
 $nodes = @{}
 foreach ($file in @('concepts.csv','methods.csv','variables.csv','equations.csv')) {
     foreach ($row in @(Import-Csv (Join-Path $root "learning\nodes\$file") -Encoding utf8)) { $nodes[$row.id] = $true }

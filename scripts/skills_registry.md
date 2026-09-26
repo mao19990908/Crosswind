@@ -30,3 +30,7 @@
 ## 2026-09-26 本轮工具审计
 
 最新 TASK 提及 jxtse/scientific-research-skills 的 literature-search/paper-fulltext-harvest；本轮没有安装、下载或运行其代码，未完成可执行代码和域名审计，不标为已启用。使用内置 web、Python 标准库官方 API 和已有校验器完成有界访问审计。内置 PDF skill 已读；无新 PDF 取得，无全文重读。Unpaywall 因未配置联系邮箱跳过，不伪造邮箱。SAE/ASME/HathiTrust/HAL/OATAO/Google Books 的失败均记录，未绕过访问限制。
+
+## 2026-09-27 Learn skills
+
+Read and used installed C:/Users/17984/.agents/skills/paper-reading/SKILL.md plus repository .agents/skills/crosswind-knowledge-base/SKILL.md. Instruction-only local reading workflow; no third-party executable, network service or credentials used. Built-in PDF skill supports read-only equation/figure inspection. New audit_hucho_1973.py is local standard-library mathematical checking code, not a harvest CLI. No install performed.
