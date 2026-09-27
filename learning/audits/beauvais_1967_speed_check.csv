@@ -1,0 +1,7 @@
+case,yaw_deg,resultant_ft_s,carriage_ft_s,crosswind_ft_s,inside_stated_ranges,provenance
+Fig8_yaw_28,28.000000,40.000000,35.317904,18.778863,false,ANALYST_INFERENCE from Fig8 labels and Eqs2-3; not raw data
+Fig8_yaw_39,39.000000,40.000000,31.085838,25.172816,true,ANALYST_INFERENCE from Fig8 labels and Eqs2-3; not raw data
+Fig8_yaw_57,57.000000,40.000000,21.785561,33.546823,true,ANALYST_INFERENCE from Fig8 labels and Eqs2-3; not raw data
+Fig8_yaw_63,63.000000,40.000000,18.159620,35.640261,false,ANALYST_INFERENCE from Fig8 labels and Eqs2-3; not raw data
+Fig8_yaw_74,74.000000,40.000000,11.025494,38.450468,false,ANALYST_INFERENCE from Fig8 labels and Eqs2-3; not raw data
+Fig7_printed_speeds,75.579227,72.277244,18.000000,70.000000,false,ANALYST_INFERENCE; 7ft/18ft_s agrees with .390s within .002s

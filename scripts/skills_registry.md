@@ -34,3 +34,7 @@
 ## 2026-09-27 Learn skills
 
 Read and used installed C:/Users/17984/.agents/skills/paper-reading/SKILL.md plus repository .agents/skills/crosswind-knowledge-base/SKILL.md. Instruction-only local reading workflow; no third-party executable, network service or credentials used. Built-in PDF skill supports read-only equation/figure inspection. New audit_hucho_1973.py is local standard-library mathematical checking code, not a harvest CLI. No install performed.
+
+## 2026-09-28 Learn usage
+
+Reused reviewed instruction-only paper-reading and project crosswind-knowledge-base; read-only built-in PDF rendering for Beauvais p2220/2222-2225. No skill installation, upstream executable, third-party credentials or network harvesting. Offline first-party audit_beauvais_1967.py only computes labelled source arithmetic.

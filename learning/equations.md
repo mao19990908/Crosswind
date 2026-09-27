@@ -4,7 +4,7 @@
 
 | equation_id | name / formula | symbols and units | assumptions / source | alternative definitions / limits |
 |---|---|---|---|---|
-| EQ-RELWIND | FORMULA_PENDING_FULLTEXT | 车速、横风、相对风角 | 来源论文待核；TASK.md仅提示 | 不跨坐标系代入 |
+| EQ-RELWIND | psi=atan(Vv/Vu); V=sqrt(Vu²+Vv²) | Vu轨道车速、Vv垂直横流，ft/s；psi为相对来流角 | Beauvais p.2222 Eqs2–3，E2；Vu>0，无纵向环境风 | psi不是Hucho车辆航向；不跨坐标系代入 |
 | EQ-RED-FREQ | \(k_m=\pi f l/U\) | f Hz；l 模型全长 m；U 风洞自由流 m/s；k_m 无量纲 | Passmore pp.779–780，E2 | 不等同 2πfl/U；不能用车速无条件替换U |
 | EQ-MAGNIFICATION | \(\chi_a=A_{\mathrm{transient}}/A_{\mathrm{QS}}\) | 同一载荷分量的正弦幅值；无量纲 | Passmore p.785，E2；同频、同一归一化和明确QS基线 | 幅值比不含复数相位；压力和天平基线不混换 |
 | EQ-ADMIT | \(\text{power admittance}=\chi_a^2\) | 论文定义的功率比；无量纲 | Passmore p.785，E2；同频正弦简化 | 不是任意宽带输入下的通用导纳公式 |
@@ -25,3 +25,7 @@ C_y(t)=\frac{dC_y}{d\beta} A_g A_0\sin(\omega t).
 原文p.896 Eqs14-16：c_s=S/(q_inf Ay)、c_N=N/(q_inf Ay l)、N=integral(x-xs)dS。这里Ay是侧投影面积；不能替换为前投影面积或忽略参考点。原文单位kp/mkp，beta与psi按命名表分别为气动偏航与车辆横摆。
 
 新增EQ-HUCHO-CLEARANCE：Eq19的积分比在Eq8第一压力分量与Eq8梯度/Eq11时间分量下不同。a=zB/z1时，分析者推得phi_s=1-2 asin(a)/pi、phi_i=1-2[asin(a)+a sqrt(1-a^2)]/pi；仅限0<=a<=1的原平板近似，未验证实际车底流动。详见[公式审计](audits/hucho_1973_equations.md)与可运行数值检查。
+
+## Beauvais1967：支撑反力与图示归一化（2026-09-28）
+
+EQ-BEAUVAIS-BALANCE：C_Fi=Fi/(qA)，C_Y=C_F1+C_F2，C_N=(C_F1-C_F2)d/x。q按总相对V；d为半支撑距，x为全长1.646ft，力矩中心车头后0.513x。A保留原文“最大投影横截面积”，不能替换Hucho侧面积。图8–10处理链用3L动态平台作分母，与独立静态曲线不同。原文/推断/缺项见[复现审计](audits/beauvais_1967_reproduction.md)。

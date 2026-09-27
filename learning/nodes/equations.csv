@@ -1,8 +1,9 @@
 id,name,formula_status,source_ids,notes
-EQ-RELWIND,relative wind angle,FORMULA_PENDING_FULLTEXT,TASK.md,Author axes and longitudinal wind need checking
+EQ-RELWIND,relative wind angle,full_text_verified,sae-670608,"Beauvais p2222 Eqs2-3: psi=atan(Vv/Vu); V=hypot(Vu,Vv); perpendicular crossflow only; psi is relative-wind yaw, not vehicle heading"
 EQ-RED-FREQ,reduced frequency,full_text_verified,pimeche-2001-passmore,"k_m=pi*f*l/U; pp.779-780; f Hz, l model length, U tunnel speed; source-specific"
 EQ-ADMIT,aerodynamic admittance,full_text_verified,pimeche-2001-passmore,Power admittance=chi_a^2 only for paper same-frequency sine comparison; p.785; not complex transfer function
 EQ-MAGNIFICATION,sine amplitude magnification,full_text_verified,pimeche-2001-passmore,chi_a=A_transient/A_QS for same component and matched baseline; p.785
 EQ-REICHARDT-MIXING,Hucho/Emmelmann cosine spatial crosswind mixing profile,full_text_verified,sae-730232,"Eq.23 p.898: Vc/Vc_inf = [1-cos(pi*s/sm)]/2 for 0<=s<=sm; Fig.10. s/sm=0.25,0.5,0.75 gives 0.1464,0.5,0.8536. Boundary clipping inferred from Fig.10. This reproduces input only, not Figs.11-12 aerodynamic/vehicle outputs."
 EQ-HUCHO-CLEARANCE,Hucho sectional underbody load correction,analyst_derived_from_full_text,sae-730232,Eq19 p897 plus Eqs8/11: a=zB/z1; phi_s=1-2/pi asin(a); phi_i=1-2/pi[asin(a)+a sqrt(1-a^2)]; ANALYST_INFERENCE; see audits/hucho_1973_equations.md
 EQ-YAW,Hucho source-specific force and moment normalization,full_text_verified,sae-730232,p896 Eqs14-16: c_s=S/(q_inf Ay); c_N=N/(q_inf Ay l); N=integral(x-xs)dS; not global sign convention
+EQ-BEAUVAIS-BALANCE,Beauvais balance force and moment reduction,full_text_verified,sae-670608,p2223 Eqs4-7: CFi=Fi/(qA); CY=CF1+CF2; CN=(CF1-CF2)d/x; x=1.646ft; d half support spacing; center0.513x aft nose; A maximum projected cross section; numerical A/d missing

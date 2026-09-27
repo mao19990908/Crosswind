@@ -75,11 +75,11 @@ C-VALIDATION,E-2013-01,described_by,Level A gust field,jfe-2013-volpe,abstract_v
 E-2025-04,sae-15-18-01-0005,evidence_from,publisher PDF pp69-70 Figs.12-13,sae-15-18-01-0005,full_text_verified,road comparison limited to selected flow statistics
 C-VALIDATION,E-2025-04,described_by,road flow comparison,sae-15-18-01-0005,full_text_verified,not Level B or C vehicle validation
 E-1967-01,sae-670608,evidence_from,1:10 moving model; finite crosswind edge,sae-670608,full_text_verified,pp.2223-2225 Figs.7-10
-C-OVERSHOOT,E-1967-01,described_by,yaw moment only in tested larger yaw conditions,sae-670608,full_text_verified,front/rear force lag; no vehicle motion
-C-QS,E-1967-01,described_by,steady-yaw comparison condition-specific,sae-670608,full_text_verified,author 15 deg conclusion not universal
+C-OVERSHOOT,E-1967-01,described_by,yaw moment only in tested larger yaw conditions,sae-670608,full_text_verified,p2223 normalization by own3L dynamic platform; author15deg boundary not independently reconstructed
+C-QS,E-1967-01,described_by,steady-yaw comparison condition-specific,sae-670608,full_text_verified,p2223 normalization by own3L dynamic platform; author15deg boundary not independently reconstructed
 E-1967-02,sae-670608,evidence_from,track traverse and calibrated balance,sae-670608,full_text_verified,pp.2220-2224 Figs.1-8
-M-MOVING,E-1967-02,described_by,model traverses fixed tunnel crossflow,sae-670608,full_text_verified,not the 1996 Cranfield facility
-C-VALIDATION,E-1967-02,described_by,local facility/load checks only,sae-670608,full_text_verified,no independent dynamic load or Level C validation
+M-MOVING,E-1967-02,described_by,model traverses fixed tunnel crossflow,sae-670608,full_text_verified,Local profile/static balance and force-platform check; not independent transient moment validation
+C-VALIDATION,E-1967-02,described_by,local facility/load checks only,sae-670608,full_text_verified,Local profile/static balance and force-platform check; not independent transient moment validation
 M-SLENDER,E-1973-01,described_by,flat-plate slender-body and spatial gust profile,sae-730232,full_text_verified,engineering estimate only
 C-VALIDATION,E-1973-01,described_by,steady tunnel derivatives checked; transient predicted,sae-730232,full_text_verified,no independent transient Level B or road Level C
 E-1958-01,bams-1958-benner,evidence_from,Lay/Lett instrument description,bams-1958-benner,full_text_verified,Benner pp.424-425 Sec.5 Figs.3-4; secondary historical evidence
@@ -134,3 +134,11 @@ EQ-YAW,E-1973-04,described_by,Hucho1973 source-specific flat plate; pp896-899,sa
 V-YAWMOMENT,E-1973-04,described_by,Hucho1973 source-specific flat plate; pp896-899,sae-730232,full_text_verified,Original normalization/nomenclature; do not unify other source signs
 V-HEADING,E-1973-04,described_by,Hucho1973 source-specific flat plate; pp896-899,sae-730232,full_text_verified,Original normalization/nomenclature; do not unify other source signs
 V-BETA-AERO,E-1973-04,described_by,Hucho1973 source-specific flat plate; pp896-899,sae-730232,full_text_verified,Original normalization/nomenclature; do not unify other source signs
+E-1967-03,sae-670608,evidence_from,Beauvais1967 constrained moving model; source-specific definitions and printed captions,sae-670608,full_text_verified,pp2222-2225; provenance and limitations in E-1967-03/04 and reproduction audit
+EQ-BEAUVAIS-BALANCE,E-1967-03,described_by,Beauvais1967 constrained moving model; source-specific definitions and printed captions,sae-670608,full_text_verified,pp2222-2225; provenance and limitations in E-1967-03/04 and reproduction audit
+V-YAWMOMENT,E-1967-03,described_by,Beauvais1967 constrained moving model; source-specific definitions and printed captions,sae-670608,full_text_verified,pp2222-2225; provenance and limitations in E-1967-03/04 and reproduction audit
+M-MOVING,E-1967-03,described_by,Beauvais1967 constrained moving model; source-specific definitions and printed captions,sae-670608,full_text_verified,pp2222-2225; provenance and limitations in E-1967-03/04 and reproduction audit
+E-1967-04,sae-670608,evidence_from,Beauvais1967 constrained moving model; source-specific definitions and printed captions,sae-670608,full_text_verified,pp2222-2225; provenance and limitations in E-1967-03/04 and reproduction audit
+EQ-RELWIND,E-1967-04,described_by,Beauvais1967 constrained moving model; source-specific definitions and printed captions,sae-670608,full_text_verified,pp2222-2225; provenance and limitations in E-1967-03/04 and reproduction audit
+V-BETA-AERO,E-1967-04,described_by,Beauvais1967 constrained moving model; source-specific definitions and printed captions,sae-670608,full_text_verified,pp2222-2225; provenance and limitations in E-1967-03/04 and reproduction audit
+M-MOVING,E-1967-04,described_by,Beauvais1967 constrained moving model; source-specific definitions and printed captions,sae-670608,full_text_verified,pp2222-2225; provenance and limitations in E-1967-03/04 and reproduction audit

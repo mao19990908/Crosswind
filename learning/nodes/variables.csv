@@ -1,9 +1,9 @@
 id,name,unit,definition_status,source_ids
-V-UVEH,vehicle speed,m/s,author_definition_pending,TASK.md
-V-UGUST,crosswind speed,m/s,author_definition_pending,TASK.md
-V-BETA-AERO,relative-wind yaw angle,degree_or_radian,Hucho p899 beta=aerodynamic yaw in deg; other source axes pending,TASK.md;sae-730232
+V-UVEH,vehicle speed,m/s_or_ft/s_source_specific,Beauvais Vu=constrained carriage speed ft/s; distinct from total V,TASK.md;sae-670608
+V-UGUST,crosswind speed,m/s_or_ft/s_source_specific,Beauvais Vv=perpendicular tunnel crossflow ft/s; no longitudinal wind term,TASK.md;sae-670608
+V-BETA-AERO,relative-wind yaw angle,degree_or_radian,"Beauvais psi=atan(Vv/Vu), deg nose-right convention; Hucho beta=aerodynamic yaw; symbol names not transferable",TASK.md;sae-730232;sae-670608
 V-HEADING,vehicle heading angle,degree_or_radian,Hucho p899 psi=vehicle yaw in deg; not aerodynamic beta,TASK.md;sae-730232
 V-SIDESLIP,vehicle sideslip angle,degree_or_radian,velocity_reference_pending,TASK.md
 V-SIDEFORCE,aerodynamic side force,N_or_coefficient,sign_and_normalization_pending,sae-980392;pimeche-2001-passmore
-V-YAWMOMENT,aerodynamic yaw moment,Nm_or_coefficient,Hucho p896 N about xs normalized q_inf Ay l; other source conventions pending,sae-960674;pimeche-2001-passmore;sae-730232
+V-YAWMOMENT,aerodynamic yaw moment,source_force_length_or_coefficient,Beauvais CN=(CF1-CF2)d/x about0.513x aft nose; Hucho cN=N/(q_inf Ay l) aboutxs; source-specific,sae-960674;pimeche-2001-passmore;sae-730232;sae-670608
 V-YAWRATE,vehicle yaw rate,rad/s,positive_direction_pending,sae-2017-01-1515
