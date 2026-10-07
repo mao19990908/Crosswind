@@ -2,7 +2,7 @@ from_id,to_id,relation,condition,source_id,verification_status,note
 E-1953-01,sae-530255,evidence_from,publisher abstract,sae-530255,abstract_verified,early road gust distinction
 E-1979-01,dot-hs-805-078,evidence_from,catalog abstract,dot-hs-805-078,abstract_verified,steering modes separate
 E-1996-01,sae-960674,evidence_from,PDF7-8 same-model non-skewed smooth-gust comparison,sae-960674,full_text_verified,SAE pp.7-8 Figs.7-8; component and peak/mean specific
-E-1998-01,sae-980392,evidence_from,publisher abstract,sae-980392,full_text_verified,"SAE p.7 Fig.9: net side +18%, upper-surface-only lift +12%"
+E-1998-01,sae-980392,evidence_from,PDF7 Fig9 full-text pressure-derived loads; nominal30deg finite pulse,sae-980392,full_text_verified,"SAE p.7 Fig.9: net side +18%, upper-surface-only lift +12%"
 E-2001-01,pimeche-2001-passmore,evidence_from,publisher abstract,pimeche-2001-passmore,abstract_verified,component-specific dynamic response
 E-2010-01,iso-12021-2010,evidence_from,official ISO page,iso-12021-2010,abstract_verified,standard scope
 C-GUST,E-1953-01,described_by,road event,sae-530255,abstract_verified,transient gust distinct from sidewind study
@@ -88,7 +88,7 @@ E-1958-02,bams-1958-benner,evidence_from,oblique natural gust and driver correct
 C-LOOP,E-1958-02,described_by,qualitative driver correction after gust,bams-1958-benner,full_text_verified,No controller law or quantitative closed-loop response reported
 E-1996-02,sae-960674,evidence_from,p.6 table/track subtraction,sae-960674,full_text_verified,PDF5-6 calibrated/filtered position-aligned subtraction;20/30Hz author settings; not independent dynamic validation
 C-VALIDATION,E-1996-02,described_by,nine repeated moving-model runs,sae-960674,full_text_verified,track subtraction and repeatability only
-E-1998-02,sae-980392,evidence_from,p.8 Fig.10 total/component yaw,sae-980392,full_text_verified,total net yaw has no overshoot versus steady
+E-1998-02,sae-980392,evidence_from,p.8 Fig.10 total/component yaw,sae-980392,full_text_verified,"reported net0.37 vsstatic0.39, not significance claim; centroid reference;40% windward uses separate denominator"
 C-QS,E-1998-02,described_by,30deg finite gust; total yaw,sae-980392,full_text_verified,steady yaw moment near transient peak in this one setup
 E-1998-03,sae-980392,evidence_from,pp.7-9 Figs.9-12,sae-980392,full_text_verified,error and pressure-flow lag
 C-VALIDATION,E-1998-03,described_by,internal pressure/steady comparison,sae-980392,full_text_verified,no independent Level B dynamic-force or Level C motion validation
@@ -149,3 +149,10 @@ E-1996-04,sae-960674,evidence_from,Macklin1996 source-specific processed signals
 EQ-MACKLIN-COEFF,E-1996-04,described_by,Macklin1996 source-specific processed signals and ground-reference coefficients,sae-960674,full_text_verified,"PDF3,5-6,8; definitions and limitations in E-1996-03/04 and signal/axes audit"
 V-SIDEFORCE,E-1996-04,described_by,Macklin1996 source-specific processed signals and ground-reference coefficients,sae-960674,full_text_verified,"PDF3,5-6,8; definitions and limitations in E-1996-03/04 and signal/axes audit"
 V-YAWMOMENT,E-1996-04,described_by,Macklin1996 source-specific processed signals and ground-reference coefficients,sae-960674,full_text_verified,"PDF3,5-6,8; definitions and limitations in E-1996-03/04 and signal/axes audit"
+E-1998-04,sae-980392,evidence_from,Ryan1998 generic hatchback; source-specific pressure integration and coefficients,sae-980392,full_text_verified,PDF6/11 primary definitions; see E-1998-04/05 and pressure/reference audit
+M-JET,E-1998-04,described_by,Ryan1998 generic hatchback; source-specific pressure integration and coefficients,sae-980392,full_text_verified,PDF6/11 primary definitions; see E-1998-04/05 and pressure/reference audit
+V-YAWMOMENT,E-1998-04,described_by,Ryan1998 generic hatchback; source-specific pressure integration and coefficients,sae-980392,full_text_verified,PDF6/11 primary definitions; see E-1998-04/05 and pressure/reference audit
+E-1998-05,sae-980392,evidence_from,Ryan1998 generic hatchback; source-specific pressure integration and coefficients,sae-980392,full_text_verified,PDF6/11 primary definitions; see E-1998-04/05 and pressure/reference audit
+EQ-RYAN-COEFF,E-1998-05,described_by,Ryan1998 generic hatchback; source-specific pressure integration and coefficients,sae-980392,full_text_verified,PDF6/11 primary definitions; see E-1998-04/05 and pressure/reference audit
+V-SIDEFORCE,E-1998-05,described_by,Ryan1998 generic hatchback; source-specific pressure integration and coefficients,sae-980392,full_text_verified,PDF6/11 primary definitions; see E-1998-04/05 and pressure/reference audit
+V-YAWMOMENT,E-1998-05,described_by,Ryan1998 generic hatchback; source-specific pressure integration and coefficients,sae-980392,full_text_verified,PDF6/11 primary definitions; see E-1998-04/05 and pressure/reference audit

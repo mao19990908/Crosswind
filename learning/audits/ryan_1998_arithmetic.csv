@@ -1,0 +1,6 @@
+quantity,derived_value,provenance_and_limit
+reported_side_peak_change_percent,17.64705882,PDF7 rounded reported loads; arithmetic only
+reported_upper_lift_change_percent,11.80555556,PDF7 upper surface only; arithmetic only
+reported_net_yaw_change_percent,-5.12820513,PDF8 approximate values; no statistical-significance inference
+axial_to_resultant_coefficient_factor_at_30deg,0.75000000,ANALYST_INFERENCE: identical load/area/length/origin; perpendicular flow only
+aperture_over_drawing_length,2.87356322,ANALYST_INFERENCE: Fig4 522 interpreted in mm; actual normalization length unconfirmed

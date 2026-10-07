@@ -42,3 +42,7 @@ Reused reviewed instruction-only paper-reading and project crosswind-knowledge-b
 ## 2026-10-07 Learn usage
 
 Reused instruction-only paper-reading and project crosswind-knowledge-base; built-in PDF read-only rendering for existing Macklin PDF. No new installation, upstream executable, search, credentials or access-control work.
+
+## 2026-10-08 Learn usage
+
+Reused paper-reading/project crosswind-knowledge-base and read-only built-in PDF rendering. No install or upstream executable/network/credentials. First-party audit_ryan_1998.py performs labelled source arithmetic only; no fabricated pressure data.

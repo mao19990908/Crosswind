@@ -33,3 +33,7 @@ EQ-BEAUVAIS-BALANCE：C_Fi=Fi/(qA)，C_Y=C_F1+C_F2，C_N=(C_F1-C_F2)d/x。q按�
 ## Macklin1996系数（2026-10-07）
 
 EQ-MACKLIN-COEFF：CF=F/(0.5rho U²A)，CM=M/(0.5rho U²Al)，U=sqrt(UF²+UW²)。PDF3中A为前投影面积、l为轴距；不能换成车身全长。地面参考点和镜像MIRA轴约定见PDF5；75mm是天平距底板高度。详见[信号与坐标审计](audits/macklin_1996_signal_axes.md)。
+
+## Ryan1998轴速归一化（2026-10-08）
+
+EQ-RYAN-COEFF：CY=Y/(0.5rhoAv²)，Cmz=Mz/(0.5rhoAv²l)，Czu=Zu/(0.5rhoAv²)。PDF11/印刷9：v是轴向等效前进速度，A为零偏航前面积，l为模型长度；PDF6力矩参考侧面积形心。与Macklin总速U/轴距不同。仅相同载荷、面积、长度、参考点且垂直横流条件下，换总速归一化的cos²因子为ANALYST_INFERENCE，非跨论文实测修正；见[审计](audits/ryan_1998_pressure_reference.md)。

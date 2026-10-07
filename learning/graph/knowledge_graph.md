@@ -156,6 +156,13 @@ flowchart LR
     N_EQ_MACKLIN_COEFF["EQ-MACKLIN-COEFF"] -->|described_by| N_E_1996_04["E-1996-04"]
     N_V_SIDEFORCE["V-SIDEFORCE"] -->|described_by| N_E_1996_04["E-1996-04"]
     N_V_YAWMOMENT["V-YAWMOMENT"] -->|described_by| N_E_1996_04["E-1996-04"]
+    N_E_1998_04["E-1998-04"] -->|evidence_from| N_sae_980392["sae-980392"]
+    N_M_JET["M-JET"] -->|described_by| N_E_1998_04["E-1998-04"]
+    N_V_YAWMOMENT["V-YAWMOMENT"] -->|described_by| N_E_1998_04["E-1998-04"]
+    N_E_1998_05["E-1998-05"] -->|evidence_from| N_sae_980392["sae-980392"]
+    N_EQ_RYAN_COEFF["EQ-RYAN-COEFF"] -->|described_by| N_E_1998_05["E-1998-05"]
+    N_V_SIDEFORCE["V-SIDEFORCE"] -->|described_by| N_E_1998_05["E-1998-05"]
+    N_V_YAWMOMENT["V-YAWMOMENT"] -->|described_by| N_E_1998_05["E-1998-05"]
 ```
 
 `evidence_from` 表示原始来源支撑该 atomic claim；`described_by` 表示概念受到特定条件下主张说明；`generated_by` 表示该输入由文献中的方法实现；`depends_on` 表示当前准稳态比较以稳态基线为参照。`supported_by` 表示方法受到特定原文证据支持，与 supports 的反向阅读对应；不表示独立跨方法验证。这些关系不能自动推成 `causes` 或跨研究 `validated_by`。

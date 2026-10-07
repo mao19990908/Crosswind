@@ -4,7 +4,11 @@
 
 > 阵风输入 → 非定常气动载荷 → 横向／横摆／侧倾响应 → 驾驶员或控制器修正
 
-## 当前学习断点（2026-10-07）
+## 当前学习断点（2026-10-08）
+
+Ryan1998 Pass3核实侧面积形心参考点和轴向速度归一化；明确与Macklin总速/轴距定义不同。新增2claims、1公式节点、7图边，现66claims/157edges。原始积分仍缺数值权重/时程，登记NC-1998-INTEGRATION；学习15完成/10待办。下一jcp-2016-tunay先做全文P2，再续P3。见[审计](learning/audits/ryan_1998_pressure_reference.md)。无新source/PDF。
+
+### 上轮学习记录（2026-10-07）
 
 续接Macklin1996 Pass3，核对力矩统计窗口、Hamming滤波信息及地面参考点；75mm距底板不可当总平移高度，力矩系数长度为轴距。新增2claims、1公式节点和7条边；现64claims/150edges。原始输出复现缺输入，已登记NC-1996-SIGNAL-AXES。学习仍15完成/10待办，下一sae-980392 Pass3。见[审计](learning/audits/macklin_1996_signal_axes.md)。
 
@@ -53,7 +57,7 @@ Beauvais1967 Pass3已核对相对风、天平组合及归一化：图中分母�
 - [方法谱系](citations/method_lineages.md)
 - [研究现状](synthesis/state_of_the_art.md)
 - [研究空白](synthesis/research_gaps.md)
-- [当日日志](logs/2026-10-07.md)
+- [当日日志](logs/2026-10-08.md)
 
 当前处于 Phase I：先建立可追溯的历史与方法地图，不把初步线索包装成成熟综述结论。
 
