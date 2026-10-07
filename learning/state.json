@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-07T21:04:10+08:00",
+  "updated_at": "2026-10-07T21:04:47+08:00",
   "timezone": "Asia/Shanghai",
   "current_phase": "learning",
   "phase_status": "in_progress",
@@ -62,13 +62,13 @@
   ],
   "quota_status": "available_rounded_shared_account",
   "weekly_quota_used_at_run_start_percent": 0,
-  "weekly_quota_used_at_last_read_percent": 5,
+  "weekly_quota_used_at_last_read_percent": 6,
   "weekly_quota_used_at_day_start_percent": 0,
   "weekly_quota_day_cap_used_percent": 12,
-  "local_remote_sync": "pending_current_run_push",
-  "github_commit_sha": "f5e3fdba0a7198718b72fb26d755d3cedcafcb65",
+  "local_remote_sync": "research_commit_verified_local_origin_live_remote_equal",
+  "github_commit_sha": "2026dd4842879fc5dc72bc8f424837ea81553baa",
   "note": "Latest heartbeat prioritizes Learn backlog; DOI/PDF unresolved checkpoint retained, not treated as a gate blocking existing local-PDF learning.",
-  "github_commit_sha_role": "run_base_before_research_commit",
+  "github_commit_sha_role": "verified_research_commit_before_final_audit",
   "quota_date": "2026-10-07",
   "today_updated_knowledge_nodes": [
     "E-1996-01",
@@ -152,7 +152,7 @@
     }
   ],
   "quota_measurement_note": "Oct7 first daily reading0%; cap12%; rounded shared account; no reset redeemed",
-  "quota_last_read_at": "2026-10-07T21:04:10+08:00",
+  "quota_last_read_at": "2026-10-07T21:04:47+08:00",
   "doi_pdf_checkpoint": {
     "date": "2026-09-26",
     "status": "in_progress",
@@ -338,7 +338,7 @@
     "changed_understanding": "Macklin threshold differs by load component/peak-vs-mean; Ryan net yaw has no steady-relative overshoot despite side/lift peaks, resolving abstract overgeneralization; 1996 and 1998 yaw outcomes differ under different apparatus/metric definitions. Macklin 1997 shear comparison is turbulence-confounded and no reference speed universally collapses coefficients. Ryan 2000 uses updated 5m/22deg shutter gust; an unexplained high-pressure pocket and wake advection prevent treating a wake snapshot as instantaneous body force. Mahig 1971 is an assumed lateral-impulse vehicle response model, not an aerodynamic gust waveform study; tyre cubic locally cross-checked. Klein/Hogue 1980 directly cites and partially reuses DOT technical Volume II; loop modes and steady-model outputs must remain separated. Chadwick 2000 shows geometry-specific leeward pressure peaks and filter limitations; five model lengths not sufficient for steady development in all cases. Nakasato 2017 fixed-steer road validation is separate from the active-driver application; three-run driver trends have quantitative mismatch. Volpe 2014 measured ~21deg local yaw despite 30deg tunnel axes; geometry-specific yaw peaks 16/10%, vortex-load correlations not causal proof. Lewington 2017 one-way advantage depends on metric: both approaches predict lane deviation within one measured SD; comparator uses tuned wind scale and input validation is partial. Okumura 1997 CFD peak and spoiler evidence are conditional; passing comparison uses mismatched bus geometry, and reported resultant wind angle needs arithmetic audit.",
     "next": "Two local PDFs remain to read; 10-source learning backlog. Five-hour 97% and weekly 31% used at last platform read."
   },
-  "five_hour_quota_used_at_last_read_percent": 31,
+  "five_hour_quota_used_at_last_read_percent": 36,
   "automation_completed_on": "2026-10-07",
   "automation_run_status": "completed_learning_checkpoint_validated",
   "learning_run_2026_09_27": {
