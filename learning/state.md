@@ -1,8 +1,8 @@
-# 学习断点 — 2026-09-28（Asia/Shanghai）
+# 学习断点 — 2026-10-07（Asia/Shanghai）
 
-- Level1变量/系数与Level6/9实验/验证；Beauvais1967定义审计完成，未复现原始输出。
-- 核心nodes：EQ-RELWIND、EQ-BEAUVAIS-BALANCE、M-MOVING、V-BETA-AERO、V-YAWMOMENT。
-- Source25；P1已覆盖25；当前证据要求下完成15、backlog10。P3本轮新增完成0；逐项P1/P2/P3状态以paper_notes/pass_status.csv为准。
-- 新claim2、修订claim2、公式新增1/修订1、图边新增8/修订4；总claims62、edges143。collection请求共3条open（本轮新增NC-1967-REPRO）。
-- 下一可执行：sae-960674 Pass3匹配峰值/均值与信号坐标核对。Beauvais等待NC-1967-REPRO；Hucho等待原始输入，不重复已完成公式审计。
-- DOI/PDF断点保留：20verified/5noDOI，本机18/GitHub1/本机专存17，缺全文7；无扩库。最新heartbeat以现有学习backlog优先。
+- Level1/6/9：Macklin1996信号、统计窗口和参考点定义审计完成；原始输出未复现。
+- 核心nodes：EQ-MACKLIN-COEFF、M-MOVING、V-SIDEFORCE、V-YAWMOMENT。
+- Sources25；P1已覆盖25；当前证据下完成15/backlog10；本轮P3新增完成0。逐项Pass以paper_notes/pass_status.csv为准。
+- 本轮新增claims2、修订2、公式1；edges新增7/修订2，总64claims/150edges。collection请求4条open。
+- 下一sae-980392 Pass3：压力积分与参考点核对。Macklin等候NC-1996-SIGNAL-AXES；Beauvais/Hucho等待原数据，不重复已完成审计。
+- DOI20verified/5noDOI；PDF18local/1GitHub/17local-only，缺全文7；v4断点保留，最新heartbeat优先学习，无扩库。

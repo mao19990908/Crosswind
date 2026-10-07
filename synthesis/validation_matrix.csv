@@ -1,6 +1,6 @@
 source_id,wind_field_level_A,aerodynamic_level_B,vehicle_motion_level_C,overall_validation_level,notes
 dot-hs-805-078,partial,not_reported,yes,full_scale_test,facility input documented at abstract level
-sae-960674,partial_local_tunnel_description,internal_static_dynamic_balance_comparison,no,internal_consistency,E2 pp.5-8; nine-repeat SD and zero-yaw track subtraction; no independent transient reference
+sae-960674,partial_local_tunnel_description,internal_static_dynamic_balance_comparison,no,internal_consistency,E2 pp.5-8; nine-repeat SD and zero-yaw track subtraction; no independent transient reference;2026-10-07: moment mean tail-in/nose-out; Hamming author20/30Hz settings not full filter; wheelbase normalization;75mm above pan not known full ground shift; NC-1996-SIGNAL-AXES
 sae-2017-01-1515,partial_2002_measured_vs_CFD;edge_and_vertical_mismatch,transient_CFD_load_history_no_independent_direct_load_test,three_full_scale_vehicles_fixed_steer_ge6_runs,conditional_Level_C;metric_specific,E2 pp.3-13 Table2; both models lane-deviation within one SD; no mesh study; no motion feedback; QS k=0.65-0.8
 sae-06-14-01-0001,yes,yes,no,full_scale_test,incoming flow plus pressure integration
 sae-15-18-01-0005,yes,no,no,internal_consistency,generator characterization only

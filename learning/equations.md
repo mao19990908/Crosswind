@@ -29,3 +29,7 @@ C_y(t)=\frac{dC_y}{d\beta} A_g A_0\sin(\omega t).
 ## Beauvais1967：支撑反力与图示归一化（2026-09-28）
 
 EQ-BEAUVAIS-BALANCE：C_Fi=Fi/(qA)，C_Y=C_F1+C_F2，C_N=(C_F1-C_F2)d/x。q按总相对V；d为半支撑距，x为全长1.646ft，力矩中心车头后0.513x。A保留原文“最大投影横截面积”，不能替换Hucho侧面积。图8–10处理链用3L动态平台作分母，与独立静态曲线不同。原文/推断/缺项见[复现审计](audits/beauvais_1967_reproduction.md)。
+
+## Macklin1996系数（2026-10-07）
+
+EQ-MACKLIN-COEFF：CF=F/(0.5rho U²A)，CM=M/(0.5rho U²Al)，U=sqrt(UF²+UW²)。PDF3中A为前投影面积、l为轴距；不能换成车身全长。地面参考点和镜像MIRA轴约定见PDF5；75mm是天平距底板高度。详见[信号与坐标审计](audits/macklin_1996_signal_axes.md)。

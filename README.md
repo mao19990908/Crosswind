@@ -4,7 +4,11 @@
 
 > 阵风输入 → 非定常气动载荷 → 横向／横摆／侧倾响应 → 驾驶员或控制器修正
 
-## 当前学习断点（2026-09-28）
+## 当前学习断点（2026-10-07）
+
+续接Macklin1996 Pass3，核对力矩统计窗口、Hamming滤波信息及地面参考点；75mm距底板不可当总平移高度，力矩系数长度为轴距。新增2claims、1公式节点和7条边；现64claims/150edges。原始输出复现缺输入，已登记NC-1996-SIGNAL-AXES。学习仍15完成/10待办，下一sae-980392 Pass3。见[审计](learning/audits/macklin_1996_signal_axes.md)。
+
+### 上轮学习记录（2026-09-28）
 
 Beauvais1967 Pass3已核对相对风、天平组合及归一化：图中分母是3车长处动态平台，速度图注与正文范围仍有矛盾。新增2条claim、1个公式节点，补全既有EQ-RELWIND，新增8条图边；现62条claims/143边。原始数据不足，已登记NC-1967-REPRO，学习仍15完成/10待办；下次sae-960674 Pass3。见[复现审计](learning/audits/beauvais_1967_reproduction.md)。无新资料或PDF。
 
@@ -49,7 +53,7 @@ Beauvais1967 Pass3已核对相对风、天平组合及归一化：图中分母�
 - [方法谱系](citations/method_lineages.md)
 - [研究现状](synthesis/state_of_the_art.md)
 - [研究空白](synthesis/research_gaps.md)
-- [当日日志](logs/2026-09-28.md)
+- [当日日志](logs/2026-10-07.md)
 
 当前处于 Phase I：先建立可追溯的历史与方法地图，不把初步线索包装成成熟综述结论。
 

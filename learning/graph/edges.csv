@@ -1,7 +1,7 @@
 from_id,to_id,relation,condition,source_id,verification_status,note
 E-1953-01,sae-530255,evidence_from,publisher abstract,sae-530255,abstract_verified,early road gust distinction
 E-1979-01,dot-hs-805-078,evidence_from,catalog abstract,dot-hs-805-078,abstract_verified,steering modes separate
-E-1996-01,sae-960674,evidence_from,publisher abstract,sae-960674,full_text_verified,SAE pp.7-8 Figs.7-8; component and peak/mean specific
+E-1996-01,sae-960674,evidence_from,PDF7-8 same-model non-skewed smooth-gust comparison,sae-960674,full_text_verified,SAE pp.7-8 Figs.7-8; component and peak/mean specific
 E-1998-01,sae-980392,evidence_from,publisher abstract,sae-980392,full_text_verified,"SAE p.7 Fig.9: net side +18%, upper-surface-only lift +12%"
 E-2001-01,pimeche-2001-passmore,evidence_from,publisher abstract,pimeche-2001-passmore,abstract_verified,component-specific dynamic response
 E-2010-01,iso-12021-2010,evidence_from,official ISO page,iso-12021-2010,abstract_verified,standard scope
@@ -86,7 +86,7 @@ E-1958-01,bams-1958-benner,evidence_from,Lay/Lett instrument description,bams-19
 M-ROAD,E-1958-01,described_by,natural road wind sensing and body-frame loads,bams-1958-benner,full_text_verified,Does not independently validate the 1953 measurements
 E-1958-02,bams-1958-benner,evidence_from,oblique natural gust and driver correction,bams-1958-benner,full_text_verified,Benner p.425 Sec.6 point 2; narrative evidence
 C-LOOP,E-1958-02,described_by,qualitative driver correction after gust,bams-1958-benner,full_text_verified,No controller law or quantitative closed-loop response reported
-E-1996-02,sae-960674,evidence_from,p.6 table/track subtraction,sae-960674,full_text_verified,"local repeatability, not independent transient validation"
+E-1996-02,sae-960674,evidence_from,p.6 table/track subtraction,sae-960674,full_text_verified,PDF5-6 calibrated/filtered position-aligned subtraction;20/30Hz author settings; not independent dynamic validation
 C-VALIDATION,E-1996-02,described_by,nine repeated moving-model runs,sae-960674,full_text_verified,track subtraction and repeatability only
 E-1998-02,sae-980392,evidence_from,p.8 Fig.10 total/component yaw,sae-980392,full_text_verified,total net yaw has no overshoot versus steady
 C-QS,E-1998-02,described_by,30deg finite gust; total yaw,sae-980392,full_text_verified,steady yaw moment near transient peak in this one setup
@@ -142,3 +142,10 @@ E-1967-04,sae-670608,evidence_from,Beauvais1967 constrained moving model; source
 EQ-RELWIND,E-1967-04,described_by,Beauvais1967 constrained moving model; source-specific definitions and printed captions,sae-670608,full_text_verified,pp2222-2225; provenance and limitations in E-1967-03/04 and reproduction audit
 V-BETA-AERO,E-1967-04,described_by,Beauvais1967 constrained moving model; source-specific definitions and printed captions,sae-670608,full_text_verified,pp2222-2225; provenance and limitations in E-1967-03/04 and reproduction audit
 M-MOVING,E-1967-04,described_by,Beauvais1967 constrained moving model; source-specific definitions and printed captions,sae-670608,full_text_verified,pp2222-2225; provenance and limitations in E-1967-03/04 and reproduction audit
+E-1996-03,sae-960674,evidence_from,Macklin1996 source-specific processed signals and ground-reference coefficients,sae-960674,full_text_verified,"PDF3,5-6,8; definitions and limitations in E-1996-03/04 and signal/axes audit"
+M-MOVING,E-1996-03,described_by,Macklin1996 source-specific processed signals and ground-reference coefficients,sae-960674,full_text_verified,"PDF3,5-6,8; definitions and limitations in E-1996-03/04 and signal/axes audit"
+C-OVERSHOOT,E-1996-03,described_by,Macklin1996 source-specific processed signals and ground-reference coefficients,sae-960674,full_text_verified,"PDF3,5-6,8; definitions and limitations in E-1996-03/04 and signal/axes audit"
+E-1996-04,sae-960674,evidence_from,Macklin1996 source-specific processed signals and ground-reference coefficients,sae-960674,full_text_verified,"PDF3,5-6,8; definitions and limitations in E-1996-03/04 and signal/axes audit"
+EQ-MACKLIN-COEFF,E-1996-04,described_by,Macklin1996 source-specific processed signals and ground-reference coefficients,sae-960674,full_text_verified,"PDF3,5-6,8; definitions and limitations in E-1996-03/04 and signal/axes audit"
+V-SIDEFORCE,E-1996-04,described_by,Macklin1996 source-specific processed signals and ground-reference coefficients,sae-960674,full_text_verified,"PDF3,5-6,8; definitions and limitations in E-1996-03/04 and signal/axes audit"
+V-YAWMOMENT,E-1996-04,described_by,Macklin1996 source-specific processed signals and ground-reference coefficients,sae-960674,full_text_verified,"PDF3,5-6,8; definitions and limitations in E-1996-03/04 and signal/axes audit"

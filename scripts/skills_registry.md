@@ -38,3 +38,7 @@ Read and used installed C:/Users/17984/.agents/skills/paper-reading/SKILL.md plu
 ## 2026-09-28 Learn usage
 
 Reused reviewed instruction-only paper-reading and project crosswind-knowledge-base; read-only built-in PDF rendering for Beauvais p2220/2222-2225. No skill installation, upstream executable, third-party credentials or network harvesting. Offline first-party audit_beauvais_1967.py only computes labelled source arithmetic.
+
+## 2026-10-07 Learn usage
+
+Reused instruction-only paper-reading and project crosswind-knowledge-base; built-in PDF read-only rendering for existing Macklin PDF. No new installation, upstream executable, search, credentials or access-control work.
