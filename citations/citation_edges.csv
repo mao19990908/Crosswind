@@ -27,3 +27,6 @@ jweia-2014-volpe,sae-2000-01-0874,method_adapts,true,Abstract and pp.116-117 say
 jweia-2014-volpe,jfe-2013-volpe,method_extends,true,JWEIA 2014 p.125 cites Volpe et al 2013 facility validation and extends to Windsor forces/PIV
 sae-2017-01-1515,sae-730232,references,true,SAE 2017-01-1515 p.8 ref21 directly cites Hucho and Emmelmann 1973
 sae-2017-01-1515,sae-800848,references,true,SAE 2017-01-1515 article p.2 ref6 cites Klein and Hogue fan disturbance work
+jcp-2016-tunay,sae-980392,references,true,Accepted manuscript PDF35 ref6;title/year match existing source;not apparatus or code inheritance;checked2026-10-09
+jcp-2016-tunay,jfe-2013-volpe,references,true,Accepted manuscript PDF36 ref7;title/year match existing source;not apparatus or code inheritance;checked2026-10-09
+jcp-2016-tunay,sae-2000-01-0876,references,true,Accepted manuscript PDF36 ref8;title/year match existing source;not apparatus or code inheritance;checked2026-10-09

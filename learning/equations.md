@@ -37,3 +37,7 @@ EQ-MACKLIN-COEFF：CF=F/(0.5rho U²A)，CM=M/(0.5rho U²Al)，U=sqrt(UF²+UW²)�
 ## Ryan1998轴速归一化（2026-10-08）
 
 EQ-RYAN-COEFF：CY=Y/(0.5rhoAv²)，Cmz=Mz/(0.5rhoAv²l)，Czu=Zu/(0.5rhoAv²)。PDF11/印刷9：v是轴向等效前进速度，A为零偏航前面积，l为模型长度；PDF6力矩参考侧面积形心。与Macklin总速U/轴距不同。仅相同载荷、面积、长度、参考点且垂直横流条件下，换总速归一化的cos²因子为ANALYST_INFERENCE，非跨论文实测修正；见[审计](audits/ryan_1998_pressure_reference.md)。
+
+## Winkler2016跨尺度定义（2026-10-09）
+
+EQ-WINKLER-SCALE：PDF11–12 Eqs1–3，Cs=Fya/(0.5 rho u_inf² A)，Cyaw=Mza/(0.5 rho u_inf² A L)，St=L/(u_inf t)。原文A前面积、L车长、u_inf自由流速、t时间；St不是直接沿用Passmore的pi*f*l/U。P3将核对模型/整车时间映射、重心力矩平移以及控制器Eq8–14误差符号，不先给未经核验的可执行控制律。

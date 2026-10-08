@@ -4,7 +4,11 @@
 
 > 阵风输入 → 非定常气动载荷 → 横向／横摆／侧倾响应 → 驾驶员或控制器修正
 
-## 当前学习断点（2026-10-08）
+## 当前学习断点（2026-10-09）
+
+Winkler2016既有PDF完成全文P2，证据由摘要升级全文；澄清无驾驶员＋两套增益及路径偏差7.3/6.3/3.9%的条件，参数趋势不当实测验证。新增3claims、1方法/1公式和12图边；现69claims/169edges/31引文边，全文17条。学习15完成/10待办；下一同源P3控制器符号、尺度与参考点审计。见[全文审计](learning/audits/winkler_2016_fulltext.md)。无新source/PDF。
+
+### 上轮学习记录（2026-10-08）
 
 Ryan1998 Pass3核实侧面积形心参考点和轴向速度归一化；明确与Macklin总速/轴距定义不同。新增2claims、1公式节点、7图边，现66claims/157edges。原始积分仍缺数值权重/时程，登记NC-1998-INTEGRATION；学习15完成/10待办。下一jcp-2016-tunay先做全文P2，再续P3。见[审计](learning/audits/ryan_1998_pressure_reference.md)。无新source/PDF。
 
@@ -57,7 +61,7 @@ Beauvais1967 Pass3已核对相对风、天平组合及归一化：图中分母�
 - [方法谱系](citations/method_lineages.md)
 - [研究现状](synthesis/state_of_the_art.md)
 - [研究空白](synthesis/research_gaps.md)
-- [当日日志](logs/2026-10-08.md)
+- [当日日志](logs/2026-10-09.md)
 
 当前处于 Phase I：先建立可追溯的历史与方法地图，不把初步线索包装成成熟综述结论。
 

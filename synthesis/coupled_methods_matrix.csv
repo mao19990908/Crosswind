@@ -1,5 +1,4 @@
 source_id,coupling_level,aero_model,vehicle_model,driver_or_controller,open_closed_loop,validation
-sae-2017-01-1515,2,"precomputed transient CFD","multi-body dynamics",none,open_loop,"three full-scale vehicle tests"
-jcp-2016-tunay,5,"DES overset","single-track 2DoF","driver model",closed_loop_driver,"not_reported in abstract"
-sae-2017-01-1525,5,"two-way aerodynamic calculation","6DoF vehicle motion","lane-keeping driver",closed_loop_driver,"corrective steering trend matched experiment"
-
+sae-2017-01-1515,2,precomputed transient CFD,multi-body dynamics,none,open_loop,three full-scale vehicle tests
+jcp-2016-tunay,5,IDDES overset;pose feedback each timestep versus offline one-way,2DoF single-track;linear tyres;constant25m/s,no-driver plus car/bus gain sets;0.55s reaction0.52s sync,both_fixed_steer_and_closed_loop_driver,E2 PDF10/21-27;GTSdrag+12percent and CG trends;no measured bus motion;path differences7.3/6.3/3.9percent are numerical comparisons
+sae-2017-01-1525,5,two-way aerodynamic calculation,6DoF vehicle motion,lane-keeping driver,closed_loop_driver,corrective steering trend matched experiment

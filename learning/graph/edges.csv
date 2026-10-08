@@ -26,8 +26,8 @@ E-2000-0874-01,sae-2000-01-0874,evidence_from,publisher abstract,sae-2000-01-087
 C-DYNLOAD,E-2000-0874-01,described_by,Durham finite sharp-edge gust,sae-2000-01-0874,full_text_verified,Full-text page map in learning/nodes/evidence.csv; scope and confounders supersede abstract wording
 E-2000-0876-01,sae-2000-01-0876,evidence_from,publisher abstract,sae-2000-01-0876,full_text_verified,"SAE pp.3-7 Figs.8-17; leeward pressure, shape-specific peak/mean"
 C-DYNLOAD,E-2000-0876-01,described_by,Cranfield simple shapes,sae-2000-01-0876,full_text_verified,"SAE pp.3-7 Figs.8-17; leeward pressure, shape-specific peak/mean"
-E-2016-01,jcp-2016-tunay,evidence_from,publisher abstract,jcp-2016-tunay,abstract_verified,two-way comparison
-C-VEHMOTION,E-2016-01,described_by,simplified bus; large yaw,jcp-2016-tunay,abstract_verified,not universal coupling threshold
+E-2016-01,jcp-2016-tunay,evidence_from,simplified bus25m/s and prescribed9m/s wind;no-driver/two gain sets,jcp-2016-tunay,full_text_verified,PDF26-27/32;metric-specific numerical comparison;no universal yaw threshold
+C-VEHMOTION,E-2016-01,described_by,simplified bus25m/s and prescribed9m/s wind;no-driver/two gain sets,jcp-2016-tunay,full_text_verified,PDF26-27/32;metric-specific numerical comparison;no universal yaw threshold
 E-2017-1515-01,sae-2017-01-1515,evidence_from,publisher abstract,sae-2017-01-1515,full_text_verified,Full text pp.3-13; response metric-specific comparison and tuned k
 C-VEHMOTION,E-2017-1515-01,described_by,three cars; ISO-like open-loop event,sae-2017-01-1515,full_text_verified,Full text pp.3-13; response metric-specific comparison and tuned k
 E-1980-01,sae-800848,evidence_from,five vehicles; nominal 35 mph crosswind facility,sae-800848,full_text_verified,Full-text pp.1-8 separate loop modes and steady predictions from measured peaks
@@ -156,3 +156,15 @@ E-1998-05,sae-980392,evidence_from,Ryan1998 generic hatchback; source-specific p
 EQ-RYAN-COEFF,E-1998-05,described_by,Ryan1998 generic hatchback; source-specific pressure integration and coefficients,sae-980392,full_text_verified,PDF6/11 primary definitions; see E-1998-04/05 and pressure/reference audit
 V-SIDEFORCE,E-1998-05,described_by,Ryan1998 generic hatchback; source-specific pressure integration and coefficients,sae-980392,full_text_verified,PDF6/11 primary definitions; see E-1998-04/05 and pressure/reference audit
 V-YAWMOMENT,E-1998-05,described_by,Ryan1998 generic hatchback; source-specific pressure integration and coefficients,sae-980392,full_text_verified,PDF6/11 primary definitions; see E-1998-04/05 and pressure/reference audit
+E-2016-02,jcp-2016-tunay,evidence_from,1/8model91.6m/s versus full vehicle25m/s;IDDES24M cells;6e-5s CFD step,jcp-2016-tunay,full_text_verified,PDF7-13;see evidence row
+M-IDDES-2WAY,E-2016-02,described_by,1/8model91.6m/s versus full vehicle25m/s;IDDES24M cells;6e-5s CFD step,jcp-2016-tunay,full_text_verified,Conditioned on E-2016-02;not universal validation
+EQ-WINKLER-SCALE,E-2016-02,described_by,1/8model91.6m/s versus full vehicle25m/s;IDDES24M cells;6e-5s CFD step,jcp-2016-tunay,full_text_verified,Conditioned on E-2016-02;not universal validation
+C-RELWIND,E-2016-02,described_by,1/8model91.6m/s versus full vehicle25m/s;IDDES24M cells;6e-5s CFD step,jcp-2016-tunay,full_text_verified,Conditioned on E-2016-02;not universal validation
+E-2016-03,jcp-2016-tunay,evidence_from,"Car/bus(ky,kpsi)=(1.0,15.6)/(1.2,30.9);reaction0.55s;sync0.52s;preview25m",jcp-2016-tunay,full_text_verified,PDF17-20;25-27;see evidence row
+C-LOOP,E-2016-03,described_by,"Car/bus(ky,kpsi)=(1.0,15.6)/(1.2,30.9);reaction0.55s;sync0.52s;preview25m",jcp-2016-tunay,full_text_verified,Conditioned on E-2016-03;not universal validation
+C-VEHMOTION,E-2016-03,described_by,"Car/bus(ky,kpsi)=(1.0,15.6)/(1.2,30.9);reaction0.55s;sync0.52s;preview25m",jcp-2016-tunay,full_text_verified,Conditioned on E-2016-03;not universal validation
+M-IDDES-2WAY,E-2016-03,described_by,"Car/bus(ky,kpsi)=(1.0,15.6)/(1.2,30.9);reaction0.55s;sync0.52s;preview25m",jcp-2016-tunay,full_text_verified,Conditioned on E-2016-03;not universal validation
+E-2016-04,jcp-2016-tunay,evidence_from,GTS geometry uncertainty;CG63/43/23percent wheelbase;no driver for parameter study,jcp-2016-tunay,full_text_verified,PDF10;21-24;see evidence row
+C-VALIDATION,E-2016-04,described_by,GTS geometry uncertainty;CG63/43/23percent wheelbase;no driver for parameter study,jcp-2016-tunay,full_text_verified,Conditioned on E-2016-04;not universal validation
+M-IDDES-2WAY,E-2016-04,described_by,GTS geometry uncertainty;CG63/43/23percent wheelbase;no driver for parameter study,jcp-2016-tunay,full_text_verified,Conditioned on E-2016-04;not universal validation
+C-LOOP,E-2016-01,described_by,no-driver versus two active controllers,jcp-2016-tunay,full_text_verified,7.3/6.3/3.9 percent compare one-way to two-way paths

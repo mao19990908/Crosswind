@@ -46,3 +46,7 @@ Reused instruction-only paper-reading and project crosswind-knowledge-base; buil
 ## 2026-10-08 Learn usage
 
 Reused paper-reading/project crosswind-knowledge-base and read-only built-in PDF rendering. No install or upstream executable/network/credentials. First-party audit_ryan_1998.py performs labelled source arithmetic only; no fabricated pressure data.
+
+## 2026-10-09 Learn usage
+
+Read instruction-only paper-reading and repository crosswind-knowledge-base; built-in PDF read-only extraction/rendering. Existing user-provided Winkler accepted manuscript only. No install, upstream CLI, credentials, network harvesting or bypass. Temporary first-party CSV update scripts remain outside repository; no PDF/rendered page uploaded.

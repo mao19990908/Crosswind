@@ -56,3 +56,7 @@ pimeche-2001-passmore --references (verified, publisher ref.6)--> sae-980392
 - `sae-970135` article p.34 reference 1 → `sae-960674`：直接引用；1997 的廓线/湍流研究沿用 1996 Cranfield 移动车模方法，但粗糙板造成剪切与湍流混杂。
 - `sae-2000-01-0874` article p.9 reference 1 → `sae-960674`：直接引用，不表示硬件继承。reference 2 指向未入库的 1999 改进风洞论文。
 - `sae-2000-01-0874` ↔ `sae-980392`：保留同组 Durham 方法谱系，缩窄为 `facility_lineage`；2000 挡板、5 m、22° 与 1998 移动开口、1.5 m、30° 的条件不同，不将载荷与尾流数字混同。
+
+## 2026-10-09 全文增量
+
+jcp-2016-tunay → sae-980392 / jfe-2013-volpe / sae-2000-01-0876，references=true，PDF35–36 refs6/7/8。仅引用，非装置或代码继承。

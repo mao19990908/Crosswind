@@ -163,6 +163,18 @@ flowchart LR
     N_EQ_RYAN_COEFF["EQ-RYAN-COEFF"] -->|described_by| N_E_1998_05["E-1998-05"]
     N_V_SIDEFORCE["V-SIDEFORCE"] -->|described_by| N_E_1998_05["E-1998-05"]
     N_V_YAWMOMENT["V-YAWMOMENT"] -->|described_by| N_E_1998_05["E-1998-05"]
+    N_E_2016_02["E-2016-02"] -->|evidence_from| N_jcp_2016_tunay["jcp-2016-tunay"]
+    N_M_IDDES_2WAY["M-IDDES-2WAY"] -->|described_by| N_E_2016_02["E-2016-02"]
+    N_EQ_WINKLER_SCALE["EQ-WINKLER-SCALE"] -->|described_by| N_E_2016_02["E-2016-02"]
+    N_C_RELWIND["C-RELWIND"] -->|described_by| N_E_2016_02["E-2016-02"]
+    N_E_2016_03["E-2016-03"] -->|evidence_from| N_jcp_2016_tunay["jcp-2016-tunay"]
+    N_C_LOOP["C-LOOP"] -->|described_by| N_E_2016_03["E-2016-03"]
+    N_C_VEHMOTION["C-VEHMOTION"] -->|described_by| N_E_2016_03["E-2016-03"]
+    N_M_IDDES_2WAY["M-IDDES-2WAY"] -->|described_by| N_E_2016_03["E-2016-03"]
+    N_E_2016_04["E-2016-04"] -->|evidence_from| N_jcp_2016_tunay["jcp-2016-tunay"]
+    N_C_VALIDATION["C-VALIDATION"] -->|described_by| N_E_2016_04["E-2016-04"]
+    N_M_IDDES_2WAY["M-IDDES-2WAY"] -->|described_by| N_E_2016_04["E-2016-04"]
+    N_C_LOOP["C-LOOP"] -->|described_by| N_E_2016_01["E-2016-01"]
 ```
 
 `evidence_from` 表示原始来源支撑该 atomic claim；`described_by` 表示概念受到特定条件下主张说明；`generated_by` 表示该输入由文献中的方法实现；`depends_on` 表示当前准稳态比较以稳态基线为参照。`supported_by` 表示方法受到特定原文证据支持，与 supports 的反向阅读对应；不表示独立跨方法验证。这些关系不能自动推成 `causes` 或跨研究 `validated_by`。

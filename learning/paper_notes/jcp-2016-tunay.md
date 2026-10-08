@@ -1,3 +1,17 @@
+# jcp-2016-tunay — full-text Pass 2 complete (2026-10-09)
+
+Read all38 PDF pages; accepted manuscript identity/hash verified; full_text_verified/E2. [Structured audit](../audits/winkler_2016_fulltext.md) and source record carry page-level evidence.
+
+- Input: prescribed finite crosswind,25m/s full vehicle/9m/s wind, nominal5L with1.5L cosine ramps; no vertical gradient. Figure2 zero-point requires P3 clarification.
+- Method: IDDES/overset24M cells,1/8scale91.6m/s,6e-5s CFD step; two-way pose feedback each step versus offline one-way loads; 2DoF linear-tyre constant-speed dynamics.
+- Driver: no-driver plus two gain sets, not three active controllers. Table2 car(1.0,15.6)/bus(1.2,30.9), delays0.55/0.52s.
+- Results: one-way accumulated path deviation exceeds two-way7.3% without driver,6.3/3.9% car/bus controller. Distinct from force error or experimental validation. No universal yaw threshold.
+- Validation: prior GTS drag +12%; mesh changes did not improve match. CG trends are robustness checks, no measured transient bus trajectory validation.
+- Claims E-2016-01 upgraded/narrowed; E-2016-02/03/04 new; M-IDDES-2WAY and EQ-WINKLER-SCALE.
+- Pass3 next: Eq8–14 signs/gain units; Strouhal time mapping; CG reference transformations; Fig2 spatial origin. NC-2016-VALIDATION requests original inputs/validation, no duplicate PDF.
+
+## Historical abstract note (superseded)
+
 # jcp-2016-tunay — Pass 2 (publisher abstract)
 
 - Pass 1 / position: two-way aero–vehicle–driver coupling branch (repository Level 5) for transient crosswind.
