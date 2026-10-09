@@ -41,3 +41,7 @@ EQ-RYAN-COEFF：CY=Y/(0.5rhoAv²)，Cmz=Mz/(0.5rhoAv²l)，Czu=Zu/(0.5rhoAv²)�
 ## Winkler2016跨尺度定义（2026-10-09）
 
 EQ-WINKLER-SCALE：PDF11–12 Eqs1–3，Cs=Fya/(0.5 rho u_inf² A)，Cyaw=Mza/(0.5 rho u_inf² A L)，St=L/(u_inf t)。原文A前面积、L车长、u_inf自由流速、t时间；St不是直接沿用Passmore的pi*f*l/U。P3将核对模型/整车时间映射、重心力矩平移以及控制器Eq8–14误差符号，不先给未经核验的可执行控制律。
+
+## Winkler2016控制符号与尺度审计（2026-10-10）
+
+EQ-WINKLER-PREVIEW保留Eq11负曲率与Eq12正轮角的印刷差别；由圆心几何得到负号，但Δ误差/执行器方向未交代，不能直接生成闭环律。线性无气动稳态方程推得Kus=m/(f+b)*(b/Cf-f/Cr)，增益幅值按rad输出为0.021553/0.538836，仅把输出换成deg时与表1.2/30.9相容；不是作者代码单位声明。EQ-WINKLER-SCALE的St不变给时间比29.312、全尺度步长0.00175872s，均标ANALYST_INFERENCE。脚本检查稳态力矩/力平衡、四个有符号圆几何点及尺度不变性；见[审计](audits/winkler_2016_controller_scaling.md)。

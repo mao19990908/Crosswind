@@ -1,0 +1,16 @@
+quantity,derived_value,provenance_and_limit
+Kus_rad_per_m_s2,0.00133672316384,ANALYST_INFERENCE: steady-turn reduction of Eqs4-5;linear tyres;zero aero;Table1
+ky_rad_per_m,0.0215534463277,ANALYST_INFERENCE: Eq14 magnitude;not deployed controller gain
+kpsi_rad_per_rad,0.538836158192,ANALYST_INFERENCE: Eq13 magnitude;not deployed controller gain
+ky_deg_per_m,1.23492150854,ANALYST_INFERENCE: conditional degree-output conversion;rounds to Table2 1.2
+kpsi_deg_per_rad,30.8730377135,ANALYST_INFERENCE: conditional degree-output/radian-input conversion;rounds to Table2 30.9
+full_over_model_time,29.312,ANALYST_INFERENCE: Eq3 St invariance;Lratio8;Uratio25/91.6
+fullscale_step_s,0.00175872,ANALYST_INFERENCE: derived not reported implemented step
+full_over_model_force_equal_density,4.76726225663,ANALYST_INFERENCE: equal Cs;geometrically similar area;equal density
+full_over_model_moment_equal_density,38.1380980531,ANALYST_INFERENCE: equal Cyaw;corresponding reference point required
+fullscale_2500_steps_s,4.3968,ANALYST_INFERENCE: uses approximate reported step count;not exact event duration
+nominal_fullscale_ramp_s,0.732,ANALYST_INFERENCE: 1.5L/25m/s;not gust origin proof
+nominal_half_ramp_s,0.366,ANALYST_INFERENCE: near reported0.37s;only consistency clue
+nominal_CG_forward_shift_63_to_43_m,1.18,ANALYST_INFERENCE: rounded percent positions;body-axis transform still needed
+nominal_CG_forward_shift_63_to_23_m,2.36,ANALYST_INFERENCE: rounded percent positions;not new measured geometry
+max_relative_circle_residual,0,ANALYST_INFERENCE: four synthetic signed geometric states;not experimental validation

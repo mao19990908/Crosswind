@@ -50,3 +50,7 @@ Reused paper-reading/project crosswind-knowledge-base and read-only built-in PDF
 ## 2026-10-09 Learn usage
 
 Read instruction-only paper-reading and repository crosswind-knowledge-base; built-in PDF read-only extraction/rendering. Existing user-provided Winkler accepted manuscript only. No install, upstream CLI, credentials, network harvesting or bypass. Temporary first-party CSV update scripts remain outside repository; no PDF/rendered page uploaded.
+
+## 2026-10-10 Learn usage
+
+Reused already-read instruction-only paper-reading/project crosswind-knowledge-base and built-in read-only PDF inspection. No install, upstream CLI, credentials or network. First-party audit_winkler_2016.py uses standard-library equation residual/scaling checks only; synthetic test points labelled, no experiment/CFD/controller output fabricated.

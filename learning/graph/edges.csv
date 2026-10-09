@@ -157,8 +157,8 @@ EQ-RYAN-COEFF,E-1998-05,described_by,Ryan1998 generic hatchback; source-specific
 V-SIDEFORCE,E-1998-05,described_by,Ryan1998 generic hatchback; source-specific pressure integration and coefficients,sae-980392,full_text_verified,PDF6/11 primary definitions; see E-1998-04/05 and pressure/reference audit
 V-YAWMOMENT,E-1998-05,described_by,Ryan1998 generic hatchback; source-specific pressure integration and coefficients,sae-980392,full_text_verified,PDF6/11 primary definitions; see E-1998-04/05 and pressure/reference audit
 E-2016-02,jcp-2016-tunay,evidence_from,1/8model91.6m/s versus full vehicle25m/s;IDDES24M cells;6e-5s CFD step,jcp-2016-tunay,full_text_verified,PDF7-13;see evidence row
-M-IDDES-2WAY,E-2016-02,described_by,1/8model91.6m/s versus full vehicle25m/s;IDDES24M cells;6e-5s CFD step,jcp-2016-tunay,full_text_verified,Conditioned on E-2016-02;not universal validation
-EQ-WINKLER-SCALE,E-2016-02,described_by,1/8model91.6m/s versus full vehicle25m/s;IDDES24M cells;6e-5s CFD step,jcp-2016-tunay,full_text_verified,Conditioned on E-2016-02;not universal validation
+M-IDDES-2WAY,E-2016-02,described_by,1/8model91.6m/s versus full vehicle25m/s;IDDES24M cells;6e-5s CFD step,jcp-2016-tunay,full_text_verified,2026-10-10: scale invariance algebra checked;derived dt not verified code;CG/original histories remain needed
+EQ-WINKLER-SCALE,E-2016-02,described_by,1/8model91.6m/s versus full vehicle25m/s;IDDES24M cells;6e-5s CFD step,jcp-2016-tunay,full_text_verified,2026-10-10: scale invariance algebra checked;derived dt not verified code;CG/original histories remain needed
 C-RELWIND,E-2016-02,described_by,1/8model91.6m/s versus full vehicle25m/s;IDDES24M cells;6e-5s CFD step,jcp-2016-tunay,full_text_verified,Conditioned on E-2016-02;not universal validation
 E-2016-03,jcp-2016-tunay,evidence_from,"Car/bus(ky,kpsi)=(1.0,15.6)/(1.2,30.9);reaction0.55s;sync0.52s;preview25m",jcp-2016-tunay,full_text_verified,PDF17-20;25-27;see evidence row
 C-LOOP,E-2016-03,described_by,"Car/bus(ky,kpsi)=(1.0,15.6)/(1.2,30.9);reaction0.55s;sync0.52s;preview25m",jcp-2016-tunay,full_text_verified,Conditioned on E-2016-03;not universal validation
@@ -168,3 +168,6 @@ E-2016-04,jcp-2016-tunay,evidence_from,GTS geometry uncertainty;CG63/43/23percen
 C-VALIDATION,E-2016-04,described_by,GTS geometry uncertainty;CG63/43/23percent wheelbase;no driver for parameter study,jcp-2016-tunay,full_text_verified,Conditioned on E-2016-04;not universal validation
 M-IDDES-2WAY,E-2016-04,described_by,GTS geometry uncertainty;CG63/43/23percent wheelbase;no driver for parameter study,jcp-2016-tunay,full_text_verified,Conditioned on E-2016-04;not universal validation
 C-LOOP,E-2016-01,described_by,no-driver versus two active controllers,jcp-2016-tunay,full_text_verified,7.3/6.3/3.9 percent compare one-way to two-way paths
+E-2016-05,jcp-2016-tunay,evidence_from,Winkler accepted manuscript;bus parameters;printed error definitions,jcp-2016-tunay,full_text_verified,PDF17-20;gain conversion is labelled inference;controller implementation/sign not established
+EQ-WINKLER-PREVIEW,E-2016-05,described_by,Winkler accepted manuscript;bus parameters;printed error definitions,jcp-2016-tunay,full_text_verified,PDF17-20;gain conversion is labelled inference;controller implementation/sign not established
+C-LOOP,E-2016-05,described_by,Winkler accepted manuscript;bus parameters;printed error definitions,jcp-2016-tunay,full_text_verified,PDF17-20;gain conversion is labelled inference;controller implementation/sign not established

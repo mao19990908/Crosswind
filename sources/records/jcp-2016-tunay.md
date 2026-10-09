@@ -129,3 +129,7 @@ PDF35 ref6直接引用既有Ryan1998，PDF36 refs7/8引用Volpe2013和Chadwick20
 | E-2016-02 | 7–13; §2/2.1/2.2; Eqs1–3 | 逐步反馈、模型尺度与规范化 |
 | E-2016-03 | 17–20,25–27; §2.3/4; Table2 | 两套增益加无驾驶员、响应条件 |
 | E-2016-04 | 10,21–24; §2.1/3; Figs6–10 | 阻力对照与趋势检查的验证边界 |
+
+## 2026-10-10 Pass3 controller/scaling checkpoint
+
+Targeted original-PDF review plus independent equation checks completed; no new full read or grade upgrade. [Detailed audit](../../learning/audits/winkler_2016_controller_scaling.md): full/model time29.312 gives fullscale step0.00175872s; equal-density force/moment factors4.76726226/38.1380981 require corresponding origins. All are ANALYST_INFERENCE, not verified simulation settings. Bus steady-bicycle reduction gives gain magnitudes0.021553rad/m and0.538836rad/rad;degree-output conversion1.23492deg/m and30.8730deg/rad matches roundedTable2, but code units unproven. PrintedEq11 negative versus Eq12 positive remains unresolved;do not silently repair/control from it. CG nominal shifts1.18/2.36m and half-ramp0.366s are conditional arithmetic, not definitive geometry/input timing. ExistingNC-2016-VALIDATION expanded;P3partial still pending original implementation/data. Next available source sae-2017-01-1515 Pass3 axis/spline/uncertainty audit.
