@@ -1,0 +1,17 @@
+quantity,derived_value,provenance_and_limit
+Everest_quasi_steady_signed_residual_m,-0.15,Table2 rounded values;not independent data
+Everest_quasi_steady_signed_residual_in_SD,-1,Descriptive SD distance;not z-test or 95%CI
+Everest_one_way_signed_residual_m,0,Table2 rounded values;not independent data
+Everest_one_way_signed_residual_in_SD,0,Descriptive SD distance;not z-test or 95%CI
+Escort_quasi_steady_signed_residual_m,0.04,Table2 rounded values;not independent data
+Escort_quasi_steady_signed_residual_in_SD,0.173913043478,Descriptive SD distance;not z-test or 95%CI
+Escort_one_way_signed_residual_m,0.14,Table2 rounded values;not independent data
+Escort_one_way_signed_residual_in_SD,0.608695652174,Descriptive SD distance;not z-test or 95%CI
+B-Max_quasi_steady_signed_residual_m,0.03,Table2 rounded values;not independent data
+B-Max_quasi_steady_signed_residual_in_SD,0.142857142857,Descriptive SD distance;not z-test or 95%CI
+B-Max_one_way_signed_residual_m,0.01,Table2 rounded values;not independent data
+B-Max_one_way_signed_residual_in_SD,0.047619047619,Descriptive SD distance;not z-test or 95%CI
+synthetic_yaw_change_path_difference_m,1.38777878078e-16,ANALYST_INFERENCE: Eqs4-6 same-grid constant-speed cancellation only
+synthetic_0p01_m_s2_bias_over_2s_drift_m,0.02,ANALYST_INFERENCE: hypothetical constant acceleration bias;not actual sensor error
+nominal_measurement_interval_s,0.02,Reported50Hz;postprocessing/resampling unspecified
+measurement_interval_over_CFD_dt,80,ANALYST_INFERENCE:80;not specified output or MBD step ratio

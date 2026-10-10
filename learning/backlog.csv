@@ -16,7 +16,7 @@ pimeche-2001-passmore,2026-09-24,P2,completed_for_fulltext_E2_with_explicit_gaps
 iso-12021-2010,2026-09-23,P0,pass3_pending_fulltext,restricted,abstract_verified,P3,needs_more_evidence,2026-09-25,obtain_lawful_fulltext_or_author_version
 jweia-2014-volpe,2026-09-23,P2,completed_for_current_E2_evidence,local_full_text_pending_review,full_text_verified,P2,done,2026-09-25,new_critical_evidence_or_flow_causality_test
 jcp-2016-tunay,2026-09-23,P0,pass3_algebra_done_original_implementation_pending,local_full_text_verified,full_text_verified,P3,needs_more_evidence,2026-10-10,Scale/gain/geometry algebra audited;printed sign/code units and gust/CG maps unresolved;NC-2016-VALIDATION;do not repeat P2 or algebra
-sae-2017-01-1515,2026-09-23,P0,pass3_partial_axis_spline_reproduction_pending,local_full_text_pending_review,full_text_verified,P3,pending,2026-09-25,obtain_original_force_histories_and_axis_mapping
+sae-2017-01-1515,2026-09-23,P0,pass3_definitions_audited_raw_replay_pending,local_full_text_pending_review,full_text_verified,P3,needs_more_evidence,2026-10-11,QS reference and lane formula audited;NC-2017-1515-REPLAY requires raw frames/splines/trials;no repeated definitions
 sae-2017-01-1525,2026-09-23,P0,pass3_partial_coordinate_driver_reproduction_pending,local_full_text_pending_review,full_text_verified,P3,pending,2026-09-25,reproduce_frame_mapping_driver_gain_and_steering_trace
 sae-06-14-01-0001,2026-09-23,P2,completed_for_current_E1_evidence,restricted,abstract_verified,P2,done,2026-09-24,new_fulltext_or_new_contradictory_evidence
 brandt-2023-thesis,2026-09-23,P2,completed_for_extended_summary_E2,open_repository,abstract_verified,P3,done,2026-09-24,individual_constituent_paper_fulltext_or_new_evidence

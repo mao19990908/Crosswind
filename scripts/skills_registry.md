@@ -54,3 +54,7 @@ Read instruction-only paper-reading and repository crosswind-knowledge-base; bui
 ## 2026-10-10 Learn usage
 
 Reused already-read instruction-only paper-reading/project crosswind-knowledge-base and built-in read-only PDF inspection. No install, upstream CLI, credentials or network. First-party audit_winkler_2016.py uses standard-library equation residual/scaling checks only; synthetic test points labelled, no experiment/CFD/controller output fabricated.
+
+## 2026-10-11 Learn usage
+
+Reused already-read paper-reading/project crosswind-knowledge-base and read-only PDF inspection. No installation, upstreamCLI, credentials or network. First-party audit_lewington_2017.py checks publishedTable2 arithmetic and explicitly synthetic kinematic integrals;not original CFD/ADAMS/road-data reproduction.

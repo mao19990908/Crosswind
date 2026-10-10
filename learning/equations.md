@@ -45,3 +45,9 @@ EQ-WINKLER-SCALE：PDF11–12 Eqs1–3，Cs=Fya/(0.5 rho u_inf² A)，Cyaw=Mza/(
 ## Winkler2016控制符号与尺度审计（2026-10-10）
 
 EQ-WINKLER-PREVIEW保留Eq11负曲率与Eq12正轮角的印刷差别；由圆心几何得到负号，但Δ误差/执行器方向未交代，不能直接生成闭环律。线性无气动稳态方程推得Kus=m/(f+b)*(b/Cf-f/Cr)，增益幅值按rad输出为0.021553/0.538836，仅把输出换成deg时与表1.2/30.9相容；不是作者代码单位声明。EQ-WINKLER-SCALE的St不变给时间比29.312、全尺度步长0.00175872s，均标ANALYST_INFERENCE。脚本检查稳态力矩/力平衡、四个有符号圆几何点及尺度不变性；见[审计](audits/winkler_2016_controller_scaling.md)。
+
+## Lewington2017：载荷与偏移公式（2026-10-11）
+
+EQ-LEWINGTON-LOAD保留PDF7–8准稳态Fi=0.5rho ci A v²、Mi=0.5WB rho ci A v²和直接样条Fi=F(t)i。地面轴距中点参考明确属于QS描述；不自动证明CFD接口已旋转/平移到CG。
+
+EQ-LEWINGTON-PATH按Eq4–6记录alpha=int(r)、beta_vehicle=int(a_y/v_x-r)、gamma=int(v_x*(alpha+beta_vehicle))。恒速/一致初值及网格时，yaw项相消，gamma为加速度二次积分加初值项；变速须保留v_x_dot项。此为ANALYST_INFERENCE和合成梯形检查，不是原道路时程复现。beta在Fig10另指气动偏角，不能混用。

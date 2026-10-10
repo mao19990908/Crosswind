@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-10T06:06:58+08:00",
+  "updated_at": "2026-10-11T06:01:44+08:00",
   "timezone": "Asia/Shanghai",
   "current_phase": "learning",
   "phase_status": "in_progress",
@@ -36,40 +36,48 @@
   ],
   "sources_total": 25,
   "sources_pending_learning": 10,
-  "current_source_id": "sae-2017-01-1515",
+  "current_source_id": "sae-2017-01-1525",
   "current_pass": 3,
-  "current_pass_status": "pass3_partial_axis_spline_reproduction_pending",
+  "current_pass_status": "pass3_partial_coordinate_driver_reproduction_pending",
   "today_added_knowledge_nodes": [
-    "E-2016-05",
-    "EQ-WINKLER-PREVIEW"
+    "E-2017-1515-04",
+    "E-2017-1515-05",
+    "EQ-LEWINGTON-PATH",
+    "EQ-LEWINGTON-LOAD"
   ],
   "today_added_or_modified_graph_edges": [
-    "E-2016-05|evidence_from|jcp-2016-tunay",
-    "EQ-WINKLER-PREVIEW|described_by|E-2016-05",
-    "C-LOOP|described_by|E-2016-05",
-    "M-IDDES-2WAY|described_by|E-2016-02",
-    "EQ-WINKLER-SCALE|described_by|E-2016-02"
+    "E-2017-1515-04|evidence_from|sae-2017-01-1515",
+    "EQ-LEWINGTON-PATH|described_by|E-2017-1515-04",
+    "V-SIDESLIP|described_by|E-2017-1515-04",
+    "C-VALIDATION|described_by|E-2017-1515-04",
+    "E-2017-1515-05|evidence_from|sae-2017-01-1515",
+    "EQ-LEWINGTON-LOAD|described_by|E-2017-1515-05",
+    "V-YAWMOMENT|described_by|E-2017-1515-05",
+    "C-QS|described_by|E-2017-1515-05",
+    "E-2017-1515-01|evidence_from|sae-2017-01-1515",
+    "E-2017-1515-03|evidence_from|sae-2017-01-1515"
   ],
   "today_remaining_work": [
-    "sae-2017-01-1515 Pass3 force-axis/spline/uncertainty audit",
-    "Winkler original implementation via expanded NC-2016-VALIDATION;do not repeat algebra",
-    "Existing backlog10 prevents broad collection"
+    "sae-2017-01-1525 Pass3 coordinate/driver/steering trace audit",
+    "Lewington awaits NC-2017-1515-REPLAY;do not repeat definitions",
+    "backlog10;no broad collection"
   ],
   "quota_status": "available_rounded_shared_account",
-  "weekly_quota_used_at_run_start_percent": 42,
-  "weekly_quota_used_at_last_read_percent": 46,
-  "weekly_quota_used_at_day_start_percent": 42,
-  "weekly_quota_day_cap_used_percent": 54,
-  "local_remote_sync": "research_commit_verified_local_origin_live_remote_equal",
+  "weekly_quota_used_at_run_start_percent": 49,
+  "weekly_quota_used_at_last_read_percent": 54,
+  "weekly_quota_used_at_day_start_percent": 49,
+  "weekly_quota_day_cap_used_percent": 61,
+  "local_remote_sync": "pending_commit_push",
   "github_commit_sha": "a475c736c34477c48651759879d38208f0298a2e",
   "note": "Latest heartbeat prioritizes Learn backlog; DOI/PDF unresolved checkpoint retained, not treated as a gate blocking existing local-PDF learning.",
   "github_commit_sha_role": "verified_research_commit_before_final_audit",
-  "quota_date": "2026-10-10",
+  "quota_date": "2026-10-11",
   "today_updated_knowledge_nodes": [
-    "E-2016-02",
-    "E-2016-03",
-    "EQ-WINKLER-SCALE",
-    "M-IDDES-2WAY"
+    "E-2017-1515-01",
+    "E-2017-1515-03",
+    "V-SIDESLIP",
+    "V-BETA-AERO",
+    "V-YAWMOMENT"
   ],
   "fulltext_access_checkpoints": [
     {
@@ -122,11 +130,11 @@
     },
     {
       "source_id": "sae-2017-01-1515",
-      "checked_on": "2026-09-26",
+      "checked_on": "2026-10-11",
       "pass": 3,
-      "status": "local_pdf_available_learning_pending",
-      "reason": "Prior missing-file checkpoint superseded by validated user PDF; substantive learning status: pass3_partial_axis_spline_reproduction_pending",
-      "next_action": "obtain_original_force_histories_and_axis_mapping"
+      "status": "pass3_definitions_audited_raw_replay_pending",
+      "reason": "QS reference/path metric checked;original frames/splines/trials missing",
+      "next_action": "resolve_NC_2017_1515_REPLAY_without_repeating_definition_audit"
     },
     {
       "source_id": "jfe-2013-volpe",
@@ -145,8 +153,8 @@
       "pass": 3
     }
   ],
-  "quota_measurement_note": "Oct10 first daily weekly42%,cap54%;rounded shared account;no reset used",
-  "quota_last_read_at": "2026-10-10T06:06:58+08:00",
+  "quota_measurement_note": "Oct11 baseline49%,cap61%;rounded shared account;no reset",
+  "quota_last_read_at": "2026-10-11T06:01:44+08:00",
   "doi_pdf_checkpoint": {
     "date": "2026-09-26",
     "status": "in_progress",
@@ -332,8 +340,8 @@
     "changed_understanding": "Macklin threshold differs by load component/peak-vs-mean; Ryan net yaw has no steady-relative overshoot despite side/lift peaks, resolving abstract overgeneralization; 1996 and 1998 yaw outcomes differ under different apparatus/metric definitions. Macklin 1997 shear comparison is turbulence-confounded and no reference speed universally collapses coefficients. Ryan 2000 uses updated 5m/22deg shutter gust; an unexplained high-pressure pocket and wake advection prevent treating a wake snapshot as instantaneous body force. Mahig 1971 is an assumed lateral-impulse vehicle response model, not an aerodynamic gust waveform study; tyre cubic locally cross-checked. Klein/Hogue 1980 directly cites and partially reuses DOT technical Volume II; loop modes and steady-model outputs must remain separated. Chadwick 2000 shows geometry-specific leeward pressure peaks and filter limitations; five model lengths not sufficient for steady development in all cases. Nakasato 2017 fixed-steer road validation is separate from the active-driver application; three-run driver trends have quantitative mismatch. Volpe 2014 measured ~21deg local yaw despite 30deg tunnel axes; geometry-specific yaw peaks 16/10%, vortex-load correlations not causal proof. Lewington 2017 one-way advantage depends on metric: both approaches predict lane deviation within one measured SD; comparator uses tuned wind scale and input validation is partial. Okumura 1997 CFD peak and spoiler evidence are conditional; passing comparison uses mismatched bus geometry, and reported resultant wind angle needs arithmetic audit.",
     "next": "Two local PDFs remain to read; 10-source learning backlog. Five-hour 97% and weekly 31% used at last platform read."
   },
-  "five_hour_quota_used_at_last_read_percent": 27,
-  "automation_completed_on": "2026-10-10",
+  "five_hour_quota_used_at_last_read_percent": 28,
+  "automation_completed_on": "2026-10-11",
   "automation_run_status": "completed_learning_checkpoint_validated",
   "learning_run_2026_09_27": {
     "processed_sources": [
@@ -441,5 +449,22 @@
     "pdfs_new": 0,
     "pass3_completed": 0,
     "next": "sae-2017-01-1515 Pass3"
+  },
+  "learning_run_2026_10_11": {
+    "processed_sources": [
+      "sae-2017-01-1515"
+    ],
+    "new_fulltext_reads": 0,
+    "targeted_fulltext_reaudits": 1,
+    "new_claims": 2,
+    "revised_claims": 2,
+    "new_equation_nodes": 2,
+    "new_edges": 8,
+    "revised_edges": 2,
+    "needs_collection_added": 1,
+    "sources_new": 0,
+    "pdfs_new": 0,
+    "pass3_completed": 0,
+    "next": "sae-2017-01-1525 Pass3"
   }
 }

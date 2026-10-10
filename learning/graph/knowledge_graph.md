@@ -178,6 +178,14 @@ flowchart LR
     N_E_2016_05["E-2016-05"] -->|evidence_from| N_jcp_2016_tunay["jcp-2016-tunay"]
     N_EQ_WINKLER_PREVIEW["EQ-WINKLER-PREVIEW"] -->|described_by| N_E_2016_05["E-2016-05"]
     N_C_LOOP["C-LOOP"] -->|described_by| N_E_2016_05["E-2016-05"]
+    N_E_2017_1515_04["E-2017-1515-04"] -->|evidence_from| N_sae_2017_01_1515["sae-2017-01-1515"]
+    N_EQ_LEWINGTON_PATH["EQ-LEWINGTON-PATH"] -->|described_by| N_E_2017_1515_04["E-2017-1515-04"]
+    N_V_SIDESLIP["V-SIDESLIP"] -->|described_by| N_E_2017_1515_04["E-2017-1515-04"]
+    N_C_VALIDATION["C-VALIDATION"] -->|described_by| N_E_2017_1515_04["E-2017-1515-04"]
+    N_E_2017_1515_05["E-2017-1515-05"] -->|evidence_from| N_sae_2017_01_1515["sae-2017-01-1515"]
+    N_EQ_LEWINGTON_LOAD["EQ-LEWINGTON-LOAD"] -->|described_by| N_E_2017_1515_05["E-2017-1515-05"]
+    N_V_YAWMOMENT["V-YAWMOMENT"] -->|described_by| N_E_2017_1515_05["E-2017-1515-05"]
+    N_C_QS["C-QS"] -->|described_by| N_E_2017_1515_05["E-2017-1515-05"]
 ```
 
 `evidence_from` 表示原始来源支撑该 atomic claim；`described_by` 表示概念受到特定条件下主张说明；`generated_by` 表示该输入由文献中的方法实现；`depends_on` 表示当前准稳态比较以稳态基线为参照。`supported_by` 表示方法受到特定原文证据支持，与 supports 的反向阅读对应；不表示独立跨方法验证。这些关系不能自动推成 `causes` 或跨研究 `validated_by`。

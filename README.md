@@ -4,7 +4,11 @@
 
 > 阵风输入 → 非定常气动载荷 → 横向／横摆／侧倾响应 → 驾驶员或控制器修正
 
-## 当前学习断点（2026-10-10）
+## 当前学习断点（2026-10-11）
+
+Lewington2017 Pass3核实QS地面轴距中点参考和偏移积分；恒速等条件下yaw项可抵消，SD不能冒充95%CI。新增2claims、2公式、8图边，现72claims/180edges；原始样条/坐标和逐次试验数据待NC-2017-1515-REPLAY。学习15完成/10待办，下一sae-2017-01-1525 Pass3。见[审计](learning/audits/lewington_2017_axes_splines.md)。无新source/PDF。
+
+### 上轮学习记录（2026-10-10）
 
 Winkler2016 P3核得时间尺度29.312与条件性增益单位匹配；Eq11/12转向符号仍需原始代码。新增1证据/1公式/3图边，现70claims/172edges；学习15完成/10待办。既有NC-2016-VALIDATION已扩充，无新source/PDF。下一sae-2017-01-1515 Pass3。见[公式与尺度审计](learning/audits/winkler_2016_controller_scaling.md)。
 
@@ -65,7 +69,7 @@ Beauvais1967 Pass3已核对相对风、天平组合及归一化：图中分母�
 - [方法谱系](citations/method_lineages.md)
 - [研究现状](synthesis/state_of_the_art.md)
 - [研究空白](synthesis/research_gaps.md)
-- [当日日志](logs/2026-10-10.md)
+- [当日日志](logs/2026-10-11.md)
 
 当前处于 Phase I：先建立可追溯的历史与方法地图，不把初步线索包装成成熟综述结论。
 
