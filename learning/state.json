@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-11T06:02:14+08:00",
+  "updated_at": "2026-10-12T06:01:53+08:00",
   "timezone": "Asia/Shanghai",
   "current_phase": "learning",
   "phase_status": "in_progress",
@@ -36,47 +36,48 @@
   ],
   "sources_total": 25,
   "sources_pending_learning": 10,
-  "current_source_id": "sae-2017-01-1525",
+  "current_source_id": "sae-530255",
   "current_pass": 3,
-  "current_pass_status": "pass3_partial_coordinate_driver_reproduction_pending",
+  "current_pass_status": "awaiting_new_lawful_fulltext_or_underlying_data",
   "today_added_knowledge_nodes": [
-    "E-2017-1515-04",
-    "E-2017-1515-05",
-    "EQ-LEWINGTON-PATH",
-    "EQ-LEWINGTON-LOAD"
+    "E-2017-1525-04",
+    "E-2017-1525-05",
+    "M-NAKASATO-DRIVER",
+    "EQ-NAKASATO-PREVIEW"
   ],
   "today_added_or_modified_graph_edges": [
-    "E-2017-1515-04|evidence_from|sae-2017-01-1515",
-    "EQ-LEWINGTON-PATH|described_by|E-2017-1515-04",
-    "V-SIDESLIP|described_by|E-2017-1515-04",
-    "C-VALIDATION|described_by|E-2017-1515-04",
-    "E-2017-1515-05|evidence_from|sae-2017-01-1515",
-    "EQ-LEWINGTON-LOAD|described_by|E-2017-1515-05",
-    "V-YAWMOMENT|described_by|E-2017-1515-05",
-    "C-QS|described_by|E-2017-1515-05",
-    "E-2017-1515-01|evidence_from|sae-2017-01-1515",
-    "E-2017-1515-03|evidence_from|sae-2017-01-1515"
+    "E-2017-1525-01|evidence_from|sae-2017-01-1525",
+    "E-2017-1525-02|evidence_from|sae-2017-01-1525",
+    "E-2017-1525-03|evidence_from|sae-2017-01-1525",
+    "E-2017-1525-04|evidence_from|sae-2017-01-1525",
+    "M-NAKASATO-DRIVER|described_by|E-2017-1525-04",
+    "EQ-NAKASATO-PREVIEW|described_by|E-2017-1525-04",
+    "V-HEADING|described_by|E-2017-1525-04",
+    "C-LOOP|described_by|E-2017-1525-04",
+    "E-2017-1525-05|evidence_from|sae-2017-01-1525",
+    "V-YAWMOMENT|described_by|E-2017-1525-05",
+    "C-LOOP|described_by|E-2017-1525-05"
   ],
   "today_remaining_work": [
-    "sae-2017-01-1525 Pass3 coordinate/driver/steering trace audit",
-    "Lewington awaits NC-2017-1515-REPLAY;do not repeat definitions",
-    "backlog10;no broad collection"
+    "All10backlog need new evidence; first sae-530255 lawful fulltext; check existing source/request inputs before rereading",
+    "Nakasato original replay needs NC-2017-1525-REPLAY; no repeated definition audit",
+    "No broad collection or false completion"
   ],
   "quota_status": "available_rounded_shared_account",
-  "weekly_quota_used_at_run_start_percent": 49,
-  "weekly_quota_used_at_last_read_percent": 54,
-  "weekly_quota_used_at_day_start_percent": 49,
-  "weekly_quota_day_cap_used_percent": 61,
-  "local_remote_sync": "research_commit_verified_local_origin_live_remote_equal",
+  "weekly_quota_used_at_run_start_percent": 0,
+  "weekly_quota_used_at_last_read_percent": 4,
+  "weekly_quota_used_at_day_start_percent": 0,
+  "weekly_quota_day_cap_used_percent": 12,
+  "local_remote_sync": "pending_validation_commit_push",
   "github_commit_sha": "fb7e3335f6dc40a9000ec50ec97d87a1e297961c",
   "note": "Latest heartbeat prioritizes Learn backlog; DOI/PDF unresolved checkpoint retained, not treated as a gate blocking existing local-PDF learning.",
   "github_commit_sha_role": "verified_research_commit_before_final_audit",
-  "quota_date": "2026-10-11",
+  "quota_date": "2026-10-12",
   "today_updated_knowledge_nodes": [
-    "E-2017-1515-01",
-    "E-2017-1515-03",
-    "V-SIDESLIP",
-    "V-BETA-AERO",
+    "E-2017-1525-01",
+    "E-2017-1525-02",
+    "E-2017-1525-03",
+    "V-HEADING",
     "V-YAWMOMENT"
   ],
   "fulltext_access_checkpoints": [
@@ -151,10 +152,18 @@
       "reason": "Definition audit done; printed speed inconsistency and missing raw/calibration inputs",
       "next_action": "Resolve NC-1967-REPRO; no repeated definition audit without new evidence",
       "pass": 3
+    },
+    {
+      "source_id": "sae-2017-01-1525",
+      "checked_on": "2026-10-12",
+      "pass": 3,
+      "status": "pass3_definitions_corrected_original_replay_pending",
+      "reason": "Fig26 A9/B17 correction and driver calibration/frame audit complete; raw inputs absent",
+      "next_action": "Resolve NC-2017-1525-REPLAY; no repeated definition audit"
     }
   ],
-  "quota_measurement_note": "Oct11 baseline49%,cap61%;rounded shared account;no reset",
-  "quota_last_read_at": "2026-10-11T06:02:14+08:00",
+  "quota_measurement_note": "Oct12 baseline0% weekly/1% fivehour;cap12%;rounded shared account;no reset",
+  "quota_last_read_at": "2026-10-12T06:01:53+08:00",
   "doi_pdf_checkpoint": {
     "date": "2026-09-26",
     "status": "in_progress",
@@ -340,8 +349,8 @@
     "changed_understanding": "Macklin threshold differs by load component/peak-vs-mean; Ryan net yaw has no steady-relative overshoot despite side/lift peaks, resolving abstract overgeneralization; 1996 and 1998 yaw outcomes differ under different apparatus/metric definitions. Macklin 1997 shear comparison is turbulence-confounded and no reference speed universally collapses coefficients. Ryan 2000 uses updated 5m/22deg shutter gust; an unexplained high-pressure pocket and wake advection prevent treating a wake snapshot as instantaneous body force. Mahig 1971 is an assumed lateral-impulse vehicle response model, not an aerodynamic gust waveform study; tyre cubic locally cross-checked. Klein/Hogue 1980 directly cites and partially reuses DOT technical Volume II; loop modes and steady-model outputs must remain separated. Chadwick 2000 shows geometry-specific leeward pressure peaks and filter limitations; five model lengths not sufficient for steady development in all cases. Nakasato 2017 fixed-steer road validation is separate from the active-driver application; three-run driver trends have quantitative mismatch. Volpe 2014 measured ~21deg local yaw despite 30deg tunnel axes; geometry-specific yaw peaks 16/10%, vortex-load correlations not causal proof. Lewington 2017 one-way advantage depends on metric: both approaches predict lane deviation within one measured SD; comparator uses tuned wind scale and input validation is partial. Okumura 1997 CFD peak and spoiler evidence are conditional; passing comparison uses mismatched bus geometry, and reported resultant wind angle needs arithmetic audit.",
     "next": "Two local PDFs remain to read; 10-source learning backlog. Five-hour 97% and weekly 31% used at last platform read."
   },
-  "five_hour_quota_used_at_last_read_percent": 31,
-  "automation_completed_on": "2026-10-11",
+  "five_hour_quota_used_at_last_read_percent": 23,
+  "automation_completed_on": "2026-10-12",
   "automation_run_status": "completed_learning_checkpoint_validated",
   "learning_run_2026_09_27": {
     "processed_sources": [
@@ -466,5 +475,23 @@
     "pdfs_new": 0,
     "pass3_completed": 0,
     "next": "sae-2017-01-1525 Pass3"
+  },
+  "learning_run_2026_10_12": {
+    "processed_sources": [
+      "sae-2017-01-1525"
+    ],
+    "new_fulltext_reads": 0,
+    "targeted_fulltext_reaudits": 1,
+    "new_claims": 2,
+    "revised_claims": 3,
+    "new_equation_nodes": 1,
+    "new_method_nodes": 1,
+    "new_edges": 8,
+    "revised_edges": 3,
+    "needs_collection_added": 1,
+    "sources_new": 0,
+    "pdfs_new": 0,
+    "pass3_completed": 0,
+    "next": "sae-530255 lawful fulltext/new inputs; all10backlog need evidence; no repeated audits"
   }
 }

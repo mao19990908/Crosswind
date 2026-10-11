@@ -58,3 +58,7 @@ Reused already-read instruction-only paper-reading/project crosswind-knowledge-b
 ## 2026-10-11 Learn usage
 
 Reused already-read paper-reading/project crosswind-knowledge-base and read-only PDF inspection. No installation, upstreamCLI, credentials or network. First-party audit_lewington_2017.py checks publishedTable2 arithmetic and explicitly synthetic kinematic integrals;not original CFD/ADAMS/road-data reproduction.
+
+## 2026-10-12 Learn usage
+
+Read instruction-only paper-reading and repository crosswind-knowledge-base. Local PDF text and whole-page rendering only. No install/network/upstream CLI/credentials/bypass. audit_nakasato_2017.py performs six labelled arithmetic inferences, not original simulation/road reconstruction.

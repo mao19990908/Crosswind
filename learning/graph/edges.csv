@@ -33,7 +33,7 @@ C-VEHMOTION,E-2017-1515-01,described_by,three cars; ISO-like open-loop event,sae
 E-1980-01,sae-800848,evidence_from,five vehicles; nominal 35 mph crosswind facility,sae-800848,full_text_verified,Full-text pp.1-8 separate loop modes and steady predictions from measured peaks
 E-1997-CFD-01,sae-970404,evidence_from,one-box vehicle; k-epsilon; comparison detail unavailable,sae-970404,full_text_verified,"SAE 970404 pp.142-147; moving-boundary RANS, modeled gust and conditional peaks"
 E-2014-01,jweia-2014-volpe,evidence_from,Windsor-type squareback/fastback; sudden yaw,jweia-2014-volpe,full_text_verified,JWEIA pp.119-121 Fig.9; measured yaw 21deg and geometry-specific peaks
-E-2017-1525-01,sae-2017-01-1525,evidence_from,passenger vehicle; test and baseline details unavailable,sae-2017-01-1525,full_text_verified,"pp.665-669; fixed-steer Level C comparison, driver application three runs only"
+E-2017-1525-01,sae-2017-01-1525,evidence_from,fixed-steer validation separate from test-assisted driver application,sae-2017-01-1525,full_text_verified,2026-10-12 targeted visual audit; see source note and new reproducibility request
 E-2021-01,sae-06-14-01-0001,evidence_from,Golf 7; relative yaw 22 to 45 degrees; pressure locations 188,sae-06-14-01-0001,abstract_verified,Atomic claim from named public abstract
 E-2023-01,brandt-2023-thesis,evidence_from,multiple studies; chapter conditions unseparated,brandt-2023-thesis,abstract_verified,Atomic claim from named public abstract
 E-2025-01,sae-15-18-01-0005,evidence_from,model-scale three-subsystem wind tunnel,sae-15-18-01-0005,abstract_verified,Atomic claim from named public abstract
@@ -110,9 +110,9 @@ E-2000-0876-02,sae-2000-01-0876,evidence_from,"pp.2,4 Figs.8-9",sae-2000-01-0876
 C-VALIDATION,E-2000-0876-02,described_by,selected yaw cases,sae-2000-01-0876,full_text_verified,internal measurement agreement only
 E-2000-0876-03,sae-2000-01-0876,evidence_from,"pp.3-5 Figs.4-7,10-12",sae-2000-01-0876,full_text_verified,incomplete 5L development
 C-QS,E-2000-0876-03,described_by,simple shapes and finite gust,sae-2000-01-0876,full_text_verified,no universal steady-development length
-E-2017-1525-02,sae-2017-01-1525,evidence_from,pp.663-665 Figs.5-6,sae-2017-01-1525,full_text_verified,two-way CFD-CarSIM scheme
+E-2017-1525-02,sae-2017-01-1525,evidence_from,CG origin; nominal CFD/vehicle step ratio25; interface code unknown,sae-2017-01-1525,full_text_verified,2026-10-12 targeted visual audit; see source note and new reproducibility request
 C-VALIDATION,E-2017-1525-02,described_by,smoothed input,sae-2017-01-1525,full_text_verified,measured wind not exactly replayed
-E-2017-1525-03,sae-2017-01-1525,evidence_from,"pp.667-669 Figs.13,16-27",sae-2017-01-1525,full_text_verified,aero-parts and driver loop
+E-2017-1525-03,sae-2017-01-1525,evidence_from,three-run mean curves; Fig26 A9percent B17percent corrected,sae-2017-01-1525,full_text_verified,2026-10-12 targeted visual audit; see source note and new reproducibility request
 C-LOOP,E-2017-1525-03,described_by,active-driver three road runs/spec,sae-2017-01-1525,full_text_verified,"trend only, no calibrated error bound"
 E-2014-02,jweia-2014-volpe,evidence_from,"pp.117-120 Figs.2,6-8",jweia-2014-volpe,full_text_verified,apparatus versus actual yaw
 C-GUST,E-2014-02,described_by,30deg axes; 21deg local,jweia-2014-volpe,full_text_verified,do not confuse hardware angle with gust angle
@@ -179,3 +179,11 @@ E-2017-1515-05,sae-2017-01-1515,evidence_from,Lewington2017 source-local definit
 EQ-LEWINGTON-LOAD,E-2017-1515-05,described_by,Lewington2017 source-local definitions;fixed-steer three-car study,sae-2017-01-1515,full_text_verified,"PDF7-8;see claim limitations;derived metric cancellation conditional,not raw replay"
 V-YAWMOMENT,E-2017-1515-05,described_by,Lewington2017 source-local definitions;fixed-steer three-car study,sae-2017-01-1515,full_text_verified,"PDF7-8;see claim limitations;derived metric cancellation conditional,not raw replay"
 C-QS,E-2017-1515-05,described_by,Lewington2017 source-local definitions;fixed-steer three-car study,sae-2017-01-1515,full_text_verified,"PDF7-8;see claim limitations;derived metric cancellation conditional,not raw replay"
+E-2017-1525-04,sae-2017-01-1525,evidence_from,Nakasato2017 source-specific Fig14-15 driver or Fig1/5 CG/frame definitions,sae-2017-01-1525,full_text_verified,No executable controller or original coordinate/coupling replay; see Oct12 audit
+M-NAKASATO-DRIVER,E-2017-1525-04,described_by,Nakasato2017 source-specific Fig14-15 driver or Fig1/5 CG/frame definitions,sae-2017-01-1525,full_text_verified,No executable controller or original coordinate/coupling replay; see Oct12 audit
+EQ-NAKASATO-PREVIEW,E-2017-1525-04,described_by,Nakasato2017 source-specific Fig14-15 driver or Fig1/5 CG/frame definitions,sae-2017-01-1525,full_text_verified,No executable controller or original coordinate/coupling replay; see Oct12 audit
+V-HEADING,E-2017-1525-04,described_by,Nakasato2017 source-specific Fig14-15 driver or Fig1/5 CG/frame definitions,sae-2017-01-1525,full_text_verified,No executable controller or original coordinate/coupling replay; see Oct12 audit
+C-LOOP,E-2017-1525-04,described_by,Nakasato2017 source-specific Fig14-15 driver or Fig1/5 CG/frame definitions,sae-2017-01-1525,full_text_verified,No executable controller or original coordinate/coupling replay; see Oct12 audit
+E-2017-1525-05,sae-2017-01-1525,evidence_from,Nakasato2017 source-specific Fig14-15 driver or Fig1/5 CG/frame definitions,sae-2017-01-1525,full_text_verified,No executable controller or original coordinate/coupling replay; see Oct12 audit
+V-YAWMOMENT,E-2017-1525-05,described_by,Nakasato2017 source-specific Fig14-15 driver or Fig1/5 CG/frame definitions,sae-2017-01-1525,full_text_verified,No executable controller or original coordinate/coupling replay; see Oct12 audit
+C-LOOP,E-2017-1525-05,described_by,Nakasato2017 source-specific Fig14-15 driver or Fig1/5 CG/frame definitions,sae-2017-01-1525,full_text_verified,No executable controller or original coordinate/coupling replay; see Oct12 audit

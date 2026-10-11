@@ -17,7 +17,7 @@ iso-12021-2010,standard,K,2,pass3_pending_fulltext,3,high_when_fulltext_availabl
 jweia-2014-volpe,journal_article,F,2,completed_for_current_E2_evidence,2,conditional,new_critical_evidence_or_flow_causality_test,full_text_verified,2026-09-25
 jcp-2016-tunay,journal_article,I,3,pass3_partial_algebra_done_original_implementation_pending,3,high,resolve_NC_2016_VALIDATION_original_controller_and_CG_gust_mapping,full_text_verified,2026-10-10
 sae-2017-01-1515,sae_technical_paper,I,3,pass3_partial_definitions_audited_raw_replay_pending,3,high_when_fulltext_available,resolve_NC_2017_1515_REPLAY_frames_splines_trials,full_text_verified,2026-10-11
-sae-2017-01-1525,journal_article,I,2,pass3_partial_coordinate_driver_reproduction_pending,3,conditional,reproduce_frame_mapping_driver_gain_and_steering_trace,full_text_verified,2026-09-25
+sae-2017-01-1525,journal_article,I,3,pass3_partial_definitions_corrected_original_replay_pending,3,conditional,NC-2017-1525-REPLAY original inputs,full_text_verified,2026-10-12
 sae-06-14-01-0001,journal_article,G,2,completed_for_current_E1_evidence,2,conditional,new_fulltext_or_new_contradictory_evidence,abstract_verified,2026-09-24
 brandt-2023-thesis,doctoral_thesis,J,3,completed_for_extended_summary_E2,3,complete_summary_only,individual_constituent_paper_fulltext_or_new_evidence,abstract_verified,2026-09-24
 sae-15-18-01-0005,journal_article,F,2,completed_for_full_text_E2,2,conditional,new_primary_evidence_or_method_conflict,full_text_verified,2026-09-25

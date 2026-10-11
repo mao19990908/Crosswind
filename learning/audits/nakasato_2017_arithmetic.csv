@@ -1,0 +1,7 @@
+quantity,value,unit,boundary,status
+cfd_step,4e-05,s,p664-665; agrees with reported 4e-5s,ANALYST_INFERENCE
+vehicle_nominal_step,0.001,s,p665 total steps; not communication period,ANALYST_INFERENCE
+nominal_step_ratio,25,1,not proof of exchange schedule,ANALYST_INFERENCE
+nominal_wind_angle,19.9692903226,deg,perpendicular constant speeds; not instantaneous body incidence,ANALYST_INFERENCE
+nominal_zone_time,1.2012012012,s,Fig7 length/speed; not full vehicle exposure,ANALYST_INFERENCE
+nominal_preview_time,1.5015015015,s,Fig15 distance/speed; not driver dead time,ANALYST_INFERENCE

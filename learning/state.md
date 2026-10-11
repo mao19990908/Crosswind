@@ -1,8 +1,5 @@
-# 学习断点 — 2026-10-11（Asia/Shanghai）
+# 学习断点 — 2026-10-12（Asia/Shanghai）
 
-- Level1/8/9：Lewington2017 P3参考点/样条边界/指标定义已核；原始frame和时程回放仍缺。
-- Sources25，完成15/backlog10；今日P3完成0，无新全文通读或等级升级。
-- 新claims2、公式2、edges8/修订2；总72claims/180edges/31citationedges；修订2旧claims、3变量节点。
-- needs_collection7open；新增NC-2017-1515-REPLAY请求frame/spline/raw trials/处理设置，不是PDF请求。
-- 下一sae-2017-01-1525 Pass3坐标/驾驶员增益/转向时程；不重复Lewington已完成定义审计。
-- DOI20verified/5noDOI/其余0；PDF18local/1GitHub/17local-only；缺全文7；v4保留；全文17/摘要7/metadata1。
+Nakasato2017 Pass3纠正Fig26初始A9%/出风反向B17%；识别试验辅助定参及纯时延，CG/步长定义已核，原始接口/模型/时程仍待补。新增2claims、1公式/1方法、8图边，现74claims/188edges；学习15完成/10待办，8个open requests。下一先检查已有缺档/请求的新输入，sae-530255合法全文优先，不重复已完成定义审计。无新source/PDF。
+
+Level1/5/8/9；P3完成0，原始复现仍待新数据。DOI20verified/5noDOI，PDF18local/1GitHub/17local-only；缺全文7，全文17/摘要7/metadata1；v4保留。

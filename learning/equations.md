@@ -51,3 +51,7 @@ EQ-WINKLER-PREVIEW保留Eq11负曲率与Eq12正轮角的印刷差别；由圆心
 EQ-LEWINGTON-LOAD保留PDF7–8准稳态Fi=0.5rho ci A v²、Mi=0.5WB rho ci A v²和直接样条Fi=F(t)i。地面轴距中点参考明确属于QS描述；不自动证明CFD接口已旋转/平移到CG。
 
 EQ-LEWINGTON-PATH按Eq4–6记录alpha=int(r)、beta_vehicle=int(a_y/v_x-r)、gamma=int(v_x*(alpha+beta_vehicle))。恒速/一致初值及网格时，yaw项相消，gamma为加速度二次积分加初值项；变速须保留v_x_dot项。此为ANALYST_INFERENCE和合成梯形检查，不是原道路时程复现。beta在Fig10另指气动偏角，不能混用。
+
+## Nakasato前视误差（2026-10-12）
+
+EQ-NAKASATO-PREVIEW：p667 Fig15 e_g=A+B，单位m，A为朝向的前视横向投影，B为车辆横向位移。源内Yaw是车身朝向，不是气动偏角。Fig14支路缩放/符号和增益未给，不能按图直接将m与m/s²相加实现控制器；50/33.3约1.50s也不是纯时延。详见[audit](audits/nakasato_2017_driver_frames.md)。

@@ -43,3 +43,5 @@ Winkler2016以双向模拟作单向的比较基准，Lewington2017既有全文�
 2026-10-10：Winkler Eq11/12在所印同一y/psi及稳态曲率约定下符号不连续；暂记实现/符号未决，不擅定勘误。Table2增益与条件性deg输出转换相容，不能据此证明原代码接口。详见learning/audits/winkler_2016_controller_scaling.md。
 
 2026-10-11：Lewington表2路径偏移的一SD符合不等于95%CI或方法等效；其恒速积分指标下yaw项可抵消，所以不能用路径误差一项替代yaw/roll/a_y逐通道验证。数值结果按车型/指标保留，不扩大为单向普适优越。
+
+2026-10-12：Nakasato2017 Fig26纠正为初始A9%、出风区反向B17%。Fig14显式含纯时延及一阶滞后，参数参考试验识别；独立标定/验证划分未知。CG原点已知但完整载荷/姿态符号映射和同步代码仍缺。见E-2017-1525-04/05、NC-2017-1525-REPLAY及[audit](../learning/audits/nakasato_2017_driver_frames.md)。

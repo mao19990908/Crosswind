@@ -4,7 +4,11 @@
 
 > 阵风输入 → 非定常气动载荷 → 横向／横摆／侧倾响应 → 驾驶员或控制器修正
 
-## 当前学习断点（2026-10-11）
+## 当前学习断点（2026-10-12）
+
+Nakasato2017 Pass3纠正Fig26初始A9%/出风反向B17%；识别试验辅助定参及纯时延，CG/步长定义已核，原始接口/模型/时程仍待补。新增2claims、1公式/1方法、8图边，现74claims/188edges；学习15完成/10待办，8个open requests。下一先检查已有缺档/请求的新输入，sae-530255合法全文优先，不重复已完成定义审计。无新source/PDF。 见[审计](learning/audits/nakasato_2017_driver_frames.md)。
+
+### 上轮学习记录（2026-10-11）
 
 Lewington2017 Pass3核实QS地面轴距中点参考和偏移积分；恒速等条件下yaw项可抵消，SD不能冒充95%CI。新增2claims、2公式、8图边，现72claims/180edges；原始样条/坐标和逐次试验数据待NC-2017-1515-REPLAY。学习15完成/10待办，下一sae-2017-01-1525 Pass3。见[审计](learning/audits/lewington_2017_axes_splines.md)。无新source/PDF。
 

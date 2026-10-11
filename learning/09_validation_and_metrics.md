@@ -39,3 +39,5 @@ Winkler2016因缺客车穿越横风的运动实测，用重心63%→43%→23%轴
 ## 路径指标对独立验证的限制（2026-10-11）
 
 Lewington Eq4–6在恒速且信号/初值一致时使yaw率在alpha+beta_vehicle中相消；横向偏移吻合不独立证明yaw率吻合。Table2均值±SD是重复测量离散度，不能换名95%CI；作者每车至少6次但未交付精确n/原始样本。算术确认Everest QS在约数下−1SD边界、Escort QS离均值更近，均不是显著性/等效性证明。见E-2017-1515-03/04及[审计](audits/lewington_2017_axes_splines.md)。
+
+2026-10-12：Nakasato2017 Fig26纠正为初始A9%、出风区反向B17%。Fig14显式含纯时延及一阶滞后，参数参考试验识别；独立标定/验证划分未知。CG原点已知但完整载荷/姿态符号映射和同步代码仍缺。见E-2017-1525-04/05、NC-2017-1525-REPLAY及[audit](audits/nakasato_2017_driver_frames.md)。
