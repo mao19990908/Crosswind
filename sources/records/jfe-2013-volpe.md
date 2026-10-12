@@ -42,3 +42,9 @@
 Crossref exact DOI reconfirmed. ASME PDF HTTP 403; OpenAlex and Semantic Scholar both identify http://oatao.univ-toulouse.fr/8416/1/Ferrand_8416.pdf (other-oa). HTTPS handshake and original HTTP URL timed out. HAL prior bot challenge retained; no bypass. No PDF acquired; other-oa is not a redistribution grant.
 
 - Current pdf_status: `open_repository_available`; local file not acquired; `github_pdf=false`. No full-text verification upgrade or new technical claim. Unpaywall not called: no configured research contact email available; no invented email or credentials supplied.
+
+## 2026-10-13 bounded access checkpoint
+
+2026-10-13: Crossref title/authors/2013 reconfirmed; DOI web-open internal error. OpenAlex/Semantic Scholar still point to OATAO Ferrand_8416.pdf as green/other-oa; one ordinary HTTP repository request timed out at15s. No HAL challenge or prior ASME403 retry; no PDF acquired. other-oa is not a redistribution grant.
+
+DOI remains verified; abstract verification unchanged; no new source or technical claim. Evidence: [public API metadata](../access_check_2026-10-13.json). Unpaywall deferred because no configured research contact was available in prior checkpoint; no invented email/credential. Previously protected routes not retried. Current PDF status retained, github_pdf=false.

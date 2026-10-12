@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-12T06:03:29+08:00",
+  "updated_at": "2026-10-13T06:03:49+08:00",
   "timezone": "Asia/Shanghai",
   "current_phase": "learning",
-  "phase_status": "in_progress",
+  "phase_status": "awaiting_evidence",
   "collection_completed_on": "2026-09-24",
   "learning_backlog": [
     "sae-530255",
@@ -39,55 +39,32 @@
   "current_source_id": "sae-530255",
   "current_pass": 3,
   "current_pass_status": "awaiting_new_lawful_fulltext_or_underlying_data",
-  "today_added_knowledge_nodes": [
-    "E-2017-1525-04",
-    "E-2017-1525-05",
-    "M-NAKASATO-DRIVER",
-    "EQ-NAKASATO-PREVIEW"
-  ],
-  "today_added_or_modified_graph_edges": [
-    "E-2017-1525-01|evidence_from|sae-2017-01-1525",
-    "E-2017-1525-02|evidence_from|sae-2017-01-1525",
-    "E-2017-1525-03|evidence_from|sae-2017-01-1525",
-    "E-2017-1525-04|evidence_from|sae-2017-01-1525",
-    "M-NAKASATO-DRIVER|described_by|E-2017-1525-04",
-    "EQ-NAKASATO-PREVIEW|described_by|E-2017-1525-04",
-    "V-HEADING|described_by|E-2017-1525-04",
-    "C-LOOP|described_by|E-2017-1525-04",
-    "E-2017-1525-05|evidence_from|sae-2017-01-1525",
-    "V-YAWMOMENT|described_by|E-2017-1525-05",
-    "C-LOOP|described_by|E-2017-1525-05"
-  ],
+  "today_added_knowledge_nodes": [],
+  "today_added_or_modified_graph_edges": [],
   "today_remaining_work": [
-    "All10backlog need new evidence; first sae-530255 lawful fulltext; check existing source/request inputs before rereading",
-    "Nakasato original replay needs NC-2017-1525-REPLAY; no repeated definition audit",
-    "No broad collection or false completion"
+    "10backlog need new evidence;no repeated completed audits",
+    "sae-530255 lawful original or existing8raw-data requests",
+    "Other existing missing-fulltext items retain checkpoints;no broad collection"
   ],
   "quota_status": "available_rounded_shared_account",
-  "weekly_quota_used_at_run_start_percent": 0,
-  "weekly_quota_used_at_last_read_percent": 4,
-  "weekly_quota_used_at_day_start_percent": 0,
-  "weekly_quota_day_cap_used_percent": 12,
-  "local_remote_sync": "research_commit_verified_local_origin_live_remote_equal",
+  "weekly_quota_used_at_run_start_percent": 7,
+  "weekly_quota_used_at_last_read_percent": 9,
+  "weekly_quota_used_at_day_start_percent": 7,
+  "weekly_quota_day_cap_used_percent": 19,
+  "local_remote_sync": "pending_validation_commit_push",
   "github_commit_sha": "d20677d7f8854ea19de43355c2163182679b6b41",
   "note": "Latest heartbeat prioritizes Learn backlog; DOI/PDF unresolved checkpoint retained, not treated as a gate blocking existing local-PDF learning.",
   "github_commit_sha_role": "verified_research_commit_before_final_audit",
-  "quota_date": "2026-10-12",
-  "today_updated_knowledge_nodes": [
-    "E-2017-1525-01",
-    "E-2017-1525-02",
-    "E-2017-1525-03",
-    "V-HEADING",
-    "V-YAWMOMENT"
-  ],
+  "quota_date": "2026-10-13",
+  "today_updated_knowledge_nodes": [],
   "fulltext_access_checkpoints": [
     {
       "source_id": "sae-530255",
-      "checked_on": "2026-09-26",
+      "checked_on": "2026-10-13",
       "pass": 3,
       "status": "awaiting_lawful_fulltext",
-      "reason": "Crossref exact DOI reconfirmed. Publisher PDF timed out; OpenAlex closed; Semantic Scholar returned no OA URL. SAE landing still has Published 1953 versus generated Citation 1906 conflict. No original acquired.",
-      "next_action": "Check authorized local/library or exact-title institutional author copy; do not repeat abstract learning"
+      "reason": "2026-10-13: Crossref title/authors/1953 reconfirmed; SAE indexed landing still marked locked with Published1953/Citation1906 discrepancy; direct web-open internal error. OpenAlex closed and Semantic Scholar empty OA URL. Exact-title discovery yielded no verified original PDF; no paywall request or bypass. No fulltext acquired.",
+      "next_action": "Await lawful original/new verified repository or user input;do not repeat completed abstract learning or protected routes"
     },
     {
       "source_id": "sae-730232",
@@ -139,11 +116,11 @@
     },
     {
       "source_id": "jfe-2013-volpe",
-      "checked_on": "2026-09-26",
+      "checked_on": "2026-10-13",
       "pass": 3,
       "status": "awaiting_lawful_fulltext",
-      "reason": "Crossref exact DOI reconfirmed. ASME PDF HTTP 403; OpenAlex and Semantic Scholar both identify http://oatao.univ-toulouse.fr/8416/1/Ferrand_8416.pdf (other-oa). HTTPS handshake and original HTTP URL timed out. HAL prior bot challenge retained; no bypass. No PDF acquired; other-oa is not a redistribution grant.",
-      "next_action": "Check ordinary authorized access or another official author deposit; keep abstract evidence only"
+      "reason": "2026-10-13: Crossref title/authors/2013 reconfirmed; DOI web-open internal error. OpenAlex/Semantic Scholar still point to OATAO Ferrand_8416.pdf as green/other-oa; one ordinary HTTP repository request timed out at15s. No HAL challenge or prior ASME403 retry; no PDF acquired. other-oa is not a redistribution grant.",
+      "next_action": "Await lawful original/new verified repository or user input;do not repeat completed abstract learning or protected routes"
     },
     {
       "source_id": "sae-670608",
@@ -162,10 +139,10 @@
       "next_action": "Resolve NC-2017-1525-REPLAY; no repeated definition audit"
     }
   ],
-  "quota_measurement_note": "Oct12 baseline0% weekly/1% fivehour;cap12%;rounded shared account;no reset",
-  "quota_last_read_at": "2026-10-12T06:03:29+08:00",
+  "quota_measurement_note": "Oct13 baselineweekly7/fivehour1;cap19;rounded shared-account;no reset",
+  "quota_last_read_at": "2026-10-13T06:03:49+08:00",
   "doi_pdf_checkpoint": {
-    "date": "2026-09-26",
+    "date": "2026-10-13",
     "status": "in_progress",
     "total_sources": 25,
     "verified_doi": 20,
@@ -189,10 +166,10 @@
     "unresolved_fulltext_count": 7,
     "new_pdfs_this_run": 0,
     "new_sources_this_run": 0,
-    "audit_file": "sources/doi_pdf_audit_2026-09-26.csv",
-    "next": "DOT I/II Google Books/HathiTrust authorized download; OATAO Volpe author deposit after endpoint recovery. Other four via authorized library/local supply. Do not retry 403/challenges in this run; retain learning sae-730232 Pass3.",
-    "weekly_quota_used_at_last_read_percent": 39,
-    "research_commit_sha": "dd2ed1a58c16221843b7c582b7e57c44e1c3ab7a"
+    "audit_file": "sources/doi_pdf_audit_2026-10-13.csv",
+    "next": "Existing missingfulltext only; two targets rechecked without acquisition. Await new lawful input; no daily repeat of same failed URL or protected endpoint. ISO/DOT/Milner/Bell retain earlier checkpoints.",
+    "weekly_quota_used_at_last_read_percent": 9,
+    "previous_research_commit_sha": "dd2ed1a58c16221843b7c582b7e57c44e1c3ab7a"
   },
   "weekly_quota_pre_reset_used_percent": 91,
   "weekly_quota_after_reset_used_percent": 1,
@@ -349,9 +326,9 @@
     "changed_understanding": "Macklin threshold differs by load component/peak-vs-mean; Ryan net yaw has no steady-relative overshoot despite side/lift peaks, resolving abstract overgeneralization; 1996 and 1998 yaw outcomes differ under different apparatus/metric definitions. Macklin 1997 shear comparison is turbulence-confounded and no reference speed universally collapses coefficients. Ryan 2000 uses updated 5m/22deg shutter gust; an unexplained high-pressure pocket and wake advection prevent treating a wake snapshot as instantaneous body force. Mahig 1971 is an assumed lateral-impulse vehicle response model, not an aerodynamic gust waveform study; tyre cubic locally cross-checked. Klein/Hogue 1980 directly cites and partially reuses DOT technical Volume II; loop modes and steady-model outputs must remain separated. Chadwick 2000 shows geometry-specific leeward pressure peaks and filter limitations; five model lengths not sufficient for steady development in all cases. Nakasato 2017 fixed-steer road validation is separate from the active-driver application; three-run driver trends have quantitative mismatch. Volpe 2014 measured ~21deg local yaw despite 30deg tunnel axes; geometry-specific yaw peaks 16/10%, vortex-load correlations not causal proof. Lewington 2017 one-way advantage depends on metric: both approaches predict lane deviation within one measured SD; comparator uses tuned wind scale and input validation is partial. Okumura 1997 CFD peak and spoiler evidence are conditional; passing comparison uses mismatched bus geometry, and reported resultant wind angle needs arithmetic audit.",
     "next": "Two local PDFs remain to read; 10-source learning backlog. Five-hour 97% and weekly 31% used at last platform read."
   },
-  "five_hour_quota_used_at_last_read_percent": 29,
-  "automation_completed_on": "2026-10-12",
-  "automation_run_status": "completed_learning_checkpoint_validated",
+  "five_hour_quota_used_at_last_read_percent": 16,
+  "automation_completed_on": "2026-10-13",
+  "automation_run_status": "completed_access_checkpoint_learning_waiting_evidence",
   "learning_run_2026_09_27": {
     "processed_sources": [
       "sae-730232"
@@ -493,5 +470,22 @@
     "pdfs_new": 0,
     "pass3_completed": 0,
     "next": "sae-530255 lawful fulltext/new inputs; all10backlog need evidence; no repeated audits"
+  },
+  "learning_run_2026_10_13": {
+    "processed_sources": [],
+    "access_rechecked_sources": [
+      "sae-530255",
+      "jfe-2013-volpe"
+    ],
+    "new_fulltext_reads": 0,
+    "new_claims": 0,
+    "new_equation_nodes": 0,
+    "new_edges": 0,
+    "needs_collection_added": 0,
+    "sources_new": 0,
+    "pdfs_new": 0,
+    "pass3_completed": 0,
+    "backlog_remaining": 10,
+    "next": "Existing missing-fulltext/raw inputs only; no repeat definitions"
   }
 }

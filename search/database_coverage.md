@@ -93,3 +93,7 @@ DOI 状态：18 verified、4 暂时 no_doi_confirmed、1 missing_to_search，覆
 ## 2026-09-26 DOI/PDF access audit
 
 Existing25 sources audited; new sources0. Five Crossref exact DOI refreshed; remaining primary proofs retained. Seven missing full texts searched; DOT I/II HathiTrust/Google Books and Volpe OATAO leads added. No new PDF; local18/GitHub1/local-only17. Unpaywall deferred without configured contact email. Learning backlog10; source-type coverage unchanged.
+
+## 2026-10-13 existing-source access check
+
+Two existing canonical targets only: Crossref DOI/title/author/year reverified; OpenAlex and Semantic Scholar read, one OATAO PDF request timed out. Exact-title/domain discovery did not yield an acquired primary original. No new source/PDF or claim. Unpaywall deferred without configured contact; protected endpoints not retried. This does not establish exhaustive absence of OA.

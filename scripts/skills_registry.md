@@ -62,3 +62,7 @@ Reused already-read paper-reading/project crosswind-knowledge-base and read-only
 ## 2026-10-12 Learn usage
 
 Read instruction-only paper-reading and repository crosswind-knowledge-base. Local PDF text and whole-page rendering only. No install/network/upstream CLI/credentials/bypass. audit_nakasato_2017.py performs six labelled arithmetic inferences, not original simulation/road reconstruction.
+
+## 2026-10-13 bounded existing-source lookup
+
+Read literature-search and project-restricted paper-fulltext-harvest instructions. No installation or third-party code executed. First-party urllib public metadata for api.crossref.org/api.openalex.org/api.semanticscholar.org and one oatao.univ-toulouse.fr institutional PDF request; web exact-title/domain search and publisher pages. No credentials/email invented, no upstream batchCLI/TDM/browser fallback/access-control retry. No new technical learning claims.

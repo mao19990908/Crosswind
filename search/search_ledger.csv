@@ -46,3 +46,4 @@
 2026-09-26,OATAO,Ferrand_8416.pdf Volpe2013,,,1,1,0,0,HTTPS handshake and original HTTP timed out. No PDF.
 2026-09-26,TRID; exact-title discovery,Vehicle Performance in Crosswinds Milner1968 PDF,,,not_reported,1,0,0,Primary catalog reconfirmed; no verified original PDF found; no-DOI status remains scoped.
 2026-09-26,ISO official catalog,ISO12021:2010 53602,,,1,1,0,0,Confirmed2023; preview/paid standard only. No full text acquired.
+"2026-10-13","Crossref;OpenAlex;SemanticScholar;web discovery;OATAO","Existing sources only:10.4271/530255;10.1115/1.4023194;exact titles;HAL/OATAO domain searches","1953","2013","2","2","0","0","Counts are2existing canonical targets, not web hit counts;6API records200;OATAO15s timeout;no new original PDF;web includes irrelevant hits excluded before retrieval;no collection expansion. See sources/access_check_2026-10-13.json"

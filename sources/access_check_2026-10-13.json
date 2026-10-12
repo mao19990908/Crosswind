@@ -1,0 +1,448 @@
+{
+  "date": "2026-10-13",
+  "scope": "two existing missing-fulltext sources; no expansion",
+  "unpaywall": "not_called_no_configured_contact_email_from_prior_checkpoint; no invented email or credential",
+  "requests": [
+    {
+      "source_id": "sae-530255",
+      "service": "crossref",
+      "url": "https://api.crossref.org/works/10.4271%2F530255",
+      "http_status": 200,
+      "metadata": {
+        "DOI": "10.4271/530255",
+        "title": [
+          "WIND EFFECTS ON CAR STABILITY"
+        ],
+        "author": [
+          {
+            "given": "W.E.",
+            "family": "Lay",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "P.W.",
+            "family": "Lett",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1953,
+              1,
+              1
+            ]
+          ]
+        },
+        "publisher": "SAE International",
+        "link": [
+          {
+            "URL": "https://saemobilus.sae.org/downloads/papers/530255/Full%20Text%20PDF",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "license": null,
+        "resource": {
+          "primary": {
+            "URL": "https://saemobilus.sae.org/papers/wind-effects-car-stability-530255"
+          }
+        }
+      }
+    },
+    {
+      "source_id": "jfe-2013-volpe",
+      "service": "crossref",
+      "url": "https://api.crossref.org/works/10.1115%2F1.4023194",
+      "http_status": 200,
+      "metadata": {
+        "DOI": "10.1115/1.4023194",
+        "title": [
+          "Experimental and Numerical Validation of a Wind Gust Facility"
+        ],
+        "author": [
+          {
+            "given": "Raffaele",
+            "family": "Volpe",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "e-mail:"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Arthur",
+            "family": "Da Silva",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Laboratoire DRIVE, Institut Supérieur de l'Automobile et des Transports, Université de Bourgogne, 49 rue Mademoiselle Bourgeois, 58000 Nevers, France"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Valérie",
+            "family": "Ferrand",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institut Supérieur de l'Aéronautique et de l'Espace (ISAE), Université de Toulouse, 10 avenue Edouard Belin, 31400 Toulouse, France"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Luis",
+            "family": "Le Moyne",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Laboratoire DRIVE, Institut Supérieur de l'Automobile et des Transports, Université de Bourgogne, 49 rue Mademoiselle Bourgeois, 58000 Nevers, France"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2013,
+              1,
+              1
+            ]
+          ]
+        },
+        "publisher": "ASME International",
+        "link": [
+          {
+            "URL": "http://asmedigitalcollection.asme.org/fluidsengineering/article-pdf/doi/10.1115/1.4023194/6187024/fe_135_1_011106.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "syndication"
+          },
+          {
+            "URL": "http://asmedigitalcollection.asme.org/fluidsengineering/article-pdf/doi/10.1115/1.4023194/6187024/fe_135_1_011106.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "license": null,
+        "resource": {
+          "primary": {
+            "URL": "https://asmedigitalcollection.asme.org/fluidsengineering/article/doi/10.1115/1.4023194/372078/Experimental-and-Numerical-Validation-of-a-Wind"
+          }
+        }
+      }
+    },
+    {
+      "source_id": "sae-530255",
+      "service": "openalex",
+      "url": "https://api.openalex.org/works/https://doi.org/10.4271/530255",
+      "http_status": 200,
+      "metadata": {
+        "id": "https://openalex.org/W2231769018",
+        "doi": "https://doi.org/10.4271/530255",
+        "title": "WIND EFFECTS ON CAR STABILITY",
+        "publication_year": 1953,
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        },
+        "best_oa_location": null,
+        "locations": [
+          {
+            "id": "doi:10.4271/530255",
+            "doi": "https://doi.org/10.4271/530255",
+            "is_oa": false,
+            "landing_page_url": "https://doi.org/10.4271/530255",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210202285",
+              "display_name": "SAE technical papers on CD-ROM/SAE technical paper series",
+              "issn_l": "0148-7191",
+              "issn": [
+                "0148-7191",
+                "1083-4958",
+                "2688-3627"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": true,
+              "listed_in": [
+                "cwts-core",
+                "jufo-1",
+                "norway-1"
+              ],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "journal"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "SAE Technical Paper Series",
+            "raw_type": "proceedings-article"
+          }
+        ]
+      }
+    },
+    {
+      "source_id": "jfe-2013-volpe",
+      "service": "openalex",
+      "url": "https://api.openalex.org/works/https://doi.org/10.1115/1.4023194",
+      "http_status": 200,
+      "metadata": {
+        "id": "https://openalex.org/W1979643340",
+        "doi": "https://doi.org/10.1115/1.4023194",
+        "title": "Experimental and Numerical Validation of a Wind Gust Facility",
+        "publication_year": 2013,
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "green",
+          "oa_url": "http://oatao.univ-toulouse.fr/8416/1/Ferrand_8416.pdf",
+          "any_repository_has_fulltext": true
+        },
+        "best_oa_location": {
+          "id": "pmh:oai:oatao.univ-toulouse.fr:8416",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "http://oatao.univ-toulouse.fr/8416/1/Ferrand_8416.pdf",
+          "pdf_url": "http://oatao.univ-toulouse.fr/8416/1/Ferrand_8416.pdf",
+          "source": {
+            "id": "https://openalex.org/S4306401987",
+            "display_name": "Open Archive Toulouse Archive Ouverte (University of Toulouse)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I17866349",
+            "host_organization_name": "Université Fédérale de Toulouse Midi-Pyrénées",
+            "host_organization_lineage": [
+              "https://openalex.org/I17866349"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "other-oa",
+          "license_id": "https://openalex.org/licenses/other-oa",
+          "version": "acceptedVersion",
+          "is_accepted": true,
+          "is_published": false,
+          "raw_source_name": "",
+          "raw_type": "info:eu-repo/semantics/article"
+        },
+        "locations": [
+          {
+            "id": "doi:10.1115/1.4023194",
+            "doi": "https://doi.org/10.1115/1.4023194",
+            "is_oa": false,
+            "landing_page_url": "https://doi.org/10.1115/1.4023194",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S14419372",
+              "display_name": "Journal of Fluids Engineering",
+              "issn_l": "0098-2202",
+              "issn": [
+                "0098-2202",
+                "1528-901X"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": true,
+              "listed_in": [
+                "cwts-core",
+                "dongbi-b",
+                "jufo-1",
+                "norway-1",
+                "poland-100",
+                "russia-white-list-2"
+              ],
+              "host_organization": "https://openalex.org/P4310316053",
+              "host_organization_name": "ASM International",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310316053"
+              ],
+              "host_organization_lineage_names": [
+                "ASM International"
+              ],
+              "type": "journal"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Journal of Fluids Engineering",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "pmh:oai:oatao.univ-toulouse.fr:8416",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "http://oatao.univ-toulouse.fr/8416/1/Ferrand_8416.pdf",
+            "pdf_url": "http://oatao.univ-toulouse.fr/8416/1/Ferrand_8416.pdf",
+            "source": {
+              "id": "https://openalex.org/S4306401987",
+              "display_name": "Open Archive Toulouse Archive Ouverte (University of Toulouse)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I17866349",
+              "host_organization_name": "Université Fédérale de Toulouse Midi-Pyrénées",
+              "host_organization_lineage": [
+                "https://openalex.org/I17866349"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "other-oa",
+            "license_id": "https://openalex.org/licenses/other-oa",
+            "version": "acceptedVersion",
+            "is_accepted": true,
+            "is_published": false,
+            "raw_source_name": "",
+            "raw_type": "info:eu-repo/semantics/article"
+          },
+          {
+            "id": "pmh:oai:HAL:hal-01920549v1",
+            "doi": null,
+            "is_oa": false,
+            "landing_page_url": "https://hal.science/hal-01920549",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306402512",
+              "display_name": "HAL (Le Centre pour la Communication Scientifique Directe)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I1294671590",
+              "host_organization_name": "Centre National de la Recherche Scientifique",
+              "host_organization_lineage": [
+                "https://openalex.org/I1294671590"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "Journal of Fluids Engineering, 2013, 135 (1), pp.011106/1-011106/9. &#x27E8;10.1115/1.4023194&#x27E9;",
+            "raw_type": "info:eu-repo/semantics/article"
+          }
+        ]
+      }
+    },
+    {
+      "source_id": "sae-530255",
+      "service": "semantic_scholar",
+      "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.4271/530255?fields=title,year,openAccessPdf",
+      "http_status": 200,
+      "metadata": {
+        "paperId": "7886d3365caab30b25804405d7f156a36e6deb61",
+        "title": "WIND EFFECTS ON CAR STABILITY",
+        "year": 1953,
+        "openAccessPdf": {
+          "url": "",
+          "status": "CLOSED",
+          "license": null
+        }
+      }
+    },
+    {
+      "source_id": "jfe-2013-volpe",
+      "service": "semantic_scholar",
+      "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1115/1.4023194?fields=title,year,openAccessPdf",
+      "http_status": 200,
+      "metadata": {
+        "paperId": "cacc097758ac5c2d2c6c2a982a7ee192494db7a3",
+        "title": "Experimental and Numerical Validation of a Wind Gust Facility",
+        "year": 2013,
+        "openAccessPdf": {
+          "url": "http://oatao.univ-toulouse.fr/8416/1/Ferrand_8416.pdf",
+          "status": "GREEN",
+          "license": "other-oa"
+        }
+      }
+    },
+    {
+      "source_id": "jfe-2013-volpe",
+      "service": "institutional_repository_pdf",
+      "url": "http://oatao.univ-toulouse.fr/8416/1/Ferrand_8416.pdf",
+      "error": "timed out"
+    }
+  ],
+  "checked_at": "2026-10-13T06:03:40+08:00",
+  "local_input_check": "18repo PDFs; no newly dated files after2026-10-12 in previously supplied Downloads/PDF; no new tracked inputs after fetch/pull; ignored raw-data paths not exhaustively searched",
+  "web_discovery": {
+    "queries": [
+      "\"530255\" \"pdf\" cross wind Lay Lett",
+      "\"10.1115/1.4023194\" \"pdf\"",
+      "\"Wind Effects on Car Stability\" Lay Lett pdf",
+      "\"Experimental and Numerical Validation of a Wind Gust Facility\" site:oatao.univ-toulouse.fr",
+      "\"Experimental and Numerical Validation of a Wind Gust Facility\" site:hal.science"
+    ],
+    "selected_primary_urls": [
+      "https://saemobilus.sae.org/papers/wind-effects-car-stability-530255",
+      "https://doi.org/10.1115/1.4023194",
+      "https://cv.hal.science/llemoyne"
+    ],
+    "result": "SAE indexed locked metadata/date discrepancy; HAL author bibliography only; direct SAE/DOI web opens internal errors; no verified original PDF"
+  },
+  "new_sources": 0,
+  "new_pdfs": 0
+}
