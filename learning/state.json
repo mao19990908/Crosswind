@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-14T06:04:53+08:00",
+  "updated_at": "2026-10-14T06:05:43+08:00",
   "timezone": "Asia/Shanghai",
   "current_phase": "learning",
   "phase_status": "awaiting_evidence",
@@ -51,8 +51,8 @@
   "weekly_quota_used_at_last_read_percent": 4,
   "weekly_quota_used_at_day_start_percent": 0,
   "weekly_quota_day_cap_used_percent": 12,
-  "local_remote_sync": "pending_validation_commit_push",
-  "github_commit_sha": "10f0e8f845d883ba34f65ef841f665e3b492d1ac",
+  "local_remote_sync": "research_commit_verified_local_origin_live_remote_equal",
+  "github_commit_sha": "e2210a67fa60295b59822827a120cbd092979492",
   "note": "Latest heartbeat prioritizes Learn backlog; DOI/PDF unresolved checkpoint retained, not treated as a gate blocking existing local-PDF learning.",
   "github_commit_sha_role": "verified_research_commit_before_final_audit",
   "quota_date": "2026-10-14",
@@ -140,7 +140,7 @@
     }
   ],
   "quota_measurement_note": "Oct14 baselineweekly0/fivehour1;cap12;lower reading not attributed to an unobserved reset;no reset used",
-  "quota_last_read_at": "2026-10-14T06:04:53+08:00",
+  "quota_last_read_at": "2026-10-14T06:05:43+08:00",
   "doi_pdf_checkpoint": {
     "date": "2026-10-14",
     "status": "in_progress",
@@ -170,7 +170,7 @@
     "next": "ISO/DOT catalog check no original; VolII PB80-118383 retrieval identifier added. Other existing Bell/Milner missing originals may receive bounded lookup; no repeated failed URLs or broad collection.",
     "weekly_quota_used_at_last_read_percent": 4,
     "previous_research_commit_sha": "dd2ed1a58c16221843b7c582b7e57c44e1c3ab7a",
-    "research_commit_sha": "10f0e8f845d883ba34f65ef841f665e3b492d1ac"
+    "research_commit_sha": "e2210a67fa60295b59822827a120cbd092979492"
   },
   "weekly_quota_pre_reset_used_percent": 91,
   "weekly_quota_after_reset_used_percent": 1,
@@ -327,7 +327,7 @@
     "changed_understanding": "Macklin threshold differs by load component/peak-vs-mean; Ryan net yaw has no steady-relative overshoot despite side/lift peaks, resolving abstract overgeneralization; 1996 and 1998 yaw outcomes differ under different apparatus/metric definitions. Macklin 1997 shear comparison is turbulence-confounded and no reference speed universally collapses coefficients. Ryan 2000 uses updated 5m/22deg shutter gust; an unexplained high-pressure pocket and wake advection prevent treating a wake snapshot as instantaneous body force. Mahig 1971 is an assumed lateral-impulse vehicle response model, not an aerodynamic gust waveform study; tyre cubic locally cross-checked. Klein/Hogue 1980 directly cites and partially reuses DOT technical Volume II; loop modes and steady-model outputs must remain separated. Chadwick 2000 shows geometry-specific leeward pressure peaks and filter limitations; five model lengths not sufficient for steady development in all cases. Nakasato 2017 fixed-steer road validation is separate from the active-driver application; three-run driver trends have quantitative mismatch. Volpe 2014 measured ~21deg local yaw despite 30deg tunnel axes; geometry-specific yaw peaks 16/10%, vortex-load correlations not causal proof. Lewington 2017 one-way advantage depends on metric: both approaches predict lane deviation within one measured SD; comparator uses tuned wind scale and input validation is partial. Okumura 1997 CFD peak and spoiler evidence are conditional; passing comparison uses mismatched bus geometry, and reported resultant wind angle needs arithmetic audit.",
     "next": "Two local PDFs remain to read; 10-source learning backlog. Five-hour 97% and weekly 31% used at last platform read."
   },
-  "five_hour_quota_used_at_last_read_percent": 23,
+  "five_hour_quota_used_at_last_read_percent": 26,
   "automation_completed_on": "2026-10-14",
   "automation_run_status": "completed_access_checkpoint_learning_waiting_evidence",
   "learning_run_2026_09_27": {
