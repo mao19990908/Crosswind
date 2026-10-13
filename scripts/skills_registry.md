@@ -66,3 +66,7 @@ Read instruction-only paper-reading and repository crosswind-knowledge-base. Loc
 ## 2026-10-13 bounded existing-source lookup
 
 Read literature-search and project-restricted paper-fulltext-harvest instructions. No installation or third-party code executed. First-party urllib public metadata for api.crossref.org/api.openalex.org/api.semanticscholar.org and one oatao.univ-toulouse.fr institutional PDF request; web exact-title/domain search and publisher pages. No credentials/email invented, no upstream batchCLI/TDM/browser fallback/access-control retry. No new technical learning claims.
+
+## 2026-10-14 bounded existing-source catalogs
+
+Reused literature-search and project-restricted paper-fulltext-harvest instructions. Only public ISO/TRID/NASA/library catalog discovery for existing missing originals; no third-party executable/install/upstreamCLI/authentication/credentials/access-control retries. First-party urllib attempted official NASA bibliography download to temp, interrupted before saved file; not an original report or new PDF inventory item. No knowledge-layer claim processing.

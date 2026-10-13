@@ -97,3 +97,7 @@ Existing25 sources audited; new sources0. Five Crossref exact DOI refreshed; rem
 ## 2026-10-13 existing-source access check
 
 Two existing canonical targets only: Crossref DOI/title/author/year reverified; OpenAlex and Semantic Scholar read, one OATAO PDF request timed out. Exact-title/domain discovery did not yield an acquired primary original. No new source/PDF or claim. Unpaywall deferred without configured contact; protected endpoints not retried. This does not establish exhaustive absence of OA.
+
+## 2026-10-14 existing-source catalog lookup
+
+ISO12021 paid/preview catalog;DOT I/II TRID metadata and NASA indexed bibliography only. Added VolII retrieval identifierPB80-118383/N80-21219; no original PDF. Search limited to three existing targets;prior protected endpoints not retried;other sources not freshly searched. No new source/claim/evidence grade.

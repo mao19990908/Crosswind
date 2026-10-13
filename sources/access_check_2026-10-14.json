@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-14",
+  "checked_at": "2026-10-14T06:04:45+08:00",
+  "scope": "Three existing missing-fulltext targets only; no collection expansion",
+  "local_input_check": "18repo PDFs; no newly dated files afterOct13 in prior Downloads/PDF; clean tracked checkout after fetch/pull; not exhaustive ignored-directory search",
+  "targets": [
+    {
+      "source_id": "iso-12021-2010",
+      "urls": [
+        "https://www.iso.org/standard/53602.html"
+      ],
+      "result": "2026-10-14: Official ISO page53602 reconfirms edition2010-12,14pages,confirmed2023; preview/purchase only, no full standard acquired. Abstract text says2011 but reference/title say2010; preserve2010 identity and flag catalog inconsistency, not a new edition. No DOI displayed; prior scoped no-DOI conclusion/date retained."
+    },
+    {
+      "source_id": "dot-hs-805-078",
+      "urls": [
+        "https://trid.trb.org/View/143777",
+        "https://ntrs.nasa.gov/api/citations/19800019794/downloads/19800019794.pdf"
+      ],
+      "result": "2026-10-14: TRID143777 reconfirms Klein/Hogue1979-08,33p,DOT-HS-805-078. Exact-title/government/library discovery leads to existing catalog/Google Books/HathiTrust references only; no original report acquired. Protected readers and prior rate-limited API not retried."
+    },
+    {
+      "source_id": "dot-hs-805-079",
+      "urls": [
+        "https://trid.trb.org/View/144116",
+        "https://ntrs.nasa.gov/api/citations/19800020742/downloads/19800020742.pdf"
+      ],
+      "result": "2026-10-14: TRID144116 reconfirms1979-08,188p,DOT-HS-805-079. NASA official catalog19800020742 indexed entry N80-21219 (printed298) associates PB80-118383 and TR-1117-1-2 with same title/authors. Catalog retrieval did not complete and was interrupted; no PDF saved. Identifier evidence is indexed official catalog, not original report.188/192/196 pagination difference unresolved."
+    }
+  ],
+  "new_sources": 0,
+  "new_original_pdfs": 0,
+  "doi_registry_proofs": "All prior DOI/no-DOI proof dates retained; no fresh Crossref/DataCite sweep",
+  "access_controls": "No paywall/login/challenge bypass or protected-reader retry; no credentials; no upstream CLI",
+  "queries": [
+    "\"Development of aerodynamic disturbance test procedures\" \"pdf\"",
+    "\"DOT-HS-805-079\" site:rosap.ntl.bts.gov",
+    "\"ISO 12021:2010\" site:iso.org",
+    "\"aerodynamic disturbance\" \"Klein\" \"1979\" report",
+    "\"805079\" pdf",
+    "\"805078\" pdf",
+    "\"Development of aerodynamic disturbance test procedures\" \"technical report\"",
+    "\"DOT-HS-805-079\" download",
+    "\"PB80-108145\"",
+    "\"PB80-118383\"",
+    "\"PB80118183\" aerodynamic (mistyped; no evidence used)",
+    "\"PB80118383\"",
+    "\"PB80118383\" site:ntrl.ntis.gov",
+    "\"PB80-118383\" site:gov",
+    "\"PB80-108145\" site:ntrl.ntis.gov"
+  ],
+  "limitations": [
+    "NASA indexed metadata only; no original report or catalog PDF acquired",
+    "Direct NASA web-open internal error; urllib download interrupted after prolonged wait; no saved file",
+    "UPenn direct open internal error; indexed links point to existing HathiTrust leads",
+    "ISO preview not fulltext; national adoption must not replace original identity",
+    "Search results not exhaustive; irrelevant numeric hits excluded; no scientific claims promoted"
+  ]
+}
