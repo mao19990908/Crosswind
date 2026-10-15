@@ -74,3 +74,7 @@ Reused literature-search and project-restricted paper-fulltext-harvest instructi
 ## 2026-10-15 targeted lookup and knowledge synthesis
 
 Reused literature-search/restricted fulltext-harvest for existing missing originals/raw requests;paper-reading and project crosswind-knowledge-base for existing-claim synthesis. No installation/upstreamCLI/TDM/credentials/bypass. Public Crossref/OpenAlex/S2/DataCite;S2 429 stopped. First-party dependency-free reexpress_loads.py performs SI normalization/proper rotation/origin translation;16synthetic checks plus sample CLI passed. No original interface/experiment replay.
+
+## 2026-10-16 input/response knowledge synthesis
+
+Reused paper-reading + project crosswind-knowledge-base,existing source claims/records only. No literature/fulltext network search,skill installation,upstreamCLI,credentials,bypass or reset. First-party audit_response_metrics.py uses standard-library complex arithmetic and explicit synthetic causal systems;Matplotlib3.11.2 plus dependencies installed from standard PyPI wheels in bundled Python after missing plotting library error. Figures only require Matplotlib;--no-plot runs checks/CSVs without it. No third-party Skill/source-harvesting code was installed/executed. No real/author datasets generated.

@@ -206,6 +206,19 @@ flowchart LR
     N_EQ_LOAD_REEXPRESSION["EQ-LOAD-REEXPRESSION"] -->|depends_on| N_E_1998_05["E-1998-05"]
     N_EQ_LOAD_REEXPRESSION["EQ-LOAD-REEXPRESSION"] -->|depends_on| N_E_2017_1515_05["E-2017-1515-05"]
     N_EQ_LOAD_REEXPRESSION["EQ-LOAD-REEXPRESSION"] -->|depends_on| N_E_2017_1525_05["E-2017-1525-05"]
+    N_EQ_SPATIAL_ENCOUNTER["EQ-SPATIAL-ENCOUNTER"] -->|depends_on| N_E_1973_02["E-1973-02"]
+    N_V_GUST_RISE["V-GUST-RISE"] -->|described_by| N_E_1973_02["E-1973-02"]
+    N_V_GUST_LENGTH["V-GUST-LENGTH"] -->|described_by| N_E_1973_02["E-1973-02"]
+    N_V_GUST_LENGTH["V-GUST-LENGTH"] -->|described_by| N_E_2000_0876_03["E-2000-0876-03"]
+    N_EQ_MAGNITUDE_NONUNIQUENESS["EQ-MAGNITUDE-NONUNIQUENESS"] -->|depends_on| N_E_2001_03["E-2001-03"]
+    N_EQ_MAGNITUDE_NONUNIQUENESS["EQ-MAGNITUDE-NONUNIQUENESS"] -->|depends_on| N_E_2001_04["E-2001-04"]
+    N_C_PHASE["C-PHASE"] -->|described_by| N_E_2001_03["E-2001-03"]
+    N_C_OVERSHOOT["C-OVERSHOOT"] -->|described_by| N_E_1998_02["E-1998-02"]
+    N_G_SINE["G-SINE"] -->|described_by| N_E_2001_02["E-2001-02"]
+    N_G_FINITE["G-FINITE"] -->|described_by| N_E_1973_02["E-1973-02"]
+    N_C_GUST["C-GUST"] -->|described_by| N_E_1973_02["E-1973-02"]
+    N_C_RELWIND["C-RELWIND"] -->|described_by| N_E_1967_04["E-1967-04"]
+    N_C_STEADY["C-STEADY"] -->|described_by| N_E_1996_01["E-1996-01"]
 ```
 
 `evidence_from` 表示原始来源支撑该 atomic claim；`described_by` 表示概念受到特定条件下主张说明；`generated_by` 表示该输入由文献中的方法实现；`depends_on` 表示当前准稳态比较以稳态基线为参照。`supported_by` 表示方法受到特定原文证据支持，与 supports 的反向阅读对应；不表示独立跨方法验证。这些关系不能自动推成 `causes` 或跨研究 `validated_by`。

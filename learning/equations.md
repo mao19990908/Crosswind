@@ -59,3 +59,7 @@ EQ-NAKASATO-PREVIEW：p667 Fig15 e_g=A+B，单位m，A为朝向的前视横向�
 ## 源间载荷重新表达（2026-10-15）
 
 EQ-LOAD-REEXPRESSION为ANALYST_INFERENCE：先以各自qA/qAL还原物理力和力矩，再按Ft=R Fs、Mt=R Ms-d×Ft变换，d是新原点减旧原点、用目标轴表示，最后用目标qA/qAL归一化。R限右手正交旋转；缺载荷分量/单位/原点时不计算。16个显式合成检查通过，不代表恢复作者接口。见[推导与对照](audits/load_reexpression.md)。
+
+## 空间遇风时间与幅值非唯一性（2026-10-16）
+
+EQ-SPATIAL-ENCOUNTER为条件运动学：静止空间风场、指定参考点及恒速V时，s=V(t-t0)、tr=sm/V；不是全车暴露/载荷建立时间。EQ-MAGNITUDE-NONUNIQUENESS以稳定H0=1/(1+Ts)和增加非负时延的Hd说明幅值/功率相同仍有不同相位/时域响应。两条均标ANALYST_INFERENCE，无作者新测量或原始输出复现。

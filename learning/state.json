@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-15T22:00:22+08:00",
+  "updated_at": "2026-10-16T06:14:55+08:00",
   "timezone": "Asia/Shanghai",
   "current_phase": "learning",
   "phase_status": "in_progress",
@@ -40,41 +40,52 @@
   "current_pass": 3,
   "current_pass_status": "awaiting_new_lawful_fulltext_or_underlying_data",
   "today_added_knowledge_nodes": [
-    "M-ONEWAY-MBD",
-    "M-ALE-6DOF",
-    "EQ-LOAD-REEXPRESSION"
+    "V-GUST-RISE",
+    "V-GUST-LENGTH",
+    "EQ-SPATIAL-ENCOUNTER",
+    "EQ-MAGNITUDE-NONUNIQUENESS"
   ],
   "today_added_or_modified_graph_edges": [
-    "M-ONEWAY-MBD|described_by|E-2017-1515-01",
-    "M-ONEWAY-MBD|described_by|E-2017-1515-05",
-    "C-LOOP|described_by|E-2017-1515-01",
-    "M-ALE-6DOF|described_by|E-2017-1525-02",
-    "M-ALE-6DOF|described_by|E-2017-1525-05",
-    "M-ALE-6DOF|described_by|E-2017-1525-01",
-    "M-ALE-6DOF|described_by|E-2017-1525-04",
-    "EQ-LOAD-REEXPRESSION|depends_on|E-1973-04",
-    "EQ-LOAD-REEXPRESSION|depends_on|E-1996-04",
-    "EQ-LOAD-REEXPRESSION|depends_on|E-1998-05",
-    "EQ-LOAD-REEXPRESSION|depends_on|E-2017-1515-05",
-    "EQ-LOAD-REEXPRESSION|depends_on|E-2017-1525-05",
-    "C-VEHMOTION|described_by|E-2017-1525-01"
+    "EQ-SPATIAL-ENCOUNTER|depends_on|E-1973-02",
+    "V-GUST-RISE|described_by|E-1973-02",
+    "V-GUST-LENGTH|described_by|E-1973-02",
+    "V-GUST-LENGTH|described_by|E-2000-0876-03",
+    "EQ-MAGNITUDE-NONUNIQUENESS|depends_on|E-2001-03",
+    "EQ-MAGNITUDE-NONUNIQUENESS|depends_on|E-2001-04",
+    "C-PHASE|described_by|E-2001-03",
+    "C-OVERSHOOT|described_by|E-1998-02",
+    "G-SINE|described_by|E-2001-02",
+    "G-FINITE|described_by|E-1973-02",
+    "C-GUST|described_by|E-1973-02",
+    "C-RELWIND|described_by|E-1967-04",
+    "C-STEADY|described_by|E-1996-01"
   ],
   "today_remaining_work": [
-    "Existing 10sources need original files/data for output replay;8input packets specify deliverables",
-    "Load re-expression synthesis/tool ready;apply only after input units/full6components/frame/origin verified",
-    "Further knowledge-layer integration can proceed from existing verified claims without repeating definitions"
+    "sae-530255Pass3 lawful original and8raw-input requests still pending",
+    "Magnitude-only identification ambiguity documented;not paper ROM or experiment replay",
+    "Next existing-evidence calibration/filter/time-reference chain integration;or actual newinput verification"
   ],
   "quota_status": "available_rounded_shared_account",
-  "weekly_quota_used_at_run_start_percent": 0,
-  "weekly_quota_used_at_last_read_percent": 5,
-  "weekly_quota_used_at_day_start_percent": 0,
-  "weekly_quota_day_cap_used_percent": 12,
-  "local_remote_sync": "research_commit_verified_local_origin_live_remote_equal",
+  "weekly_quota_used_at_run_start_percent": 16,
+  "weekly_quota_used_at_last_read_percent": 18,
+  "weekly_quota_used_at_day_start_percent": 16,
+  "weekly_quota_day_cap_used_percent": 28,
+  "local_remote_sync": "pending_validation_commit_push",
   "github_commit_sha": "7e71871f8d6c75884a449764ea2b5aa5af742273",
   "note": "Latest heartbeat prioritizes Learn backlog; DOI/PDF unresolved checkpoint retained, not treated as a gate blocking existing local-PDF learning.",
   "github_commit_sha_role": "verified_research_commit_before_final_audit",
-  "quota_date": "2026-10-15",
-  "today_updated_knowledge_nodes": [],
+  "quota_date": "2026-10-16",
+  "today_updated_knowledge_nodes": [
+    "C-GUST",
+    "C-RELWIND",
+    "C-STEADY",
+    "C-QS",
+    "C-DYNLOAD",
+    "C-OVERSHOOT",
+    "C-PHASE",
+    "G-FINITE",
+    "G-SINE"
+  ],
   "fulltext_access_checkpoints": [
     {
       "source_id": "sae-530255",
@@ -157,10 +168,10 @@
       "next_action": "Resolve NC-2017-1525-REPLAY; no repeated definition audit"
     }
   ],
-  "quota_measurement_note": "Oct15 earliest pre-run weekly0/fivehour1;runstartweekly0/fivehour3;cap12;more substantive work requested,no burn target/no reset",
-  "quota_last_read_at": "2026-10-15T22:00:22+08:00",
+  "quota_measurement_note": "Oct16 baselineweekly16/fivehour0;cap28;rounded shared-account;no reset",
+  "quota_last_read_at": "2026-10-16T06:14:55+08:00",
   "doi_pdf_checkpoint": {
-    "date": "2026-10-15",
+    "date": "2026-10-16",
     "status": "in_progress",
     "total_sources": 25,
     "verified_doi": 20,
@@ -184,9 +195,9 @@
     "unresolved_fulltext_count": 7,
     "new_pdfs_this_run": 0,
     "new_sources_this_run": 0,
-    "audit_file": "sources/doi_pdf_audit_2026-10-15.csv",
-    "next": "Bell/Milner no original;3DataCite relatedIdentifier queries0 (scope-limited). Await existing missing originals/raw packets;no protected retry or broad collection.",
-    "weekly_quota_used_at_last_read_percent": 5,
+    "audit_file": "sources/doi_pdf_audit_2026-10-16.csv",
+    "next": "Existing missing originals/raw packets await new lawful inputs;no network search repeated today;knowledge synthesis continued independently",
+    "weekly_quota_used_at_last_read_percent": 18,
     "previous_research_commit_sha": "dd2ed1a58c16221843b7c582b7e57c44e1c3ab7a",
     "research_commit_sha": "7e71871f8d6c75884a449764ea2b5aa5af742273"
   },
@@ -345,9 +356,9 @@
     "changed_understanding": "Macklin threshold differs by load component/peak-vs-mean; Ryan net yaw has no steady-relative overshoot despite side/lift peaks, resolving abstract overgeneralization; 1996 and 1998 yaw outcomes differ under different apparatus/metric definitions. Macklin 1997 shear comparison is turbulence-confounded and no reference speed universally collapses coefficients. Ryan 2000 uses updated 5m/22deg shutter gust; an unexplained high-pressure pocket and wake advection prevent treating a wake snapshot as instantaneous body force. Mahig 1971 is an assumed lateral-impulse vehicle response model, not an aerodynamic gust waveform study; tyre cubic locally cross-checked. Klein/Hogue 1980 directly cites and partially reuses DOT technical Volume II; loop modes and steady-model outputs must remain separated. Chadwick 2000 shows geometry-specific leeward pressure peaks and filter limitations; five model lengths not sufficient for steady development in all cases. Nakasato 2017 fixed-steer road validation is separate from the active-driver application; three-run driver trends have quantitative mismatch. Volpe 2014 measured ~21deg local yaw despite 30deg tunnel axes; geometry-specific yaw peaks 16/10%, vortex-load correlations not causal proof. Lewington 2017 one-way advantage depends on metric: both approaches predict lane deviation within one measured SD; comparator uses tuned wind scale and input validation is partial. Okumura 1997 CFD peak and spoiler evidence are conditional; passing comparison uses mismatched bus geometry, and reported resultant wind angle needs arithmetic audit.",
     "next": "Two local PDFs remain to read; 10-source learning backlog. Five-hour 97% and weekly 31% used at last platform read."
   },
-  "five_hour_quota_used_at_last_read_percent": 29,
-  "automation_completed_on": "2026-10-15",
-  "automation_run_status": "completed_knowledge_synthesis_validated_replay_waiting_inputs",
+  "five_hour_quota_used_at_last_read_percent": 13,
+  "automation_completed_on": "2026-10-16",
+  "automation_run_status": "completed_gust_response_synthesis_validated_replay_waiting_inputs",
   "learning_run_2026_09_27": {
     "processed_sources": [
       "sae-730232"
@@ -554,10 +565,39 @@
   },
   "work_policy_feedback_2026_10_15": "User noted recent runs too conservative;do substantive existing-evidence synthesis and targeted missing-input work before stopping;12pp remains ceiling,not required burn;no expansion/repeat/bypass.",
   "knowledge_synthesis_checkpoint": {
-    "date": "2026-10-15",
-    "status": "load_interface_and_three_model_comparison_ready",
-    "artifact": "learning/audits/load_reexpression.md",
-    "input_manifest": "learning/audits/reproduction_inputs.csv",
-    "next": "Apply tool only to actual verified inputs;continue stale chapter/graph propagation from existing evidence,not another same-definition reread"
+    "date": "2026-10-16",
+    "status": "gust_input_metric_and_identifiability_comparison_ready",
+    "artifact": "learning/audits/gust_response_comparability.md",
+    "comparison_matrix": "learning/audits/gust_response_comparison.csv",
+    "next": "Integrate existing experimental calibration/filter/synchronization evidence;real ROM identification needs phase/rawdata and independent predictions"
+  },
+  "learning_run_2026_10_16": {
+    "activity": "existing-evidence input-response synthesis and analyst identifiability counterexample",
+    "new_fulltext_reads": 0,
+    "new_claims": 0,
+    "new_equation_nodes": 2,
+    "new_variable_nodes": 2,
+    "updated_concept_nodes": 9,
+    "new_edges": 13,
+    "sources_new": 0,
+    "pdfs_new": 0,
+    "pass3_completed": 0,
+    "backlog_remaining": 10,
+    "processed_sources": [
+      "sae-730232",
+      "sae-670608",
+      "sae-960674",
+      "sae-980392",
+      "pimeche-2001-passmore",
+      "sae-2000-01-0876",
+      "jweia-2014-volpe",
+      "jcp-2016-tunay",
+      "sae-2017-01-1515",
+      "sae-2017-01-1525"
+    ],
+    "revised_edges": 0,
+    "needs_collection_added": 0,
+    "synthetic_frequency_cases": 7,
+    "synthetic_time_rows": 341
   }
 }

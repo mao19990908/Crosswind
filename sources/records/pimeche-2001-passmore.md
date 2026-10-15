@@ -63,3 +63,7 @@
 - Canonical Bib key: `pimeche-2001-passmore` in `sources/bibliography/references.bib`.
 - abstract_status: `full_text_supersedes_abstract`; abstract_source: Publisher abstract; author manuscript full text checked; abstract_source_url: https://api.crossref.org/works/10.1243%2F0954407011528365.
 - Full-text check: Complete source PDF was previously read and remains `full_text_verified`.
+
+## 2026-10-16 knowledge integration
+
+Existing E-2001-03/04 amplitude/power/propagation-phase evidence now supports an explicitly analyst-derived equal-magnitude/different-delay counterexample. It is not a fitted author transfer function or new original measurement. See [comparison/identifiability audit](../../learning/audits/gust_response_comparability.md). Source identity, PDF hash/license and verification grade unchanged;no fresh external DOI/PDF retrieval.
