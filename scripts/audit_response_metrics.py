@@ -72,7 +72,10 @@ def main(plot=True):
     for ax in axs:
         ax.grid(alpha=0.25);ax.legend()
     fig.suptitle('SYNTHETIC analyst example: T=0.1 s, delay=0.2 s; no author data')
-    fig.savefig(OUT/'response_magnitude_counterexample.svg',metadata={'Date':None})
+    svg_path=OUT/'response_magnitude_counterexample.svg'
+    fig.savefig(svg_path,metadata={'Date':None})
+    # Matplotlib path formatting has trailing blanks; keep regenerated artifacts lint-clean.
+    svg_path.write_text('\n'.join(line.rstrip() for line in svg_path.read_text(encoding='utf-8').splitlines())+'\n',encoding='utf-8')
     fig.savefig(Path('C:/Users/17984/AppData/Local/Temp/crosswind-response-2026-10-16.png'),dpi=140)
     plt.close(fig)
     print('7 frequency cases: equal magnitude/power, verified phase factor; distinct causal step responses; 341 labelled synthetic time rows.')
