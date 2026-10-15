@@ -55,3 +55,7 @@ EQ-LEWINGTON-PATH按Eq4–6记录alpha=int(r)、beta_vehicle=int(a_y/v_x-r)、ga
 ## Nakasato前视误差（2026-10-12）
 
 EQ-NAKASATO-PREVIEW：p667 Fig15 e_g=A+B，单位m，A为朝向的前视横向投影，B为车辆横向位移。源内Yaw是车身朝向，不是气动偏角。Fig14支路缩放/符号和增益未给，不能按图直接将m与m/s²相加实现控制器；50/33.3约1.50s也不是纯时延。详见[audit](audits/nakasato_2017_driver_frames.md)。
+
+## 源间载荷重新表达（2026-10-15）
+
+EQ-LOAD-REEXPRESSION为ANALYST_INFERENCE：先以各自qA/qAL还原物理力和力矩，再按Ft=R Fs、Mt=R Ms-d×Ft变换，d是新原点减旧原点、用目标轴表示，最后用目标qA/qAL归一化。R限右手正交旋转；缺载荷分量/单位/原点时不计算。16个显式合成检查通过，不代表恢复作者接口。见[推导与对照](audits/load_reexpression.md)。

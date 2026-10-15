@@ -70,3 +70,7 @@ Read literature-search and project-restricted paper-fulltext-harvest instruction
 ## 2026-10-14 bounded existing-source catalogs
 
 Reused literature-search and project-restricted paper-fulltext-harvest instructions. Only public ISO/TRID/NASA/library catalog discovery for existing missing originals; no third-party executable/install/upstreamCLI/authentication/credentials/access-control retries. First-party urllib attempted official NASA bibliography download to temp, interrupted before saved file; not an original report or new PDF inventory item. No knowledge-layer claim processing.
+
+## 2026-10-15 targeted lookup and knowledge synthesis
+
+Reused literature-search/restricted fulltext-harvest for existing missing originals/raw requests;paper-reading and project crosswind-knowledge-base for existing-claim synthesis. No installation/upstreamCLI/TDM/credentials/bypass. Public Crossref/OpenAlex/S2/DataCite;S2 429 stopped. First-party dependency-free reexpress_loads.py performs SI normalization/proper rotation/origin translation;16synthetic checks plus sample CLI passed. No original interface/experiment replay.

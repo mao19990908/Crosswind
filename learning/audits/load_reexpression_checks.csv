@@ -1,0 +1,17 @@
+check,actual,expected,result,data_status
+identity,"[10.0, 20.0, 30.0]","[10, 20, 30]",pass,SYNTHETIC
+positive_x_origin_shift,"[10.0, 20.0, -170.0]","[10, 20, -170]",pass,SYNTHETIC
+proper_90deg_rotation,"[-200.0, 100.0, 0.0]","[-200, 100, 0]",pass,SYNTHETIC
+proper_rotation_cross_product,"[-6, -3, -3]","[-6, -3, -3]",pass,SYNTHETIC
+rotate_translate_scale_roundtrip_force,"[100.0, 200.0, 0.0]","[100, 200, 0]",pass,SYNTHETIC
+rotate_translate_scale_roundtrip_moment,"[10.0, 20.0, 30.0]","[10, 20, 30]",pass,SYNTHETIC
+double_reference_length_halves_Cm,"[5.0, 10.0, 15.0]","[5, 10, 15]",pass,SYNTHETIC
+axial_to_resultant_equal_area_45deg,"[49.999999999999986, 99.99999999999997, 0.0]","[50, 100, 0]",pass,SYNTHETIC
+pure_couple_origin_independent,"[10.0, 20.0, 30.0]","[10, 20, 30]",pass,SYNTHETIC
+rigid_body_power_invariance,[1114.0],[1114.0],pass,SYNTHETIC
+reject_invalid_case_1,ValueError,ValueError,pass,SYNTHETIC
+reject_invalid_case_2,ValueError,ValueError,pass,SYNTHETIC
+reject_invalid_case_3,ValueError,ValueError,pass,SYNTHETIC
+reject_invalid_case_4,ValueError,ValueError,pass,SYNTHETIC
+reject_invalid_case_5,ValueError,ValueError,pass,SYNTHETIC
+reject_invalid_case_6,ValueError,ValueError,pass,SYNTHETIC

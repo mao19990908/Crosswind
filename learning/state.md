@@ -1,5 +1,7 @@
-# 学习断点 — 2026-10-14（Asia/Shanghai）
+# 学习断点 — 2026-10-15（Asia/Shanghai）
 
-仍为learning/awaiting_evidence，sae-530255 Pass3；15完成/10待办，8open requests。今日仅既有ISO/DOT缺档目录核查；技术卷补充PB80-118383检索标识，非原报告。无新全文/科学主张/节点/边。
+完成六源规范化/坐标/原点知识综合，交付载荷重新表达工具和8项原始数据交付表；16个合成检查通过，真实作者曲线仍待数据。新增2方法＋1分析者公式、12图边/修订1边；74claims逐字段保持，现200edges/31citationedges。修正车辆动力学、验证表、方法演化、术语及Winkler笔记的过时摘要描述。Bell/Milner原文与既有rawdata定向查找未取得新文件。sources25、学习15完成/10待办、缺全文7。
 
-25sources/74claims/188edges/31citationedges；20verified DOI/5noDOI，18localPDF/1GitHub/17local-only，缺全文7。下一新合法输入，或既有Bell/Milner缺档的有界核查；不扩库、不重复已完成审计和失败访问。
+当前sae-530255 Pass3等待新原文或8项原始输入。Level1/5/8/9知识综合仍可开展；原始输出受阻不意味着知识组织已完成。有新数据先按reproduction_inputs.csv核字段/单位/时标/坐标；缺映射不擅算。
+
+DOI20verified/5noDOI/其余0，PDF18local/1GitHub/17local-only，全文17/摘要7/metadata1；v4仍in_progress。

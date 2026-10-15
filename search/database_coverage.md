@@ -101,3 +101,7 @@ Two existing canonical targets only: Crossref DOI/title/author/year reverified; 
 ## 2026-10-14 existing-source catalog lookup
 
 ISO12021 paid/preview catalog;DOT I/II TRID metadata and NASA indexed bibliography only. Added VolII retrieval identifierPB80-118383/N80-21219; no original PDF. Search limited to three existing targets;prior protected endpoints not retried;other sources not freshly searched. No new source/claim/evidence grade.
+
+## 2026-10-15 existing-source evidence search
+
+Bell/Milner originals and existing raw-data requests pursued;no newsource/PDF. DataCite exact relatedIdentifier searches forWinkler/Lewington/Nakasato returned0;this excludes neither unregistered nor unlinked data. BellOpenAlexclosed/S2 429 stopped;DLR nofulltext. Gnadler/Sorgatz original not acquired. Existing protected URLs not retried. Details inaccess_check JSON.

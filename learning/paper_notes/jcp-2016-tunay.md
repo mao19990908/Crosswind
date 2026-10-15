@@ -12,7 +12,11 @@ Read all38 PDF pages; accepted manuscript identity/hash verified; full_text_veri
 
 ## Historical abstract note (superseded)
 
-# jcp-2016-tunay — Pass 2 (publisher abstract)
+# jcp-2016-tunay — Pass 3 partial
+
+当前：2026-10-09全文P2已核，10-10完成控制/尺度代数，原始实现待NC-2016-VALIDATION。见[全文审计](../audits/winkler_2016_fulltext.md)及[公式审计](../audits/winkler_2016_controller_scaling.md)。以下摘要段为历史记录，不代表当前等级。
+
+## Historical publisher abstract
 
 - Pass 1 / position: two-way aero–vehicle–driver coupling branch (repository Level 5) for transient crosswind.
 - Input: transient wind on simplified bus; exact gust waveform, speed and turbulence NEEDS_FULLTEXT.

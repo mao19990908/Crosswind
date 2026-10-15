@@ -1,0 +1,10 @@
+{
+  "units": "SI",
+  "provenance": "SYNTHETIC example only; not an author experiment or real frame map",
+  "source": {"rho": 2, "speed": 1, "area": 1, "length": 1},
+  "target": {"rho": 2, "speed": 1, "area": 1, "length": 1},
+  "force_coeff": [100, 200, 0],
+  "moment_coeff": [10, 20, 30],
+  "rotation": [[1, 0, 0], [0, 1, 0], [0, 0, 1]],
+  "origin_shift_m": [1, 0, 0]
+}

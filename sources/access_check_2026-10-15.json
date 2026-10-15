@@ -1,0 +1,162 @@
+{
+  "date": "2026-10-15",
+  "requests": [
+    {
+      "name": "bell_crossref",
+      "url": "https://api.crossref.org/works/10.4271%2F06-14-01-0001",
+      "status": 200,
+      "metadata": {
+        "DOI": "10.4271/06-14-01-0001",
+        "title": [
+          "Aerodynamic Characterization of a Full-Scale Compact Car Exposed to Transient Crosswind"
+        ],
+        "link": [
+          {
+            "URL": "https://saemobilus.sae.org/downloads/articles/06-14-01-0001/Full%20Text%20PDF",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "license": null,
+        "relation": {},
+        "resource": {
+          "primary": {
+            "URL": "https://saemobilus.sae.org/articles/aerodynamic-characterization-a-full-scale-compact-car-exposed-transient-crosswind-06-14-01-0001"
+          }
+        }
+      }
+    },
+    {
+      "name": "bell_openalex",
+      "url": "https://api.openalex.org/works/https://doi.org/10.4271/06-14-01-0001",
+      "status": 200,
+      "metadata": {
+        "id": "https://openalex.org/W3164941778",
+        "title": "Aerodynamic Characterization of a Full-Scale Compact Car Exposed to Transient Crosswind",
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        },
+        "best_oa_location": null,
+        "openAccessPdf": null
+      }
+    },
+    {
+      "name": "bell_s2",
+      "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.4271/06-14-01-0001?fields=title,year,openAccessPdf",
+      "error": "HTTP Error 429: "
+    },
+    {
+      "name": "winkler_crossref",
+      "url": "https://api.crossref.org/works/10.1016%2Fj.compfluid.2016.08.006",
+      "status": 200,
+      "metadata": {
+        "DOI": "10.1016/j.compfluid.2016.08.006",
+        "title": [
+          "Coupling aerodynamics to vehicle dynamics in transient crosswinds including a driver model"
+        ],
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S004579301630250X?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S004579301630250X?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2016,
+                  10,
+                  1
+                ]
+              ],
+              "date-time": "2016-10-01T00:00:00Z",
+              "timestamp": 1475280000000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+          }
+        ],
+        "relation": {},
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S004579301630250X"
+          }
+        }
+      }
+    }
+  ],
+  "related_dataset_queries": [
+    {
+      "name": "winkler_related_data",
+      "url": "https://api.datacite.org/dois?query=relatedIdentifiers.relatedIdentifier%3A%2210.1016/j.compfluid.2016.08.006%22&page%5Bsize%5D=10",
+      "query": "relatedIdentifiers.relatedIdentifier:\"10.1016/j.compfluid.2016.08.006\"",
+      "status": 200,
+      "total": 0,
+      "records": []
+    },
+    {
+      "name": "lewington_related_data",
+      "url": "https://api.datacite.org/dois?query=relatedIdentifiers.relatedIdentifier%3A%2210.4271/2017-01-1515%22&page%5Bsize%5D=10",
+      "query": "relatedIdentifiers.relatedIdentifier:\"10.4271/2017-01-1515\"",
+      "status": 200,
+      "total": 0,
+      "records": []
+    },
+    {
+      "name": "nakasato_related_data",
+      "url": "https://api.datacite.org/dois?query=relatedIdentifiers.relatedIdentifier%3A%2210.4271/2017-01-1525%22&page%5Bsize%5D=10",
+      "query": "relatedIdentifiers.relatedIdentifier:\"10.4271/2017-01-1525\"",
+      "status": 200,
+      "total": 0,
+      "records": []
+    }
+  ],
+  "checked_at": "2026-10-15T21:57:22+08:00",
+  "scope": "Existing missing originals Bell/Milner and existing raw-data requests only;no newsource admission",
+  "new_sources": 0,
+  "new_original_pdfs": 0,
+  "raw_data_retrieved": 0,
+  "queries": [
+    "Bell2021 exacttitle PDF",
+    "Milner1968 exacttitle author PDF",
+    "Gnadler1971 Ersatzsystem;exact fulltitle;KIT repository",
+    "Sorgatz unpublished title",
+    "Winkler2016 title code/data and DataCite relatedIdentifier exactDOI",
+    "Macklin1996 title/author dataset",
+    "Ryan1998 title/DOI rawdata",
+    "Nakasato2017 DOI supplementary/DataCite relatedIdentifier",
+    "Lewington2017 DataCite relatedIdentifier exactDOI",
+    "Volpe2013 title Ferrand ISAE alternate repository discovery only;known failed/protected URL not retried"
+  ],
+  "primary_urls": [
+    "https://elib.dlr.de/142566/",
+    "https://trid.trb.org/View/116341",
+    "https://saemobilus.sae.org/articles/aerodynamic-characterization-a-full-scale-compact-car-exposed-transient-crosswind-06-14-01-0001",
+    "https://www.cranfield.ac.uk/people/kevin-garry-289315",
+    "https://www.sciencedirect.com/science/article/pii/S004579301630250X"
+  ],
+  "findings": [
+    "2026-10-15: Crossref exact DOI/title reconfirmed; publisher indexed abstract/repository DLR142566 still provides no full text. OpenAlex closed; SemanticScholar429 stopped without retry. No originalPDF acquired. No license inferred from Crossref similarity-checking link.",
+    "2026-10-15: Exact-title/author discovery reconfirms TRID116341 Milner1968 Automobile Engineer58 pp352-355; no verified primary originalPDF retrieved. Secondary references not used as fulltext. Prior reversible noDOI evidence/date retained.",
+    "Crossref Winkler relation empty;links/tdm license only do not imply source-code/data availability;TDM endpoint not called",
+    "No verified original Gnadler/Sorgatz artifact acquired from inspected primary results;no newsource admitted",
+    "Datacite relatedIdentifier matches0 for3existing DOIs,not an exhaustive absence finding",
+    "ScienceDirect direct web-open internalerror;not access-controlled retry",
+    "No credentials/upstreamCLI/challenge/rate-limit retry;Unpaywall remains deferred without configured contact"
+  ],
+  "learning_activity": "existing-claim synthesis and analyst load re-expression tool;not newauthor experiment or fulltextread"
+}

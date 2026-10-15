@@ -20,3 +20,7 @@ Winkler2016表中客车增益能用“轮角输出deg、航向输入rad”的条
 Lewington2017的QS参考点在地面/车辆中心线/轴距中点，v是合相对速度、长度是WB。CFD action-only时程样条另需marker坐标/力矩平移及lead-in/out/外推定义；原文没有交付完整实现。不能由ADAMS的全局坐标求解形式推断每个force元素的frame。E-2017-1515-05；缺项NC-2017-1515-REPLAY。
 
 2026-10-12：Nakasato2017 Fig26纠正为初始A9%、出风区反向B17%。Fig14显式含纯时延及一阶滞后，参数参考试验识别；独立标定/验证划分未知。CG原点已知但完整载荷/姿态符号映射和同步代码仍缺。见E-2017-1525-04/05、NC-2017-1525-REPLAY及[audit](audits/nakasato_2017_driver_frames.md)。
+
+## 已核方法进入可复用比较（2026-10-15）
+
+新增M-ONEWAY-MBD和M-ALE-6DOF，连接既有Lewington与Nakasato证据，和已有M-IDDES-2WAY并列。气动反馈、车辆自由度、驾驶员参与和实测验证分别记录。载荷重新表达工具要求源内速度/面积/长度/坐标/原点，不能用输出系数直接做跨论文排名。见[综合](audits/load_reexpression.md)及8项[原始输入交付表](audits/reproduction_inputs.csv)。
