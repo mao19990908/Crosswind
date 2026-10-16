@@ -67,3 +67,7 @@
 ## 2026-10-16 knowledge integration
 
 Existing E-2001-03/04 amplitude/power/propagation-phase evidence now supports an explicitly analyst-derived equal-magnitude/different-delay counterexample. It is not a fitted author transfer function or new original measurement. See [comparison/identifiability audit](../../learning/audits/gust_response_comparability.md). Source identity, PDF hash/license and verification grade unchanged;no fresh external DOI/PDF retrieval.
+
+## 2026-10-17 measurement-chain integration
+
+Existing E-2001-06 grouped pressure/phase/symmetry evidence now supports the [measurement-chain synthesis](../../learning/audits/measurement_chain.md). Signed phasor integration precedes amplitude extraction; channel timing/filter examples are explicitly synthetic, not fitted paper response or recovered raw data. Reading completion and source grade unchanged.

@@ -78,3 +78,7 @@ Reused literature-search/restricted fulltext-harvest for existing missing origin
 ## 2026-10-16 input/response knowledge synthesis
 
 Reused paper-reading + project crosswind-knowledge-base,existing source claims/records only. No literature/fulltext network search,skill installation,upstreamCLI,credentials,bypass or reset. First-party audit_response_metrics.py uses standard-library complex arithmetic and explicit synthetic causal systems;Matplotlib3.11.2 plus dependencies installed from standard PyPI wheels in bundled Python after missing plotting library error. Figures only require Matplotlib;--no-plot runs checks/CSVs without it. No third-party Skill/source-harvesting code was installed/executed. No real/author datasets generated.
+
+## 2026-10-17 measurement-chain synthesis
+
+Reused instruction-only paper-reading and project crosswind-knowledge-base;existing verified claims/records/audits. No new fulltext read,network search,install,third-party executable,upstreamCLI,credentials,bypass or reset. First-party audit_measurement_chain.py uses only standard-library analytic/complex arithmetic and synthetic time-domain/covariance checks;not a pressure/load replay or estimated paper error. Existing18PDF integrity rechecked by repository validators only.

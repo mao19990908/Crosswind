@@ -1,0 +1,14 @@
+case,data_origin,observed,expected,absolute_residual,unit,result,interpretation
+signed_phasor_force_amplitude,SYNTHETIC_ANALYST_INFERENCE,1.4142135623731,1.4142135623731,0,N,pass,Integrate signed complex signals before taking amplitude;sum amplitudes would be2N
+time_domain_fourier_matches_phasor_sum,SYNTHETIC_ANALYST_INFERENCE,1.24126707662364e-15,0,1.241e-15,N,pass,Independent time-domain Fourier recovery of complex resultant
+aligned_equal_forces_yaw,SYNTHETIC_ANALYST_INFERENCE,0,0,0,N*m,pass,Exact cancellation about specified midpoint
+relative_channel_delay_false_yaw,SYNTHETIC_ANALYST_INFERENCE,0.309016994374947,0.309016994374947,0,N*m,pass,Only second channel delayed20ms at5Hz;artifact not aerodynamic yaw
+common_channel_delay_yaw,SYNTHETIC_ANALYST_INFERENCE,0,0,0,N*m,pass,Common delay changes input-output phase but preserves this spatial cancellation
+common_lti_filter_commutes_with_fixed_weights,SYNTHETIC_ANALYST_INFERENCE,0,0,0,N,pass,"Constant weights,common LTI transfer,aligned signals and identical boundary treatment"
+different_channel_filters_false_yaw,SYNTHETIC_ANALYST_INFERENCE,0.147042924418762,0.147042924418762,0,N*m,pass,Unequal chosen channel transfer functions destroy true moment cancellation
+mean_individual_event_peaks,SYNTHETIC_ANALYST_INFERENCE,1,1,0,unit_signal,pass,Two shifted unit pulses;not a paper's event population
+peak_phase_average_curve,SYNTHETIC_ANALYST_INFERENCE,0.500000000000006,0.500000000000006,0,unit_signal,pass,At sampled centers;peak(mean)about0.5 versus mean(peak)=1
+fixed_time_yaw_variance_rho_-0.5,SYNTHETIC_ANALYST_INFERENCE,0.75,0.75,0,(N*m)^2,pass,"Known geometry,linear reduction;unknown covariance prevents source uncertainty propagation"
+fixed_time_yaw_variance_rho_0,SYNTHETIC_ANALYST_INFERENCE,0.5,0.5,0,(N*m)^2,pass,"Known geometry,linear reduction;unknown covariance prevents source uncertainty propagation"
+fixed_time_yaw_variance_rho_0.9,SYNTHETIC_ANALYST_INFERENCE,0.05,0.05,0,(N*m)^2,pass,"Known geometry,linear reduction;unknown covariance prevents source uncertainty propagation"
+fixed_time_yaw_variance_rho_1,SYNTHETIC_ANALYST_INFERENCE,0,0,0,(N*m)^2,pass,"Known geometry,linear reduction;unknown covariance prevents source uncertainty propagation"

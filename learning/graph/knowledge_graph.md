@@ -219,6 +219,16 @@ flowchart LR
     N_C_GUST["C-GUST"] -->|described_by| N_E_1973_02["E-1973-02"]
     N_C_RELWIND["C-RELWIND"] -->|described_by| N_E_1967_04["E-1967-04"]
     N_C_STEADY["C-STEADY"] -->|described_by| N_E_1996_01["E-1996-01"]
+    N_M_PRESSURE_INTEGRATION["M-PRESSURE-INTEGRATION"] -->|described_by| N_E_1998_04["E-1998-04"]
+    N_M_PRESSURE_INTEGRATION["M-PRESSURE-INTEGRATION"] -->|described_by| N_E_2001_06["E-2001-06"]
+    N_M_PRESSURE_INTEGRATION["M-PRESSURE-INTEGRATION"] -->|described_by| N_E_2000_0876_02["E-2000-0876-02"]
+    N_M_PHASE_AVERAGE["M-PHASE-AVERAGE"] -->|described_by| N_E_2001_06["E-2001-06"]
+    N_M_PHASE_AVERAGE["M-PHASE-AVERAGE"] -->|described_by| N_E_2000_0874_03["E-2000-0874-03"]
+    N_EQ_PRESSURE_OPERATOR["EQ-PRESSURE-OPERATOR"] -->|depends_on| N_E_1998_04["E-1998-04"]
+    N_EQ_PRESSURE_OPERATOR["EQ-PRESSURE-OPERATOR"] -->|depends_on| N_E_2001_06["E-2001-06"]
+    N_EQ_PRESSURE_OPERATOR["EQ-PRESSURE-OPERATOR"] -->|depends_on| N_E_2000_0876_02["E-2000-0876-02"]
+    N_EQ_LINEAR_LOAD_COV["EQ-LINEAR-LOAD-COV"] -->|depends_on| N_E_1967_03["E-1967-03"]
+    N_EQ_LINEAR_LOAD_COV["EQ-LINEAR-LOAD-COV"] -->|depends_on| N_E_1996_02["E-1996-02"]
 ```
 
 `evidence_from` 表示原始来源支撑该 atomic claim；`described_by` 表示概念受到特定条件下主张说明；`generated_by` 表示该输入由文献中的方法实现；`depends_on` 表示当前准稳态比较以稳态基线为参照。`supported_by` 表示方法受到特定原文证据支持，与 supports 的反向阅读对应；不表示独立跨方法验证。这些关系不能自动推成 `causes` 或跨研究 `validated_by`。

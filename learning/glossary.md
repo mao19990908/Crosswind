@@ -28,3 +28,11 @@
 - peak/mean/amplitude：记录最大值、指定窗口均值和正弦幅值分别处理；不是可互换的统计量。
 - power admittance/功率导纳：Passmore源内同频倍率平方，不能只凭幅值唯一确定复数传递函数。
 - phase/相位：必须说明相对哪个输入/触发、传播相位是否扣除及滤波延迟；合成纯时延反例说明其独立信息价值。
+
+## 测量与统计对象（2026-10-17）
+
+- pressure tap / pressure channel：表面空间位置与实际传感/采集通道分开；Ryan214点含分批采集，Passmore144点用四个移动传感器。
+- phase average/相位平均：按指定事件/周期相位条件重建的均值；逐点扫描可组成条件平均场，不是一次事件的同时全场。
+- peak of mean / mean of peaks：平均曲线峰与逐次峰均值是两个统计量；在共同搜索域下前者不大于后者（ANALYST_INFERENCE）。
+- calibration / dynamic response：静载或静压标定关系不同于随频率变化的幅相传递；采样率不单独决定有效带宽。
+- repeatability / uncertainty：重复离散度不覆盖全部系统误差；固定时刻线性协方差传播不自动提供最大值CI。参见[处理链](audits/measurement_chain.md)。

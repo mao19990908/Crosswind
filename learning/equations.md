@@ -63,3 +63,9 @@ EQ-LOAD-REEXPRESSION为ANALYST_INFERENCE：先以各自qA/qAL还原物理力和�
 ## 空间遇风时间与幅值非唯一性（2026-10-16）
 
 EQ-SPATIAL-ENCOUNTER为条件运动学：静止空间风场、指定参考点及恒速V时，s=V(t-t0)、tr=sm/V；不是全车暴露/载荷建立时间。EQ-MAGNITUDE-NONUNIQUENESS以稳定H0=1/(1+Ts)和增加非负时延的Hd说明幅值/功率相同仍有不同相位/时域响应。两条均标ANALYST_INFERENCE，无作者新测量或原始输出复现。
+
+## 压力减缩与固定时刻协方差（2026-10-17）
+
+EQ-PRESSURE-OPERATOR为ANALYST_INFERENCE：以外法向、Δp和面片权重写F=−ΣΔp n A、M=−Σ(r−rO)×(Δp n A)，即已测表面固定几何的L=Kp。复压力先有符号积分再取幅值；不恢复未测底面/剪切。共同线性滤波只在固定K、共同时间参考/边界等条件下可交换。
+
+EQ-LINEAR-LOAD-COV为ANALYST_INFERENCE：已知固定K、固定时刻有Σ_L=KΣ_pKᵀ；双反力差的力矩方差含−2cov(F1,F2)。这是线性代数恒等式与来源缺项的联系，不是作者报告的不确定度模型，也不覆盖选峰置信区间或未知几何/标定误差。13个合成检查及符号条件见[测量链审计](audits/measurement_chain.md)。
