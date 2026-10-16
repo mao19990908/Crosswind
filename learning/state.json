@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-17T06:06:23+08:00",
+  "updated_at": "2026-10-17T06:06:56+08:00",
   "timezone": "Asia/Shanghai",
   "current_phase": "learning",
   "phase_status": "in_progress",
@@ -66,8 +66,8 @@
   "weekly_quota_used_at_last_read_percent": 30,
   "weekly_quota_used_at_day_start_percent": 29,
   "weekly_quota_day_cap_used_percent": 41,
-  "local_remote_sync": "working_changes_not_yet_committed",
-  "github_commit_sha": "0d1f2e3740ad587b6bc19fb06cecb7ffa820f93e",
+  "local_remote_sync": "research_commit_verified_local_origin_live_remote_equal",
+  "github_commit_sha": "55008fb5fde1f59c39e5663def54d832874865e4",
   "note": "Latest heartbeat prioritizes Learn backlog; DOI/PDF unresolved checkpoint retained, not treated as a gate blocking existing local-PDF learning.",
   "github_commit_sha_role": "verified_research_commit_before_final_audit",
   "quota_date": "2026-10-17",
@@ -157,7 +157,7 @@
     }
   ],
   "quota_measurement_note": "Oct17 baselineweekly29/fivehour0;cap41;rounded shared-account;no reset",
-  "quota_last_read_at": "2026-10-17T06:06:23+08:00",
+  "quota_last_read_at": "2026-10-17T06:06:56+08:00",
   "doi_pdf_checkpoint": {
     "date": "2026-10-17",
     "status": "in_progress",
@@ -187,7 +187,7 @@
     "next": "Missing originals/raw inputs await lawful new data;no repeated network query;continue existing-evidence synthesis",
     "weekly_quota_used_at_last_read_percent": 30,
     "previous_research_commit_sha": "0d1f2e3740ad587b6bc19fb06cecb7ffa820f93e",
-    "research_commit_sha": "0d1f2e3740ad587b6bc19fb06cecb7ffa820f93e"
+    "research_commit_sha": "55008fb5fde1f59c39e5663def54d832874865e4"
   },
   "weekly_quota_pre_reset_used_percent": 91,
   "weekly_quota_after_reset_used_percent": 1,
@@ -345,8 +345,8 @@
     "next": "Two local PDFs remain to read; 10-source learning backlog. Five-hour 97% and weekly 31% used at last platform read."
   },
   "five_hour_quota_used_at_last_read_percent": 9,
-  "automation_completed_on": "2026-10-16",
-  "automation_run_status": "measurement_chain_synthesis_validated_sync_pending",
+  "automation_completed_on": "2026-10-17",
+  "automation_run_status": "completed_measurement_chain_synthesis_validated_replay_waiting_inputs",
   "learning_run_2026_09_27": {
     "processed_sources": [
       "sae-730232"
