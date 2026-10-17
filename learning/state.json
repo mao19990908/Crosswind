@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-17T06:06:56+08:00",
+  "updated_at": "2026-10-18T06:11:09+08:00",
   "timezone": "Asia/Shanghai",
   "current_phase": "learning",
   "phase_status": "in_progress",
@@ -40,39 +40,57 @@
   "current_pass": 3,
   "current_pass_status": "awaiting_new_lawful_fulltext_or_underlying_data",
   "today_added_knowledge_nodes": [
-    "M-PRESSURE-INTEGRATION",
-    "M-PHASE-AVERAGE",
-    "EQ-PRESSURE-OPERATOR",
-    "EQ-LINEAR-LOAD-COV"
+    "M-SLIDING-ALE",
+    "M-OVERSET",
+    "C-NUMERICAL-RESOLUTION",
+    "C-COUPLING-SCHEDULE"
   ],
   "today_added_or_modified_graph_edges": [
-    "M-PRESSURE-INTEGRATION|described_by|E-1998-04",
-    "M-PRESSURE-INTEGRATION|described_by|E-2001-06",
-    "M-PRESSURE-INTEGRATION|described_by|E-2000-0876-02",
-    "M-PHASE-AVERAGE|described_by|E-2001-06",
-    "M-PHASE-AVERAGE|described_by|E-2000-0874-03",
-    "EQ-PRESSURE-OPERATOR|depends_on|E-1998-04",
-    "EQ-PRESSURE-OPERATOR|depends_on|E-2001-06",
-    "EQ-PRESSURE-OPERATOR|depends_on|E-2000-0876-02",
-    "EQ-LINEAR-LOAD-COV|depends_on|E-1967-03",
-    "EQ-LINEAR-LOAD-COV|depends_on|E-1996-02"
+    "E-1997-CFD-04|evidence_from|sae-970404",
+    "E-1997-CFD-05|evidence_from|sae-970404",
+    "E-2016-06|evidence_from|jcp-2016-tunay",
+    "E-2016-07|evidence_from|jcp-2016-tunay",
+    "E-2017-1515-06|evidence_from|sae-2017-01-1515",
+    "E-2017-1515-07|evidence_from|sae-2017-01-1515",
+    "E-2017-1525-06|evidence_from|sae-2017-01-1525",
+    "M-SLIDING-ALE|described_by|E-1997-CFD-01",
+    "M-SLIDING-ALE|described_by|E-1997-CFD-04",
+    "M-SLIDING-ALE|described_by|E-1997-CFD-05",
+    "M-OVERSET|described_by|E-2016-02",
+    "M-OVERSET|described_by|E-2016-06",
+    "M-OVERSET|described_by|E-2017-1515-01",
+    "C-NUMERICAL-RESOLUTION|depends_on|E-1997-CFD-04",
+    "C-NUMERICAL-RESOLUTION|depends_on|E-1997-CFD-05",
+    "C-NUMERICAL-RESOLUTION|depends_on|E-2016-06",
+    "C-NUMERICAL-RESOLUTION|depends_on|E-2016-07",
+    "C-NUMERICAL-RESOLUTION|depends_on|E-2017-1515-06",
+    "C-NUMERICAL-RESOLUTION|depends_on|E-2017-1515-07",
+    "C-NUMERICAL-RESOLUTION|depends_on|E-2017-1525-06",
+    "C-COUPLING-SCHEDULE|depends_on|E-2016-02",
+    "C-COUPLING-SCHEDULE|depends_on|E-2017-1515-05",
+    "C-COUPLING-SCHEDULE|depends_on|E-2017-1525-05",
+    "C-LOOP|described_by|E-2017-1525-01"
   ],
   "today_remaining_work": [
-    "sae-530255Pass3 lawful original and8raw-input requests still pending",
-    "Next integrate existing CFD input/mesh/time/coupling validation evidence into07/08;or verify actual new data"
+    "sae-530255Pass3 lawful original and8raw-input requests pending;no original replay completed",
+    "Verify actual new lawful originals/raw packets first;continue concrete high-value existing-evidence questions without repeating numerical-method audits"
   ],
   "quota_status": "available_rounded_shared_account",
-  "weekly_quota_used_at_run_start_percent": 29,
-  "weekly_quota_used_at_last_read_percent": 30,
-  "weekly_quota_used_at_day_start_percent": 29,
-  "weekly_quota_day_cap_used_percent": 41,
-  "local_remote_sync": "research_commit_verified_local_origin_live_remote_equal",
+  "weekly_quota_used_at_run_start_percent": 0,
+  "weekly_quota_used_at_last_read_percent": 1,
+  "weekly_quota_used_at_day_start_percent": 0,
+  "weekly_quota_day_cap_used_percent": 12,
+  "local_remote_sync": "working_changes_not_yet_committed",
   "github_commit_sha": "55008fb5fde1f59c39e5663def54d832874865e4",
   "note": "Latest heartbeat prioritizes Learn backlog; DOI/PDF unresolved checkpoint retained, not treated as a gate blocking existing local-PDF learning.",
   "github_commit_sha_role": "verified_research_commit_before_final_audit",
-  "quota_date": "2026-10-17",
+  "quota_date": "2026-10-18",
   "today_updated_knowledge_nodes": [
-    "M-OSC"
+    "M-IDDES-2WAY",
+    "M-ONEWAY-MBD",
+    "M-ALE-6DOF",
+    "C-VEHMOTION",
+    "C-LOOP"
   ],
   "fulltext_access_checkpoints": [
     {
@@ -156,10 +174,10 @@
       "next_action": "Resolve NC-2017-1525-REPLAY; no repeated definition audit"
     }
   ],
-  "quota_measurement_note": "Oct17 baselineweekly29/fivehour0;cap41;rounded shared-account;no reset",
-  "quota_last_read_at": "2026-10-17T06:06:56+08:00",
+  "quota_measurement_note": "Oct18 platform observed weekly0/fivehour0 at start;day baseline0 cap12;no reset redeemed;prior-day readings retained in history",
+  "quota_last_read_at": "2026-10-18T06:11:09+08:00",
   "doi_pdf_checkpoint": {
-    "date": "2026-10-17",
+    "date": "2026-10-18",
     "status": "in_progress",
     "total_sources": 25,
     "verified_doi": 20,
@@ -183,10 +201,10 @@
     "unresolved_fulltext_count": 7,
     "new_pdfs_this_run": 0,
     "new_sources_this_run": 0,
-    "audit_file": "sources/doi_pdf_audit_2026-10-17.csv",
-    "next": "Missing originals/raw inputs await lawful new data;no repeated network query;continue existing-evidence synthesis",
-    "weekly_quota_used_at_last_read_percent": 30,
-    "previous_research_commit_sha": "0d1f2e3740ad587b6bc19fb06cecb7ffa820f93e",
+    "audit_file": "sources/doi_pdf_audit_2026-10-18.csv",
+    "next": "Missing originals/raw inputs await lawful new data;no repeated network query;existing local evidence learning proceeds",
+    "weekly_quota_used_at_last_read_percent": 1,
+    "previous_research_commit_sha": "55008fb5fde1f59c39e5663def54d832874865e4",
     "research_commit_sha": "55008fb5fde1f59c39e5663def54d832874865e4"
   },
   "weekly_quota_pre_reset_used_percent": 91,
@@ -344,9 +362,9 @@
     "changed_understanding": "Macklin threshold differs by load component/peak-vs-mean; Ryan net yaw has no steady-relative overshoot despite side/lift peaks, resolving abstract overgeneralization; 1996 and 1998 yaw outcomes differ under different apparatus/metric definitions. Macklin 1997 shear comparison is turbulence-confounded and no reference speed universally collapses coefficients. Ryan 2000 uses updated 5m/22deg shutter gust; an unexplained high-pressure pocket and wake advection prevent treating a wake snapshot as instantaneous body force. Mahig 1971 is an assumed lateral-impulse vehicle response model, not an aerodynamic gust waveform study; tyre cubic locally cross-checked. Klein/Hogue 1980 directly cites and partially reuses DOT technical Volume II; loop modes and steady-model outputs must remain separated. Chadwick 2000 shows geometry-specific leeward pressure peaks and filter limitations; five model lengths not sufficient for steady development in all cases. Nakasato 2017 fixed-steer road validation is separate from the active-driver application; three-run driver trends have quantitative mismatch. Volpe 2014 measured ~21deg local yaw despite 30deg tunnel axes; geometry-specific yaw peaks 16/10%, vortex-load correlations not causal proof. Lewington 2017 one-way advantage depends on metric: both approaches predict lane deviation within one measured SD; comparator uses tuned wind scale and input validation is partial. Okumura 1997 CFD peak and spoiler evidence are conditional; passing comparison uses mismatched bus geometry, and reported resultant wind angle needs arithmetic audit.",
     "next": "Two local PDFs remain to read; 10-source learning backlog. Five-hour 97% and weekly 31% used at last platform read."
   },
-  "five_hour_quota_used_at_last_read_percent": 9,
+  "five_hour_quota_used_at_last_read_percent": 7,
   "automation_completed_on": "2026-10-17",
-  "automation_run_status": "completed_measurement_chain_synthesis_validated_replay_waiting_inputs",
+  "automation_run_status": "cfd_coupling_evidence_validated_sync_pending",
   "learning_run_2026_09_27": {
     "processed_sources": [
       "sae-730232"
@@ -553,11 +571,11 @@
   },
   "work_policy_feedback_2026_10_15": "User noted recent runs too conservative;do substantive existing-evidence synthesis and targeted missing-input work before stopping;12pp remains ceiling,not required burn;no expansion/repeat/bypass.",
   "knowledge_synthesis_checkpoint": {
-    "date": "2026-10-17",
-    "status": "measurement_chain_synthesis_validated",
-    "artifact": "learning/audits/measurement_chain.md",
-    "comparison_matrix": "learning/audits/measurement_chain_comparison.csv",
-    "next": "Existing CFD input/mesh/time convergence and vehicle-interface evidence;or actual new lawful data;no repeated per-paper definitions"
+    "date": "2026-10-18",
+    "status": "cfd_coupling_evidence_validated",
+    "artifact": "learning/audits/cfd_coupling_evidence.md",
+    "comparison_matrix": "learning/audits/cfd_coupling_comparison.csv",
+    "next": "Verify actual new lawful input;existing-evidence synthesis only for concrete remaining knowledge questions;no repeated order/interface audit"
   },
   "learning_run_2026_10_16": {
     "activity": "existing-evidence input-response synthesis and analyst identifiability counterexample",
@@ -613,5 +631,40 @@
     "backlog_remaining": 10,
     "synthetic_checks_passed": 13,
     "claim_rows_preserved": 74
+  },
+  "learning_run_2026_10_18": {
+    "activity": "targeted_original_numerical-method evidence plus CFD/coupling synthesis",
+    "processed_sources": [
+      "sae-970404",
+      "jcp-2016-tunay",
+      "sae-2017-01-1515",
+      "sae-2017-01-1525"
+    ],
+    "targeted_fulltext_reaudits": 4,
+    "new_fulltext_reads": 0,
+    "new_claims": 7,
+    "revised_claims": 1,
+    "new_method_nodes": 2,
+    "new_concept_nodes": 2,
+    "updated_method_nodes": 3,
+    "updated_concept_nodes": 2,
+    "new_edges": 24,
+    "revised_edges": 0,
+    "sources_new": 0,
+    "pdfs_new": 0,
+    "pass3_completed": 0,
+    "backlog_remaining": 10,
+    "needs_collection_added": 0,
+    "synthetic_checks_added": 0,
+    "new_claim_ids": [
+      "E-1997-CFD-04",
+      "E-1997-CFD-05",
+      "E-2016-06",
+      "E-2016-07",
+      "E-2017-1515-06",
+      "E-2017-1515-07",
+      "E-2017-1525-06"
+    ],
+    "previous_claim_rows_unchanged": 73
   }
 }

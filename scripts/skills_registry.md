@@ -82,3 +82,7 @@ Reused paper-reading + project crosswind-knowledge-base,existing source claims/r
 ## 2026-10-17 measurement-chain synthesis
 
 Reused instruction-only paper-reading and project crosswind-knowledge-base;existing verified claims/records/audits. No new fulltext read,network search,install,third-party executable,upstreamCLI,credentials,bypass or reset. First-party audit_measurement_chain.py uses only standard-library analytic/complex arithmetic and synthetic time-domain/covariance checks;not a pressure/load replay or estimated paper error. Existing18PDF integrity rechecked by repository validators only.
+
+## 2026-10-18 original numerical-method evidence
+
+Reused paper-reading/project crosswind-knowledge-base. Read local original PDF sections with pypdf and rendered8whole pages using already available pypdfium2;no install/network/third-party executable/upstreamCLI/credentials/bypass/reset. Initial text batch hitGBKstdout ligature encoding,then explicitUTF-8stdout succeeded. Seven new original-text claims and one corrected limitation;no synthetic convergence data or new analysis script in repo. Temporary page images/update scripts stay outside Git;protected PDFs remain local.

@@ -30,3 +30,7 @@ Read all38 PDF pages; accepted manuscript identity/hash verified; full_text_veri
 ## 2026-10-10 Pass3 controller/scaling checkpoint
 
 Targeted original-PDF review plus independent equation checks completed; no new full read or grade upgrade. [Detailed audit](../audits/winkler_2016_controller_scaling.md): full/model time29.312 gives fullscale step0.00175872s; equal-density force/moment factors4.76726226/38.1380981 require corresponding origins. All are ANALYST_INFERENCE, not verified simulation settings. Bus steady-bicycle reduction gives gain magnitudes0.021553rad/m and0.538836rad/rad;degree-output conversion1.23492deg/m and30.8730deg/rad matches roundedTable2, but code units unproven. PrintedEq11 negative versus Eq12 positive remains unresolved;do not silently repair/control from it. CG nominal shifts1.18/2.36m and half-ramp0.366s are conditional arithmetic, not definitive geometry/input timing. ExistingNC-2016-VALIDATION expanded;P3partial still pending original implementation/data. Next available source sae-2017-01-1515 Pass3 axis/spline/uncertainty audit.
+
+## 2026-10-18 mesh/time evidence integration
+
+Targeted originalPDF10–11 (manuscript9–10),text and whole-page visuals. New E-2016-06:coarse background-grid pressure/load artifacts;E-2016-07:second-order time6e-5s and source-reported near-bodyRANS CFL<1/occasionally5 in fluctuating regions. Not a new scale/controller audit or convergence replay. Existing NC-2016-VALIDATION remains;see [CFD/coupling evidence](../audits/cfd_coupling_evidence.md).

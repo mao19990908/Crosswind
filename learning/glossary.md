@@ -36,3 +36,10 @@
 - peak of mean / mean of peaks：平均曲线峰与逐次峰均值是两个统计量；在共同搜索域下前者不大于后者（ANALYST_INFERENCE）。
 - calibration / dynamic response：静载或静压标定关系不同于随频率变化的幅相传递；采样率不单独决定有效带宽。
 - repeatability / uncertainty：重复离散度不覆盖全部系统误差；固定时刻线性协方差传播不自动提供最大值CI。参见[处理链](audits/measurement_chain.md)。
+
+## 数值方法与交换时序（2026-10-18）
+
+- temporal/spatial order：时间推进与空间离散的形式阶数分别记录；局部回退/混合方案不写成全局统一高阶，亦不等于实测收敛阶。
+- CFL/Courant：本轮仅保留作者给出的区域/尺度和选取目标；没有原网格/局部速度不独立重算，未发散不等于瞬态幅相已精确。
+- overset/ALE：网格运动能力；实际规定轨迹或接受姿态反馈另记，名称不自动证明6DoF或驾驶员闭环。
+- exchange schedule/交换时序：载荷/姿态的数据时刻、保持/插值、通信和迭代，与两端积分步、最终输出率分开；步数比不唯一给出算法（ANALYST_FRAMEWORK）。
