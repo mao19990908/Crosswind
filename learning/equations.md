@@ -69,3 +69,7 @@ EQ-SPATIAL-ENCOUNTER为条件运动学：静止空间风场、指定参考点及
 EQ-PRESSURE-OPERATOR为ANALYST_INFERENCE：以外法向、Δp和面片权重写F=−ΣΔp n A、M=−Σ(r−rO)×(Δp n A)，即已测表面固定几何的L=Kp。复压力先有符号积分再取幅值；不恢复未测底面/剪切。共同线性滤波只在固定K、共同时间参考/边界等条件下可交换。
 
 EQ-LINEAR-LOAD-COV为ANALYST_INFERENCE：已知固定K、固定时刻有Σ_L=KΣ_pKᵀ；双反力差的力矩方差含−2cov(F1,F2)。这是线性代数恒等式与来源缺项的联系，不是作者报告的不确定度模型，也不覆盖选峰置信区间或未知几何/标定误差。13个合成检查及符号条件见[测量链审计](audits/measurement_chain.md)。
+
+## 显式平面相对来流（2026-10-19）
+
+EQ-RELWIND-PLANAR为ANALYST_INFERENCE：R(ψ)把x前/y左车体系转至右手地面系；同一参考点的车辆地速u_b=Rᵀv_g，空气地面流向速度w_g，则车辆穿空气速度a_b=u_b−Rᵀw_g。α_a=atan2(a_y,a_x)、β_v=atan2(u_y,u_x)与姿态ψ分别定义，非零地速下χ=wrap(ψ+β_v)。零地速不赋侧偏/航迹角，零穿空气速度不赋α_a；不覆盖三维局部旋转速度或自动映射作者角度/规范化。源内EQ-RELWIND仍保留Beauvais原定义。见[推导、输入及可复算例子](audits/relative_wind_kinematics.md)。

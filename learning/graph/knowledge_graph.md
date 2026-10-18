@@ -253,6 +253,10 @@ flowchart LR
     N_C_COUPLING_SCHEDULE["C-COUPLING-SCHEDULE"] -->|depends_on| N_E_2017_1515_05["E-2017-1515-05"]
     N_C_COUPLING_SCHEDULE["C-COUPLING-SCHEDULE"] -->|depends_on| N_E_2017_1525_05["E-2017-1525-05"]
     N_C_LOOP["C-LOOP"] -->|described_by| N_E_2017_1525_01["E-2017-1525-01"]
+    N_EQ_RELWIND_PLANAR["EQ-RELWIND-PLANAR"] -->|depends_on| N_E_1967_04["E-1967-04"]
+    N_EQ_RELWIND_PLANAR["EQ-RELWIND-PLANAR"] -->|depends_on| N_E_1973_04["E-1973-04"]
+    N_EQ_RELWIND_PLANAR["EQ-RELWIND-PLANAR"] -->|depends_on| N_E_2017_1515_04["E-2017-1515-04"]
+    N_EQ_RELWIND_PLANAR["EQ-RELWIND-PLANAR"] -->|depends_on| N_E_2017_1515_05["E-2017-1515-05"]
 ```
 
 `evidence_from` 表示原始来源支撑该 atomic claim；`described_by` 表示概念受到特定条件下主张说明；`generated_by` 表示该输入由文献中的方法实现；`depends_on` 表示当前准稳态比较以稳态基线为参照。`supported_by` 表示方法受到特定原文证据支持，与 supports 的反向阅读对应；不表示独立跨方法验证。这些关系不能自动推成 `causes` 或跨研究 `validated_by`。

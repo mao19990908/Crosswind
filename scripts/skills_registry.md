@@ -86,3 +86,7 @@ Reused instruction-only paper-reading and project crosswind-knowledge-base;exist
 ## 2026-10-18 original numerical-method evidence
 
 Reused paper-reading/project crosswind-knowledge-base. Read local original PDF sections with pypdf and rendered8whole pages using already available pypdfium2;no install/network/third-party executable/upstreamCLI/credentials/bypass/reset. Initial text batch hitGBKstdout ligature encoding,then explicitUTF-8stdout succeeded. Seven new original-text claims and one corrected limitation;no synthetic convergence data or new analysis script in repo. Temporary page images/update scripts stay outside Git;protected PDFs remain local.
+
+## 2026-10-19 foundation kinematics integration
+
+Reused paper-reading/project crosswind-knowledge-base with existing verified source claims/notes. No new original-PDF read or source/claim grade change;no network/install/upstreamCLI/credentials/bypass/reset. First-party temporary standard-library math generated8explicitly SYNTHETIC analyst examples;reproducible core formula/code and full-inputCSV stored in audit. No author data,CFD/vehicle replay,fulltext or page images generated/uploaded.

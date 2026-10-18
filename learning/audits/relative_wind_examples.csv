@@ -1,0 +1,9 @@
+case,data_origin,heading_deg,u_x_body_mps,u_y_body_mps,w_x_ground_mps,w_y_ground_mps,a_x,a_y,ground_speed,air_speed,beta_v_deg,course_deg,alpha_deg,expected_air_vector_check,ground_rotation37deg_check
+no_wind_straight,SYNTHETIC_ANALYST_INFERENCE,0,20,0,0,0,20.0,0.0,20.0,20.0,0.0,0.0,0.0,pass,pass
+ground_crosswind,SYNTHETIC_ANALYST_INFERENCE,0,20,0,0,5,20.0,-5.0,20.0,20.615528128088304,0.0,0.0,-14.036243467926479,pass,pass
+same_ground_wind_different_heading,SYNTHETIC_ANALYST_INFERENCE,90,20,0,0,5,15.0,-3.061616997868383e-16,20.0,15.0,0.0,90.0,-1.1694515497558129e-15,pass,pass
+sideslip_and_heading_no_wind,SYNTHETIC_ANALYST_INFERENCE,30,19.92389396183491,1.7431148549531632,0,0,19.92389396183491,1.7431148549531632,20.0,20.0,5.0,34.99999999999999,5.0,pass,pass
+sideslip_but_zero_air_incidence,SYNTHETIC_ANALYST_INFERENCE,0,20,2,0,2,20.0,0.0,20.09975124224178,20.0,5.710593137499642,5.710593137499642,0.0,pass,pass
+tailwind_faster_than_vehicle,SYNTHETIC_ANALYST_INFERENCE,0,20,0,25,0,-5.0,0.0,20.0,5.0,0.0,0.0,180.0,pass,pass
+zero_air_speed,SYNTHETIC_ANALYST_INFERENCE,0,20,0,20,0,0.0,0.0,20.0,0.0,0.0,0.0,,pass,pass
+stationary_vehicle_with_wind,SYNTHETIC_ANALYST_INFERENCE,0,0,0,0,5,0.0,-5.0,0.0,5.0,,,-90.0,pass,pass

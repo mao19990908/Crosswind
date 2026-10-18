@@ -1,6 +1,6 @@
 "id","name","definition","status","sources"
 "C-GUST","Transient crosswind gust","随时间或参考点位置变化的横向来流；空间过渡与时间变化须分开","E2","sae-530255;dot-hs-805-078;sae-730232"
-"C-RELWIND","Relative wind","车体所见风与车辆运动的相对速度/角度；来源坐标和符号分别保留","E2","TASK.md;sae-670608;sae-2017-01-1515"
+"C-RELWIND","Relative wind","车辆与空气速度差形成的来流；先声明坐标、参考点及来向/流向；平面向量公式单标ANALYST_INFERENCE，作者符号/规范化不自动统一","E2","TASK.md;sae-670608;sae-2017-01-1515"
 "C-STEADY","Steady yaw baseline","源内固定来流/偏航下建立的稳态参照；不等于动态曲线自行归一化的平台","E2","sae-960674;sae-980392"
 "C-QS","Quasi-steady approximation","按指定瞬时来流查稳态气动关系；均匀和含空间传播相位基线不能混用","E2","sae-960674;pimeche-2001-passmore;sae-670608;sae-730232;sae-2017-01-1515"
 "C-DYNLOAD","Transient aerodynamic load","时变气动力/力矩；输出须附分量、原点、处理和输入条件","E2","sae-980392;pimeche-2001-passmore;sae-670608;sae-730232;sae-960674"
