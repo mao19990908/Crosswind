@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-19T06:07:05+08:00",
+  "updated_at": "2026-10-19T06:07:30+08:00",
   "timezone": "Asia/Shanghai",
   "current_phase": "learning",
   "phase_status": "in_progress",
@@ -54,7 +54,7 @@
   ],
   "quota_status": "available_rounded_shared_account",
   "weekly_quota_used_at_run_start_percent": 6,
-  "weekly_quota_used_at_last_read_percent": 7,
+  "weekly_quota_used_at_last_read_percent": 8,
   "weekly_quota_used_at_day_start_percent": 6,
   "weekly_quota_day_cap_used_percent": 18,
   "local_remote_sync": "research_commit_verified_local_origin_live_remote_equal",
@@ -151,7 +151,7 @@
     }
   ],
   "quota_measurement_note": "Oct19 Shanghai daily baselineweekly6/fivehour0;cap18;rounded shared-account;no reset",
-  "quota_last_read_at": "2026-10-19T06:07:05+08:00",
+  "quota_last_read_at": "2026-10-19T06:07:30+08:00",
   "doi_pdf_checkpoint": {
     "date": "2026-10-19",
     "status": "in_progress",
@@ -179,7 +179,7 @@
     "new_sources_this_run": 0,
     "audit_file": "sources/doi_pdf_audit_2026-10-19.csv",
     "next": "Missing originals/raw inputs await lawful new evidence;no repeated network query;source proof dates retained",
-    "weekly_quota_used_at_last_read_percent": 7,
+    "weekly_quota_used_at_last_read_percent": 8,
     "previous_research_commit_sha": "168fea71eb19157dfbdce29aaf6e71832167aaf4",
     "research_commit_sha": "051595419f4f16bfad4ed0e84ee92ea85591e80e"
   },
