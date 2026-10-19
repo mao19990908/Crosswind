@@ -137,3 +137,7 @@ Targeted original-PDF review plus independent equation checks completed; no new 
 ## 2026-10-18 numerical-method evidence
 
 Existing local original sections rechecked for CFD discretization/interface/refinement evidence. Source-specific new E2 claims and locators are indexed in the [four-source audit](../../learning/audits/cfd_coupling_evidence.md);formal orders,reported CFL and interface artifacts do not establish converged transient accuracy. No new source/PDF,external DOI query,grade upgrade,Pass completion or author-output replay. Historical access/abstract and earlier checkpoints remain dated snapshots.
+
+## 2026-10-20 neutral-steer/tyre evidence
+
+Targeted originalPDF12-13/16/21 visually checked. E-2016-08 records reported near-zero fully immersed aero moment but9.7deg yaw atCG23percent versus12.2standard;E-2016-09 records linear axle-sum tyre parameters/force-moment inputs. Analyst fixed-steer zero-yaw trim from standardTable1 gives xn=-0.092857m,not source-reported NSP or9.7deg replay. Existing source grade/raw-replay request unchanged. See [audit](../../learning/audits/neutral_steer_point.md).

@@ -1,7 +1,7 @@
-# 学习断点 — 2026-10-19（Asia/Shanghai）
+# 学习断点 — 2026-10-20（Asia/Shanghai）
 
-完成基础章相对来流接口整理：显式平面同点向量a_b=u_b−Rᵀw_g，航向、车辆侧偏、气动角分别定义；气象来向与空气流向、atan2象限和零向量无定义保持。8个明确分析者算例均核对预期向量与37°共同旋转一致性；不是原实验或车辆仿真。新增EQ-RELWIND-PLANAR，更新3角度变量/C-RELWIND，4新图边；81claims逐字段保持，现251edges/31citationedges。01/05章及公式/术语更新。
+完成NSP/气动力作用位置/CG及气动矩/轮胎矩的原页证据与配平解释：新增E-2017-1525-07、E-2016-08/09，81旧claims保持，现84claims。新V-NSP/EQ-NSP-TRIM，更新2既有节点，9新边→260edges/31citationedges。Winkler标准表参数给分析者零横摆率配平x_n约CG后0.09286m，两条力/矩残差核对通过；不是作者NSP新报告、Nakasato参数或9.7°瞬态曲线重放。05/09章、公式和术语已接入。
 
-sources25、学习15完成/10待办、8open原始请求保持。当前sae-530255 Pass3仍等待合法原文，其他原始复现依各请求续接；优先检查新合法供档和真实输入，不重复本次向量/角度推导或已完成格式/定义审计。恒等式不代替参考点、时戳、源内轴/风向/规范化映射。见[相对来流运动学](audits/relative_wind_kinematics.md)和[八行算例](audits/relative_wind_examples.csv)。
+sources25、学习15完成/10待办、8open原始请求保持。当前sae-530255 Pass3仍等待合法原文；NC-2017-1525-REPLAY及交付表补明源内NSP/CG/轮胎参数和工况，不增重复请求。优先验收新合法输入；不重复本次配平/既有角度及格式审计，不能用线性配平关闭真实模型/时程缺口。见[NSP审计](audits/neutral_steer_point.md)和[源参数/派生量](audits/neutral_steer_balance.csv)。
 
 DOI20verified/5noDOI/其余0，PDF18local/1GitHub/17local-only，缺全文7；全文17/摘要7/metadata1，v4保留in_progress。

@@ -50,3 +50,10 @@
 - vehicle through-air velocity/车辆穿空气速度：同一参考点v−w；空气相对车辆的流速为其相反向量，角度可能相差180°。
 - heading/course/sideslip：航向由车体姿态定义，航迹由非零地速定义，车辆侧偏是后者相对车体纵轴的方向差；气动角另由速度差和声明的约定求得。
 - atan2/象限与退化：保留向量象限；零向量角度无定义，不把库函数atan2(0,0)的返回值当物理测量。见[分析者平面推导](audits/relative_wind_kinematics.md)，不覆盖作者源内符号和有效工况。
+
+## 作用位置与轮胎矩（2026-10-20）
+
+- neutral steer point / NSP：Nakasato源内报告在CG之后；本库另给线性固定转向零横摆率配平下的条件定义。不能同CG、面积形心或瞬时气动力作用位置混称。
+- aerodynamic / tyre / total yaw moment：气动力矩与轮胎力矩共同进入CG角动量方程；气动矩近零不等于总矩近零或无横摆。
+- effective side-force line：在同一CG原点、仅Fy/Mz的平面表示且Fy≠0时，可取x_a=Mz/Fy作为等效作用线截距；不表示真实压力集中于一点，Fy=0的纯力偶无有限该截距。
+- axle cornering stiffness：Winkler的Cy12/Cy34分别为前/后两轮合刚度，单位N/rad；不再乘2，不替代另一车辆的非线性轮胎表。见[原页与推导](audits/neutral_steer_point.md)。

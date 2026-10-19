@@ -73,3 +73,7 @@ EQ-LINEAR-LOAD-COV为ANALYST_INFERENCE：已知固定K、固定时刻有Σ_L=KΣ
 ## 显式平面相对来流（2026-10-19）
 
 EQ-RELWIND-PLANAR为ANALYST_INFERENCE：R(ψ)把x前/y左车体系转至右手地面系；同一参考点的车辆地速u_b=Rᵀv_g，空气地面流向速度w_g，则车辆穿空气速度a_b=u_b−Rᵀw_g。α_a=atan2(a_y,a_x)、β_v=atan2(u_y,u_x)与姿态ψ分别定义，非零地速下χ=wrap(ψ+β_v)。零地速不赋侧偏/航迹角，零穿空气速度不赋α_a；不覆盖三维局部旋转速度或自动映射作者角度/规范化。源内EQ-RELWIND仍保留Beauvais原定义。见[推导、输入及可复算例子](audits/relative_wind_kinematics.md)。
+
+## 零横摆率配平与中性侧向力作用位置（2026-10-20）
+
+EQ-NSP-TRIM为ANALYST_INFERENCE：CG为原点、x前/y左、a/b为前后轴正距离、Cf/Cr为整轴刚度；固定U、δ=0、小角线性轮胎、r=0且横向速度不变时，Fy−(Cf+Cr)β=0、Mz+(bCr−aCf)β=0，故β=Fy/(Cf+Cr)、Mz=x_n Fy、x_n=(aCf−bCr)/(Cf+Cr)。它不保证零侧向漂移、稳定性或瞬态轨迹，亦不是Nakasato原6DoF模型NSP算法。Winkler标准表参数的−0.092857m仅为派生值；见[条件与平衡核对](audits/neutral_steer_point.md)。

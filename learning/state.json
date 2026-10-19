@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-19T06:07:30+08:00",
+  "updated_at": "2026-10-20T06:10:12+08:00",
   "timezone": "Asia/Shanghai",
   "current_phase": "learning",
   "phase_status": "in_progress",
@@ -40,33 +40,37 @@
   "current_pass": 3,
   "current_pass_status": "awaiting_new_lawful_fulltext_or_underlying_data",
   "today_added_knowledge_nodes": [
-    "EQ-RELWIND-PLANAR"
+    "EQ-NSP-TRIM",
+    "V-NSP"
   ],
   "today_added_or_modified_graph_edges": [
-    "EQ-RELWIND-PLANAR|depends_on|E-1967-04",
-    "EQ-RELWIND-PLANAR|depends_on|E-1973-04",
-    "EQ-RELWIND-PLANAR|depends_on|E-2017-1515-04",
-    "EQ-RELWIND-PLANAR|depends_on|E-2017-1515-05"
+    "E-2017-1525-07|evidence_from|sae-2017-01-1525",
+    "E-2016-08|evidence_from|jcp-2016-tunay",
+    "E-2016-09|evidence_from|jcp-2016-tunay",
+    "EQ-NSP-TRIM|depends_on|E-2016-09",
+    "EQ-NSP-TRIM|depends_on|E-2017-1525-07",
+    "V-NSP|described_by|E-2017-1525-07",
+    "V-NSP|defined_by|EQ-NSP-TRIM",
+    "V-YAWMOMENT|described_by|E-2016-08",
+    "M-IDDES-2WAY|described_by|E-2016-09"
   ],
   "today_remaining_work": [
     "sae-530255Pass3 lawful original and8raw-input requests pending;no original replay completed",
-    "Verify actual new lawful originals/raw packets first;do not repeat completed vector/angle or numerical-method audits"
+    "Verify actual new lawful inputs;do not repeat completed neutral-steer trim/coordinate/format audits"
   ],
   "quota_status": "available_rounded_shared_account",
-  "weekly_quota_used_at_run_start_percent": 6,
-  "weekly_quota_used_at_last_read_percent": 8,
-  "weekly_quota_used_at_day_start_percent": 6,
-  "weekly_quota_day_cap_used_percent": 18,
-  "local_remote_sync": "research_commit_verified_local_origin_live_remote_equal",
+  "weekly_quota_used_at_run_start_percent": 39,
+  "weekly_quota_used_at_last_read_percent": 40,
+  "weekly_quota_used_at_day_start_percent": 39,
+  "weekly_quota_day_cap_used_percent": 51,
+  "local_remote_sync": "working_changes_not_yet_committed",
   "github_commit_sha": "051595419f4f16bfad4ed0e84ee92ea85591e80e",
   "note": "Latest heartbeat prioritizes Learn backlog; DOI/PDF unresolved checkpoint retained, not treated as a gate blocking existing local-PDF learning.",
   "github_commit_sha_role": "verified_research_commit_before_final_audit",
-  "quota_date": "2026-10-19",
+  "quota_date": "2026-10-20",
   "today_updated_knowledge_nodes": [
-    "V-BETA-AERO",
-    "V-HEADING",
-    "V-SIDESLIP",
-    "C-RELWIND"
+    "V-YAWMOMENT",
+    "M-IDDES-2WAY"
   ],
   "fulltext_access_checkpoints": [
     {
@@ -150,10 +154,10 @@
       "next_action": "Resolve NC-2017-1525-REPLAY; no repeated definition audit"
     }
   ],
-  "quota_measurement_note": "Oct19 Shanghai daily baselineweekly6/fivehour0;cap18;rounded shared-account;no reset",
-  "quota_last_read_at": "2026-10-19T06:07:30+08:00",
+  "quota_measurement_note": "Oct20 Shanghai daily baselineweekly39/fivehour0;cap51;rounded shared-account;no reset",
+  "quota_last_read_at": "2026-10-20T06:10:12+08:00",
   "doi_pdf_checkpoint": {
-    "date": "2026-10-19",
+    "date": "2026-10-20",
     "status": "in_progress",
     "total_sources": 25,
     "verified_doi": 20,
@@ -177,10 +181,10 @@
     "unresolved_fulltext_count": 7,
     "new_pdfs_this_run": 0,
     "new_sources_this_run": 0,
-    "audit_file": "sources/doi_pdf_audit_2026-10-19.csv",
-    "next": "Missing originals/raw inputs await lawful new evidence;no repeated network query;source proof dates retained",
-    "weekly_quota_used_at_last_read_percent": 8,
-    "previous_research_commit_sha": "168fea71eb19157dfbdce29aaf6e71832167aaf4",
+    "audit_file": "sources/doi_pdf_audit_2026-10-20.csv",
+    "next": "Missing originals/raw inputs await lawful new evidence;source proof dates retained;no repeated network query",
+    "weekly_quota_used_at_last_read_percent": 40,
+    "previous_research_commit_sha": "051595419f4f16bfad4ed0e84ee92ea85591e80e",
     "research_commit_sha": "051595419f4f16bfad4ed0e84ee92ea85591e80e"
   },
   "weekly_quota_pre_reset_used_percent": 91,
@@ -338,9 +342,9 @@
     "changed_understanding": "Macklin threshold differs by load component/peak-vs-mean; Ryan net yaw has no steady-relative overshoot despite side/lift peaks, resolving abstract overgeneralization; 1996 and 1998 yaw outcomes differ under different apparatus/metric definitions. Macklin 1997 shear comparison is turbulence-confounded and no reference speed universally collapses coefficients. Ryan 2000 uses updated 5m/22deg shutter gust; an unexplained high-pressure pocket and wake advection prevent treating a wake snapshot as instantaneous body force. Mahig 1971 is an assumed lateral-impulse vehicle response model, not an aerodynamic gust waveform study; tyre cubic locally cross-checked. Klein/Hogue 1980 directly cites and partially reuses DOT technical Volume II; loop modes and steady-model outputs must remain separated. Chadwick 2000 shows geometry-specific leeward pressure peaks and filter limitations; five model lengths not sufficient for steady development in all cases. Nakasato 2017 fixed-steer road validation is separate from the active-driver application; three-run driver trends have quantitative mismatch. Volpe 2014 measured ~21deg local yaw despite 30deg tunnel axes; geometry-specific yaw peaks 16/10%, vortex-load correlations not causal proof. Lewington 2017 one-way advantage depends on metric: both approaches predict lane deviation within one measured SD; comparator uses tuned wind scale and input validation is partial. Okumura 1997 CFD peak and spoiler evidence are conditional; passing comparison uses mismatched bus geometry, and reported resultant wind angle needs arithmetic audit.",
     "next": "Two local PDFs remain to read; 10-source learning backlog. Five-hour 97% and weekly 31% used at last platform read."
   },
-  "five_hour_quota_used_at_last_read_percent": 10,
+  "five_hour_quota_used_at_last_read_percent": 7,
   "automation_completed_on": "2026-10-19",
-  "automation_run_status": "completed_relative_wind_foundations_validated_replay_waiting_inputs",
+  "automation_run_status": "neutral_steer_evidence_validated_sync_pending",
   "learning_run_2026_09_27": {
     "processed_sources": [
       "sae-730232"
@@ -547,11 +551,11 @@
   },
   "work_policy_feedback_2026_10_15": "User noted recent runs too conservative;do substantive existing-evidence synthesis and targeted missing-input work before stopping;12pp remains ceiling,not required burn;no expansion/repeat/bypass.",
   "knowledge_synthesis_checkpoint": {
-    "date": "2026-10-19",
-    "status": "relative_wind_foundations_validated",
-    "artifact": "learning/audits/relative_wind_kinematics.md",
-    "examples": "learning/audits/relative_wind_examples.csv",
-    "next": "Actual new lawful originals/raw packets;concrete further existing-evidence questions without repeated angle derivation"
+    "date": "2026-10-20",
+    "status": "neutral_steer_evidence_validated",
+    "artifact": "learning/audits/neutral_steer_point.md",
+    "arithmetic": "learning/audits/neutral_steer_balance.csv",
+    "next": "Actual new lawful originals/rawpackets first;concrete high-value evidence questions without repeated trim derivation"
   },
   "learning_run_2026_10_16": {
     "activity": "existing-evidence input-response synthesis and analyst identifiability counterexample",
@@ -668,5 +672,33 @@
     "backlog_remaining": 10,
     "synthetic_examples_checked": 8,
     "claim_rows_preserved": 81
+  },
+  "learning_run_2026_10_20": {
+    "activity": "original NSP/tyre/CG-response evidence and analyst zero-yaw trim",
+    "processed_sources": [
+      "jcp-2016-tunay",
+      "sae-2017-01-1525"
+    ],
+    "targeted_fulltext_reaudits": 2,
+    "new_fulltext_reads": 0,
+    "new_claims": 3,
+    "revised_claims": 0,
+    "new_equation_nodes": 1,
+    "new_variable_nodes": 1,
+    "updated_variable_nodes": 1,
+    "updated_method_nodes": 1,
+    "new_edges": 9,
+    "revised_edges": 0,
+    "sources_new": 0,
+    "pdfs_new": 0,
+    "pass3_completed": 0,
+    "needs_collection_added": 0,
+    "backlog_remaining": 10,
+    "previous_claim_rows_preserved": 81,
+    "source_parameter_rows": 4,
+    "derived_coefficient_rows": 8,
+    "synthetic_timehistories": 0,
+    "needs_collection_updated": 1,
+    "reproduction_packets_updated": 1
   }
 }

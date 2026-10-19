@@ -34,3 +34,7 @@ Targeted original-PDF review plus independent equation checks completed; no new 
 ## 2026-10-18 mesh/time evidence integration
 
 Targeted originalPDF10–11 (manuscript9–10),text and whole-page visuals. New E-2016-06:coarse background-grid pressure/load artifacts;E-2016-07:second-order time6e-5s and source-reported near-bodyRANS CFL<1/occasionally5 in fluctuating regions. Not a new scale/controller audit or convergence replay. Existing NC-2016-VALIDATION remains;see [CFD/coupling evidence](../audits/cfd_coupling_evidence.md).
+
+## 2026-10-20 neutral-steer/tyre evidence
+
+Targeted originalPDF12-13/16/21 visually checked. E-2016-08 records reported near-zero fully immersed aero moment but9.7deg yaw atCG23percent versus12.2standard;E-2016-09 records linear axle-sum tyre parameters/force-moment inputs. Analyst fixed-steer zero-yaw trim from standardTable1 gives xn=-0.092857m,not source-reported NSP or9.7deg replay. Existing source grade/raw-replay request unchanged. See [audit](../audits/neutral_steer_point.md).

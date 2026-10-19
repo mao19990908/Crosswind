@@ -1,0 +1,13 @@
+quantity,value,unit,origin,source_id,claim_id,locator,condition
+a_m,3.7,m,SOURCE_REPORTED_PARAMETER,jcp-2016-tunay,E-2016-09,PDF16/Table1,standardCG;source rounded parameters;not otherCG or Nakasato car
+b_m,2.2,m,SOURCE_REPORTED_PARAMETER,jcp-2016-tunay,E-2016-09,PDF16/Table1,standardCG;source rounded parameters;not otherCG or Nakasato car
+cf_axle_N_per_rad,250000.0,N/rad,SOURCE_REPORTED_PARAMETER,jcp-2016-tunay,E-2016-09,PDF16/Table1,standardCG;source rounded parameters;not otherCG or Nakasato car
+cr_axle_N_per_rad,450000.0,N/rad,SOURCE_REPORTED_PARAMETER,jcp-2016-tunay,E-2016-09,PDF16/Table1,standardCG;source rounded parameters;not otherCG or Nakasato car
+x_n_m,-0.09285714285714303,m,ANALYST_DERIVED_FROM_SOURCE_PARAMETERS,jcp-2016-tunay,E-2016-09,PDF12-13/Eqs4-5;PDF16/Table1,linear fixedsteer constantU zero-yaw-rate trim;not timehistory/stability/author reported NSP
+beta_per_force_rad_per_N,1.4285714285714286e-06,rad/N,ANALYST_DERIVED_FROM_SOURCE_PARAMETERS,jcp-2016-tunay,E-2016-09,PDF12-13/Eqs4-5;PDF16/Table1,linear fixedsteer constantU zero-yaw-rate trim;not timehistory/stability/author reported NSP
+front_force_fraction,-0.35714285714285715,1,ANALYST_DERIVED_FROM_SOURCE_PARAMETERS,jcp-2016-tunay,E-2016-09,PDF12-13/Eqs4-5;PDF16/Table1,linear fixedsteer constantU zero-yaw-rate trim;not timehistory/stability/author reported NSP
+rear_force_fraction,-0.6428571428571429,1,ANALYST_DERIVED_FROM_SOURCE_PARAMETERS,jcp-2016-tunay,E-2016-09,PDF12-13/Eqs4-5;PDF16/Table1,linear fixedsteer constantU zero-yaw-rate trim;not timehistory/stability/author reported NSP
+tire_moment_per_force_m,0.09285714285714297,m,ANALYST_DERIVED_FROM_SOURCE_PARAMETERS,jcp-2016-tunay,E-2016-09,PDF12-13/Eqs4-5;PDF16/Table1,linear fixedsteer constantU zero-yaw-rate trim;not timehistory/stability/author reported NSP
+required_aero_moment_per_force_m,-0.09285714285714303,m,ANALYST_DERIVED_FROM_SOURCE_PARAMETERS,jcp-2016-tunay,E-2016-09,PDF12-13/Eqs4-5;PDF16/Table1,linear fixedsteer constantU zero-yaw-rate trim;not timehistory/stability/author reported NSP
+force_balance_residual,-1.1102230246251565e-16,1,ANALYST_DERIVED_FROM_SOURCE_PARAMETERS,jcp-2016-tunay,E-2016-09,PDF12-13/Eqs4-5;PDF16/Table1,linear fixedsteer constantU zero-yaw-rate trim;not timehistory/stability/author reported NSP
+moment_balance_residual_m,-5.551115123125783e-17,m,ANALYST_DERIVED_FROM_SOURCE_PARAMETERS,jcp-2016-tunay,E-2016-09,PDF12-13/Eqs4-5;PDF16/Table1,linear fixedsteer constantU zero-yaw-rate trim;not timehistory/stability/author reported NSP

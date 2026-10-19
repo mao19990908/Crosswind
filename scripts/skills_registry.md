@@ -90,3 +90,7 @@ Reused paper-reading/project crosswind-knowledge-base. Read local original PDF s
 ## 2026-10-19 foundation kinematics integration
 
 Reused paper-reading/project crosswind-knowledge-base with existing verified source claims/notes. No new original-PDF read or source/claim grade change;no network/install/upstreamCLI/credentials/bypass/reset. First-party temporary standard-library math generated8explicitly SYNTHETIC analyst examples;reproducible core formula/code and full-inputCSV stored in audit. No author data,CFD/vehicle replay,fulltext or page images generated/uploaded.
+
+## 2026-10-20 tyre/neutral-steer evidence
+
+Reused paper-reading/project crosswind-knowledge-base;targeted local Nakasato/Winkler text and5whole-page visuals via existing pypdf/pypdfium2. No install/network/upstreamCLI/credentials/bypass/reset. First-party temporary standard-library arithmetic reduces stated linear zero-yaw-rate trim;CSV separates4reported inputs/8derived coefficients,not a syntheticgust or author transient replay. Original PDFs/pageimages remain local;no new permanent solver/script deployed.

@@ -257,6 +257,15 @@ flowchart LR
     N_EQ_RELWIND_PLANAR["EQ-RELWIND-PLANAR"] -->|depends_on| N_E_1973_04["E-1973-04"]
     N_EQ_RELWIND_PLANAR["EQ-RELWIND-PLANAR"] -->|depends_on| N_E_2017_1515_04["E-2017-1515-04"]
     N_EQ_RELWIND_PLANAR["EQ-RELWIND-PLANAR"] -->|depends_on| N_E_2017_1515_05["E-2017-1515-05"]
+    N_E_2017_1525_07["E-2017-1525-07"] -->|evidence_from| N_sae_2017_01_1525["sae-2017-01-1525"]
+    N_E_2016_08["E-2016-08"] -->|evidence_from| N_jcp_2016_tunay["jcp-2016-tunay"]
+    N_E_2016_09["E-2016-09"] -->|evidence_from| N_jcp_2016_tunay["jcp-2016-tunay"]
+    N_EQ_NSP_TRIM["EQ-NSP-TRIM"] -->|depends_on| N_E_2016_09["E-2016-09"]
+    N_EQ_NSP_TRIM["EQ-NSP-TRIM"] -->|depends_on| N_E_2017_1525_07["E-2017-1525-07"]
+    N_V_NSP["V-NSP"] -->|described_by| N_E_2017_1525_07["E-2017-1525-07"]
+    N_V_NSP["V-NSP"] -->|defined_by| N_EQ_NSP_TRIM["EQ-NSP-TRIM"]
+    N_V_YAWMOMENT["V-YAWMOMENT"] -->|described_by| N_E_2016_08["E-2016-08"]
+    N_M_IDDES_2WAY["M-IDDES-2WAY"] -->|described_by| N_E_2016_09["E-2016-09"]
 ```
 
 `evidence_from` 表示原始来源支撑该 atomic claim；`described_by` 表示概念受到特定条件下主张说明；`generated_by` 表示该输入由文献中的方法实现；`depends_on` 表示当前准稳态比较以稳态基线为参照。`supported_by` 表示方法受到特定原文证据支持，与 supports 的反向阅读对应；不表示独立跨方法验证。这些关系不能自动推成 `causes` 或跨研究 `validated_by`。
