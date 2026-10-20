@@ -1,8 +1,15 @@
-# jfe-2013-volpe — Pass 1 and abstract-based Pass 2 checkpoint
+# jfe-2013-volpe — Full-text Pass 2 completed 2026-10-21
 
-- Problem: validate a double-wind-tunnel facility producing a lateral moving gust over a stationary ground-vehicle model.
-- Explicit method lineage: the primary abstract says the Ryan–Dominy facility was the starting point. A 2018 Springer primary methods article identifies Ryan–Dominy 2000 DOI 10.4271/2000-01-0874 as Volpe 2013's conceptual predecessor; the 2013 reference number and exact hardware remain unverified.
-- Method: time-resolved PIV for interaction of the two tunnel streams; 3D URANS comparison. Numerical agreement, wind-field gradient, repeatability, mesh and uncertainty remain `NEEDS_FULLTEXT`.
-- Evidence node: `E-2013-01`, E1 abstract verified. Validation boundary is Level A wind field; no Level B/C inference.
-- 2014 Volpe article references this 2013 paper by Crossref bib40; direct methodological details require both full texts.
-- Pass 3: pending lawful readable PDF. HAL metadata says open access, but its document endpoint served an HTML bot challenge, which was not bypassed.
+合法HAL作者稿30页（2封面＋正文1–28）现已通读；14张整页图示/参数页视检。来源记录含完整结构、参数和证据地图：[record](../../sources/records/jfe-2013-volpe.md)。不复用期刊9页的页码定位本稿。
+
+P1定位：输入设施的风场Level A验证，连接阵风、测量重构及CFD边界理想化；车辆测力属于将来工作。
+
+P2理解：20通道顺序双挡板，主流9m/s、参考0.28m、名义10车长；500Hz/15次首挡板触发相位平均、9个水平测窗。空场局部风角23°–27°，近挡板E点输入风角峰相对其建立值约+30%，不是车辆横摆矩峰。建立延迟24.9–46.7ms也不同于名义阵风持续时间。图9/12的输入、基线、位置与t+=tU/L必须随结论保存。
+
+CFD为3D URANS SA/SST，140万结构网格、空间二阶中心、时间一阶隐式、2ms；瞬时开关和真实12/30ms动作不同。作者将偏早到达及不充分建立联系到这项理想化，未提供独立误差分解或网格/时间收敛证据。原文Fig11最后时刻正文13.82与图标/图注13.5不一致，显式保留。
+
+原先E-2013-01从摘要升级并收窄为空场；新增E-2013-02至06，均有稿件/PDF双页码。原文ref16为Ryan2000 Durham博士论文，不是同年SAE文章；既有SAE概念谱系保留外部2018原始研究依据，不新造直接引用。
+
+P3下一断点：从已取得原文核对Fig4挡板顺序间隔、单次动作、采样/积分、局部建立延迟及空间坐标的区别，评估可迁移结论与原Fig9/12复现所缺的PIV/挡板/网格输入。本轮不称已完成P3或原始时程复现；不重复下载/全文解析相同哈希。未新增原始数据请求，既有8项保持。
+
+过去HAL /document挑战和OATAO超时记录见source历史；本次使用API列出的新公开文件路径一次成功，无绕过。文件仅本机，github_pdf=false。

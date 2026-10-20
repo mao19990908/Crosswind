@@ -1,0 +1,244 @@
+{
+  "date": "2026-10-21",
+  "scope": "Existing Lay1953/Volpe2013 and DOT report discovery only; no new source",
+  "requests": [
+    {
+      "name": "hal_public_metadata",
+      "url": "https://api.archives-ouvertes.fr/search/?q=halId_s%3Ahal-01920549&fl=halId_s%2Ctitle_s%2CauthFullName_s%2CdoiId_s%2CfileMain_s%2Cfiles_s%2Curi_s%2CopenAccess_bool%2Clicense_s&wt=json",
+      "checked_at": "2026-10-20T22:05:08.111260+00:00",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "final_url": "https://api.archives-ouvertes.fr/search/?q=halId_s%3Ahal-01920549&fl=halId_s%2Ctitle_s%2CauthFullName_s%2CdoiId_s%2CfileMain_s%2Cfiles_s%2Curi_s%2CopenAccess_bool%2Clicense_s&wt=json",
+      "result": "public_metadata_received",
+      "metadata": {
+        "response": {
+          "numFound": 1,
+          "start": 0,
+          "maxScore": 5.9568443,
+          "numFoundExact": true,
+          "docs": [
+            {
+              "openAccess_bool": true,
+              "title_s": [
+                "Experimental and Numerical Validation of a Wind Gust Facility"
+              ],
+              "authFullName_s": [
+                "Raffaele Volpe",
+                "Arthur da Silva",
+                "Valérie Ferrand",
+                "Luis Le Moyne"
+              ],
+              "halId_s": "hal-01920549",
+              "uri_s": "https://hal.science/hal-01920549v1",
+              "doiId_s": "10.1115/1.4023194",
+              "fileMain_s": "https://hal.science/hal-01920549/document",
+              "files_s": [
+                "https://hal.science/hal-01920549/file/Ferrand_8416.pdf"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "crossref_volpe",
+      "url": "https://api.crossref.org/works/10.1115%2F1.4023194",
+      "checked_at": "2026-10-20T22:05:09.841117+00:00",
+      "status": 200,
+      "content_type": "application/json",
+      "final_url": "https://api.crossref.org/works/10.1115%2F1.4023194",
+      "result": "public_metadata_received",
+      "metadata": {
+        "DOI": "10.1115/1.4023194",
+        "title": [
+          "Experimental and Numerical Validation of a Wind Gust Facility"
+        ],
+        "author": [
+          {
+            "given": "Raffaele",
+            "family": "Volpe",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "e-mail:"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Arthur",
+            "family": "Da Silva",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Laboratoire DRIVE, Institut Supérieur de l'Automobile et des Transports, Université de Bourgogne, 49 rue Mademoiselle Bourgeois, 58000 Nevers, France"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Valérie",
+            "family": "Ferrand",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institut Supérieur de l'Aéronautique et de l'Espace (ISAE), Université de Toulouse, 10 avenue Edouard Belin, 31400 Toulouse, France"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Luis",
+            "family": "Le Moyne",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Laboratoire DRIVE, Institut Supérieur de l'Automobile et des Transports, Université de Bourgogne, 49 rue Mademoiselle Bourgeois, 58000 Nevers, France"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2013,
+              1,
+              1
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "http://asmedigitalcollection.asme.org/fluidsengineering/article-pdf/doi/10.1115/1.4023194/6187024/fe_135_1_011106.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "syndication"
+          },
+          {
+            "URL": "http://asmedigitalcollection.asme.org/fluidsengineering/article-pdf/doi/10.1115/1.4023194/6187024/fe_135_1_011106.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "resource": {
+          "primary": {
+            "URL": "https://asmedigitalcollection.asme.org/fluidsengineering/article/doi/10.1115/1.4023194/372078/Experimental-and-Numerical-Validation-of-a-Wind"
+          }
+        }
+      }
+    },
+    {
+      "name": "crossref_lay",
+      "url": "https://api.crossref.org/works/10.4271%2F530255",
+      "checked_at": "2026-10-20T22:05:10.720562+00:00",
+      "status": 200,
+      "content_type": "application/json",
+      "final_url": "https://api.crossref.org/works/10.4271%2F530255",
+      "result": "public_metadata_received",
+      "metadata": {
+        "DOI": "10.4271/530255",
+        "title": [
+          "WIND EFFECTS ON CAR STABILITY"
+        ],
+        "author": [
+          {
+            "given": "W.E.",
+            "family": "Lay",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "P.W.",
+            "family": "Lett",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              1953,
+              1,
+              1
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://saemobilus.sae.org/downloads/papers/530255/Full%20Text%20PDF",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "resource": {
+          "primary": {
+            "URL": "https://saemobilus.sae.org/papers/wind-effects-car-stability-530255"
+          }
+        }
+      }
+    },
+    {
+      "name": "hal_public_file",
+      "url": "https://hal.science/hal-01920549/file/Ferrand_8416.pdf",
+      "checked_at": "2026-10-20T22:07:04.473790+00:00",
+      "status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://hal.science/hal-01920549/file/Ferrand_8416.pdf",
+      "bytes": 3240703,
+      "pdf_header": true,
+      "sha256": "b6fb24a6c19f6624b4c868740ed07e4abbf45053b0128fac6b3d42c41da15eee"
+    }
+  ],
+  "discovery_notes": [
+    "HAL API file URL was a new candidate; one ordinary public GET succeeded; /document challenge and ASME403 routes not retried.",
+    "Exact-title/identifier searches for DOT originals yielded catalog/bibliography entries, not verified original PDFs; earlier Hathi403/Books429 not retried.",
+    "Lay Crossref exact identity/1953 reconfirmed; indexed SAE locked/citation1906 discrepancy retained. No publisher paywall requested."
+  ],
+  "unpaywall": "not_called_no_configured_contact_email; no invented contact or credentials",
+  "rights": "HAL public author-deposited version; API has no license field; no explicit redistribution grant; github_pdf=false",
+  "pdf_validation": {
+    "header": "%PDF-",
+    "opens": true,
+    "encrypted": false,
+    "pages": 30,
+    "bytes": 3240703,
+    "sha256": "b6fb24a6c19f6624b4c868740ed07e4abbf45053b0128fac6b3d42c41da15eee",
+    "identity": "HAL cover and OATAO cover and manuscript title/author/DOI match; 2 covers + manuscript1-28",
+    "reading": "Full text read; selected figures/pages visually inspected; scientific claims upgraded only after reading"
+  }
+}

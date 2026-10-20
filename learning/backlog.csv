@@ -21,6 +21,6 @@ sae-2017-01-1525,2026-09-23,P0,pass3_definitions_corrected_original_replay_pendi
 sae-06-14-01-0001,2026-09-23,P2,completed_for_current_E1_evidence,restricted,abstract_verified,P2,done,2026-09-24,new_fulltext_or_new_contradictory_evidence
 brandt-2023-thesis,2026-09-23,P2,completed_for_extended_summary_E2,open_repository,abstract_verified,P3,done,2026-09-24,individual_constituent_paper_fulltext_or_new_evidence
 sae-15-18-01-0005,2026-09-23,P2,completed_for_full_text_E2,open_access,full_text_verified,P2,done,2026-09-25,new_primary_evidence_or_method_conflict
-jfe-2013-volpe,2026-09-25,P0,pass3_pending_fulltext,abstract,abstract_verified,P3,needs_more_evidence,2026-09-25,obtain_lawful_HAL_or_publisher_fulltext_without_bypass
+jfe-2013-volpe,2026-09-25,P0,full_text_pass2_complete_pass3_facility_input_audit_next,local_full_text,full_text_verified,P3,in_progress,2026-10-21,P3 shutter/trigger/normalization audit and original replay requirements next; not fulltext-blocked
 sae-670608,2026-09-25,P0,pass3_definition_audit_complete_output_reproduction_blocked,local_full_text,full_text_verified,P3,needs_more_evidence,2026-09-28,NC-1967-REPRO; no repeated definition audit without new evidence
 bams-1958-benner,2026-09-25,P2,completed_for_full_text_E2,local_full_text,full_text_verified,P2,done,2026-09-25,Lay_Lett_original_or_archival_report_changes_interpretation

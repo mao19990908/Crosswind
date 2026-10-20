@@ -70,8 +70,8 @@ E-2025-02,sae-15-18-01-0005,evidence_from,publisher PDF pp61 and 65-70,sae-15-18
 C-GUST,E-2025-02,described_by,facility input distinction,sae-15-18-01-0005,chapter_verified,streamwise percentage is not lateral gust magnitude
 E-2025-03,sae-15-18-01-0005,evidence_from,publisher PDF pp62-63,sae-15-18-01-0005,chapter_verified,Level A calibration only
 C-VALIDATION,E-2025-03,described_by,facility calibration,sae-15-18-01-0005,chapter_verified,not vehicle Level B or C
-E-2013-01,jfe-2013-volpe,evidence_from,ASME/Crossref and HAL abstract,jfe-2013-volpe,abstract_verified,PIV and URANS for facility wind field
-C-VALIDATION,E-2013-01,described_by,Level A gust field,jfe-2013-volpe,abstract_verified,no vehicle load or motion validation asserted
+E-2013-01,jfe-2013-volpe,evidence_from,Author manuscript PDF8-12/26-27; empty-facility Level A,jfe-2013-volpe,full_text_verified,Full text confirms empty-field PIV/URANS; car loads and motion are future work.
+C-VALIDATION,E-2013-01,described_by,Author manuscript PDF8-12/26-27; empty-facility Level A,jfe-2013-volpe,full_text_verified,Full text confirms empty-field PIV/URANS; car loads and motion are future work.
 E-2025-04,sae-15-18-01-0005,evidence_from,publisher PDF pp69-70 Figs.12-13,sae-15-18-01-0005,full_text_verified,road comparison limited to selected flow statistics
 C-VALIDATION,E-2025-04,described_by,road flow comparison,sae-15-18-01-0005,full_text_verified,not Level B or C vehicle validation
 E-1967-01,sae-670608,evidence_from,1:10 moving model; finite crosswind edge,sae-670608,full_text_verified,pp.2223-2225 Figs.7-10
@@ -259,3 +259,14 @@ V-NSP,E-2017-1525-07,described_by,Source-specific tyre/CG/loop;analyst trim only
 V-NSP,EQ-NSP-TRIM,defined_by,Source-specific tyre/CG/loop;analyst trim only linear fixed-steer constantU and r=0,jcp-2016-tunay,analyst_derived_from_full_text,Oct20 conditional force/moment balance;not source transient replay or Nakasato parameter identification
 V-YAWMOMENT,E-2016-08,described_by,Source-specific tyre/CG/loop;analyst trim only linear fixed-steer constantU and r=0,jcp-2016-tunay,full_text_verified,Oct20 original-page NSP/tyre/moment evidence;see neutral_steer_point.md
 M-IDDES-2WAY,E-2016-09,described_by,Source-specific tyre/CG/loop;analyst trim only linear fixed-steer constantU and r=0,jcp-2016-tunay,full_text_verified,Oct20 original-page NSP/tyre/moment evidence;see neutral_steer_point.md
+E-2013-02,jfe-2013-volpe,evidence_from,Author manuscript page map in evidence.csv; source-specific facility,jfe-2013-volpe,full_text_verified,2026-10-21 full-text reading; not generalized to vehicle loads or other apparatus.
+E-2013-03,jfe-2013-volpe,evidence_from,Author manuscript page map in evidence.csv; source-specific facility,jfe-2013-volpe,full_text_verified,2026-10-21 full-text reading; not generalized to vehicle loads or other apparatus.
+E-2013-04,jfe-2013-volpe,evidence_from,Author manuscript page map in evidence.csv; source-specific facility,jfe-2013-volpe,full_text_verified,2026-10-21 full-text reading; not generalized to vehicle loads or other apparatus.
+E-2013-05,jfe-2013-volpe,evidence_from,Author manuscript page map in evidence.csv; source-specific facility,jfe-2013-volpe,full_text_verified,2026-10-21 full-text reading; not generalized to vehicle loads or other apparatus.
+E-2013-06,jfe-2013-volpe,evidence_from,Author manuscript page map in evidence.csv; source-specific facility,jfe-2013-volpe,full_text_verified,2026-10-21 full-text reading; not generalized to vehicle loads or other apparatus.
+M-PHASE-AVERAGE,E-2013-02,supported_by,Volpe2013 empty facility; original manuscript page map,jfe-2013-volpe,full_text_verified,15 triggered runs and9 windows; preserve event/window reconstruction boundary.
+C-GUST,E-2013-03,described_by,Volpe2013 empty facility; original manuscript page map,jfe-2013-volpe,full_text_verified,Local wind-angle input differs from30deg apparatus orientation.
+C-OVERSHOOT,E-2013-03,described_by,Volpe2013 empty facility; original manuscript page map,jfe-2013-volpe,full_text_verified,Facility beta peak not vehicle yaw-moment overshoot.
+C-PHASE,E-2013-03,described_by,Volpe2013 empty facility; original manuscript page map,jfe-2013-volpe,full_text_verified,Local establishment delay separate from imposed duration and trigger.
+C-NUMERICAL-RESOLUTION,E-2013-04,described_by,Volpe2013 empty facility; original manuscript page map,jfe-2013-volpe,full_text_verified,First-order time vs second-order space; reported cells/step not convergence.
+C-VALIDATION,E-2013-05,described_by,Volpe2013 empty facility; original manuscript page map,jfe-2013-volpe,full_text_verified,Author boundary-actuation explanation is not isolated error attribution.

@@ -266,6 +266,17 @@ flowchart LR
     N_V_NSP["V-NSP"] -->|defined_by| N_EQ_NSP_TRIM["EQ-NSP-TRIM"]
     N_V_YAWMOMENT["V-YAWMOMENT"] -->|described_by| N_E_2016_08["E-2016-08"]
     N_M_IDDES_2WAY["M-IDDES-2WAY"] -->|described_by| N_E_2016_09["E-2016-09"]
+    N_E_2013_02["E-2013-02"] -->|evidence_from| N_jfe_2013_volpe["jfe-2013-volpe"]
+    N_E_2013_03["E-2013-03"] -->|evidence_from| N_jfe_2013_volpe["jfe-2013-volpe"]
+    N_E_2013_04["E-2013-04"] -->|evidence_from| N_jfe_2013_volpe["jfe-2013-volpe"]
+    N_E_2013_05["E-2013-05"] -->|evidence_from| N_jfe_2013_volpe["jfe-2013-volpe"]
+    N_E_2013_06["E-2013-06"] -->|evidence_from| N_jfe_2013_volpe["jfe-2013-volpe"]
+    N_M_PHASE_AVERAGE["M-PHASE-AVERAGE"] -->|supported_by| N_E_2013_02["E-2013-02"]
+    N_C_GUST["C-GUST"] -->|described_by| N_E_2013_03["E-2013-03"]
+    N_C_OVERSHOOT["C-OVERSHOOT"] -->|described_by| N_E_2013_03["E-2013-03"]
+    N_C_PHASE["C-PHASE"] -->|described_by| N_E_2013_03["E-2013-03"]
+    N_C_NUMERICAL_RESOLUTION["C-NUMERICAL-RESOLUTION"] -->|described_by| N_E_2013_04["E-2013-04"]
+    N_C_VALIDATION["C-VALIDATION"] -->|described_by| N_E_2013_05["E-2013-05"]
 ```
 
 `evidence_from` 表示原始来源支撑该 atomic claim；`described_by` 表示概念受到特定条件下主张说明；`generated_by` 表示该输入由文献中的方法实现；`depends_on` 表示当前准稳态比较以稳态基线为参照。`supported_by` 表示方法受到特定原文证据支持，与 supports 的反向阅读对应；不表示独立跨方法验证。这些关系不能自动推成 `causes` 或跨研究 `validated_by`。

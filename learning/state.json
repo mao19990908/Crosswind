@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-20T06:11:10+08:00",
+  "updated_at": "2026-10-21T06:12:40+08:00",
   "timezone": "Asia/Shanghai",
   "current_phase": "learning",
   "phase_status": "in_progress",
@@ -36,49 +36,54 @@
   ],
   "sources_total": 25,
   "sources_pending_learning": 10,
-  "current_source_id": "sae-530255",
+  "current_source_id": "jfe-2013-volpe",
   "current_pass": 3,
-  "current_pass_status": "awaiting_new_lawful_fulltext_or_underlying_data",
-  "today_added_knowledge_nodes": [
-    "EQ-NSP-TRIM",
-    "V-NSP"
-  ],
+  "current_pass_status": "full_text_pass2_complete_pass3_facility_input_audit_next",
+  "today_added_knowledge_nodes": [],
   "today_added_or_modified_graph_edges": [
-    "E-2017-1525-07|evidence_from|sae-2017-01-1525",
-    "E-2016-08|evidence_from|jcp-2016-tunay",
-    "E-2016-09|evidence_from|jcp-2016-tunay",
-    "EQ-NSP-TRIM|depends_on|E-2016-09",
-    "EQ-NSP-TRIM|depends_on|E-2017-1525-07",
-    "V-NSP|described_by|E-2017-1525-07",
-    "V-NSP|defined_by|EQ-NSP-TRIM",
-    "V-YAWMOMENT|described_by|E-2016-08",
-    "M-IDDES-2WAY|described_by|E-2016-09"
+    "E-2013-01|evidence_from|jfe-2013-volpe",
+    "C-VALIDATION|described_by|E-2013-01",
+    "E-2013-02|evidence_from|jfe-2013-volpe",
+    "E-2013-03|evidence_from|jfe-2013-volpe",
+    "E-2013-04|evidence_from|jfe-2013-volpe",
+    "E-2013-05|evidence_from|jfe-2013-volpe",
+    "E-2013-06|evidence_from|jfe-2013-volpe",
+    "M-PHASE-AVERAGE|supported_by|E-2013-02",
+    "C-GUST|described_by|E-2013-03",
+    "C-OVERSHOOT|described_by|E-2013-03",
+    "C-PHASE|described_by|E-2013-03",
+    "C-NUMERICAL-RESOLUTION|described_by|E-2013-04",
+    "C-VALIDATION|described_by|E-2013-05"
   ],
   "today_remaining_work": [
-    "sae-530255Pass3 lawful original and8raw-input requests pending;no original replay completed",
-    "Verify actual new lawful inputs;do not repeat completed neutral-steer trim/coordinate/format audits"
+    "Volpe2013 P3 source timing/probe/normalization and original replay requirements;no repeated download/read",
+    "Six missing originals and8existing raw-input requests remain;learning backlog10"
   ],
   "quota_status": "available_rounded_shared_account",
-  "weekly_quota_used_at_run_start_percent": 39,
-  "weekly_quota_used_at_last_read_percent": 41,
-  "weekly_quota_used_at_day_start_percent": 39,
-  "weekly_quota_day_cap_used_percent": 51,
-  "local_remote_sync": "research_commit_verified_local_origin_live_remote_equal",
+  "weekly_quota_used_at_run_start_percent": 22,
+  "weekly_quota_used_at_last_read_percent": 24,
+  "weekly_quota_used_at_day_start_percent": 22,
+  "weekly_quota_day_cap_used_percent": 34,
+  "local_remote_sync": "validation_and_commit_pending",
   "github_commit_sha": "11ff2e8ccac22ce18094c781656030a995f2d315",
   "note": "Latest heartbeat prioritizes Learn backlog; DOI/PDF unresolved checkpoint retained, not treated as a gate blocking existing local-PDF learning.",
   "github_commit_sha_role": "verified_research_commit_before_final_audit",
-  "quota_date": "2026-10-20",
+  "quota_date": "2026-10-21",
   "today_updated_knowledge_nodes": [
-    "V-YAWMOMENT",
-    "M-IDDES-2WAY"
+    "C-GUST",
+    "C-OVERSHOOT",
+    "C-PHASE",
+    "C-NUMERICAL-RESOLUTION",
+    "C-VALIDATION",
+    "M-PHASE-AVERAGE"
   ],
   "fulltext_access_checkpoints": [
     {
       "source_id": "sae-530255",
-      "checked_on": "2026-10-13",
+      "checked_on": "2026-10-21",
       "pass": 3,
       "status": "awaiting_lawful_fulltext",
-      "reason": "2026-10-13: Crossref title/authors/1953 reconfirmed; SAE indexed landing still marked locked with Published1953/Citation1906 discrepancy; direct web-open internal error. OpenAlex closed and Semantic Scholar empty OA URL. Exact-title discovery yielded no verified original PDF; no paywall request or bypass. No fulltext acquired.",
+      "reason": "Crossref title/authors/1953 reconfirmed;no original acquired;SAE indexed lock/Citation1906 conflict retained;no paywall request or restricted-route retry",
       "next_action": "Await lawful original/new verified repository or user input;do not repeat completed abstract learning or protected routes"
     },
     {
@@ -131,11 +136,11 @@
     },
     {
       "source_id": "jfe-2013-volpe",
-      "checked_on": "2026-10-13",
+      "checked_on": "2026-10-21",
       "pass": 3,
-      "status": "awaiting_lawful_fulltext",
-      "reason": "2026-10-13: Crossref title/authors/2013 reconfirmed; DOI web-open internal error. OpenAlex/Semantic Scholar still point to OATAO Ferrand_8416.pdf as green/other-oa; one ordinary HTTP repository request timed out at15s. No HAL challenge or prior ASME403 retry; no PDF acquired. other-oa is not a redistribution grant.",
-      "next_action": "Await lawful original/new verified repository or user input;do not repeat completed abstract learning or protected routes"
+      "status": "full_text_pass2_complete_pass3_facility_input_audit_next",
+      "reason": "HAL public API files_s direct file ordinaryGET200;30page author manuscript validated/read;fulltext grade upgraded;no redistribution grant",
+      "next_action": "P3 shutter/trigger/dimensionless timing and probe geometry audit;original PIV/CFD history replay not completed"
     },
     {
       "source_id": "sae-670608",
@@ -154,10 +159,10 @@
       "next_action": "Resolve NC-2017-1525-REPLAY; no repeated definition audit"
     }
   ],
-  "quota_measurement_note": "Oct20 Shanghai daily baselineweekly39/fivehour0;cap51;rounded shared-account;no reset",
-  "quota_last_read_at": "2026-10-20T06:11:10+08:00",
+  "quota_measurement_note": "Oct21 Shanghai daybaseline weekly22/fivehour0;cap34;rounded shared account;no reset. Prior Oct20 end41 vsstart22 observed,not attributed.",
+  "quota_last_read_at": "2026-10-21T06:11:01+08:00",
   "doi_pdf_checkpoint": {
-    "date": "2026-10-20",
+    "date": "2026-10-21",
     "status": "in_progress",
     "total_sources": 25,
     "verified_doi": 20,
@@ -166,24 +171,24 @@
     "invalid_or_conflict": 0,
     "not_applicable": 0,
     "doi_coverage_percent": 80.0,
-    "oa_fulltext_found": 3,
-    "local_pdf_count": 18,
+    "oa_fulltext_found": 4,
+    "local_pdf_count": 19,
     "github_pdf_count": 1,
-    "local_only_pdf_count": 17,
+    "local_only_pdf_count": 18,
     "pdf_status_counts": {
       "paywalled": 3,
       "not_found": 1,
       "user_provided": 15,
-      "open_repository_available": 3,
-      "oa_downloaded": 3
+      "open_repository_available": 2,
+      "oa_downloaded": 4
     },
-    "oa_landing_candidates": 3,
-    "unresolved_fulltext_count": 7,
-    "new_pdfs_this_run": 0,
+    "oa_landing_candidates": 2,
+    "unresolved_fulltext_count": 6,
+    "new_pdfs_this_run": 1,
     "new_sources_this_run": 0,
-    "audit_file": "sources/doi_pdf_audit_2026-10-20.csv",
-    "next": "Missing originals/raw inputs await lawful new evidence;source proof dates retained;no repeated network query",
-    "weekly_quota_used_at_last_read_percent": 41,
+    "audit_file": "sources/doi_pdf_audit_2026-10-21.csv",
+    "next": "Six missing originals remain;Volpe2013 acquired/read;continue itsP3 input audit;v4 staysin_progress",
+    "weekly_quota_used_at_last_read_percent": 24,
     "previous_research_commit_sha": "051595419f4f16bfad4ed0e84ee92ea85591e80e",
     "research_commit_sha": "11ff2e8ccac22ce18094c781656030a995f2d315"
   },
@@ -342,9 +347,9 @@
     "changed_understanding": "Macklin threshold differs by load component/peak-vs-mean; Ryan net yaw has no steady-relative overshoot despite side/lift peaks, resolving abstract overgeneralization; 1996 and 1998 yaw outcomes differ under different apparatus/metric definitions. Macklin 1997 shear comparison is turbulence-confounded and no reference speed universally collapses coefficients. Ryan 2000 uses updated 5m/22deg shutter gust; an unexplained high-pressure pocket and wake advection prevent treating a wake snapshot as instantaneous body force. Mahig 1971 is an assumed lateral-impulse vehicle response model, not an aerodynamic gust waveform study; tyre cubic locally cross-checked. Klein/Hogue 1980 directly cites and partially reuses DOT technical Volume II; loop modes and steady-model outputs must remain separated. Chadwick 2000 shows geometry-specific leeward pressure peaks and filter limitations; five model lengths not sufficient for steady development in all cases. Nakasato 2017 fixed-steer road validation is separate from the active-driver application; three-run driver trends have quantitative mismatch. Volpe 2014 measured ~21deg local yaw despite 30deg tunnel axes; geometry-specific yaw peaks 16/10%, vortex-load correlations not causal proof. Lewington 2017 one-way advantage depends on metric: both approaches predict lane deviation within one measured SD; comparator uses tuned wind scale and input validation is partial. Okumura 1997 CFD peak and spoiler evidence are conditional; passing comparison uses mismatched bus geometry, and reported resultant wind angle needs arithmetic audit.",
     "next": "Two local PDFs remain to read; 10-source learning backlog. Five-hour 97% and weekly 31% used at last platform read."
   },
-  "five_hour_quota_used_at_last_read_percent": 9,
+  "five_hour_quota_used_at_last_read_percent": 10,
   "automation_completed_on": "2026-10-20",
-  "automation_run_status": "completed_neutral_steer_evidence_validated_replay_waiting_inputs",
+  "automation_run_status": "in_progress_fulltext_pass2_validation_pending",
   "learning_run_2026_09_27": {
     "processed_sources": [
       "sae-730232"
@@ -700,5 +705,29 @@
     "synthetic_timehistories": 0,
     "needs_collection_updated": 1,
     "reproduction_packets_updated": 1
+  },
+  "learning_run_2026_10_21": {
+    "activity": "Existing-source lawful HAL acquisition and fulltext Pass2;no expansion",
+    "processed_sources": [
+      "jfe-2013-volpe"
+    ],
+    "new_fulltext_reads": 1,
+    "records_upgraded_to_full_text": 1,
+    "pass2_completed": 1,
+    "pass3_completed": 0,
+    "new_claims": 5,
+    "revised_claims": 1,
+    "previous_claim_rows_preserved": 83,
+    "new_knowledge_nodes": 0,
+    "updated_node_source_bindings": 6,
+    "new_edges": 11,
+    "revised_edges": 2,
+    "new_citation_edges": 1,
+    "sources_new": 0,
+    "pdfs_new": 1,
+    "manual_fulltext_requests_resolved": 1,
+    "needs_collection_added": 0,
+    "backlog_remaining": 10,
+    "next": "jfe-2013-volpe Pass3 facility timing/probe audit"
   }
 }

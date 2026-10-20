@@ -60,3 +60,7 @@ pimeche-2001-passmore --references (verified, publisher ref.6)--> sae-980392
 ## 2026-10-09 全文增量
 
 jcp-2016-tunay → sae-980392 / jfe-2013-volpe / sae-2000-01-0876，references=true，PDF35–36 refs6/7/8。仅引用，非装置或代码继承。
+
+## 2026-10-21 原文校核
+
+Volpe2013 PDF29 ref16指Ryan2000博士论文；指向SAE2000-01-0874的既有边仅为外部2018原始研究支持的概念方法关系，无本篇直接引用断言。PDF28 ref4新增`jfe-2013-volpe` → `sae-670608` verified references；ref14/22也由原文核对。2013全文已取得，旧“仍需全文”段落为历史。
