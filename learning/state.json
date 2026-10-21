@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-22T06:04:58+08:00",
+  "updated_at": "2026-10-22T06:06:36+08:00",
   "timezone": "Asia/Shanghai",
   "current_phase": "learning",
   "phase_status": "in_progress",
@@ -64,8 +64,8 @@
   "weekly_quota_used_at_last_read_percent": 40,
   "weekly_quota_used_at_day_start_percent": 39,
   "weekly_quota_day_cap_used_percent": 51,
-  "local_remote_sync": "validation_and_commit_pending",
-  "github_commit_sha": "09590e953dc45bc4a456134d949c7d96754b13d8",
+  "local_remote_sync": "research_commit_verified_local_origin_live_remote_equal",
+  "github_commit_sha": "554b260335bae56bb4513fd87990300689b31229",
   "note": "Latest heartbeat prioritizes Learn backlog; DOI/PDF unresolved checkpoint retained, not treated as a gate blocking existing local-PDF learning.",
   "github_commit_sha_role": "verified_research_commit_before_final_audit",
   "quota_date": "2026-10-22",
@@ -157,8 +157,8 @@
       "next_action": "Resolve NC-2017-1525-REPLAY; no repeated definition audit"
     }
   ],
-  "quota_measurement_note": "Oct22 Shanghai baseline weekly39/fivehour0;cap51;06:03:08 weekly40/fivehour6;roundedsharedaccount;no reset",
-  "quota_last_read_at": "2026-10-22T06:03:08+08:00",
+  "quota_measurement_note": "Oct22 Shanghai baseline weekly39/fivehour0;cap51;end06:06:36 weekly40/fivehour9;approx+1pp shared rounded account;no reset",
+  "quota_last_read_at": "2026-10-22T06:06:36+08:00",
   "doi_pdf_checkpoint": {
     "date": "2026-10-22",
     "status": "in_progress",
@@ -187,8 +187,8 @@
     "audit_file": "sources/doi_pdf_audit_2026-10-22.csv",
     "next": "v4sixoriginals unresolved;continue on newlawfulinputs;no repeated network query or completed Volpe timing audit",
     "weekly_quota_used_at_last_read_percent": 40,
-    "previous_research_commit_sha": "11ff2e8ccac22ce18094c781656030a995f2d315",
-    "research_commit_sha": "09590e953dc45bc4a456134d949c7d96754b13d8"
+    "previous_research_commit_sha": "09590e953dc45bc4a456134d949c7d96754b13d8",
+    "research_commit_sha": "554b260335bae56bb4513fd87990300689b31229"
   },
   "weekly_quota_pre_reset_used_percent": 91,
   "weekly_quota_after_reset_used_percent": 1,
@@ -345,9 +345,9 @@
     "changed_understanding": "Macklin threshold differs by load component/peak-vs-mean; Ryan net yaw has no steady-relative overshoot despite side/lift peaks, resolving abstract overgeneralization; 1996 and 1998 yaw outcomes differ under different apparatus/metric definitions. Macklin 1997 shear comparison is turbulence-confounded and no reference speed universally collapses coefficients. Ryan 2000 uses updated 5m/22deg shutter gust; an unexplained high-pressure pocket and wake advection prevent treating a wake snapshot as instantaneous body force. Mahig 1971 is an assumed lateral-impulse vehicle response model, not an aerodynamic gust waveform study; tyre cubic locally cross-checked. Klein/Hogue 1980 directly cites and partially reuses DOT technical Volume II; loop modes and steady-model outputs must remain separated. Chadwick 2000 shows geometry-specific leeward pressure peaks and filter limitations; five model lengths not sufficient for steady development in all cases. Nakasato 2017 fixed-steer road validation is separate from the active-driver application; three-run driver trends have quantitative mismatch. Volpe 2014 measured ~21deg local yaw despite 30deg tunnel axes; geometry-specific yaw peaks 16/10%, vortex-load correlations not causal proof. Lewington 2017 one-way advantage depends on metric: both approaches predict lane deviation within one measured SD; comparator uses tuned wind scale and input validation is partial. Okumura 1997 CFD peak and spoiler evidence are conditional; passing comparison uses mismatched bus geometry, and reported resultant wind angle needs arithmetic audit.",
     "next": "Two local PDFs remain to read; 10-source learning backlog. Five-hour 97% and weekly 31% used at last platform read."
   },
-  "five_hour_quota_used_at_last_read_percent": 6,
-  "automation_completed_on": "2026-10-21",
-  "automation_run_status": "in_progress_pass3_timing_geometry_audit_validation_pending",
+  "five_hour_quota_used_at_last_read_percent": 9,
+  "automation_completed_on": "2026-10-22",
+  "automation_run_status": "completed_pass3_timing_geometry_audit_validated_original_replay_pending",
   "learning_run_2026_09_27": {
     "processed_sources": [
       "sae-730232"
