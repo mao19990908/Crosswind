@@ -21,6 +21,6 @@ sae-2017-01-1525,journal_article,I,3,pass3_partial_definitions_corrected_origina
 sae-06-14-01-0001,journal_article,G,2,completed_for_current_E1_evidence,2,conditional,new_fulltext_or_new_contradictory_evidence,abstract_verified,2026-09-24
 brandt-2023-thesis,doctoral_thesis,J,3,completed_for_extended_summary_E2,3,complete_summary_only,individual_constituent_paper_fulltext_or_new_evidence,abstract_verified,2026-09-24
 sae-15-18-01-0005,journal_article,F,2,completed_for_full_text_E2,2,conditional,new_primary_evidence_or_method_conflict,full_text_verified,2026-09-25
-jfe-2013-volpe,journal_article,F,2,full_text_pass2_complete_pass3_facility_input_audit_next,3,high_when_fulltext_available,P3 source timing/probe audit; original raw PIV/shutter/solver files not supplied,full_text_verified,2026-10-21
+jfe-2013-volpe,journal_article,F,3,pass3_timing_geometry_audit_complete_original_replay_needs_inputs,3,high_when_fulltext_available,NC-2013-GUST-REPLAY;no repeated timing arithmetic/download or P2 reread,full_text_verified,2026-10-22
 sae-670608,sae_technical_paper,C/F,3,pass3_definition_audit_complete_output_reproduction_blocked,3,high_when_fulltext_available,resolve_NC-1967-REPRO_original_inputs_and_run_matrix,full_text_verified,2026-09-28
 bams-1958-benner,journal_article,A/E/G,2,completed_for_full_text_E2,2,conditional,Lay_Lett_original_or_archival_report_changes_interpretation,full_text_verified,2026-09-25

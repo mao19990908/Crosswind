@@ -277,6 +277,17 @@ flowchart LR
     N_C_PHASE["C-PHASE"] -->|described_by| N_E_2013_03["E-2013-03"]
     N_C_NUMERICAL_RESOLUTION["C-NUMERICAL-RESOLUTION"] -->|described_by| N_E_2013_04["E-2013-04"]
     N_C_VALIDATION["C-VALIDATION"] -->|described_by| N_E_2013_05["E-2013-05"]
+    N_E_2013_07["E-2013-07"] -->|evidence_from| N_jfe_2013_volpe["jfe-2013-volpe"]
+    N_E_2013_08["E-2013-08"] -->|evidence_from| N_jfe_2013_volpe["jfe-2013-volpe"]
+    N_EQ_VOLPE_SHUTTER_CLOCKS["EQ-VOLPE-SHUTTER-CLOCKS"] -->|depends_on| N_E_2013_02["E-2013-02"]
+    N_EQ_VOLPE_SHUTTER_CLOCKS["EQ-VOLPE-SHUTTER-CLOCKS"] -->|depends_on| N_E_2013_03["E-2013-03"]
+    N_EQ_VOLPE_SHUTTER_CLOCKS["EQ-VOLPE-SHUTTER-CLOCKS"] -->|depends_on| N_E_2013_04["E-2013-04"]
+    N_EQ_VOLPE_SHUTTER_CLOCKS["EQ-VOLPE-SHUTTER-CLOCKS"] -->|depends_on| N_E_2013_07["E-2013-07"]
+    N_V_GUST_RISE["V-GUST-RISE"] -->|described_by| N_E_2013_07["E-2013-07"]
+    N_V_GUST_LENGTH["V-GUST-LENGTH"] -->|described_by| N_E_2013_07["E-2013-07"]
+    N_C_PHASE["C-PHASE"] -->|described_by| N_E_2013_07["E-2013-07"]
+    N_V_BETA_AERO["V-BETA-AERO"] -->|described_by| N_E_2013_03["E-2013-03"]
+    N_C_VALIDATION["C-VALIDATION"] -->|described_by| N_E_2013_08["E-2013-08"]
 ```
 
 `evidence_from` 表示原始来源支撑该 atomic claim；`described_by` 表示概念受到特定条件下主张说明；`generated_by` 表示该输入由文献中的方法实现；`depends_on` 表示当前准稳态比较以稳态基线为参照。`supported_by` 表示方法受到特定原文证据支持，与 supports 的反向阅读对应；不表示独立跨方法验证。这些关系不能自动推成 `causes` 或跨研究 `validated_by`。

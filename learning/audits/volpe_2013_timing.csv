@@ -1,0 +1,34 @@
+quantity,value,unit,provenance,source_id,evidence_or_formula,scope
+U_ref,9,m/s,SOURCE_REPORTED_PARAMETER,jfe-2013-volpe,PDF10 manuscript8 §2.2,Reported nominal value; no new measurement
+L_ref,0.28,m,SOURCE_REPORTED_PARAMETER,jfe-2013-volpe,PDF10 manuscript8 §2.2,Reported nominal value; no new measurement
+channels,20,count,SOURCE_REPORTED_PARAMETER,jfe-2013-volpe,PDF9 manuscript7 §2.1,Reported nominal value; no new measurement
+d_x,0.045,m,SOURCE_REPORTED_PARAMETER,jfe-2013-volpe,PDF10 manuscript8 Fig4,Reported nominal value; no new measurement
+command_interval_reported,0.005,s,SOURCE_REPORTED_PARAMETER,jfe-2013-volpe,PDF10 manuscript8 Fig4,Reported nominal value; no new measurement
+gust_duration_plus,10,dimensionless,SOURCE_REPORTED_PARAMETER,jfe-2013-volpe,PDF10-11 manuscript8-9 Fig4/§2.2,Reported nominal value; no new measurement
+gust_duration_reported,0.311,s,SOURCE_REPORTED_PARAMETER,jfe-2013-volpe,PDF10-11 manuscript8-9 Fig4/§2.2,Reported nominal value; no new measurement
+PIV_rate,500,Hz,SOURCE_REPORTED_PARAMETER,jfe-2013-volpe,PDF11 manuscript9 §2.2,Reported nominal value; no new measurement
+CFD_step,0.002,s,SOURCE_REPORTED_PARAMETER,jfe-2013-volpe,PDF18 manuscript16 §3.2,Reported nominal value; no new measurement
+opening_duration,0.012,s,SOURCE_REPORTED_PARAMETER,jfe-2013-volpe,PDF17 manuscript15 §3.2,Reported nominal value; no new measurement
+closing_duration,0.030,s,SOURCE_REPORTED_PARAMETER,jfe-2013-volpe,PDF17 manuscript15 §3.2,Reported nominal value; no new measurement
+establishment_delay_E_plus,0.8,dimensionless,SOURCE_REPORTED_PARAMETER,jfe-2013-volpe,PDF19 manuscript17 §4,Reported nominal value; no new measurement
+establishment_delay_A_plus,1.5,dimensionless,SOURCE_REPORTED_PARAMETER,jfe-2013-volpe,PDF19 manuscript17 §4,Reported nominal value; no new measurement
+T_ref,0.0311111111111,s,ANALYST_DERIVED_FROM_SOURCE_PARAMETERS,jfe-2013-volpe,L_ref/U_ref,Dimensional/ideal-command arithmetic; not measured waveform or original code replay
+command_interval,0.005,s,ANALYST_DERIVED_FROM_SOURCE_PARAMETERS,jfe-2013-volpe,d_x/U_ref,Dimensional/ideal-command arithmetic; not measured waveform or original code replay
+command_interval_plus,0.160714285714,dimensionless,ANALYST_DERIVED_FROM_SOURCE_PARAMETERS,jfe-2013-volpe,command_interval/T_ref,Dimensional/ideal-command arithmetic; not measured waveform or original code replay
+gust_duration_nominal,0.311111111111,s,ANALYST_DERIVED_FROM_SOURCE_PARAMETERS,jfe-2013-volpe,gust_duration_plus*T_ref; source0.311 is rounded,Dimensional/ideal-command arithmetic; not measured waveform or original code replay
+PIV_interval,0.002,s,ANALYST_DERIVED_FROM_SOURCE_PARAMETERS,jfe-2013-volpe,1/PIV_rate,Dimensional/ideal-command arithmetic; not measured waveform or original code replay
+CFD_step_plus,0.0642857142857,dimensionless,ANALYST_DERIVED_FROM_SOURCE_PARAMETERS,jfe-2013-volpe,CFD_step/T_ref,Dimensional/ideal-command arithmetic; not measured waveform or original code replay
+PIV_interval_plus,0.0642857142857,dimensionless,ANALYST_DERIVED_FROM_SOURCE_PARAMETERS,jfe-2013-volpe,PIV_interval/T_ref,Dimensional/ideal-command arithmetic; not measured waveform or original code replay
+command_to_CFD_step_ratio,2.5,ratio,ANALYST_DERIVED_FROM_SOURCE_PARAMETERS,jfe-2013-volpe,5ms/2ms; noninteger; not original event handling,Dimensional/ideal-command arithmetic; not measured waveform or original code replay
+command_to_PIV_interval_ratio,2.5,ratio,ANALYST_DERIVED_FROM_SOURCE_PARAMETERS,jfe-2013-volpe,5ms/2ms; equal period is not clock alignment,Dimensional/ideal-command arithmetic; not measured waveform or original code replay
+opening_to_command_ratio,2.4,ratio,ANALYST_DERIVED_FROM_SOURCE_PARAMETERS,jfe-2013-volpe,12ms/5ms; not a prescribed blade trajectory,Dimensional/ideal-command arithmetic; not measured waveform or original code replay
+closing_to_command_ratio,6,ratio,ANALYST_DERIVED_FROM_SOURCE_PARAMETERS,jfe-2013-volpe,30ms/5ms; not a prescribed blade trajectory,Dimensional/ideal-command arithmetic; not measured waveform or original code replay
+opening_to_CFD_step_ratio,6,ratio,ANALYST_DERIVED_FROM_SOURCE_PARAMETERS,jfe-2013-volpe,12ms/2ms; physical motion absent from switch model,Dimensional/ideal-command arithmetic; not measured waveform or original code replay
+closing_to_CFD_step_ratio,15,ratio,ANALYST_DERIVED_FROM_SOURCE_PARAMETERS,jfe-2013-volpe,30ms/2ms; physical motion absent from switch model,Dimensional/ideal-command arithmetic; not measured waveform or original code replay
+establishment_delay_E,0.0248888888889,s,ANALYST_DERIVED_FROM_SOURCE_PARAMETERS,jfe-2013-volpe,0.8*T_ref; source24.9ms rounded,Dimensional/ideal-command arithmetic; not measured waveform or original code replay
+establishment_delay_A,0.0466666666667,s,ANALYST_DERIVED_FROM_SOURCE_PARAMETERS,jfe-2013-volpe,1.5*T_ref; source46.7ms rounded,Dimensional/ideal-command arithmetic; not measured waveform or original code replay
+establishment_E_fraction_of_nominal_gust,0.08,ratio,ANALYST_DERIVED_FROM_SOURCE_PARAMETERS,jfe-2013-volpe,0.8/10; not input rise threshold or response error,Dimensional/ideal-command arithmetic; not measured waveform or original code replay
+establishment_A_fraction_of_nominal_gust,0.15,ratio,ANALYST_DERIVED_FROM_SOURCE_PARAMETERS,jfe-2013-volpe,1.5/10; not input rise threshold or response error,Dimensional/ideal-command arithmetic; not measured waveform or original code replay
+first_to_last_command_span_ideal,0.095,s,ANALYST_DERIVED_FROM_SOURCE_PARAMETERS,jfe-2013-volpe,(N-1)*command_interval; first command rebased to0,Dimensional/ideal-command arithmetic; not measured waveform or original code replay
+all_open_command_overlap_ideal,0.216111111111,s,ANALYST_DERIVED_FROM_SOURCE_PARAMETERS,jfe-2013-volpe,"max(0,Tg-(N-1)dt); rectangular-command assumption only",Dimensional/ideal-command arithmetic; not measured waveform or original code replay
+any_open_command_union_ideal,0.406111111111,s,ANALYST_DERIVED_FROM_SOURCE_PARAMETERS,jfe-2013-volpe,Tg+(N-1)dt; rectangular-command assumption only,Dimensional/ideal-command arithmetic; not measured waveform or original code replay

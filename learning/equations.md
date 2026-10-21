@@ -77,3 +77,9 @@ EQ-RELWIND-PLANAR为ANALYST_INFERENCE：R(ψ)把x前/y左车体系转至右手�
 ## 零横摆率配平与中性侧向力作用位置（2026-10-20）
 
 EQ-NSP-TRIM为ANALYST_INFERENCE：CG为原点、x前/y左、a/b为前后轴正距离、Cf/Cr为整轴刚度；固定U、δ=0、小角线性轮胎、r=0且横向速度不变时，Fy−(Cf+Cr)β=0、Mz+(bCr−aCf)β=0，故β=Fy/(Cf+Cr)、Mz=x_n Fy、x_n=(aCf−bCr)/(Cf+Cr)。它不保证零侧向漂移、稳定性或瞬态轨迹，亦不是Nakasato原6DoF模型NSP算法。Winkler标准表参数的−0.092857m仅为派生值；见[条件与平衡核对](audits/neutral_steer_point.md)。
+
+## Volpe2013理想挡板命令与时钟（2026-10-22）
+
+EQ-VOLPE-SHUTTER-CLOCKS为ANALYST_INFERENCE：Tref=L/U，d=dx/U，Tg=10Tref；仅当N个理想矩形命令、首触发归零、每门保持Tg，I_j=[(j−1)d,(j−1)d+Tg)，首末跨度(N−1)d，全开交集max(0,Tg−(N−1)d)，Tg≥d时任意开启并集Tg+(N−1)d。源参数给95/216.111/406.111ms，非局部实测平台或风速波形。
+
+5ms/2ms=2.5仅为固定事件格点不整除条件，不能识别原边界事件算法。12/30ms动作、2ms采样/积分和δt+局部建立延迟分别记录。见[源内与派生分列CSV及复算](audits/volpe_2013_shutter_timing.md)。

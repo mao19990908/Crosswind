@@ -24,7 +24,7 @@ Okumura1997的M-SLIDING-ALE按规定轨迹求瞬态气动，未求解轮胎/驾�
 | Lewington | CFD2.5e-4s；MBD变量步长；道路信号50Hz；样条lead-in/out与线性外推 | 输出/结点、端部、frame和时间零点；50Hz不等于CFD载荷交换或MBD步长 |
 | Nakasato | 3.5s内87500CFD/3500车辆步，名义CFD4e-5s/车辆0.001s | 25:1不唯一决定TCP交换、先后次序、保持/插值、延迟和子迭代 |
 
-ANALYST_FRAMEWORK — C-COUPLING-SCHEDULE：接口至少标记载荷/位姿时间戳、单位、六分量、轴/原点、姿态顺序及交换规则。双方交换说明存在反馈；缺同一时间点的迭代信息，不宣布它是已验证的强耦合实现。现有8项[原始输入请求表](audits/reproduction_inputs.csv)中的三项耦合请求继续承接这些缺口，无新重复请求。
+ANALYST_FRAMEWORK — C-COUPLING-SCHEDULE：接口至少标记载荷/位姿时间戳、单位、六分量、轴/原点、姿态顺序及交换规则。双方交换说明存在反馈；缺同一时间点的迭代信息，不宣布它是已验证的强耦合实现。[原始输入请求表](audits/reproduction_inputs.csv)中的既有三项耦合请求继续承接这些缺口；2026-10-22表共9项，新一项Volpe2013为空场输入请求，不是车辆耦合数据或重复请求。
 
 ## 载荷、控制器和指标的已知边界
 
