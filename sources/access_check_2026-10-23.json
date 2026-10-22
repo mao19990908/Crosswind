@@ -1,0 +1,94 @@
+{
+  "date": "2026-10-23",
+  "scope": "NC-2013-GUST-REPLAY existing-source raw-data/supplement discovery; no source expansion or duplicate PDF",
+  "requests": [
+    {
+      "service": "crossref_relations",
+      "url": "https://api.crossref.org/works/10.1115%2F1.4023194",
+      "checked_at": "2026-10-22T21:58:02.727243+00:00",
+      "http_status": 200,
+      "content_type": "application/json",
+      "final_url": "https://api.crossref.org/works/10.1115%2F1.4023194",
+      "metadata": {
+        "DOI": "10.1115/1.4023194",
+        "title": [
+          "Experimental and Numerical Validation of a Wind Gust Facility"
+        ],
+        "relation": {},
+        "link": [
+          {
+            "URL": "http://asmedigitalcollection.asme.org/fluidsengineering/article-pdf/doi/10.1115/1.4023194/6187024/fe_135_1_011106.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "syndication"
+          },
+          {
+            "URL": "http://asmedigitalcollection.asme.org/fluidsengineering/article-pdf/doi/10.1115/1.4023194/6187024/fe_135_1_011106.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "resource": {
+          "primary": {
+            "URL": "https://asmedigitalcollection.asme.org/fluidsengineering/article/doi/10.1115/1.4023194/372078/Experimental-and-Numerical-Validation-of-a-Wind"
+          }
+        }
+      },
+      "scope": "Deposited relationship/assertion/link fields only; publisher links not requested"
+    },
+    {
+      "service": "datacite_exact_related_identifier",
+      "url": "https://api.datacite.org/dois?query=relatedIdentifiers.relatedIdentifier%3A%2210.1115%2F1.4023194%22&page%5Bsize%5D=25",
+      "checked_at": "2026-10-22T21:58:02.727243+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "final_url": "https://api.datacite.org/dois?query=relatedIdentifiers.relatedIdentifier%3A%2210.1115%2F1.4023194%22&page%5Bsize%5D=25",
+      "meta": {
+        "total": 0,
+        "totalPages": 0,
+        "page": 1
+      },
+      "records": [],
+      "scope": "Exact relatedIdentifier DOI query only; zero does not establish global absence"
+    },
+    {
+      "service": "hal_file_link_metadata",
+      "url": "https://api.archives-ouvertes.fr/search/?q=halId_s%3Ahal-01920549&fl=halId_s%2Ctitle_s%2CdoiId_s%2CfileMain_s%2Cfiles_s%2ClinkExtUrl_s%2CseeAlso_s%2CrelatedData_s%2Clicense_s%2CopenAccess_bool&wt=json",
+      "checked_at": "2026-10-22T21:58:02.727746+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "final_url": "https://api.archives-ouvertes.fr/search/?q=halId_s%3Ahal-01920549&fl=halId_s%2Ctitle_s%2CdoiId_s%2CfileMain_s%2Cfiles_s%2ClinkExtUrl_s%2CseeAlso_s%2CrelatedData_s%2Clicense_s%2CopenAccess_bool&wt=json",
+      "response": {
+        "numFound": 1,
+        "start": 0,
+        "maxScore": 5.9625216,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "linkExtUrl_s": "http://oatao.univ-toulouse.fr/8416/1/Ferrand_8416.pdf",
+            "openAccess_bool": true,
+            "title_s": [
+              "Experimental and Numerical Validation of a Wind Gust Facility"
+            ],
+            "halId_s": "hal-01920549",
+            "doiId_s": "10.1115/1.4023194",
+            "fileMain_s": "https://hal.science/hal-01920549/document",
+            "files_s": [
+              "https://hal.science/hal-01920549/file/Ferrand_8416.pdf"
+            ]
+          }
+        ]
+      },
+      "scope": "Requested HAL file/link/relation fields only; missing field not whole-archive absence"
+    }
+  ],
+  "search_queries": [
+    "\"10.1115/1.4023194\" data supplementary code",
+    "\"Experimental and Numerical Validation of a Wind Gust Facility\" dataset PIV"
+  ],
+  "search_result_summary": "Search results found bibliographic/author records and later citing papers,not a verified raw-data/code deposit for the existing source. Secondary sites not relied on for technical facts.",
+  "restricted_routes": "No HAL/document,ASME403,paywall,login,challenge or old timed-out endpoint retry;no credentials;no downloads",
+  "conclusion": "No verified new raw PIV/shutter/CFD file identified in these scoped checks. Crossref relation empty;DataCite exact relatedIdentifier query total0;HAL requested fields expose only known manuscript and old OATAO link. This is not a global absence finding. Request remains open;no duplicate manuscript requested.",
+  "primary_discovery_page": "https://cv.hal.science/llemoyne"
+}

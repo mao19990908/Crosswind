@@ -15,3 +15,5 @@ CFD为3D URANS SA/SST，140万结构网格、空间二阶中心、时间一阶�
 P3定义/时序/几何分析已完成；原Fig9/12输出重放仍缺原始PIV、挡板日志/动作及CFD事件实现，新增唯一NC-2013-GUST-REPLAY并登记策展人建议交付格式；既有8项保持，现9open。不称全部P3完成，不以派生换算关闭backlog。下一仅验收真实输入，不重复本次时序算术/同PDF通读或受保护入口。
 
 过去HAL /document挑战和OATAO超时记录见source历史；本次使用API列出的新公开文件路径一次成功，无绕过。文件仅本机，github_pdf=false。
+
+2026-10-23：为昨日新增NC首次定向查补充数据，Crossref关系为空、DataCite精确关联0、HAL文件字段仍只有已取得稿件，未验证到原始PIV/挡板/CFD输入；只是本轮范围结果，非全局不存在。P3科学审计未重做，91claims/282edges保持，request仍open。见[查询证据](../../sources/access_check_2026-10-23.json)。没有新线索不重复查询。

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-22T06:06:36+08:00",
+  "updated_at": "2026-10-23T05:59:40+08:00",
   "timezone": "Asia/Shanghai",
   "current_phase": "learning",
   "phase_status": "in_progress",
@@ -39,42 +39,23 @@
   "current_source_id": "jfe-2013-volpe",
   "current_pass": 3,
   "current_pass_status": "pass3_timing_geometry_audit_complete_original_replay_needs_inputs",
-  "today_added_knowledge_nodes": [
-    "EQ-VOLPE-SHUTTER-CLOCKS"
-  ],
-  "today_added_or_modified_graph_edges": [
-    "E-2013-07|evidence_from|jfe-2013-volpe",
-    "E-2013-08|evidence_from|jfe-2013-volpe",
-    "EQ-VOLPE-SHUTTER-CLOCKS|depends_on|E-2013-02",
-    "EQ-VOLPE-SHUTTER-CLOCKS|depends_on|E-2013-03",
-    "EQ-VOLPE-SHUTTER-CLOCKS|depends_on|E-2013-04",
-    "EQ-VOLPE-SHUTTER-CLOCKS|depends_on|E-2013-07",
-    "V-GUST-RISE|described_by|E-2013-07",
-    "V-GUST-LENGTH|described_by|E-2013-07",
-    "C-PHASE|described_by|E-2013-07",
-    "V-BETA-AERO|described_by|E-2013-03",
-    "C-VALIDATION|described_by|E-2013-08"
-  ],
+  "today_added_knowledge_nodes": [],
+  "today_added_or_modified_graph_edges": [],
   "today_remaining_work": [
-    "NC-2013-GUST-REPLAY actual PIV/shutter/CFD events required;timing/probe definitions and arithmetic done",
-    "Six missing originals and9raw-input requests;no repeated completed audits"
+    "NC-2013-GUST-REPLAY actual raw files still needed;bounded discovery2026-10-23 found no verified input,not global absence",
+    "Six missing originals/9raw requests/10learning backlog;no repeated completed audits or same queries without a new lead"
   ],
   "quota_status": "available_rounded_shared_account",
-  "weekly_quota_used_at_run_start_percent": 39,
-  "weekly_quota_used_at_last_read_percent": 40,
-  "weekly_quota_used_at_day_start_percent": 39,
-  "weekly_quota_day_cap_used_percent": 51,
-  "local_remote_sync": "research_commit_verified_local_origin_live_remote_equal",
+  "weekly_quota_used_at_run_start_percent": 0,
+  "weekly_quota_used_at_last_read_percent": 0,
+  "weekly_quota_used_at_day_start_percent": 0,
+  "weekly_quota_day_cap_used_percent": 12,
+  "local_remote_sync": "validation_and_commit_pending",
   "github_commit_sha": "554b260335bae56bb4513fd87990300689b31229",
   "note": "Latest heartbeat prioritizes Learn backlog; DOI/PDF unresolved checkpoint retained, not treated as a gate blocking existing local-PDF learning.",
   "github_commit_sha_role": "verified_research_commit_before_final_audit",
-  "quota_date": "2026-10-22",
-  "today_updated_knowledge_nodes": [
-    "V-BETA-AERO",
-    "V-GUST-RISE",
-    "V-GUST-LENGTH",
-    "M-PHASE-AVERAGE"
-  ],
+  "quota_date": "2026-10-23",
+  "today_updated_knowledge_nodes": [],
   "fulltext_access_checkpoints": [
     {
       "source_id": "sae-530255",
@@ -157,10 +138,10 @@
       "next_action": "Resolve NC-2017-1525-REPLAY; no repeated definition audit"
     }
   ],
-  "quota_measurement_note": "Oct22 Shanghai baseline weekly39/fivehour0;cap51;end06:06:36 weekly40/fivehour9;approx+1pp shared rounded account;no reset",
-  "quota_last_read_at": "2026-10-22T06:06:36+08:00",
+  "quota_measurement_note": "Oct23 Shanghai baseline weekly0/fivehour0;cap12;rounded shared account;no reset by this run;changed pre-run readings not attributed",
+  "quota_last_read_at": "2026-10-23T05:56:44+08:00",
   "doi_pdf_checkpoint": {
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "status": "in_progress",
     "total_sources": 25,
     "verified_doi": 20,
@@ -184,16 +165,16 @@
     "unresolved_fulltext_count": 6,
     "new_pdfs_this_run": 0,
     "new_sources_this_run": 0,
-    "audit_file": "sources/doi_pdf_audit_2026-10-22.csv",
-    "next": "v4sixoriginals unresolved;continue on newlawfulinputs;no repeated network query or completed Volpe timing audit",
-    "weekly_quota_used_at_last_read_percent": 40,
+    "audit_file": "sources/doi_pdf_audit_2026-10-23.csv",
+    "next": "Six originals unresolved;9raw requests wait actual inputs/new verified leads;no identical query repetition",
+    "weekly_quota_used_at_last_read_percent": 0,
     "previous_research_commit_sha": "09590e953dc45bc4a456134d949c7d96754b13d8",
     "research_commit_sha": "554b260335bae56bb4513fd87990300689b31229"
   },
   "weekly_quota_pre_reset_used_percent": 91,
   "weekly_quota_after_reset_used_percent": 1,
   "reset_credits_used_this_run": 0,
-  "reset_credits_remaining": 3,
+  "reset_credits_remaining": 2,
   "v5_migration": {
     "date": "2026-09-25",
     "status": "migration_complete",
@@ -345,9 +326,9 @@
     "changed_understanding": "Macklin threshold differs by load component/peak-vs-mean; Ryan net yaw has no steady-relative overshoot despite side/lift peaks, resolving abstract overgeneralization; 1996 and 1998 yaw outcomes differ under different apparatus/metric definitions. Macklin 1997 shear comparison is turbulence-confounded and no reference speed universally collapses coefficients. Ryan 2000 uses updated 5m/22deg shutter gust; an unexplained high-pressure pocket and wake advection prevent treating a wake snapshot as instantaneous body force. Mahig 1971 is an assumed lateral-impulse vehicle response model, not an aerodynamic gust waveform study; tyre cubic locally cross-checked. Klein/Hogue 1980 directly cites and partially reuses DOT technical Volume II; loop modes and steady-model outputs must remain separated. Chadwick 2000 shows geometry-specific leeward pressure peaks and filter limitations; five model lengths not sufficient for steady development in all cases. Nakasato 2017 fixed-steer road validation is separate from the active-driver application; three-run driver trends have quantitative mismatch. Volpe 2014 measured ~21deg local yaw despite 30deg tunnel axes; geometry-specific yaw peaks 16/10%, vortex-load correlations not causal proof. Lewington 2017 one-way advantage depends on metric: both approaches predict lane deviation within one measured SD; comparator uses tuned wind scale and input validation is partial. Okumura 1997 CFD peak and spoiler evidence are conditional; passing comparison uses mismatched bus geometry, and reported resultant wind angle needs arithmetic audit.",
     "next": "Two local PDFs remain to read; 10-source learning backlog. Five-hour 97% and weekly 31% used at last platform read."
   },
-  "five_hour_quota_used_at_last_read_percent": 9,
+  "five_hour_quota_used_at_last_read_percent": 0,
   "automation_completed_on": "2026-10-22",
-  "automation_run_status": "completed_pass3_timing_geometry_audit_validated_original_replay_pending",
+  "automation_run_status": "in_progress_bounded_existing_request_discovery_no_new_inputs",
   "learning_run_2026_09_27": {
     "processed_sources": [
       "sae-730232"
@@ -756,5 +737,34 @@
     "derived_timing_rows": 20,
     "probe_rows": 5,
     "synthetic_timehistories": 0
+  },
+  "input_discovery_checkpoint": {
+    "date": "2026-10-23",
+    "request_id": "NC-2013-GUST-REPLAY",
+    "source_id": "jfe-2013-volpe",
+    "status": "scoped_checks_no_verified_new_input_not_global_absence",
+    "artifact": "sources/access_check_2026-10-23.json",
+    "next": "Actual files/new specific lead only;do not repeat same queries or completed timing audit"
+  },
+  "learning_run_2026_10_23": {
+    "activity": "Bounded Collect subtask for newly created existing-source raw-input request;no repeated Learn audit",
+    "processed_sources": [],
+    "access_rechecked_sources": [
+      "jfe-2013-volpe"
+    ],
+    "new_fulltext_reads": 0,
+    "new_claims": 0,
+    "revised_claims": 0,
+    "new_knowledge_nodes": 0,
+    "updated_knowledge_nodes": 0,
+    "new_edges": 0,
+    "revised_edges": 0,
+    "sources_new": 0,
+    "pdfs_new": 0,
+    "pass3_completed": 0,
+    "needs_collection_added": 0,
+    "needs_collection_updated": 1,
+    "open_requests": 9,
+    "backlog_remaining": 10
   }
 }

@@ -170,3 +170,9 @@ Crossref exact DOI reconfirmed. ASME PDF HTTP 403; OpenAlex and Semantic Scholar
 2026-10-13: Crossref title/authors/2013 reconfirmed; DOI web-open internal error. OpenAlex/Semantic Scholar still point to OATAO Ferrand_8416.pdf as green/other-oa; one ordinary HTTP repository request timed out at15s. No HAL challenge or prior ASME403 retry; no PDF acquired. other-oa is not a redistribution grant.
 
 DOI remains verified; abstract verification unchanged; no new source or technical claim. Evidence: [public API metadata](../access_check_2026-10-13.json). Unpaywall deferred because no configured research contact was available in prior checkpoint; no invented email/credential. Previously protected routes not retried. Current PDF status retained, github_pdf=false.
+
+## 2026-10-23 原始输入请求的限定检索
+
+为昨日新建NC-2013-GUST-REPLAY首次检查补充数据入口：Crossref关系字段为空；DataCite精确relatedIdentifier DOI查询返回0；HAL所请求文件/链接字段仍为已取得作者稿和旧OATAO链接，未给出本轮可核实的原始PIV、挡板或CFD文件。两条题名/DOI+data/code检索未取得可验证数据；检索到的后续引用论文不替代原实验文件。仅该查询范围未找到，不断言数据永远不存在。
+
+没有再下载论文、重试HAL挑战/ASME403/旧超时入口或向作者联络；现有全文等级、科学主张及DOI/PDF证明日期保持。请求仍open，下一需新线索/实际文件，不重复相同查询。见[原始API查询记录](../access_check_2026-10-23.json)。
