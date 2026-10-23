@@ -1,7 +1,7 @@
-# 学习断点 — 2026-10-23（Asia/Shanghai）
+# 学习断点 — 2026-10-24（Asia/Shanghai）
 
-当前仍`jfe-2013-volpe` Pass3 `pass3_timing_geometry_audit_complete_original_replay_needs_inputs`。昨日时序/探针审计已完成，不重复；原Fig9/12重放缺实际输入。今日仅为新请求NC-2013-GUST-REPLAY首次限定查公开补充数据：Crossref关系空、DataCite精确关联0、HAL所查文件字段仅已取得稿件，未识别可验证原始PIV/挡板/CFD文件。范围内未找到不等于全局不存在。见[查询记录](../sources/access_check_2026-10-23.json)。
+今日按学习任务书§21/32逐项验收既有P3理解，分开学习完成与原始输出复现。八篇已有全文/专项审计满足六项问题，验收为当前E2范围P3理解完成；没有新PDF通读/新科学证据/独立复现。旧日志10待办是历史状态，不能据此每日重开已验收八篇。见[依据/逐篇矩阵](audits/pass3_acceptance_review_2026-10-24.md)。
 
-科学主张/节点/图边无变化：91claims/282edges/32citationedges；学习15完成/10待办、9open请求保持。下一仅验收真正新材料或新核实入口；不重复已完成审计/算术、相同数据查询或受保护端点。
+学习23完成/2待办：`sae-530255`、`iso-12021-2010`仍缺核心原文，不验收完整P3；当前sae-530255 Pass3 awaiting_lawful_fulltext_for_P3。原始复现队列9项全部open，未决原图/符号/数据/接口和独立验证都保留，不把学习验收称为复现成功。下一验收这两篇合法全文或现有9项真实输入，不扩大来源库、不重复旧审计或昨日查询。
 
-25sources；DOI20verified/5scoped noDOI/其余0；19localPDF/1GitHub/18local-only、缺全文6、全文18/摘要6/metadata1。全量本地DOI/PDF对齐不刷新外部证明日期；v4跨日保持in_progress。今日完成标记仅代表运行与限定检索/校验完成，不代表学习完成。
+91claims/282edges/32citations，25sources、DOI20verified/5scoped noDOI/其余0；19localPDF/1GitHub/18local-only、缺全文6、全文18/摘要6/metadata1保持。v4跨日in_progress，未重新核验外部DOI或改许可/科学等级。

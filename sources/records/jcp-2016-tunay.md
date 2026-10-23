@@ -141,3 +141,7 @@ Existing local original sections rechecked for CFD discretization/interface/refi
 ## 2026-10-20 neutral-steer/tyre evidence
 
 Targeted originalPDF12-13/16/21 visually checked. E-2016-08 records reported near-zero fully immersed aero moment but9.7deg yaw atCG23percent versus12.2standard;E-2016-09 records linear axle-sum tyre parameters/force-moment inputs. Analyst fixed-steer zero-yaw trim from standardTable1 gives xn=-0.092857m,not source-reported NSP or9.7deg replay. Existing source grade/raw-replay request unchanged. See [audit](../../learning/audits/neutral_steer_point.md).
+
+## 2026-10-24 学习验收状态（不改变来源验证）
+
+既有P3理解按任务书§21/32验收完成，见[六项逐篇复核](../../learning/audits/pass3_acceptance_review_2026-10-24.csv)。这不是新通读/独立复现或证据等级升级。原始输出/代码重放仍NOT_REPRODUCED，NC-2016-VALIDATION保持open；历史partial/blocked和源内未知项按复现缺口保留。

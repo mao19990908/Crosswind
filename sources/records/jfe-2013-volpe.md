@@ -176,3 +176,7 @@ DOI remains verified; abstract verification unchanged; no new source or technica
 为昨日新建NC-2013-GUST-REPLAY首次检查补充数据入口：Crossref关系字段为空；DataCite精确relatedIdentifier DOI查询返回0；HAL所请求文件/链接字段仍为已取得作者稿和旧OATAO链接，未给出本轮可核实的原始PIV、挡板或CFD文件。两条题名/DOI+data/code检索未取得可验证数据；检索到的后续引用论文不替代原实验文件。仅该查询范围未找到，不断言数据永远不存在。
 
 没有再下载论文、重试HAL挑战/ASME403/旧超时入口或向作者联络；现有全文等级、科学主张及DOI/PDF证明日期保持。请求仍open，下一需新线索/实际文件，不重复相同查询。见[原始API查询记录](../access_check_2026-10-23.json)。
+
+## 2026-10-24 学习验收状态（不改变来源验证）
+
+既有P3理解按任务书§21/32验收完成，见[六项逐篇复核](../../learning/audits/pass3_acceptance_review_2026-10-24.csv)。这不是新通读/独立复现或证据等级升级。原始输出/代码重放仍NOT_REPRODUCED，NC-2013-GUST-REPLAY保持open；历史partial/blocked和源内未知项按复现缺口保留。
