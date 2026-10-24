@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-25",
+  "scope": "Only two existing core-fulltext backlog sources;new catalog/preview routes,no source expansion",
+  "search_queries": [
+    "\"Wind Effects on Car Stability\" \"608\" full text",
+    "\"530255\" Lay Lett site:edu",
+    "\"ISO 12021\" \"2010\" filetype:pdf site:edu OR site:gov OR site:ac.uk",
+    "\"ISO 12021:2010\" pdf preview",
+    "\"Wind Effects on Car Stability\" \"608-622\" original",
+    "\"SAE Transactions\" \"1953\" \"61\" library digital",
+    "\"Wind Effects on Car Stability\" site:jstor.org"
+  ],
+  "observations": [
+    {
+      "source_id": "sae-530255",
+      "url": "https://ci.nii.ac.jp/ncid/AA00831028",
+      "service": "NII CiNii public serial catalog",
+      "result": "Series starts Vol61(1953);listed physical holdings include volume61;not article fulltext confirmation;electronic links to earlier years must not be substituted",
+      "access": "web tool public page read;no local PDF download"
+    },
+    {
+      "source_id": "sae-530255",
+      "url": "https://www.aist.go.jp/pdf/aist_j/lib/seihonlist.pdf",
+      "service": "AIST public bound holdings list",
+      "result": "Search-indexed primary holdings entry SAE Transactions61-116(1953-2007),Tsukuba East;physical holdings lead only;not original article or online access proof",
+      "access": "search-indexed catalog only;not locally downloaded/opened"
+    },
+    {
+      "source_id": "iso-12021-2010",
+      "url": "https://webstore.ansi.org/preview-pages/BSI/preview_30202455.pdf",
+      "service": "ANSI publicly indexed BS ISO preview",
+      "result": "Web tool returned9page preview text;UK implementation and enclosed ISO12021:2010 cover2010-12-01;contents points to clauses5-12 and Annexes beyond preview;last page is ISO printed1 with clauses1-4 only",
+      "access": "web public preview text/metadata observed before direct local request",
+      "counts_as_full_standard": false,
+      "source_verification_upgrade": false
+    },
+    {
+      "source_id": "iso-12021-2010",
+      "url": "https://webstore.ansi.org/preview-pages/BSI/preview_30202455.pdf",
+      "service": "single ordinary local urllib GET",
+      "result": "HTTP403 Forbidden;stopped;no retry/no alternate client/no alternate URL",
+      "http_status": 403,
+      "local_file_saved": false,
+      "sha256": null,
+      "pdf_bytes": null
+    },
+    {
+      "source_id": "iso-12021-2010",
+      "url": "https://www.bsbedge.com/standard/road-vehicles-sensitivity-to-lateral-wind-open-loop-test-method-using-wind-generator-input/BSI30202455",
+      "service": "retailer public landing",
+      "result": "Indexed snippet suggested free download;live tool page instead says single-user license and unavailable to purchase in region;no full-download link verified. Generic free/template snippet not accepted as legal OA proof. Lifecycle text references BS EN12021:2014,not accepted as ISO12021 identity/revision.",
+      "access": "ordinary public landing only;no form,account,contact or regional bypass"
+    }
+  ],
+  "unchanged": "2P3corefulltext pending;6missing originalfulltexts;9rawrequests open;no newsource/fullPDF/claim/node/edge",
+  "limitations": "Bibliographies/citing papers/catalogs/previews are not originals;preview is not full standard;no update to DOI identity proof dates;scope-not-found not global nonexistence",
+  "disabled_routes": "No prior SAE locked/PDF route,HAL challenge,subscription credentials,paywall/login/CAPTCHA/Cloudflare workaround;no messages or purchases",
+  "local_preview_path_attempted": "local_fulltext/previews/iso-12021-2010__BSI_ANSI_preview.pdf",
+  "local_preview_saved": false
+}

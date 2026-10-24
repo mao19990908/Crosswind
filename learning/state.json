@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-24T06:07:29+08:00",
+  "updated_at": "2026-10-25T06:00:55+08:00",
   "timezone": "Asia/Shanghai",
   "current_phase": "learning",
   "phase_status": "in_progress",
@@ -42,28 +42,28 @@
   "today_added_knowledge_nodes": [],
   "today_added_or_modified_graph_edges": [],
   "today_remaining_work": [
-    "Lay1953/ISO2010 core fulltext still needed forP3;learning backlog2",
-    "9existing original-data/code requests remain open;no replication completed;do not reopen accepted understanding without new evidence"
+    "2core lawful fulltexts remain;physical catalog/preview routes checked2026-10-25,not originals acquired",
+    "9raw requests open;accepted P3 understanding remains23complete/2pending;do not repeat known blocked routes"
   ],
   "quota_status": "available_rounded_shared_account",
-  "weekly_quota_used_at_run_start_percent": 0,
-  "weekly_quota_used_at_last_read_percent": 1,
-  "weekly_quota_used_at_day_start_percent": 0,
-  "weekly_quota_day_cap_used_percent": 12,
-  "local_remote_sync": "research_commit_verified_local_origin_live_remote_equal",
+  "weekly_quota_used_at_run_start_percent": 3,
+  "weekly_quota_used_at_last_read_percent": 3,
+  "weekly_quota_used_at_day_start_percent": 3,
+  "weekly_quota_day_cap_used_percent": 15,
+  "local_remote_sync": "validation_and_commit_pending",
   "github_commit_sha": "1db1378dd8a3239075104d6a199ebbd8f253b662",
   "note": "Learning completion is scoped understanding under TASK§21/32;original replication tracked independently by9open needs_collection requests. No source/evidence grade upgrade.",
   "github_commit_sha_role": "verified_research_commit_before_final_audit",
-  "quota_date": "2026-10-24",
+  "quota_date": "2026-10-25",
   "today_updated_knowledge_nodes": [],
   "fulltext_access_checkpoints": [
     {
       "source_id": "sae-530255",
-      "checked_on": "2026-10-21",
+      "checked_on": "2026-10-25",
       "pass": 3,
       "status": "awaiting_lawful_fulltext",
-      "reason": "Crossref title/authors/1953 reconfirmed;no original acquired;SAE indexed lock/Citation1906 conflict retained;no paywall request or restricted-route retry",
-      "next_action": "Await lawful original/new verified repository or user input;do not repeat completed abstract learning or protected routes"
+      "reason": "2026-10-25: CiNii AA00831028 and AIST bound holdings catalog identify SAE Transactions Vol61(1953) holdings;physical/library-request lead only,not original article acquired. NASA/citing bibliographies do not replace article;no publisher restricted route retry.",
+      "next_action": "Actual lawful full original/new verified access lead only;do not repeat preview/403/catalog query"
     },
     {
       "source_id": "sae-730232",
@@ -91,11 +91,11 @@
     },
     {
       "source_id": "iso-12021-2010",
-      "checked_on": "2026-10-14",
+      "checked_on": "2026-10-25",
       "pass": 3,
       "status": "awaiting_lawful_fulltext",
-      "reason": "2026-10-14: Official ISO page53602 reconfirms edition2010-12,14pages,confirmed2023; preview/purchase only, no full standard acquired. Abstract text says2011 but reference/title say2010; preserve2010 identity and flag catalog inconsistency, not a new edition. No DOI displayed; prior scoped no-DOI conclusion/date retained.",
-      "next_action": "Await lawful full standard; do not substitute preview/adoption or repeat catalog learning"
+      "reason": "2026-10-25: ANSI9page BS ISO preview publicly indexed;enclosed ISOcover2010-12-01 and onlyfrontmatter/printed1 clauses1-4,not complete standard. Ordinary local GET403 stopped,no file/hash retained/no retry. Retailer free snippet contradicted by live single-user/region-unavailable page;not OA proof or ISOrevision. Source remains abstract_verified/paywalled.",
+      "next_action": "Actual lawful full original/new verified access lead only;do not repeat preview/403/catalog query"
     },
     {
       "source_id": "jcp-2016-tunay",
@@ -138,10 +138,10 @@
       "next_action": "Only new primary evidence or actual inputs:NC-2017-1525-REPLAY;replication remains open"
     }
   ],
-  "quota_measurement_note": "Oct24 Shanghai baseline weekly0/fivehour0;cap12;end06:07:29 weekly1/fivehour7;approx+1pp shared rounded account;no reset;2credits available",
-  "quota_last_read_at": "2026-10-24T06:07:29+08:00",
+  "quota_measurement_note": "Oct25 Shanghai baseline weekly3/fivehour0;cap15;rounded shared account;no reset",
+  "quota_last_read_at": "2026-10-25T05:57:02+08:00",
   "doi_pdf_checkpoint": {
-    "date": "2026-10-24",
+    "date": "2026-10-25",
     "status": "in_progress",
     "total_sources": 25,
     "verified_doi": 20,
@@ -165,9 +165,9 @@
     "unresolved_fulltext_count": 6,
     "new_pdfs_this_run": 0,
     "new_sources_this_run": 0,
-    "audit_file": "sources/doi_pdf_audit_2026-10-24.csv",
-    "next": "Sixmissingoriginals remain;learning2corefulltexts;9originaldatarequests open;no source expansion/repeated query",
-    "weekly_quota_used_at_last_read_percent": 1,
+    "audit_file": "sources/doi_pdf_audit_2026-10-25.csv",
+    "next": "2corefulltexts and6totalfulltexts stillmissing;newphysicalholdings/preview only;9rawrequests open;no blocked-route retry",
+    "weekly_quota_used_at_last_read_percent": 3,
     "previous_research_commit_sha": "20cb00f2bb0654c9aa890cf939883bbef7d48806",
     "research_commit_sha": "1db1378dd8a3239075104d6a199ebbd8f253b662"
   },
@@ -326,9 +326,9 @@
     "changed_understanding": "Macklin threshold differs by load component/peak-vs-mean; Ryan net yaw has no steady-relative overshoot despite side/lift peaks, resolving abstract overgeneralization; 1996 and 1998 yaw outcomes differ under different apparatus/metric definitions. Macklin 1997 shear comparison is turbulence-confounded and no reference speed universally collapses coefficients. Ryan 2000 uses updated 5m/22deg shutter gust; an unexplained high-pressure pocket and wake advection prevent treating a wake snapshot as instantaneous body force. Mahig 1971 is an assumed lateral-impulse vehicle response model, not an aerodynamic gust waveform study; tyre cubic locally cross-checked. Klein/Hogue 1980 directly cites and partially reuses DOT technical Volume II; loop modes and steady-model outputs must remain separated. Chadwick 2000 shows geometry-specific leeward pressure peaks and filter limitations; five model lengths not sufficient for steady development in all cases. Nakasato 2017 fixed-steer road validation is separate from the active-driver application; three-run driver trends have quantitative mismatch. Volpe 2014 measured ~21deg local yaw despite 30deg tunnel axes; geometry-specific yaw peaks 16/10%, vortex-load correlations not causal proof. Lewington 2017 one-way advantage depends on metric: both approaches predict lane deviation within one measured SD; comparator uses tuned wind scale and input validation is partial. Okumura 1997 CFD peak and spoiler evidence are conditional; passing comparison uses mismatched bus geometry, and reported resultant wind angle needs arithmetic audit.",
     "next": "Two local PDFs remain to read; 10-source learning backlog. Five-hour 97% and weekly 31% used at last platform read."
   },
-  "five_hour_quota_used_at_last_read_percent": 7,
+  "five_hour_quota_used_at_last_read_percent": 0,
   "automation_completed_on": "2026-10-24",
-  "automation_run_status": "completed_existing_P3_understanding_acceptance_review_original_replication_open",
+  "automation_run_status": "in_progress_bounded_core_fulltext_catalog_preview_check",
   "learning_run_2026_09_27": {
     "processed_sources": [
       "sae-730232"
@@ -739,12 +739,14 @@
     "synthetic_timehistories": 0
   },
   "input_discovery_checkpoint": {
-    "date": "2026-10-23",
-    "request_id": "NC-2013-GUST-REPLAY",
-    "source_id": "jfe-2013-volpe",
-    "status": "scoped_checks_no_verified_new_input_not_global_absence",
-    "artifact": "sources/access_check_2026-10-23.json",
-    "next": "Actual files/new specific lead only;do not repeat same queries or completed timing audit"
+    "date": "2026-10-25",
+    "source_ids": [
+      "sae-530255",
+      "iso-12021-2010"
+    ],
+    "status": "new_catalog_preview_leads_no_complete_original;local_preview_GET403_stopped",
+    "artifact": "sources/access_check_2026-10-25.json",
+    "next": "Actualfulltext or new lead;do not repeat knownpreview403/catalog search"
   },
   "learning_run_2026_10_23": {
     "activity": "Bounded Collect subtask for newly created existing-source raw-input request;no repeated Learn audit",
@@ -816,6 +818,28 @@
     "original_replications_completed": 0,
     "needs_collection_added": 0,
     "needs_collection_closed": 0,
+    "open_requests": 9,
+    "backlog_remaining": 2
+  },
+  "learning_run_2026_10_25": {
+    "activity": "Bounded Collect for2existing corefulltext sources;catalog and preview are not fulltext",
+    "processed_sources": [],
+    "access_rechecked_sources": [
+      "sae-530255",
+      "iso-12021-2010"
+    ],
+    "new_fulltext_reads": 0,
+    "new_claims": 0,
+    "revised_claims": 0,
+    "new_nodes": 0,
+    "new_edges": 0,
+    "sources_new": 0,
+    "pdfs_new": 0,
+    "preview_files_saved": 0,
+    "local_preview_attempts": 1,
+    "local_preview_http_status": 403,
+    "pass3_completed": 0,
+    "needs_collection_added": 0,
     "open_requests": 9,
     "backlog_remaining": 2
   }

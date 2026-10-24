@@ -27,3 +27,11 @@ Bell2021/Milner1968定向检查仍未取得全文，人工请求新增0/解决0�
 ## 当前2026-10-21：Volpe2013已解决
 
 历史上表中的Volpe2013缺档已解决：HAL公开API列出的直接文件普通GET成功，30页作者稿已验明并通读，CSV为resolved_oa_download。其PDF仅本机，未取得再分发许可。当前缺全文 **6条：P0 4/P1 2**；历史CSV仍21条，本轮新增0/解决1。其余6项未解决，不重试先前受保护入口。Lay DOI当日复核；DOT定向目录检索未取得原始报告，NASA书目不冒充原报告。
+
+## 2026-10-25：两项核心待办的新入口
+
+Lay1953：NII CiNii AA00831028（https://ci.nii.ac.jp/ncid/AA00831028）列SAE Transactions从Vol61(1953)起及相应实体馆藏；AIST公开装订刊清单（https://www.aist.go.jp/pdf/aist_j/lib/seihonlist.pdf）索引条目也列61起。仅作为合法馆藏查找线索，不证明已取得该文、可在线下载或有再分发许可；没有发出馆际/作者请求。
+
+ISO2010：ANSI的BS ISO预览（https://webstore.ansi.org/preview-pages/BSI/preview_30202455.pdf）在web工具中可见9页，含ISO版本封面和前置内容/印刷第1页；不含完整后续程序/分析条款。本机一次普通下载403后停止，未存文件或hash、未重试。零售商“free”搜索片段不作OA证据，live页是单用户许可/地域不可购买；不替换ISO身份/版本。
+
+当前仍缺6份完整原文（本轮新增/解决0），两项P3核心待办、9原始复现请求均保留。见access_check_2026-10-25.json。
