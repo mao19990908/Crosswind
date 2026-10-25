@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-26T06:01:59+08:00",
+  "updated_at": "2026-10-26T06:02:41+08:00",
   "timezone": "Asia/Shanghai",
   "current_phase": "learning",
   "phase_status": "in_progress",
@@ -50,10 +50,10 @@
   "weekly_quota_used_at_last_read_percent": 1,
   "weekly_quota_used_at_day_start_percent": 0,
   "weekly_quota_day_cap_used_percent": 12,
-  "local_remote_sync": "startup_ff_only_up_to_date_final_audit_pending",
-  "github_commit_sha": "def68736ed850390b574064df2920a6c111bd9fb",
+  "local_remote_sync": "maintenance_commit_verified_local_origin_live_remote_equal",
+  "github_commit_sha": "1485f323e8d450e578731092e787f83c9b2bc60b",
   "note": "Learning completion is scoped understanding under TASK§21/32;original replication tracked independently by9open needs_collection requests. No source/evidence grade upgrade.",
-  "github_commit_sha_role": "verified_research_commit_before_final_audit",
+  "github_commit_sha_role": "verified_maintenance_commit_before_final_audit",
   "quota_date": "2026-10-26",
   "today_updated_knowledge_nodes": [],
   "fulltext_access_checkpoints": [
@@ -138,8 +138,8 @@
       "next_action": "Only new primary evidence or actual inputs:NC-2017-1525-REPLAY;replication remains open"
     }
   ],
-  "quota_measurement_note": "Oct26 Shanghai baseline weekly0/fivehour0;cap12;interim06:01:07 weekly1/fivehour3;shared rounded account,not exact task cost;no reset;2 credits available",
-  "quota_last_read_at": "2026-10-26T06:01:07+08:00",
+  "quota_measurement_note": "Oct26 Shanghai baseline weekly0/fivehour0;cap12;end06:02:41 weekly1/fivehour4;approx+1pp rounded shared account,not exact task cost;no reset;2 credits available",
+  "quota_last_read_at": "2026-10-26T06:02:41+08:00",
   "doi_pdf_checkpoint": {
     "date": "2026-10-26",
     "status": "in_progress",
@@ -169,7 +169,8 @@
     "next": "Actual new lawful originals or verified new access lead;2core/6total fulltexts missing;9original-input requests open;no repeated blocked routes",
     "weekly_quota_used_at_last_read_percent": 1,
     "previous_research_commit_sha": "def68736ed850390b574064df2920a6c111bd9fb",
-    "research_commit_sha": "def68736ed850390b574064df2920a6c111bd9fb"
+    "research_commit_sha": "def68736ed850390b574064df2920a6c111bd9fb",
+    "maintenance_commit_sha": "1485f323e8d450e578731092e787f83c9b2bc60b"
   },
   "weekly_quota_pre_reset_used_percent": 91,
   "weekly_quota_after_reset_used_percent": 1,
@@ -326,9 +327,9 @@
     "changed_understanding": "Macklin threshold differs by load component/peak-vs-mean; Ryan net yaw has no steady-relative overshoot despite side/lift peaks, resolving abstract overgeneralization; 1996 and 1998 yaw outcomes differ under different apparatus/metric definitions. Macklin 1997 shear comparison is turbulence-confounded and no reference speed universally collapses coefficients. Ryan 2000 uses updated 5m/22deg shutter gust; an unexplained high-pressure pocket and wake advection prevent treating a wake snapshot as instantaneous body force. Mahig 1971 is an assumed lateral-impulse vehicle response model, not an aerodynamic gust waveform study; tyre cubic locally cross-checked. Klein/Hogue 1980 directly cites and partially reuses DOT technical Volume II; loop modes and steady-model outputs must remain separated. Chadwick 2000 shows geometry-specific leeward pressure peaks and filter limitations; five model lengths not sufficient for steady development in all cases. Nakasato 2017 fixed-steer road validation is separate from the active-driver application; three-run driver trends have quantitative mismatch. Volpe 2014 measured ~21deg local yaw despite 30deg tunnel axes; geometry-specific yaw peaks 16/10%, vortex-load correlations not causal proof. Lewington 2017 one-way advantage depends on metric: both approaches predict lane deviation within one measured SD; comparator uses tuned wind scale and input validation is partial. Okumura 1997 CFD peak and spoiler evidence are conditional; passing comparison uses mismatched bus geometry, and reported resultant wind angle needs arithmetic audit.",
     "next": "Two local PDFs remain to read; 10-source learning backlog. Five-hour 97% and weekly 31% used at last platform read."
   },
-  "five_hour_quota_used_at_last_read_percent": 3,
-  "automation_completed_on": "2026-10-25",
-  "automation_run_status": "maintenance_validation_in_progress_no_new_input",
+  "five_hour_quota_used_at_last_read_percent": 4,
+  "automation_completed_on": "2026-10-26",
+  "automation_run_status": "completed_no_new_input_local_integrity_maintenance_fulltext_pending",
   "learning_run_2026_09_27": {
     "processed_sources": [
       "sae-730232"
@@ -869,7 +870,9 @@
     "new_files_since_previous_run": 0,
     "scope_note": "Only listed local directories inspected;not an exhaustive machine search;no new remote fulltext access check",
     "previous_access_artifact": "sources/access_check_2026-10-25.json",
-    "status": "local_inventory_aligned_external_proof_dates_retained",
-    "next": "Validate and sync;resume Learn only on actual new required input"
+    "status": "completed_local_integrity_validated_no_new_input",
+    "next": "Validate and sync;resume Learn only on actual new required input",
+    "commit_sha": "1485f323e8d450e578731092e787f83c9b2bc60b",
+    "validation": "5 existing validators;19 readable unencrypted PDFs/345pages;source/claim/graph/request preservation;diff checks passed"
   }
 }
