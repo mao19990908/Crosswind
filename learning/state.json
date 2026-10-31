@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-01T06:02:49+08:00",
+  "updated_at": "2026-11-01T06:03:04+08:00",
   "timezone": "Asia/Shanghai",
   "current_phase": "learning",
   "phase_status": "in_progress",
@@ -50,10 +50,10 @@
   "weekly_quota_used_at_last_read_percent": 68,
   "weekly_quota_used_at_day_start_percent": 68,
   "weekly_quota_day_cap_used_percent": 80,
-  "local_remote_sync": "startup_ff_only_up_to_date_current_maintenance_sync_pending",
-  "github_commit_sha": "086963d7ff0a90236ba42a7fe7fb578c75fda839",
+  "local_remote_sync": "maintenance_commit_verified_local_origin_live_remote_equal",
+  "github_commit_sha": "9d9cbd4323d414f3ef2bec0abfd38e0c27ffe5a1",
   "note": "Learning completion is scoped understanding under TASK§21/32;original replication tracked independently by9open needs_collection requests. No source/evidence grade upgrade.",
-  "github_commit_sha_role": "previous_sync_commit_verified_at_start",
+  "github_commit_sha_role": "verified_maintenance_commit_before_final_audit",
   "quota_date": "2026-11-01",
   "today_updated_knowledge_nodes": [],
   "fulltext_access_checkpoints": [
@@ -170,7 +170,7 @@
     "weekly_quota_used_at_last_read_percent": 68,
     "previous_research_commit_sha": "def68736ed850390b574064df2920a6c111bd9fb",
     "research_commit_sha": "def68736ed850390b574064df2920a6c111bd9fb",
-    "maintenance_commit_sha": "936b7ed2b76b8cf7c9e83f458923506d789fe9c7",
+    "maintenance_commit_sha": "9d9cbd4323d414f3ef2bec0abfd38e0c27ffe5a1",
     "local_validation_date": "2026-11-01"
   },
   "weekly_quota_pre_reset_used_percent": 91,
@@ -871,9 +871,10 @@
     "since": "2026-10-31T06:01:38+08:00",
     "new_files_since_previous_run": 0,
     "scope_note": "Listed directories only;not exhaustive machine search;no new external access query",
-    "status": "local_validation_complete_sync_pending",
+    "status": "completed_local_validation_sync_verified_no_new_input",
     "validation": "5 repository validators passed;PDF headers/hash/size checked;no evidence upgrade",
-    "next": "Actual lawful missing fulltext/new input or concrete verified lead;no repeated blocked routes or completed reading"
+    "next": "Actual lawful missing fulltext/new input or concrete verified lead;no repeated blocked routes or completed reading",
+    "commit_sha": "9d9cbd4323d414f3ef2bec0abfd38e0c27ffe5a1"
   },
   "five_hour_quota_used_at_run_start_percent": 0,
   "learning_run_2026_10_27": {
