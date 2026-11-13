@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-13T06:02:03+08:00",
+  "updated_at": "2026-11-14T05:59:41+08:00",
   "timezone": "Asia/Shanghai",
   "current_phase": "learning",
   "phase_status": "in_progress",
@@ -46,15 +46,15 @@
     "9 original-input requests remain open;23 learning acceptances retained;no broad expansion"
   ],
   "quota_status": "available_rounded_shared_account",
-  "weekly_quota_used_at_run_start_percent": 13,
-  "weekly_quota_used_at_last_read_percent": 13,
-  "weekly_quota_used_at_day_start_percent": 13,
-  "weekly_quota_day_cap_used_percent": 25,
+  "weekly_quota_used_at_run_start_percent": 0,
+  "weekly_quota_used_at_last_read_percent": 0,
+  "weekly_quota_used_at_day_start_percent": 0,
+  "weekly_quota_day_cap_used_percent": 12,
   "local_remote_sync": "base_head_and_fetched_origin_equal_current_push_result_in_automation_memory",
-  "github_commit_sha": "0c3707036987c2f83fdb93b570fca9a2cd0f9a20",
+  "github_commit_sha": "6c41712247e0c36e7f94da245fc86928f0f48727",
   "note": "Learning completion is scoped understanding under TASK§21/32;original replication tracked independently by9open needs_collection requests. No source/evidence grade upgrade.",
   "github_commit_sha_role": "verified_base_before_current_maintenance_final_sha_in_automation_memory",
-  "quota_date": "2026-11-13",
+  "quota_date": "2026-11-14",
   "today_updated_knowledge_nodes": [],
   "fulltext_access_checkpoints": [
     {
@@ -138,10 +138,10 @@
       "next_action": "Only new primary evidence or actual inputs:NC-2017-1525-REPLAY;replication remains open"
     }
   ],
-  "quota_measurement_note": "Shanghai baseline weekly13/fivehour0; cap25; last read06:01:20 weekly13/fivehour1; rounded shared account; no reset; 3 available",
-  "quota_last_read_at": "2026-11-13T06:01:20+08:00",
+  "quota_measurement_note": "Shanghai baseline weekly0/fivehour0; cap12; last read05:59:00 weekly0/fivehour1; rounded shared account; no reset; 3 available",
+  "quota_last_read_at": "2026-11-14T05:59:00+08:00",
   "doi_pdf_checkpoint": {
-    "date": "2026-11-13",
+    "date": "2026-11-14",
     "status": "in_progress",
     "total_sources": 25,
     "verified_doi": 20,
@@ -167,11 +167,11 @@
     "new_sources_this_run": 0,
     "audit_file": "sources/doi_pdf_audit_2026-10-26.csv",
     "next": "Actual new lawful originals or verified new access lead;2core/6total fulltexts missing;9original-input requests open;no repeated blocked routes",
-    "weekly_quota_used_at_last_read_percent": 13,
+    "weekly_quota_used_at_last_read_percent": 0,
     "previous_research_commit_sha": "def68736ed850390b574064df2920a6c111bd9fb",
     "research_commit_sha": "def68736ed850390b574064df2920a6c111bd9fb",
-    "maintenance_commit_sha": "0c3707036987c2f83fdb93b570fca9a2cd0f9a20",
-    "local_validation_date": "2026-11-13"
+    "maintenance_commit_sha": "6c41712247e0c36e7f94da245fc86928f0f48727",
+    "local_validation_date": "2026-11-14"
   },
   "weekly_quota_pre_reset_used_percent": 91,
   "weekly_quota_after_reset_used_percent": 1,
@@ -329,7 +329,7 @@
     "next": "Two local PDFs remain to read; 10-source learning backlog. Five-hour 97% and weekly 31% used at last platform read."
   },
   "five_hour_quota_used_at_last_read_percent": 1,
-  "automation_completed_on": "2026-11-13",
+  "automation_completed_on": "2026-11-14",
   "automation_run_status": "completed_routine_local_validation_no_new_input_fulltext_pending",
   "learning_run_2026_09_27": {
     "processed_sources": [
@@ -862,17 +862,17 @@
     "backlog_remaining": 2
   },
   "maintenance_checkpoint": {
-    "date": "2026-11-13",
+    "date": "2026-11-14",
     "input_scope": [
       "C:/Users/17984/Downloads/PDF",
       "D:/GEELY/Crosswind/sources/pdfs",
       "D:/GEELY/Crosswind/local_fulltext"
     ],
-    "since": "2026-11-12T06:04:41+08:00",
+    "since": "2026-11-13T06:01:20+08:00",
     "new_files_since_previous_run": 0,
     "status": "completed_local_validation_no_new_input",
     "validation": "Five existing validators passed; external verification dates retained",
-    "base_commit_sha": "0c3707036987c2f83fdb93b570fca9a2cd0f9a20",
+    "base_commit_sha": "6c41712247e0c36e7f94da245fc86928f0f48727",
     "next": "Resume on actual lawful originals, original data, or a concrete verified access lead"
   },
   "five_hour_quota_used_at_run_start_percent": 0,
@@ -1087,6 +1087,20 @@
     "backlog_remaining": 2
   },
   "learning_run_2026_11_13": {
+    "activity": "Routine local validation; no new input",
+    "processed_sources": [],
+    "new_fulltext_reads": 0,
+    "new_claims": 0,
+    "revised_claims": 0,
+    "new_nodes": 0,
+    "new_edges": 0,
+    "sources_new": 0,
+    "pdfs_new": 0,
+    "pass3_completed": 0,
+    "open_requests": 9,
+    "backlog_remaining": 2
+  },
+  "learning_run_2026_11_14": {
     "activity": "Routine local validation; no new input",
     "processed_sources": [],
     "new_fulltext_reads": 0,
